@@ -1,0 +1,518 @@
+phase: 4B
+batch_id: batch_03_wands_cups
+status: validated
+records:
+  - card_id: wands_ace
+    factual_visual_id: rws.factual.wands_ace
+    review_batch: batch_03_wands_cups
+    review_status: phase4a_frozen_reference
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#wands_ace
+    legacy_visual_record_ref: pilot/phase-0.5/rws-visual-records.yaml#rws.ace_of_wands
+    phase4a_recheck_ref: runtime/phase4a/visual-pilot-rechecks.yaml#wands_ace
+    review_copy:
+      path: runtime/phase4a/visual-pilot/images/ace_of_wands.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Ace_of_Wands_%28Rider-Waite_Smith_tarot_deck%29.png/960px-Ace_of_Wands_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:Ace of Wands (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: ef2f4573fc3284378f1402416ee0d8e9a5f4deedde524725046018d76adf3771
+    observations: phase4a_reference
+    edition_specific_visuals: phase4a_reference
+    symbolic_readings: []
+    unresolved_visuals: phase4a_reference
+  - card_id: wands_two
+    factual_visual_id: rws.factual.wands_two
+    review_batch: batch_03_wands_cups
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#wands_two
+    legacy_visual_record_ref: pilot/phase-0.5/rws-visual-records.yaml#rws.two_of_wands
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/wands_two.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Two_of_Wands_%28Rider-Waite_Smith_tarot_deck%29.png/960px-Two_of_Wands_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:Two of Wands (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: 568fb5de8f689ef28cef96b02a0e05795383b3691571f7950c84c6905b0609a5
+    observations:
+      scene: 一名人物站在石质平台上，位于两根发芽权杖之间，背景可见水面、山地、道路和树木。
+      figures: [一名站立人物]
+      action: 人物一只手握住画面左侧的竖直权杖，另一只手托着一个球形物体。
+      gaze_and_facing: 人物身体和脸部朝向画面左侧，视线朝向左侧附近。
+      spatial_relations: [左侧和右侧各有一根竖直权杖，人物位于两根权杖之间, 水面和山地位于人物后方, 石质平台位于人物脚下前景]
+      objects: [两根发芽权杖, 球形物体, 石质平台, 水面, 山地, 道路, 树木]
+    edition_specific_visuals: [浅色天空, 红色权杖, 红色外袍, 黄色和绿色地面, 蓝色水面, 灰色山地]
+    symbolic_readings: []
+    unresolved_visuals: []
+  - card_id: wands_three
+    factual_visual_id: rws.factual.wands_three
+    review_batch: batch_03_wands_cups
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#wands_three
+    legacy_visual_record_ref: pilot/phase-0.5/rws-visual-records.yaml#rws.three_of_wands
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/wands_three.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Three_of_Wands_%28Rider-Waite_Smith_tarot_deck%29.png/960px-Three_of_Wands_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:Three of Wands (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: 14d5e2d227119423a0b7247f3d978e18c6cd5475fefab705d35fb221b764b0c9
+    observations:
+      scene: 一名人物站在高处，周围有三根发芽权杖，背景下方可见水面，水面中有多艘小船，后方还有远处陆地和地面。
+      figures: [一名站立人物]
+      action: 人物一只手伸向并握住画面右侧的一根权杖，另一只手位于身体前方。
+      gaze_and_facing: 人物背对观者，但头部和可见侧脸朝向画面左侧。
+      spatial_relations: [一根权杖位于人物画面左侧，两根权杖位于人物画面右侧, 人物位于三根权杖之间, 水面位于人物后方下部, 多艘小船位于水面中, 远处陆地位于水面后方]
+      objects: [三根发芽权杖, 水面, 多艘小船, 远处陆地, 起伏地面]
+    edition_specific_visuals: [黄色天空, 红色权杖, 绿色和红色服饰, 蓝色水面, 灰色远山]
+    symbolic_readings: []
+    unresolved_visuals: []
+  - card_id: wands_four
+    factual_visual_id: rws.factual.wands_four
+    review_batch: batch_03_wands_cups
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#wands_four
+    legacy_visual_record_ref:
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/wands_four.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Four_of_Wands_%28Rider-Waite_Smith_tarot_deck%29.png/960px-Four_of_Wands_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:Four of Wands (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: 289ee13d92b2b40bb06743b3765ca6e1ae403a226752300020ba29565f2071d8
+    observations:
+      scene: 四根竖直发芽权杖围成前景框架，顶部之间连接一条花叶装饰，后方有城堡样建筑和地面。
+      figures: [两名中央站立人物, 左侧城堡前被遮挡的小型人物形体]
+      action: 两名中央人物各自手持并举起一束花状物。
+      gaze_and_facing: 两名中央人物身体大致朝向观者和画面前方，精确视线无法确认；左侧背景小型人物形体朝向无法确认。
+      spatial_relations: [四根权杖分列左右并位于人物前后两侧, 花叶装饰横跨四根权杖的上部, 两名中央人物位于权杖框架下方, 城堡样建筑位于人物后方, 小型人物形体位于城堡左侧下方]
+      objects: [四根发芽权杖, 花叶装饰, 两束花状物, 城堡样建筑, 灌木, 地面]
+    edition_specific_visuals: [黄色天空, 红色和蓝色服饰, 红绿色花叶装饰, 灰白色建筑, 黄色地面]
+    symbolic_readings: []
+    unresolved_visuals: [左侧城堡前被遮挡的小型人物形体的确切人数无法确认]
+  - card_id: wands_five
+    factual_visual_id: rws.factual.wands_five
+    review_batch: batch_03_wands_cups
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#wands_five
+    legacy_visual_record_ref:
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/wands_five.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Five_of_Wands_%28Rider-Waite_Smith_tarot_deck%29.png/960px-Five_of_Wands_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:Five of Wands (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: 40d6f5d749165d084b9d1da104fead3f9430570f1d3344c312ba72440d3d303a
+    observations:
+      scene: 五名人物站在开阔地面上，五根权杖在画面中央交错并向不同方向伸出。
+      figures: [五名站立人物]
+      action: 五名人物各自手持一根权杖，权杖在人物之间以斜向角度重叠。
+      gaze_and_facing: 五名人物的身体大致朝向交错权杖所在的中央区域，具体视线方向无法确认。
+      spatial_relations: [五名人物分布在中央前后两侧, 五根权杖位于人物之间并相互交叉或重叠, 地面位于人物脚下]
+      objects: [五根发芽权杖, 开阔地面]
+    edition_specific_visuals: [蓝色天空, 红色黄色绿色服饰, 红色权杖, 黄色与绿色地面]
+    symbolic_readings: []
+    unresolved_visuals: []
+  - card_id: wands_six
+    factual_visual_id: rws.factual.wands_six
+    review_batch: batch_03_wands_cups
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#wands_six
+    legacy_visual_record_ref: pilot/phase-0.5/rws-visual-records.yaml#rws.six_of_wands
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/wands_six.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Six_of_Wands_%28Rider-Waite_Smith_tarot_deck%29.png/960px-Six_of_Wands_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:Six of Wands (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: 45086de7569e98e8b491bc9d350e2259b187e165b431b1ae1a12a79b77532e87
+    observations:
+      scene: 一名人物骑在马背上，周围可见六根发芽权杖，背景有地面、远处山地和被遮挡的人物形体。
+      figures: [一名骑马人物, 一匹马, 画面左下方若干被权杖和马匹遮挡的背景人物形体]
+      action: 骑马人物手持中央一根带花环的竖直权杖；马匹位于骑手下方，头部朝向画面右侧。
+      gaze_and_facing: 骑马人物脸部朝向画面右侧；马头朝向画面右侧；左下方背景人物形体的方向无法确认。
+      spatial_relations: [骑马人物位于画面中央前景, 马匹位于骑手下方, 骑手头部戴有叶冠, 带花环权杖位于人物和马匹之间并居中, 其余五根权杖分布在人物和马匹两侧, 背景人物形体位于画面左下方后方]
+      objects: [六根发芽权杖, 权杖上的花环, 骑手头上的叶冠, 马具, 缰绳, 马匹覆盖物, 地面, 山地]
+    edition_specific_visuals: [浅蓝色天空, 红色斗篷, 黄色和绿色地面, 白灰色马匹, 红绿色花环, 黄色与红色权杖]
+    symbolic_readings: []
+    unresolved_visuals: [画面左下方被遮挡的背景人物形体的确切人数和具体动作无法确认, 马的具体运动阶段无法从静态图确认]
+  - card_id: wands_seven
+    factual_visual_id: rws.factual.wands_seven
+    review_batch: batch_03_wands_cups
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#wands_seven
+    legacy_visual_record_ref:
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/wands_seven.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Seven_of_Wands_%28Rider-Waite_Smith_tarot_deck%29.png/960px-Seven_of_Wands_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:Seven of Wands (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: bd5226905407151bd562a74b641643d3ab9954f0046cf3e62a01e666fdaa1f2e
+    observations:
+      scene: 一名人物站在高起的地面上，六根权杖从下方前景竖直或近似竖直伸出，第七根由人物斜向持在身前。
+      figures: [一名站立人物]
+      action: 人物双手握住斜向权杖，身体跨在下方六根权杖的上方。
+      gaze_and_facing: 人物面部朝向画面前方并略向右侧，具体视线方向无法确认。
+      spatial_relations: [六根权杖位于人物下方前景, 第七根权杖斜跨人物身体并与下方权杖重叠, 人物位于高起地面上, 远处山地位于下方背景]
+      objects: [七根发芽权杖, 高起地面, 远处山地]
+    edition_specific_visuals: [蓝色天空, 绿色服饰, 红色权杖, 绿色山地, 黄色地面]
+    symbolic_readings: []
+    unresolved_visuals: []
+  - card_id: wands_eight
+    factual_visual_id: rws.factual.wands_eight
+    review_batch: batch_03_wands_cups
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#wands_eight
+    legacy_visual_record_ref: pilot/phase-0.5/rws-visual-records.yaml#rws.eight_of_wands
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/wands_eight.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Eight_of_Wands_%28Rider-Waite_Smith_tarot_deck%29.png/960px-Eight_of_Wands_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:Eight of Wands (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: 4103957a1c86a70e3cbec53741fc0b9d4458ee3f5197fbf75f8cc51369f90f8c
+    observations:
+      scene: 画面中没有人物，八根发芽权杖横跨天空，背景下方可见山地、水面和岸边地面。
+      figures: []
+      action: 八根权杖均位于空中，沿大致相互平行的斜向排列延伸。
+      gaze_and_facing: 画面中没有人物或动物，无可记录的视线方向。
+      spatial_relations: [八根权杖分布在天空中并彼此分隔, 山地位于画面下方, 水面和岸边地面位于山地下方]
+      objects: [八根发芽权杖, 山地, 水面, 岸边地面]
+    edition_specific_visuals: [浅蓝色天空, 红色权杖, 绿色山地, 蓝色水面, 黄色岸边地面]
+    symbolic_readings: []
+    unresolved_visuals: []
+  - card_id: wands_nine
+    factual_visual_id: rws.factual.wands_nine
+    review_batch: batch_03_wands_cups
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#wands_nine
+    legacy_visual_record_ref:
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/wands_nine.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Nine_of_Wands_%28Rider-Waite_Smith_tarot_deck%29.png/960px-Nine_of_Wands_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:Nine of Wands (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: dadd8b93c39a066eee89d53b7be2681abc8332fbddcfa2da0e178674318d8d93
+    observations:
+      scene: 一名人物站在一排权杖前方，背景排列八根竖直发芽权杖，前景还有一根由人物持有的权杖。
+      figures: [一名站立人物]
+      action: 人物双手在胸前握住前景的一根竖直权杖。
+      gaze_and_facing: 人物身体大致朝向画面前方，脸部和头部朝向画面左侧。
+      spatial_relations: [八根权杖位于人物后方并形成横向排列, 人物位于八根权杖前方, 人物持有的第九根权杖位于身体前方, 远处山地位于权杖后方]
+      objects: [九根发芽权杖, 远处山地, 地面]
+    edition_specific_visuals: [浅蓝色天空, 红色权杖, 红色和灰白色服饰, 绿色山地, 黄色地面]
+    symbolic_readings: []
+    unresolved_visuals: []
+  - card_id: wands_ten
+    factual_visual_id: rws.factual.wands_ten
+    review_batch: batch_03_wands_cups
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#wands_ten
+    legacy_visual_record_ref: pilot/phase-0.5/rws-visual-records.yaml#rws.ten_of_wands
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/wands_ten.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Ten_of_Wands_%28Rider-Waite_Smith_tarot_deck%29.png/960px-Ten_of_Wands_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:Ten of Wands (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: e865ea444d34586fb2de8bf8ed1d3b84375c1b54ca493f9079570121a93ea585
+    observations:
+      scene: 一名人物在开阔地面上弯身搬运十根发芽权杖，远处有灌木和一座小型建筑。
+      figures: [一名站立并弯身人物]
+      action: 人物双臂抱住并搬运一捆权杖，向画面右侧行走；权杖遮住脸部和上身大部。
+      gaze_and_facing: 人物头部朝向画面右侧，脸部被权杖遮挡，具体视线无法确认。
+      spatial_relations: [十根权杖集中在人物身体前方并向上展开, 人物位于权杖后方, 灌木和小型建筑位于人物后方, 地面位于人物脚下]
+      objects: [十根发芽权杖, 灌木, 小型建筑, 开阔地面]
+    edition_specific_visuals: [浅蓝色天空, 红色权杖和外衣, 黄色地面, 绿色灌木, 灰白色建筑]
+    symbolic_readings: []
+    unresolved_visuals: []
+  - card_id: cups_ace
+    factual_visual_id: rws.factual.cups_ace
+    review_batch: batch_03_wands_cups
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#cups_ace
+    legacy_visual_record_ref:
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/cups_ace.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Ace_of_Cups_%28Rider-Waite_Smith_tarot_deck%29.png/960px-Ace_of_Cups_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:Ace of Cups (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: aadbf64bda6540b7cb4674e4d2c63bdd52be8ff0735b8a8612d63f6bb16b9f27
+    observations:
+      scene: 一只大型杯子位于水面上方，杯身可见明显的 W 状字符，画面右侧云中伸出一只手托住杯子，杯口上方有带十字状标记的圆盘和鸽子状鸟形物体，杯中有水流向下落入水面，水面上可见浮叶和花朵。
+      figures: [一只从云中伸出的手, 一只鸽子状鸟形物体]
+      action: 云中伸出的手托住杯子；水流从杯口向下延伸；鸽子状鸟形物体位于带十字状标记的圆盘上方。
+      gaze_and_facing: 画面中无可确认的人脸；鸽子状鸟形物体的头部朝向杯口下方。
+      spatial_relations: [杯子位于画面中央前景, 手位于杯子右侧并从云中伸出, 杯身上的 W 状字符位于杯子正面, 带十字状标记的圆盘位于杯口上方, 鸽子状鸟形物体位于圆盘上方, 水流位于杯子下方, 水面位于画面底部]
+      objects: [一个杯子, 杯身上的 W 状字符, 带十字状标记的圆盘, 一只鸽子状鸟形物体, 水流, 云, 水面, 浮叶, 花朵]
+    edition_specific_visuals: [浅色天空, 黄色杯子, 蓝色水流和水面, 绿色浮叶, 红色花朵]
+    symbolic_readings: []
+    unresolved_visuals: [鸽子状鸟形物体的具体物种无法确认]
+  - card_id: cups_two
+    factual_visual_id: rws.factual.cups_two
+    review_batch: batch_03_wands_cups
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#cups_two
+    legacy_visual_record_ref: pilot/phase-0.5/rws-visual-records.yaml#rws.two_of_cups
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/cups_two.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Two_of_Cups_%28Rider-Waite_Smith_tarot_deck%29.png/960px-Two_of_Cups_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:Two of Cups (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: e82a4b8f5d6b758f62b62fbf876b5b8d1ad4c4edef193317a05605ee96f3a717
+    observations:
+      scene: 两名人物站在开阔地面上，各自手持一个杯子，画面上方有一只带翅膀的狮子状头部；两个杯子下方有中央竖直杆状结构及两条相互缠绕的蛇形线条。
+      figures: [两名站立人物, 一只带翅膀的狮子状头部]
+      action: 两名人物分别手持杯子，并将杯子举在二人之间的胸部高度。
+      gaze_and_facing: 左侧人物面部朝向画面右侧，右侧人物面部朝向画面左侧；两人相向，具体视线方向无法确认。
+      spatial_relations: [两个杯子位于两名人物之间, 带翅膀的狮子状头部位于两个杯子上方, 中央竖直杆状结构位于两个杯子下方, 两条相互缠绕的蛇形线条围绕中央竖直杆状结构, 两名人物分列左右, 起伏地面和灌木位于人物后方]
+      objects: [两个杯子, 一只带翅膀的狮子状头部, 中央竖直杆状结构, 两条相互缠绕的蛇形线条, 起伏地面, 灌木]
+    edition_specific_visuals: [浅蓝色天空, 黄色杯子, 红色和黄色服饰, 绿色地面, 红色翅膀和兽类头部]
+    symbolic_readings: []
+    unresolved_visuals: []
+  - card_id: cups_three
+    factual_visual_id: rws.factual.cups_three
+    review_batch: batch_03_wands_cups
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#cups_three
+    legacy_visual_record_ref:
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/cups_three.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Three_of_Cups_%28Rider-Waite_Smith_tarot_deck%29.png/960px-Three_of_Cups_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:Three of Cups (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: 3519f35238bfcc00ba06c5739ec579c96883cd65ba10b7590111de5eebf98e38
+    observations:
+      scene: 三名人物站在有植被和果实的地面上，三只杯子举在三人上方。
+      figures: [三名站立人物]
+      action: 三名人物各自举起一只杯子，三只杯子分布在三人头部上方。
+      gaze_and_facing: 三名人物的身体和脸部大致朝向中央区域，具体视线方向无法确认。
+      spatial_relations: [三名人物分列中央前后和左右, 三只杯子位于人物上方并围绕中央区域, 果实和花叶位于人物脚下前景]
+      objects: [三个杯子, 果实, 花叶, 地面]
+    edition_specific_visuals: [浅蓝色天空, 黄色杯子, 红色和紫色服饰, 绿色植被, 橙色果实]
+    symbolic_readings: []
+    unresolved_visuals: []
+  - card_id: cups_four
+    factual_visual_id: rws.factual.cups_four
+    review_batch: batch_03_wands_cups
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#cups_four
+    legacy_visual_record_ref: pilot/phase-0.5/rws-visual-records.yaml#rws.four_of_cups
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/cups_four.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Four_of_Cups_%28Rider-Waite_Smith_tarot_deck%29.png/960px-Four_of_Cups_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:Four of Cups (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: 33464e82bb79f0327cf0decffd5ea432a25aec1b1dd49c6f859e7366e3b8a36f
+    observations:
+      scene: 一名人物坐在树下的坡地上，画面左侧云中伸出一只手并托着一个杯子，前景地面放有三个杯子，左下方远景可见低矮山地和起伏地形。
+      figures: [一名坐着人物, 一只从云中伸出的手]
+      action: 人物双臂交叉于胸前；云中伸出的手将杯子向人物方向伸出。
+      gaze_and_facing: 人物头部和脸部朝向画面左侧并向下，未清楚朝向云中杯子。
+      spatial_relations: [人物位于画面右侧树下, 云中手和一个杯子位于人物左侧中景, 三个杯子位于前景下方, 树位于人物后方, 低矮山地和起伏地形位于左下方远景]
+      objects: [四个杯子, 树, 云, 低矮山地, 起伏地形, 坡地, 灌木]
+    edition_specific_visuals: [蓝色天空, 黄色杯子, 绿色坡地, 红色领巾和袖子, 蓝色裤装, 灰色云]
+    symbolic_readings: []
+    unresolved_visuals: []
+  - card_id: cups_five
+    factual_visual_id: rws.factual.cups_five
+    review_batch: batch_03_wands_cups
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#cups_five
+    legacy_visual_record_ref:
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/cups_five.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Five_of_Cups_%28Rider-Waite_Smith_tarot_deck%29.png/960px-Five_of_Cups_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:Five of Cups (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: 6b52cb39f90b7033a62c93b31d9d69f18afe0792e42ebfbab6ab0e31a74f2f20
+    observations:
+      scene: 一名披着长袍的人物站在河岸上，前景有五个杯子，其中三个倒扣在画面左侧，两个直立在画面右侧。
+      figures: [一名站立人物]
+      action: 人物站立，头部向下倾斜；五个杯子分为倒扣和直立两种状态。
+      gaze_and_facing: 人物背对观者，头部朝向画面左下方，脸部不可见。
+      spatial_relations: [人物位于画面中央偏右, 三个倒扣杯子位于人物左下方前景, 两个直立杯子位于人物右下方前景, 河流横跨人物后方, 桥和建筑位于远处背景]
+      objects: [五个杯子, 河流, 桥, 远处建筑, 坡地]
+    edition_specific_visuals: [浅灰色天空, 黑色长袍, 黄色杯子, 蓝色河流, 绿色坡地, 红色鞋部细节]
+    symbolic_readings: []
+    unresolved_visuals: []
+  - card_id: cups_six
+    factual_visual_id: rws.factual.cups_six
+    review_batch: batch_03_wands_cups
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#cups_six
+    legacy_visual_record_ref: pilot/phase-0.5/rws-visual-records.yaml#rws.six_of_cups
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/cups_six.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Six_of_Cups_%28Rider-Waite_Smith_tarot_deck%29.png/960px-Six_of_Cups_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:Six of Cups (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: 05989481b17a67bb702a0332c7e984484f2842e917cd4206cd6b9817488db633
+    observations:
+      scene: 三名人物位于建筑和植被之间，包括中央较大人物、中央较小人物和左侧背景人物；六个杯子分布在人物附近和前景，杯中可见花朵。
+      figures: [一名中央较大人物, 一名中央较小人物, 一名左侧背景人物]
+      action: 较大人物清楚持有一只盛花杯，并朝较小人物方向递出；较小人物站立在其右侧；左侧背景人物位于后方。
+      gaze_and_facing: 较大人物头部朝向画面右侧的较小人物；较小人物脸部朝向画面左侧。
+      spatial_relations: [两只杯子位于人物附近的中景，其中一只盛花杯由较大人物朝较小人物方向递出, 四只杯子沿画面下方前景成排, 两名中央人物位于中景中央, 左侧背景人物位于中央人物后方, 建筑和石质结构位于人物后方, 花叶位于杯子周围]
+      objects: [六个杯子, 杯中花朵, 建筑, 石质结构, 花叶, 地面]
+    edition_specific_visuals: [浅蓝色天空, 黄色杯子, 红色和蓝色服饰, 绿色植被, 灰黄色建筑]
+    symbolic_readings: []
+    unresolved_visuals: []
+  - card_id: cups_seven
+    factual_visual_id: rws.factual.cups_seven
+    review_batch: batch_03_wands_cups
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#cups_seven
+    legacy_visual_record_ref:
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/cups_seven.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Seven_of_Cups_%28Rider-Waite_Smith_tarot_deck%29.png/960px-Seven_of_Cups_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:Seven of Cups (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: 7be6cd1fc4078562140e5e1217690e71e4689e29035694829138fc28c372dd02
+    observations:
+      scene: 一名人物位于画面下方，七个杯子分布在云层中上方，杯中分别可见头部、披覆人物形体、蛇形物体、塔、一簇珠宝/圆形宝石状物体、花环和带翅膀、长尾的龙状动物形体。
+      figures: [一名背向观者人物, 一个杯中头部形象, 一个杯中披覆人物形体, 一个杯中蛇形物体, 一个杯中带翅膀、长尾的龙状动物形体]
+      action: 下方人物伸出手臂朝向云层中的杯子，杯子悬在不同高度的云层上。
+      gaze_and_facing: 人物背向观者，头部朝向画面上方的杯子；杯中形象的具体视线方向无法确认。
+      spatial_relations: [七个杯子位于人物上方并分布在云层之间, 人物位于画面下方前景, 塔位于左侧杯中, 一簇珠宝/圆形宝石状物体位于下方中央偏左杯中, 花环位于下方中央偏右杯中, 带翅膀、长尾的龙状动物形体位于右下杯中]
+      objects: [七个杯子, 头部形象, 披覆人物形体, 蛇形物体, 塔, 一簇珠宝/圆形宝石状物体, 花环, 带翅膀、长尾的龙状动物形体, 云层]
+    edition_specific_visuals: [蓝色天空, 黄色杯子, 灰色云层, 红色光线, 蓝色塔和动物样形象, 绿色花环]
+    symbolic_readings: []
+    unresolved_visuals: [右下杯中带翅膀、长尾的龙状动物形体的具体物种无法确认, 中央杯中一簇珠宝/圆形宝石状物体的个别数量无法确认]
+  - card_id: cups_eight
+    factual_visual_id: rws.factual.cups_eight
+    review_batch: batch_03_wands_cups
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#cups_eight
+    legacy_visual_record_ref: pilot/phase-0.5/rws-visual-records.yaml#rws.eight_of_cups
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/cups_eight.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Eight_of_Cups_%28Rider-Waite_Smith_tarot_deck%29.png/960px-Eight_of_Cups_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:Eight of Cups (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: 2f5cb3475b37faa3b933eecef28d3fc07350ea4a4d2d882e4edcd2f64e554628
+    observations:
+      scene: 一名人物在山地和水面之间向右侧行走，八个杯子分成前景和中景两排，天空左上方有一个带面部轮廓的圆形图案。
+      figures: [一名行走人物]
+      action: 人物背向观者向画面右侧行走，未持有可见物体。
+      gaze_and_facing: 人物背向观者，头部朝向画面右侧，具体视线方向无法确认。
+      spatial_relations: [五个杯子位于画面下方前景并成排, 三个杯子位于人物前方中景, 人物位于杯子和右侧山地之间, 水面位于画面中下部, 圆形图案位于左上方天空]
+      objects: [八个杯子, 带面部轮廓的圆形图案, 山地, 水面, 岸边地面]
+    edition_specific_visuals: [蓝色天空和水面, 黄色杯子与圆形图案, 红色外衣, 绿色山地, 灰黑色岩壁]
+    symbolic_readings: []
+    unresolved_visuals: []
+  - card_id: cups_nine
+    factual_visual_id: rws.factual.cups_nine
+    review_batch: batch_03_wands_cups
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#cups_nine
+    legacy_visual_record_ref:
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/cups_nine.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Nine_of_Cups_%28Rider-Waite_Smith_tarot_deck%29.png/960px-Nine_of_Cups_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:Nine of Cups (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: 764db263bbc5f99e5ae1d56f9b37cedd4f4a164b25cadf9843b486687a3ab3b4
+    observations:
+      scene: 一名人物坐在座椅上，身后高处有九个杯子沿弧形横向排列，左右两侧有帷幕样物体。
+      figures: [一名坐着人物]
+      action: 人物坐着，双臂交叉于胸前。
+      gaze_and_facing: 人物身体和脸部朝向画面前方。
+      spatial_relations: [九个杯子位于人物后方上方的台面或平面上, 人物位于画面中央前景, 帷幕样物体位于人物左右两侧, 座椅位于人物下方]
+      objects: [九个杯子, 座椅, 台面或平面, 帷幕样物体]
+    edition_specific_visuals: [黄色背景, 黄色杯子, 黑白条纹服饰, 蓝灰色帷幕, 红色帽饰]
+    symbolic_readings: []
+    unresolved_visuals: []
+  - card_id: cups_ten
+    factual_visual_id: rws.factual.cups_ten
+    review_batch: batch_03_wands_cups
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#cups_ten
+    legacy_visual_record_ref:
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/cups_ten.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Ten_of_Cups_%28Rider-Waite_Smith_tarot_deck%29.png/960px-Ten_of_Cups_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:Ten of Cups (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: d3a26e44e2945ad1e93a21c6f1e16fbca6bfe1a39d685e32c8f503401cf88967
+    observations:
+      scene: 两名较大人物和两名较小人物位于有水面、树木、起伏地面和房屋的场景中，上方十个杯子沿弧形排列。
+      figures: [两名较大站立人物, 两名较小人物]
+      action: 两名较大人物抬起手臂；右侧两名较小人物彼此牵手，其中一人的一只脚抬起。
+      gaze_and_facing: 两名较大人物背对观者并朝向上方杯子；右侧两名较小人物相向，具体视线方向无法确认。
+      spatial_relations: [十个杯子位于两名较大人物上方并排列成弧形, 两名较大人物位于画面下方中央, 两名较小人物位于画面右下方, 水面位于左侧和中景, 房屋位于右侧背景]
+      objects: [十个杯子, 弧形带状结构, 水面, 树木, 起伏地面, 房屋]
+    edition_specific_visuals: [浅蓝色天空, 黄色杯子, 红色和绿色弧形带状结构, 红色与蓝色服饰, 绿色地面, 红色屋顶]
+    symbolic_readings: []
+    unresolved_visuals: []

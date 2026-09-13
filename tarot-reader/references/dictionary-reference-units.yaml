@@ -1,0 +1,349 @@
+package_id: tarot-reader.dictionary-reference-units.v1
+status: frozen
+provenance_ref: references/dictionary-source-provenance.yaml#tarot_dictionary_zh.phase1e.visual-review-units.v1
+runtime_role: late_hypothesis_check_only
+coverage:
+  unit_count: 22
+  supported_cards: 20
+  supported_orientations: upright_and_reversed
+  unsupported_query_policy: fail_closed
+content_policy:
+  content_type: visually_reviewed_condensed_author_statement
+  author_scope: author-listed possible manifestation
+  not_card_meaning: true
+  not_visual_fact: true
+  not_prediction: true
+  not_professional_advice: true
+  no_raw_ocr: true
+  no_acceptance_notes: true
+  no_expected_answers: true
+entries:
+  - entry_id: tarot_dictionary_zh.wands_ace.upright.work
+    canonical_card_id: wands_ace
+    orientation: upright
+    domain: work
+    content_type: visually_reviewed_condensed_author_statement
+    condensed_statement: >-
+      作者将此条目用于新工作状况或新挑战、主动把握机会与发展潜力；事情尚未定案，仍须以实际条件继续核对。
+    source_ref:
+      source_repo_path: reading/tarot_dictionary_zh/source-chunks.jsonl
+      source_excerpt_ids: [tarot_dictionary_zh.p0202.b02, tarot_dictionary_zh.p0202.b04, tarot_dictionary_zh.p0202.b05, tarot_dictionary_zh.p0202.b06, tarot_dictionary_zh.p0202.b07, tarot_dictionary_zh.p0202.b08, tarot_dictionary_zh.p0202.b10, tarot_dictionary_zh.p0202.b11, tarot_dictionary_zh.p0202.b12, tarot_dictionary_zh.p0202.b13, tarot_dictionary_zh.p0202.b14, tarot_dictionary_zh.p0202.b15, tarot_dictionary_zh.p0202.b16]
+      pdf_pages: [202]
+      visual_column: left
+      entry_anchor_id: tarot_dictionary_zh.wands_ace.upright.work
+      review_status: manually_reviewed_single_column
+
+  - entry_id: tarot_dictionary_zh.swords_seven.upright.work
+    canonical_card_id: swords_seven
+    orientation: upright
+    domain: work
+    content_type: visually_reviewed_condensed_author_statement
+    condensed_statement: >-
+      作者列出工作任务可能超出当前能力范围、需要提高警觉并先作准备；短期机会与长期风险需要分开核对。
+    source_ref:
+      source_repo_path: reading/tarot_dictionary_zh/source-chunks.jsonl
+      source_excerpt_ids: [tarot_dictionary_zh.p0306.b02, tarot_dictionary_zh.p0306.b04, tarot_dictionary_zh.p0306.b05, tarot_dictionary_zh.p0306.b06, tarot_dictionary_zh.p0306.b07, tarot_dictionary_zh.p0306.b08, tarot_dictionary_zh.p0306.b09, tarot_dictionary_zh.p0306.b10, tarot_dictionary_zh.p0306.b11, tarot_dictionary_zh.p0306.b12]
+      pdf_pages: [306]
+      visual_column: left
+      entry_anchor_id: tarot_dictionary_zh.swords_seven.upright.work
+      review_status: manually_reviewed_single_column
+
+  - entry_id: tarot_dictionary_zh.wands_ten.upright.work
+    canonical_card_id: wands_ten
+    orientation: upright
+    domain: work
+    content_type: visually_reviewed_condensed_author_statement
+    condensed_statement: >-
+      作者把工作表现写成高工作量和压力，建议重新分工、逐项处理；持续承受可能限制后续发展。
+    source_ref:
+      source_repo_path: reading/tarot_dictionary_zh/source-chunks.jsonl
+      source_excerpt_ids: [tarot_dictionary_zh.p0166.b02, tarot_dictionary_zh.p0166.b04, tarot_dictionary_zh.p0166.b05, tarot_dictionary_zh.p0166.b06, tarot_dictionary_zh.p0166.b07, tarot_dictionary_zh.p0166.b08, tarot_dictionary_zh.p0166.b09, tarot_dictionary_zh.p0166.b10, tarot_dictionary_zh.p0166.b11, tarot_dictionary_zh.p0166.b12, tarot_dictionary_zh.p0166.b13, tarot_dictionary_zh.p0166.b14, tarot_dictionary_zh.p0166.b15, tarot_dictionary_zh.p0166.b16]
+      pdf_pages: [166]
+      visual_column: left
+      entry_anchor_id: tarot_dictionary_zh.wands_ten.upright.work
+      review_status: manually_reviewed_single_column
+
+  - entry_id: tarot_dictionary_zh.emperor.upright.work
+    canonical_card_id: emperor
+    orientation: upright
+    domain: work
+    content_type: visually_reviewed_condensed_author_statement
+    condensed_statement: >-
+      作者列出规则限制下仍可完成目标、需要核对授权与制度；工作机会须结合兴趣与实际困难判断。
+    source_ref:
+      source_repo_path: reading/tarot_dictionary_zh/source-chunks.jsonl
+      source_excerpt_ids: [tarot_dictionary_zh.p0028.b03, tarot_dictionary_zh.p0028.b04, tarot_dictionary_zh.p0028.b05, tarot_dictionary_zh.p0028.b06, tarot_dictionary_zh.p0028.b07, tarot_dictionary_zh.p0028.b08, tarot_dictionary_zh.p0028.b09, tarot_dictionary_zh.p0028.b10, tarot_dictionary_zh.p0028.b11, tarot_dictionary_zh.p0028.b12, tarot_dictionary_zh.p0028.b13, tarot_dictionary_zh.p0028.b15, tarot_dictionary_zh.p0028.b16]
+      pdf_pages: [28]
+      visual_column: right
+      entry_anchor_id: tarot_dictionary_zh.emperor.upright.work
+      review_status: manually_reviewed_single_column
+
+  - entry_id: tarot_dictionary_zh.pentacles_eight.upright.work
+    canonical_card_id: pentacles_eight
+    orientation: upright
+    domain: work
+    content_type: visually_reviewed_condensed_author_statement
+    condensed_statement: >-
+      作者将工作表现写成需要专注、专业技术和持续学习；问题复杂时可寻求专业协助。
+    source_ref:
+      source_repo_path: reading/tarot_dictionary_zh/source-chunks.jsonl
+      source_excerpt_ids: [tarot_dictionary_zh.p0366.b03, tarot_dictionary_zh.p0366.b04, tarot_dictionary_zh.p0366.b05, tarot_dictionary_zh.p0366.b06, tarot_dictionary_zh.p0366.b07, tarot_dictionary_zh.p0366.b08, tarot_dictionary_zh.p0366.b09, tarot_dictionary_zh.p0366.b10, tarot_dictionary_zh.p0366.b11, tarot_dictionary_zh.p0366.b12, tarot_dictionary_zh.p0366.b13, tarot_dictionary_zh.p0366.b14, tarot_dictionary_zh.p0366.b15, tarot_dictionary_zh.p0366.b16, tarot_dictionary_zh.p0366.b17, tarot_dictionary_zh.p0366.b18, tarot_dictionary_zh.p0366.b19, tarot_dictionary_zh.p0366.b20]
+      pdf_pages: [366]
+      visual_column: left
+      entry_anchor_id: tarot_dictionary_zh.pentacles_eight.upright.work
+      review_status: manually_reviewed_single_column
+
+  - entry_id: tarot_dictionary_zh.swords_page.upright.work
+    canonical_card_id: swords_page
+    orientation: upright
+    domain: work
+    content_type: visually_reviewed_condensed_author_statement
+    condensed_statement: >-
+      作者列出工作信息变化不确定，需要分析细节并保持警觉；支持有限，发展和求职须继续观察条件。
+    source_ref:
+      source_repo_path: reading/tarot_dictionary_zh/source-chunks.jsonl
+      source_excerpt_ids: [tarot_dictionary_zh.p0288.b03, tarot_dictionary_zh.p0288.b04, tarot_dictionary_zh.p0288.b05, tarot_dictionary_zh.p0288.b06, tarot_dictionary_zh.p0288.b07, tarot_dictionary_zh.p0288.b08, tarot_dictionary_zh.p0288.b09, tarot_dictionary_zh.p0288.b10, tarot_dictionary_zh.p0288.b12, tarot_dictionary_zh.p0288.b13, tarot_dictionary_zh.p0288.b14, tarot_dictionary_zh.p0288.b15, tarot_dictionary_zh.p0288.b17, tarot_dictionary_zh.p0288.b18, tarot_dictionary_zh.p0288.b19]
+      pdf_pages: [288]
+      visual_column: right
+      entry_anchor_id: tarot_dictionary_zh.swords_page.upright.work
+      review_status: manually_reviewed_single_column
+
+  - entry_id: tarot_dictionary_zh.wheel_of_fortune.upright.work
+    canonical_card_id: wheel_of_fortune
+    orientation: upright
+    domain: work
+    content_type: visually_reviewed_condensed_author_statement
+    condensed_statement: >-
+      作者列出工作处在相对顺利阶段，机会与人际网络可扩展；仍需主动把握与实际努力。
+    source_ref:
+      source_repo_path: reading/tarot_dictionary_zh/source-chunks.jsonl
+      source_excerpt_ids: [tarot_dictionary_zh.p0064.b03, tarot_dictionary_zh.p0064.b04, tarot_dictionary_zh.p0064.b05, tarot_dictionary_zh.p0064.b06, tarot_dictionary_zh.p0064.b07, tarot_dictionary_zh.p0064.b08, tarot_dictionary_zh.p0064.b09, tarot_dictionary_zh.p0064.b10, tarot_dictionary_zh.p0064.b11, tarot_dictionary_zh.p0064.b12, tarot_dictionary_zh.p0064.b13, tarot_dictionary_zh.p0064.b14, tarot_dictionary_zh.p0064.b16, tarot_dictionary_zh.p0064.b17, tarot_dictionary_zh.p0064.b18]
+      pdf_pages: [64]
+      visual_column: right
+      entry_anchor_id: tarot_dictionary_zh.wheel_of_fortune.upright.work
+      review_status: manually_reviewed_single_column
+
+  - entry_id: tarot_dictionary_zh.pentacles_page.upright.work
+    canonical_card_id: pentacles_page
+    orientation: upright
+    domain: work
+    content_type: visually_reviewed_condensed_author_statement
+    condensed_statement: >-
+      作者将工作写成学习空间与投入期，建议观察、学习和逐步累积；求职应看学习机会而非只看薪资职位。
+    source_ref:
+      source_repo_path: reading/tarot_dictionary_zh/source-chunks.jsonl
+      source_excerpt_ids: [tarot_dictionary_zh.p0352.b03, tarot_dictionary_zh.p0352.b04, tarot_dictionary_zh.p0352.b05, tarot_dictionary_zh.p0352.b06, tarot_dictionary_zh.p0352.b07, tarot_dictionary_zh.p0352.b08, tarot_dictionary_zh.p0352.b09, tarot_dictionary_zh.p0352.b10, tarot_dictionary_zh.p0352.b11, tarot_dictionary_zh.p0352.b12, tarot_dictionary_zh.p0352.b13, tarot_dictionary_zh.p0352.b15, tarot_dictionary_zh.p0352.b16, tarot_dictionary_zh.p0352.b17]
+      pdf_pages: [352]
+      visual_column: right
+      entry_anchor_id: tarot_dictionary_zh.pentacles_page.upright.work
+      review_status: manually_reviewed_single_column
+
+  - entry_id: tarot_dictionary_zh.wands_eight.upright.work
+    canonical_card_id: wands_eight
+    orientation: upright
+    domain: work
+    content_type: visually_reviewed_condensed_author_statement
+    condensed_statement: >-
+      作者列出工作节奏快，需要清楚方向和共同目标；发展可能推进较快，具体结果仍取决于执行条件。
+    source_ref:
+      source_repo_path: reading/tarot_dictionary_zh/source-chunks.jsonl
+      source_excerpt_ids: [tarot_dictionary_zh.p0174.b02, tarot_dictionary_zh.p0174.b04, tarot_dictionary_zh.p0174.b05, tarot_dictionary_zh.p0174.b06, tarot_dictionary_zh.p0174.b07, tarot_dictionary_zh.p0174.b08, tarot_dictionary_zh.p0174.b09, tarot_dictionary_zh.p0174.b10, tarot_dictionary_zh.p0174.b11, tarot_dictionary_zh.p0174.b12, tarot_dictionary_zh.p0174.b13]
+      pdf_pages: [174]
+      visual_column: left
+      entry_anchor_id: tarot_dictionary_zh.wands_eight.upright.work
+      review_status: manually_reviewed_single_column
+
+  - entry_id: tarot_dictionary_zh.justice.upright.work
+    canonical_card_id: justice
+    orientation: upright
+    domain: work
+    content_type: visually_reviewed_condensed_author_statement
+    condensed_statement: >-
+      作者把工作写成规则明确且相对稳定，问题可依据正式规则与文件核对；制度是后续发展的重要条件。
+    source_ref:
+      source_repo_path: reading/tarot_dictionary_zh/source-chunks.jsonl
+      source_excerpt_ids: [tarot_dictionary_zh.p0070.b03, tarot_dictionary_zh.p0070.b04, tarot_dictionary_zh.p0070.b05, tarot_dictionary_zh.p0070.b06, tarot_dictionary_zh.p0070.b07, tarot_dictionary_zh.p0070.b08, tarot_dictionary_zh.p0070.b09, tarot_dictionary_zh.p0070.b10, tarot_dictionary_zh.p0070.b11, tarot_dictionary_zh.p0070.b13, tarot_dictionary_zh.p0070.b14]
+      pdf_pages: [70]
+      visual_column: right
+      entry_anchor_id: tarot_dictionary_zh.justice.upright.work
+      review_status: manually_reviewed_single_column
+
+  - entry_id: tarot_dictionary_zh.pentacles_four.upright.work
+    canonical_card_id: pentacles_four
+    orientation: upright
+    domain: work
+    content_type: visually_reviewed_condensed_author_statement
+    condensed_statement: >-
+      作者列出工作收入和控制感较稳定，需要预算约束；未来发展可行但要权衡收益与固守成果。
+    source_ref:
+      source_repo_path: reading/tarot_dictionary_zh/source-chunks.jsonl
+      source_excerpt_ids: [tarot_dictionary_zh.p0382.b04, tarot_dictionary_zh.p0382.b05, tarot_dictionary_zh.p0382.b06, tarot_dictionary_zh.p0382.b07, tarot_dictionary_zh.p0382.b08, tarot_dictionary_zh.p0382.b09, tarot_dictionary_zh.p0382.b10, tarot_dictionary_zh.p0382.b11, tarot_dictionary_zh.p0382.b12, tarot_dictionary_zh.p0382.b13, tarot_dictionary_zh.p0382.b14, tarot_dictionary_zh.p0382.b15]
+      pdf_pages: [382]
+      visual_column: left
+      entry_anchor_id: tarot_dictionary_zh.pentacles_four.upright.work
+      review_status: manually_reviewed_single_column
+
+  - entry_id: tarot_dictionary_zh.swords_two.upright.work
+    canonical_card_id: swords_two
+    orientation: upright
+    domain: work
+    content_type: visually_reviewed_condensed_author_statement
+    condensed_statement: >-
+      作者列出工作陷入僵局或对峙，需要第三方协助或调停；表面平静不等于问题已经解决。
+    source_ref:
+      source_repo_path: reading/tarot_dictionary_zh/source-chunks.jsonl
+      source_excerpt_ids: [tarot_dictionary_zh.p0326.b02, tarot_dictionary_zh.p0326.b04, tarot_dictionary_zh.p0326.b05, tarot_dictionary_zh.p0326.b06, tarot_dictionary_zh.p0326.b07, tarot_dictionary_zh.p0326.b08, tarot_dictionary_zh.p0326.b09, tarot_dictionary_zh.p0326.b10, tarot_dictionary_zh.p0326.b11, tarot_dictionary_zh.p0326.b12]
+      pdf_pages: [326]
+      visual_column: left
+      entry_anchor_id: tarot_dictionary_zh.swords_two.upright.work
+      review_status: manually_reviewed_single_column
+
+  - entry_id: tarot_dictionary_zh.devil.upright.finance
+    canonical_card_id: devil
+    orientation: upright
+    domain: finance
+    content_type: visually_reviewed_condensed_author_statement
+    condensed_statement: >-
+      作者列出财务表面尚可但问题隐藏且非短期可解；其投资段落涉及兑现与新增投入，仅作作者条目候选，不是投资建议。
+    source_ref:
+      source_repo_path: reading/tarot_dictionary_zh/source-chunks.jsonl
+      source_excerpt_ids: [tarot_dictionary_zh.p0096.b01, tarot_dictionary_zh.p0096.b04]
+      pdf_pages: [96]
+      visual_column: right
+      entry_anchor_id: tarot_dictionary_zh.devil.upright.finance
+      review_status: manually_reviewed_single_column
+
+  - entry_id: tarot_dictionary_zh.pentacles_seven.upright.finance
+    canonical_card_id: pentacles_seven
+    orientation: upright
+    domain: finance
+    content_type: visually_reviewed_condensed_author_statement
+    condensed_statement: >-
+      作者列出已有财务累积、正在考虑下一步配置；投资有初步获利但离目标仍有差距，需结合可行性与时间条件。
+    source_ref:
+      source_repo_path: reading/tarot_dictionary_zh/source-chunks.jsonl
+      source_excerpt_ids: [tarot_dictionary_zh.p0371.b06, tarot_dictionary_zh.p0371.b07, tarot_dictionary_zh.p0371.b08]
+      pdf_pages: [371]
+      visual_column: right
+      entry_anchor_id: tarot_dictionary_zh.pentacles_seven.upright.finance
+      review_status: manually_reviewed_single_column
+
+  - entry_id: tarot_dictionary_zh.pentacles_king.upright.finance
+    canonical_card_id: pentacles_king
+    orientation: upright
+    domain: finance
+    content_type: visually_reviewed_condensed_author_statement
+    condensed_statement: >-
+      作者列出较稳健的财务基础、理解金钱价值并能有效管理资源；愿意享受不等于可推断收益。
+    source_ref:
+      source_repo_path: reading/tarot_dictionary_zh/source-chunks.jsonl
+      source_excerpt_ids: [tarot_dictionary_zh.p0334.b13, tarot_dictionary_zh.p0334.b16]
+      pdf_pages: [334]
+      visual_column: left
+      entry_anchor_id: tarot_dictionary_zh.pentacles_king.upright.finance
+      review_status: manually_reviewed_single_column
+
+  - entry_id: tarot_dictionary_zh.hermit.upright.love
+    canonical_card_id: hermit
+    orientation: upright
+    domain: love
+    content_type: visually_reviewed_condensed_author_statement
+    condensed_statement: >-
+      作者列出感情发展到瓶颈、相处中可能感到孤独，需要重新思考；这是条目候选，不证明未来必然没有关系。
+    source_ref:
+      source_repo_path: reading/tarot_dictionary_zh/source-chunks.jsonl
+      source_excerpt_ids: [tarot_dictionary_zh.p0059.b01]
+      pdf_pages: [59]
+      visual_column: left
+      entry_anchor_id: tarot_dictionary_zh.hermit.upright.love
+      review_status: manually_reviewed_single_column
+
+  - entry_id: tarot_dictionary_zh.swords_page.upright.love
+    canonical_card_id: swords_page
+    orientation: upright
+    domain: love
+    content_type: visually_reviewed_condensed_author_statement
+    condensed_statement: >-
+      作者列出当前关系仍不稳定，需要观察行为；新恋情并非当前主要可能，但对方有兴趣的可能仍需现实证据。
+    source_ref:
+      source_repo_path: reading/tarot_dictionary_zh/source-chunks.jsonl
+      source_excerpt_ids: [tarot_dictionary_zh.p0289.b02]
+      pdf_pages: [289]
+      visual_column: left
+      entry_anchor_id: tarot_dictionary_zh.swords_page.upright.love
+      review_status: manually_reviewed_single_column
+
+  - entry_id: tarot_dictionary_zh.swords_six.upright.love
+    canonical_card_id: swords_six
+    orientation: upright
+    domain: love
+    content_type: visually_reviewed_condensed_author_statement
+    condensed_statement: >-
+      作者列出关系有问题但可在双方努力下逐步改善；距离或低联系可能导致渐行渐远，重点是实际行动与节奏。
+    source_ref:
+      source_repo_path: reading/tarot_dictionary_zh/source-chunks.jsonl
+      source_excerpt_ids: [tarot_dictionary_zh.p0310.b03]
+      pdf_pages: [310]
+      visual_column: right
+      entry_anchor_id: tarot_dictionary_zh.swords_six.upright.love
+      review_status: manually_reviewed_single_column
+
+  - entry_id: tarot_dictionary_zh.cups_three.upright.love
+    canonical_card_id: cups_three
+    orientation: upright
+    domain: love
+    content_type: visually_reviewed_condensed_author_statement
+    condensed_statement: >-
+      作者列出关系中的共享活动与社交互动，新关系可能通过朋友聚会等场景显化；不支持第三者或保证复合。
+    source_ref:
+      source_repo_path: reading/tarot_dictionary_zh/source-chunks.jsonl
+      source_excerpt_ids: [tarot_dictionary_zh.p0258.b03]
+      pdf_pages: [258]
+      visual_column: right
+      entry_anchor_id: tarot_dictionary_zh.cups_three.upright.love
+      review_status: manually_reviewed_single_column
+
+  - entry_id: tarot_dictionary_zh.tower.upright.work
+    canonical_card_id: tower
+    orientation: upright
+    domain: work
+    content_type: visually_reviewed_condensed_author_statement
+    condensed_statement: >-
+      作者列出工作突发重大意外、责任压力和有限发展等强烈情境；只可在整体牌组已支持突变时作为候选，不能当作必然事件。
+    source_ref:
+      source_repo_path: reading/tarot_dictionary_zh/source-chunks.jsonl
+      source_excerpt_ids: [tarot_dictionary_zh.p0100.b03, tarot_dictionary_zh.p0100.b04, tarot_dictionary_zh.p0100.b05, tarot_dictionary_zh.p0100.b06, tarot_dictionary_zh.p0100.b07, tarot_dictionary_zh.p0100.b08, tarot_dictionary_zh.p0100.b09, tarot_dictionary_zh.p0100.b10, tarot_dictionary_zh.p0100.b11, tarot_dictionary_zh.p0100.b13, tarot_dictionary_zh.p0100.b14, tarot_dictionary_zh.p0100.b15]
+      pdf_pages: [100]
+      visual_column: right
+      entry_anchor_id: tarot_dictionary_zh.tower.upright.work
+      review_status: manually_reviewed_single_column
+
+  - entry_id: tarot_dictionary_zh.magician.reversed.work
+    canonical_card_id: magician
+    orientation: reversed
+    domain: work
+    content_type: visually_reviewed_condensed_author_statement
+    condensed_statement: >-
+      作者列出工作条件或信息不完整、沟通不良与执行困难等可能表现；需结合 Greer 先选机制，不能把条目等同欺骗事实。
+    source_ref:
+      source_repo_path: reading/tarot_dictionary_zh/source-chunks.jsonl
+      source_excerpt_ids: [tarot_dictionary_zh.p0013.b02, tarot_dictionary_zh.p0013.b04, tarot_dictionary_zh.p0013.b05, tarot_dictionary_zh.p0013.b06, tarot_dictionary_zh.p0013.b07, tarot_dictionary_zh.p0013.b08, tarot_dictionary_zh.p0013.b09, tarot_dictionary_zh.p0013.b10, tarot_dictionary_zh.p0013.b11, tarot_dictionary_zh.p0013.b12, tarot_dictionary_zh.p0013.b13, tarot_dictionary_zh.p0013.b15]
+      pdf_pages: [13]
+      visual_column: right
+      entry_anchor_id: tarot_dictionary_zh.magician.reversed.work
+      review_status: manually_reviewed_single_column
+
+  - entry_id: tarot_dictionary_zh.magician.reversed.love
+    canonical_card_id: magician
+    orientation: reversed
+    domain: love
+    content_type: visually_reviewed_condensed_author_statement
+    condensed_statement: >-
+      作者列出沟通不良可能带来误解、隐瞒或关系波动；这是可能表现，不是对方动机或欺骗事实。
+    source_ref:
+      source_repo_path: reading/tarot_dictionary_zh/source-chunks.jsonl
+      source_excerpt_ids: [tarot_dictionary_zh.p0014.b01, tarot_dictionary_zh.p0014.b04]
+      pdf_pages: [14]
+      visual_column: left
+      entry_anchor_id: tarot_dictionary_zh.magician.reversed.love
+      review_status: manually_reviewed_single_column

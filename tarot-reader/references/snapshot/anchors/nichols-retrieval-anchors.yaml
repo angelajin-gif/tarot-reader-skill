@@ -1,0 +1,36 @@
+book_id: nichols_jung_tarot_en
+status: minimal_retrieval_anchors_only
+anchors:
+  - concept: major_chapter_entrypoints
+    source_pages: [49, 79, 112, 131, 152, 173, 185, 198, 215, 230, 248, 276, 295, 309, 337, 352, 381, 397, 420, 437, 450, 464]
+    why_retrievable: "进入具体 Major 的 motif、邻接和现实桥接，而非检索关键词摘要"
+  - concept: major_sequence_journey
+    source_pages: [31, 32, 40, 41, 42, 43, 464, 488]
+    why_retrievable: "判断一张 Major 在前后运动中的变化，不把编号当作分数"
+  - concept: vertical_horizontal_relations
+    source_pages: [40, 41, 43, 215]
+    why_retrievable: "在 spread 支持时比较发展运动与意识层媒介"
+  - concept: projection_with_external_reality
+    source_pages: [32, 33, 34, 35, 489, 509]
+    why_retrievable: "保留投射假设，同时不抹掉用户提供的可观察行为"
+  - concept: amplification_method
+    source_pages: [28, 29, 30, 45, 46, 47]
+    why_retrievable: "从 motif 选择比较材料，并要求每一步有 warrant"
+  - concept: polarity_shadow_contradiction
+    source_pages: [47, 60, 276, 352, 420, 464]
+    why_retrievable: "保留两极，再由 context 收敛，不创建正负关键词"
+  - concept: symbol_vs_sign
+    source_pages: [28, 29, 30, 47]
+    why_retrievable: "限制固定定义和机械 correspondence"
+  - concept: archetype_to_human_experience_bridge
+    source_pages: [32, 33, 39, 40, 173, 489]
+    why_retrievable: "把原型映射到角色、关系、事件或发展阶段，并保持 ontology uncertainty"
+  - concept: prediction_agency_free_will
+    source_pages: [33, 34, 196, 262, 488, 489]
+    why_retrievable: "区分 symbolic tendency、event likelihood、agency window 和 unresolved"
+  - concept: explicit_warnings
+    source_pages: [29, 30, 45, 47, 216, 295, 309, 381]
+    why_retrievable: "防止神话、projection、surrender 或 Tower 被升级成确定事实"
+  - concept: representative_case_chains
+    source_pages: [33, 34, 35, 489, 493, 506, 509]
+    why_retrievable: "回查 projection、spread position、facing/rejecting 和 plot 的完整推理链"

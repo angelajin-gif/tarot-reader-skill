@@ -1,0 +1,87 @@
+phase: 4B
+contract_id: rws-factual-visual-canon.phase4b.v1
+status: frozen
+scope: 78_card_rws_factual_visual_canon
+
+source_manifest: runtime/phase4a/rws-visual-source-manifest.yaml
+phase4a_freeze: runtime/phase4a/phase4a-contract.yaml
+manual_review_checklist: runtime/phase4b/manual-review-checklist.yaml
+runtime_image_boundary:
+  accepted_runtime_input: canonical_card_id
+  user_image_policy: never_inspect_user_uploaded_deck_images
+  custom_deck_visual_transfer: forbidden
+  image_use: development_time_review_evidence_only
+
+record_schema:
+  factual_visual_id_prefix: rws.factual.
+  required_fields:
+    - card_id
+    - factual_visual_id
+    - canonical_source_ref
+    - review_status
+    - review_copy
+    - observations
+    - edition_specific_visuals
+    - symbolic_readings
+    - unresolved_visuals
+  review_copy_fields:
+    - path
+    - kind
+    - acquisition_url
+    - source_file
+    - download_width
+    - download_height
+    - checksum_algorithm
+    - checksum
+  observation_fields:
+    - scene
+    - figures
+    - action
+    - gaze_and_facing
+    - spatial_relations
+    - objects
+  observation_policy:
+    static_visible_facts_only: true
+    figures_may_be_empty: true
+    colors_only_in_edition_specific_visuals: true
+    symbolic_readings_must_be_empty: true
+    ambiguity_goes_to_unresolved_visuals: true
+    no_meaning_or_prediction: true
+
+manual_review_policy:
+  checklist_fields: [visible_count, facing, animals, clear_symbols, key_objects]
+  targeted_recheck_cards: [emperor, hierophant, star, judgement, world]
+  checklist_must_bind_to_review_copy: true
+  checklist_is_required_for_batch_01_approval: true
+  checksum_and_lineage_do_not_substitute_for_manual_visual_review: true
+  confirmed_is_reviewer_attestation_only: true
+  validator_does_not_establish_visual_content_correctness: true
+  independent_visual_acceptance_requires_human_review: true
+
+review_states:
+  phase4a_frozen_reference: existing_eight_card_pilot_only
+  review_pending: no_factual_observation_promoted
+  reviewed: local_review_copy_and_observations_verified
+
+batches:
+  - batch_id: batch_01_major_arcana
+    unit: 22_major_arcana
+    record_file: runtime/phase4b/records/batch_01_major_arcana.yaml
+  - batch_id: batch_02_court_cards
+    unit: 16_court_cards
+    record_file: runtime/phase4b/records/batch_02_court_cards.yaml
+  - batch_id: batch_03_wands_cups
+    unit: 20_wands_and_cups_number_cards
+    record_file: runtime/phase4b/records/batch_03_wands_cups.yaml
+  - batch_id: batch_04_swords_pentacles
+    unit: 20_swords_and_pentacles_number_cards
+    record_file: runtime/phase4b/records/batch_04_swords_pentacles.yaml
+
+freeze_gate:
+  required_card_count: 78
+  required_reviewed_count: 78
+  required_batch_checkpoints: 4
+  current_card_count: 78
+  current_reviewed_count: 78
+  current_batch_checkpoints: 4
+  full_visual_canon_claim_forbidden_until_all_reviewed: true

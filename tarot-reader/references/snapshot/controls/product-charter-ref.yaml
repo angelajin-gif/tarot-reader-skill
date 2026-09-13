@@ -1,0 +1,47 @@
+"phase": "2C"
+"product_charter_path": "reading/cross_book_phase2b/product-charter.yaml"
+"product_charter_sha256": "a92ff386cc98f6b75c6ac46f9bea7985ae35ddd13b138d16cc12fb6adc014a5b"
+"relationship":
+  "product_charter": "决定产品范围、交互、牌组、安全和输出。"
+  "tarot_constitution": "决定 interpretive reasoning 的纪律。"
+  "collision_rule": "发生碰撞时，Product Charter 负责产品边界；Constitution 记录在该边界内如何解释。不得把 Product Charter 伪装成教材共识。"
+"adapters":
+  -
+    "adapter_id": "AD-001"
+    "product_rule": "PC-002"
+    "interpretive_rule":
+      - "TC-003"
+      - "TC-004"
+    "adapter": "Greer 的对话式反馈可以消费已提供的反馈，但 runtime 内部测试不向用户追问；缺少反馈保留 unresolved。"
+  -
+    "adapter_id": "AD-002"
+    "product_rule": "PC-001"
+    "interpretive_rule":
+      - "TC-009"
+    "adapter": "Nichols 的跨牌组观察迁移 observe/compare/amplify 方法，不迁移 Marseille 或其他牌组视觉事实。"
+  -
+    "adapter_id": "AD-003"
+    "product_rule": "PC-003"
+    "interpretive_rule":
+      - "TC-005"
+    "adapter": "Daniel 的 upright-only 教学提供 baseline，不禁止真实逆位时调用 Greer；产品方向门先于两者。"
+  -
+    "adapter_id": "AD-004"
+    "product_rule": "PC-005"
+    "interpretive_rule":
+      - "TC-004"
+    "adapter": "直接主判断不等于消灭 alternative；主判断、有限 secondary 和 unresolved 同时保留。"
+  -
+    "adapter_id": "AD-005"
+    "product_rule": "PC-004"
+    "interpretive_rule":
+      - "TC-011"
+    "adapter": "默认近期语境只提供工作范围，不把它转换成精确 timing。"
+  -
+    "adapter_id": "AD-006"
+    "product_rule": "PC-012"
+    "interpretive_rule":
+      - "TC-002"
+      - "TC-006"
+    "adapter": "Product Charter 要求 late retrieval；Constitution 进一步规定 Dictionary 只能在 holistic hypothesis 后作为可反驳 reference。"
+"not_copied": "The 13 Product Charter rules are not duplicated as Constitution principles. Only the adapters above are carried into the reasoning layer."

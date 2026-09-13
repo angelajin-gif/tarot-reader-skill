@@ -1,0 +1,214 @@
+release_id: tarot-reader.stage10.v1.1
+status: frozen
+canonical_snapshot_policy: exact_byte_copy_of_frozen_source_at_build_start
+snapshot_root: references/snapshot
+entries:
+  - snapshot_path: references/snapshot/controls/product-charter.yaml
+    original_repo_path: reading/cross_book_phase2b/product-charter.yaml
+    sha256: a92ff386cc98f6b75c6ac46f9bea7985ae35ddd13b138d16cc12fb6adc014a5b
+    stage_or_contract_id: tarot_product_charter.v1
+    canonical_snapshot: true
+  - snapshot_path: references/snapshot/controls/constitution.yaml
+    original_repo_path: synthesis/tarot-constitution/constitution.yaml
+    sha256: 8912e53282cd69e634913efdb7fa6e52986b2ae1e7cbf9fd8f7957a76feed5ed
+    stage_or_contract_id: tarot-constitution.v1
+    canonical_snapshot: true
+  - snapshot_path: references/snapshot/controls/product-charter-ref.yaml
+    original_repo_path: synthesis/tarot-constitution/product-charter-ref.yaml
+    sha256: 5efc05c92ba410a7484285b526707f4603b7c390be62590e43a94c974577d0bd
+    stage_or_contract_id: product-charter-ref.phase2c
+    canonical_snapshot: true
+  - snapshot_path: references/snapshot/controls/phase3a-runtime-contract.yaml
+    original_repo_path: runtime/phase3a/runtime-contract.yaml
+    sha256: c5dd895dd5ba33cbf8e9f81752406b66eebe7cffa35b8d325b5648753640404e
+    stage_or_contract_id: tarot-runtime-contract.phase3a.v1
+    canonical_snapshot: true
+  - snapshot_path: references/snapshot/controls/phase3b-runtime-architecture.yaml
+    original_repo_path: runtime/phase3b/runtime-architecture.yaml
+    sha256: e3e941b5d2cc96ceb737cb8686dae361730b4bfad5bf5620535328c824a00827
+    stage_or_contract_id: tarot-blind-runtime-prototype.phase3b.v1
+    canonical_snapshot: true
+  - snapshot_path: references/snapshot/controls/phase3c-knowledge-loader-contract.yaml
+    original_repo_path: runtime/phase3c/knowledge-loader-contract.yaml
+    sha256: 931ca65b0316c79bf41ed44e4f34302b6c5d8de75cc44ed2a2a1462910802da1
+    stage_or_contract_id: tarot-knowledge-loader-integrity.phase3c.v1
+    canonical_snapshot: true
+  - snapshot_path: references/snapshot/controls/phase4a-contract.yaml
+    original_repo_path: runtime/phase4a/phase4a-contract.yaml
+    sha256: dce33ae0829b685ac37eac91013cc07488032474239468e1957dd7e1ea10b8c1
+    stage_or_contract_id: tarot-card-identity-and-visual-source-lock.phase4a.v1
+    canonical_snapshot: true
+  - snapshot_path: references/snapshot/controls/phase4b-contract.yaml
+    original_repo_path: runtime/phase4b/phase4b-contract.yaml
+    sha256: d68ee848b2d8aade926f367b5a6f3f3fdcf5618237d011cbaccadb1778d39b9c
+    stage_or_contract_id: rws-factual-visual-canon.phase4b.v1
+    canonical_snapshot: true
+  - snapshot_path: references/snapshot/controls/phase4c-visual-loader-contract.yaml
+    original_repo_path: runtime/phase4c/visual-loader-contract.yaml
+    sha256: a7d9a0fb4711e1b9bbb13b62778224be7255c38ac7c33b02c9efa29cbb34dc42
+    stage_or_contract_id: tarot-visual-canon-runtime-integration.phase4c.v1
+    canonical_snapshot: true
+  - snapshot_path: references/snapshot/controls/phase4c-acceptance.md
+    original_repo_path: runtime/phase4c/acceptance.md
+    sha256: 695f17eed6d2f524e1e2c5991b0dd3f073b2f50615885f81187b1e9261966f6e
+    stage_or_contract_id: tarot-visual-canon-runtime-integration.phase4c.v1
+    canonical_snapshot: true
+
+  - snapshot_path: references/snapshot/visual/canonical-card-registry.yaml
+    original_repo_path: runtime/phase4a/canonical-card-registry.yaml
+    sha256: 261dc98049b022c21ce9aa67350592d7bde8cd76d8656514483e749488914d7a
+    stage_or_contract_id: tarot-canonical-card-registry.phase4a.v1
+    canonical_snapshot: true
+  - snapshot_path: references/snapshot/visual/rws-visual-source-manifest.yaml
+    original_repo_path: runtime/phase4a/rws-visual-source-manifest.yaml
+    sha256: 3b4f5fa05293582f8bd51c722ac949e2e3dda1098fa26d53ef3a1d7d5f6e9fdc
+    stage_or_contract_id: rws-visual-source-manifest.phase4a.v1
+    canonical_snapshot: true
+  - snapshot_path: references/snapshot/visual/visual-pilot-rechecks.yaml
+    original_repo_path: runtime/phase4a/visual-pilot-rechecks.yaml
+    sha256: 85d802fbf9ea102cd02ee8d09566a9c6976a46ad8e4e06fd5328f2fbeda816c0
+    stage_or_contract_id: rws-visual-pilot-rechecks.phase4a.v1
+    canonical_snapshot: true
+  - snapshot_path: references/snapshot/visual/batch_01_major_arcana.yaml
+    original_repo_path: runtime/phase4b/records/batch_01_major_arcana.yaml
+    sha256: 85b2f7c234e1f841997500e43d7a8b06d05efcc19fcdbb22e066a20e0e666c5d
+    stage_or_contract_id: rws-factual-visual-canon.phase4b.v1
+    canonical_snapshot: true
+  - snapshot_path: references/snapshot/visual/batch_02_court_cards.yaml
+    original_repo_path: runtime/phase4b/records/batch_02_court_cards.yaml
+    sha256: c43a26d6e9b2f7de3073c54e6b0e1bf1898319b7bef92447b7d8f2dce0518653
+    stage_or_contract_id: rws-factual-visual-canon.phase4b.v1
+    canonical_snapshot: true
+  - snapshot_path: references/snapshot/visual/batch_03_wands_cups.yaml
+    original_repo_path: runtime/phase4b/records/batch_03_wands_cups.yaml
+    sha256: c3e6bf05208db74009d5ef4fee62cdac06fac5da1ee37cdb756e70864ccf05be
+    stage_or_contract_id: rws-factual-visual-canon.phase4b.v1
+    canonical_snapshot: true
+  - snapshot_path: references/snapshot/visual/batch_04_swords_pentacles.yaml
+    original_repo_path: runtime/phase4b/records/batch_04_swords_pentacles.yaml
+    sha256: c8ee5bfe9591c27b8f1d94df312fea31442cee55985012a4535b1d1add9608e9
+    stage_or_contract_id: rws-factual-visual-canon.phase4b.v1
+    canonical_snapshot: true
+
+  - snapshot_path: references/snapshot/teachers/nichols-book-model.md
+    original_repo_path: reading/nichols_archetypal_journey_en/book-model.md
+    sha256: a4f9f52f96d675be339b7b112b8933d44ccf6cd16aeb7f9cbcbb6a6b98d82e72
+    stage_or_contract_id: nichols_jung_tarot_en.book-model.v1
+    canonical_snapshot: true
+  - snapshot_path: references/snapshot/teachers/greer-book-model.md
+    original_repo_path: reading/greer_reversals_zh/book-model.md
+    sha256: a03ff533dd92260896dc2a12793b3af65cd45038f73f4f67dff4e37b55d78d95
+    stage_or_contract_id: greer_reversals_zh.book_model.v1
+    canonical_snapshot: true
+  - snapshot_path: references/snapshot/teachers/dawn-book-model.md
+    original_repo_path: reading/dawn_court_zh/book-model.md
+    sha256: 1a1055bc5264b101859e426b76a6084dfbde99071ef50feb47d88d55fe2acb42
+    stage_or_contract_id: dawn_court_zh.book-model.v1
+    canonical_snapshot: true
+  - snapshot_path: references/snapshot/teachers/daniel-book-model.md
+    original_repo_path: reading/daniel_16_lessons_zh/book-model.md
+    sha256: 8a30f73fb288887d8ab9753de703fe9e83492cc6c8325bd058c004e4f3b60a1a
+    stage_or_contract_id: daniel_16_lessons_zh.book-model.v1
+    canonical_snapshot: true
+  - snapshot_path: references/snapshot/teachers/tarot-dictionary-book-model.md
+    original_repo_path: reading/tarot_dictionary_zh/book-model.md
+    sha256: d777b4710be1200862f06e6debfdcd9b933319a8123bf33f641d3d764a9006e6
+    stage_or_contract_id: tarot_dictionary_zh.book-model.v1
+    canonical_snapshot: true
+
+  - snapshot_path: references/snapshot/anchors/nichols-retrieval-anchors.yaml
+    original_repo_path: reading/nichols_archetypal_journey_en/retrieval-anchors.yaml
+    sha256: d5c790aa7c4787e14886d3ebb208d1aedbcc7fda3bd8385e9abd306fbcaa1244
+    stage_or_contract_id: nichols_jung_tarot_en.retrieval-anchors.v1
+    canonical_snapshot: true
+  - snapshot_path: references/snapshot/anchors/nichols-reasoning-chains.yaml
+    original_repo_path: reading/nichols_archetypal_journey_en/reasoning-chains.yaml
+    sha256: f0ad8466a0da0885b5799a377818a7d2108613be66d33cdcce6c67dae3c3ca70
+    stage_or_contract_id: nichols_jung_tarot_en.reasoning-chains.v1
+    canonical_snapshot: true
+  - snapshot_path: references/snapshot/anchors/greer-retrieval-anchors.yaml
+    original_repo_path: reading/greer_reversals_zh/retrieval-anchors.yaml
+    sha256: 7b868913dc5175f9a0094effcd7f7e27234489c17cd1ca9760ab627e50a138c6
+    stage_or_contract_id: greer_reversals_zh.retrieval-anchors.v1
+    canonical_snapshot: true
+  - snapshot_path: references/snapshot/anchors/greer-card-entry-anchors.jsonl
+    original_repo_path: reading/greer_reversals_zh/card-entry-anchors.jsonl
+    sha256: fdfbbcb187985898001782aea523fa7d2877c3041e576f2b6f7cf547f4fb4513
+    stage_or_contract_id: greer_reversals_zh.card-entry-anchors.v1
+    canonical_snapshot: true
+  - snapshot_path: references/snapshot/anchors/dawn-retrieval-anchors.yaml
+    original_repo_path: reading/dawn_court_zh/retrieval-anchors.yaml
+    sha256: ae7b8db73c8affeafd1164ecd1d453e631850cb1c3828d9defd7ec2f51bdaa75
+    stage_or_contract_id: dawn_court_zh.retrieval-anchors.v1
+    canonical_snapshot: true
+  - snapshot_path: references/snapshot/anchors/daniel-retrieval-anchors.yaml
+    original_repo_path: reading/daniel_16_lessons_zh/retrieval-anchors.yaml
+    sha256: 7337e8c72c6da725db23f68259e2407aae939778f7aee198a9f6c223f35c4709
+    stage_or_contract_id: daniel_16_lessons_zh.retrieval-anchors.v1
+    canonical_snapshot: true
+  - snapshot_path: references/snapshot/anchors/daniel-card-entry-anchors.jsonl
+    original_repo_path: reading/daniel_16_lessons_zh/card-entry-anchors.jsonl
+    sha256: 8c6c8994d6d0779785d4686153bb4e50e210f6e63bb2a581fdc98e2159b55ae4
+    stage_or_contract_id: daniel_16_lessons_zh.card-entry-anchors.v1
+    canonical_snapshot: true
+  - snapshot_path: references/snapshot/anchors/tarot-dictionary-entry-anchors.jsonl
+    original_repo_path: reading/tarot_dictionary_zh/entry-anchors.jsonl
+    sha256: d1694d06f8dca7cad8d439b481baae32e609a62af0c1376f8420af7485cb723b
+    stage_or_contract_id: tarot_dictionary_zh.entry-anchors.v1
+    canonical_snapshot: true
+
+authored_runtime_artifacts:
+  - artifact_path: SKILL.md
+    sha256: 083fff106082490c541333496336490f81543e5e075ead8c89cd7aa6f43fbce1
+    runtime_role: primary_skill_instructions
+  - artifact_path: agents/openai.yaml
+    sha256: 550e89dd6908740d6ccbb7abf86348c880575571a5c889faa882b7fac4f58614
+    runtime_role: discovery_metadata
+  - artifact_path: references/interaction-amendment-v1-1.yaml
+    sha256: fe0a82775fc0b0492ab07cd85c6e8bd156e77a9022e2a4c147e29d1869eea107
+    runtime_role: user_authorized_product_amendment
+  - artifact_path: references/input-output-schema.md
+    sha256: fd8bcc856c6923e0f46b9e17db4db4b13cede48a44eb2dcb7cb96fe91399917c
+    runtime_role: input_output_boundary
+  - artifact_path: references/narrative-evidence-continuation.md
+    sha256: c1eb3311cfe9ac507f3448424175fe2b781b009f67f4624379ee99d400a74770
+    runtime_role: answer_composition_contract
+  - artifact_path: references/reader-contract.md
+    sha256: 9cf8f166713ea80603f19921163c172e3833c03050619315e2ae8d8c69bd6a7a
+    runtime_role: reader_runtime_contract
+  - artifact_path: references/retrieval-routing.md
+    sha256: 841f6b2505252858e6d8716e61f36729113fb3875a9c2b15f76fd78315f86096
+    runtime_role: conditional_retrieval_contract
+  - artifact_path: references/source-governance.md
+    sha256: 14dba7c5aa6931f00819d7691a216f7739666c7d698f0cd9a7259fdc72b37baf
+    runtime_role: provenance_contract
+  - artifact_path: references/teacher-jurisdictions.md
+    sha256: 71dac039a71e489705ad1340191298de925192760dce795b1a5508f1a7568d47
+    runtime_role: teacher_capability_contract
+  - artifact_path: references/visual-canon.md
+    sha256: 12cd94c511f2c7ed94ed40d622896c17a1c295fe7b96e3a957bd5f490d4efb90
+    runtime_role: visual_packet_contract
+  - artifact_path: scripts/query_dictionary_reference.rb
+    sha256: 87c4be9973ae1b1c5fc7139939779a39e8c9797c494d85898f475614d364bf55
+    runtime_role: dictionary_query_boundary
+  - artifact_path: scripts/query_visual_facts.rb
+    sha256: a3d7154fc60c9e382bb30d34273d03f72f467a32f448df2ddbfb2a8059f05157
+    runtime_role: visual_query_and_release_integrity_boundary
+
+release_evidence_artifacts:
+  - artifact_path: acceptance.md
+    sha256: 59a64f12100fff20160df61cb470cb716435e567c00436a2cb98cb32b4626a2a
+    evidence_role: formal_acceptance_and_freeze_record
+
+derived_reference_artifacts:
+  - artifact_path: references/dictionary-reference-units.yaml
+    sha256: bcac62fefbef4d9230f027e0e5af2b65f9dfd682f1725e2f8201ae302d074c1d
+    stage_or_contract_id: tarot_dictionary_zh.phase1e.visual-review-units.v1
+    canonical_snapshot: false
+    provenance_path: references/dictionary-source-provenance.yaml
+    derivation: manually_condensed_single_column_page_review
+  - artifact_path: references/dictionary-source-provenance.yaml
+    sha256: 0e3a63f444c78f46fdb6508ed920f76debc05873978ce39fa13b813d6b599216
+    stage_or_contract_id: tarot_dictionary_zh.phase1e.visual-review-units.v1
+    canonical_snapshot: false
+    derivation: source_hash_and_review_scope_record

@@ -1,0 +1,119 @@
+"phase": "2B"
+"charter_id": "tarot_product_charter.v1"
+"status": "locked_product_rules"
+"authority": "user_decided_product_constraint"
+"source_class": "product_constraint"
+"scope": "These rules constrain the product and interaction contract. They are not textbook claims and do not grant any author global interpretive authority."
+"rules":
+  -
+    "rule_id": "PC-001"
+    "rule": "Active readings use the Rider–Waite–Smith visual system only."
+    "operational_boundary": "Cross-deck material may teach a method or source context, but cannot become RWS visual evidence."
+    "source_refs":
+      - "docs/phase-0.5-runtime-evidence-pilot.md:22-30"
+      - "docs/reading-pipeline.md:17-24"
+    "user_decided": true
+  -
+    "rule_id": "PC-002"
+    "rule": "The user supplies the draw; the Reader does not ask the user to redraw or provide follow-up answers."
+    "operational_boundary": "Missing information becomes unresolved or a bounded inference; it is not acquired through a forced interaction loop."
+    "source_refs":
+      - "docs/phase-0.5-runtime-evidence-pilot.md:22-30"
+      - "docs/phase-0.5-runtime-evidence-pilot.md:138-149"
+    "user_decided": true
+  -
+    "rule_id": "PC-003"
+    "rule": "When orientation is not provided, no Greer reversal framework and no reversed reference branch may start."
+    "operational_boundary": "Use unspecified orientation in the input contract; do not silently encode unknown direction as upright or reversed."
+    "source_refs":
+      - "docs/phase-0.5-runtime-evidence-pilot.md:22-29"
+      - "schemas/reading-case.md:34-40"
+      - "schemas/reading-case.md:91-96"
+    "user_decided": true
+  -
+    "rule_id": "PC-004"
+    "rule": "Without a time range, use a reasonable near-term context without inventing an exact date."
+    "operational_boundary": "Timing remains a conditional window, not a date lookup or guarantee."
+    "source_refs":
+      - "docs/phase-0.5-runtime-evidence-pilot.md:22-29"
+      - "docs/phase-0.5-runtime-evidence-pilot.md:50-57"
+    "user_decided": true
+  -
+    "rule_id": "PC-005"
+    "rule": "The answer is centered on one clear main judgment and is not forced into positive reassurance."
+    "operational_boundary": "A bounded secondary possibility and unresolved boundary remain visible; disclaimers cannot replace the reading."
+    "source_refs":
+      - "docs/phase-0.5-runtime-evidence-pilot.md:22-38"
+      - "docs/phase-0.5-runtime-evidence-pilot.md:94-102"
+    "user_decided": true
+  -
+    "rule_id": "PC-006"
+    "rule": "Medical, legal, and financial questions may receive reflective readings but never professional diagnosis, legal advice, or investment advice."
+    "operational_boundary": "The reading can identify patterns and agency windows while preserving professional verification and safety boundaries."
+    "source_refs":
+      - "docs/phase-0.5-runtime-evidence-pilot.md:22-30"
+      - "docs/phase-0.5-runtime-evidence-pilot.md:151-174"
+    "user_decided": true
+  -
+    "rule_id": "PC-007"
+    "rule": "Only material source conflict is shown to the user; internal source trace is retained for all claims."
+    "operational_boundary": "Product constraints, textbook method, general RWS facts, and original inference remain distinguishable."
+    "source_refs":
+      - "docs/phase-0.5-runtime-evidence-pilot.md:22-38"
+      - "docs/phase-0.5-runtime-evidence-pilot.md:59-74"
+      - "docs/reading-pipeline.md:17-24"
+    "user_decided": true
+  -
+    "rule_id": "PC-008"
+    "rule": "Every reading preserves the minimum output layers: main judgment, how the story forms, card/card support or conflict, and minimal source trace."
+    "operational_boundary": "Internally also retain evidence, operation, warrant, support, counterevidence, candidates, and unresolved tension."
+    "source_refs":
+      - "docs/phase-0.5-runtime-evidence-pilot.md:31-38"
+      - "docs/phase-0.5-runtime-evidence-pilot.md:76-102"
+      - "schemas/reading-case.md:42-67"
+    "user_decided": true
+  -
+    "rule_id": "PC-009"
+    "rule": "Observed facts, user interpretations, and card evidence are separate evidence classes."
+    "operational_boundary": "A user label such as ‘avoidant’ is not established reality; contradiction is retained or changes the judgment."
+    "source_refs":
+      - "docs/phase-0.5-runtime-evidence-pilot.md:104-120"
+      - "schemas/reading-case.md:22-26"
+      - "schemas/reading-case.md:91-96"
+    "user_decided": true
+  -
+    "rule_id": "PC-010"
+    "rule": "An original inference may be direct and useful only when its evidence chain and warrant are retained."
+    "operational_boundary": "Original inference cannot impersonate a user fact, textbook quotation, general RWS fact, or fixed card meaning."
+    "source_refs":
+      - "docs/phase-0.5-runtime-evidence-pilot.md:59-74"
+      - "docs/phase-0.5-runtime-evidence-pilot.md:76-102"
+      - "schemas/reading-case.md:63-67"
+      - "schemas/reading-case.md:91-96"
+    "user_decided": true
+  -
+    "rule_id": "PC-011"
+    "rule": "Spread gestalt is first-class evidence, but fixed weights, pivot scores, and automatic narrative hierarchy are not product rules."
+    "operational_boundary": "Named positions define the question space; no-position left-to-right is only a candidate axis."
+    "source_refs":
+      - "docs/phase-0.5-runtime-evidence-pilot.md:40-57"
+      - "docs/phase-0.5-runtime-evidence-pilot.md:122-136"
+      - "docs/phase-0.5-runtime-evidence-pilot.md:138-149"
+    "user_decided": true
+  -
+    "rule_id": "PC-012"
+    "rule": "Reference retrieval is late and must be able to support, refine, challenge, or offer an alternative to an existing hypothesis."
+    "operational_boundary": "Retrieval is not a direct question-to-domain answer router and cannot generate the story alone."
+    "source_refs":
+      - "docs/phase-0.5-runtime-evidence-pilot.md:40-48"
+      - "docs/phase-0.5-runtime-evidence-pilot.md:138-149"
+      - "docs/reading-pipeline.md:108-115"
+    "user_decided": true
+  -
+    "rule_id": "PC-013"
+    "rule": "No permanent runtime workflow, complete knowledge schema, fixed reversal order, or cross-book consensus rule is assumed from this phase."
+    "operational_boundary": "Only rules that survive the Phase 2B on/off comparison may become long-term Constitution candidates; the final Constitution remains a separate artifact."
+    "source_refs":
+      - "docs/phase-0.5-runtime-evidence-pilot.md:50-57"
+      - "docs/reading-pipeline.md:135-142"
+    "user_decided": true

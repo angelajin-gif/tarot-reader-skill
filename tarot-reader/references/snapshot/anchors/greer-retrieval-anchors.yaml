@@ -1,0 +1,40 @@
+version: 1
+book_id: greer_reversals_zh
+scope: "Greer Phase 1B retrieval anchors only; not a final reversal database"
+anchors:
+  - concept: reversal_mechanism_candidate_set
+    source_pages: [58, 64]
+    source_excerpt_ids: [greer_reversals_zh.ex0058, greer_reversals_zh.ex0064]
+    why_retrievable: "需要从正位 baseline 生成阻碍、投射、延迟、内化、过量、误用、回返、矫正等候选时回查"
+  - concept: mechanism_selection_by_question_and_purpose
+    source_pages: [66, 67, 72]
+    source_excerpt_ids: [greer_reversals_zh.ex0066, greer_reversals_zh.ex0067, greer_reversals_zh.ex0072]
+    why_retrievable: "决定预测问题收窄候选、心理问题保留歧义，以及正位牌何时可承载逆位功能"
+  - concept: querent_visual_description_and_deletion
+    source_pages: [67, 68, 69]
+    source_excerpt_ids: [greer_reversals_zh.ex0067, greer_reversals_zh.ex0068, greer_reversals_zh.ex0069]
+    why_retrievable: "决定如何把牌义改成开放问题，并用问卜者反馈淘汰候选"
+  - concept: reversal_density_is_theme_not_outcome
+    source_pages: [52, 53, 374, 381]
+    source_excerpt_ids: [greer_reversals_zh.ex0052, greer_reversals_zh.ex0053, greer_reversals_zh.ex0374, greer_reversals_zh.ex0381]
+    why_retrievable: "多张或全逆位出现时，防止直接写成坏结果"
+  - concept: middle_card_mediator
+    source_pages: [374, 401]
+    source_excerpt_ids: [greer_reversals_zh.ex0374, greer_reversals_zh.ex0401]
+    why_retrievable: "三张牌需要判断中间牌如何调解、连接和修正两侧"
+  - concept: hanged_man_two_perspectives
+    source_pages: [45, 46, 389, 390, 391]
+    source_excerpt_ids: [greer_reversals_zh.ex0045, greer_reversals_zh.ex0046, greer_reversals_zh.ex0389, greer_reversals_zh.ex0390, greer_reversals_zh.ex0391]
+    why_retrievable: "需要把外部阻碍与内部成长同时读，而不把痛苦直接正向化"
+  - concept: querent_led_rws_observation
+    source_pages: [409, 410, 417, 418]
+    source_excerpt_ids: [greer_reversals_zh.ex0409, greer_reversals_zh.ex0410, greer_reversals_zh.ex0417, greer_reversals_zh.ex0418]
+    why_retrievable: "需要用视觉事实、牌位和反馈决定人物／自我／投射 ontology"
+  - concept: spread_counterfactual_action
+    source_pages: [382, 383, 420, 421]
+    source_excerpt_ids: [greer_reversals_zh.ex0382, greer_reversals_zh.ex0383, greer_reversals_zh.ex0420, greer_reversals_zh.ex0421]
+    why_retrievable: "需要把机制转成可检验的小行动，不以占卜替代决定"
+  - concept: prediction_psychology_frame_switch
+    source_pages: [23, 66, 409]
+    source_excerpt_ids: [greer_reversals_zh.ex0023, greer_reversals_zh.ex0066, greer_reversals_zh.ex0409]
+    why_retrievable: "需要说明传统预测、心理解释和对话式阅读为何不能混写"

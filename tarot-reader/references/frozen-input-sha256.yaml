@@ -1,0 +1,97 @@
+release_id: tarot-reader.stage10.v1.1
+hash_algorithm: sha256
+verification_policy: compare_against_the_same_frozen_inputs_after_build
+inputs:
+  - source_path: external/project-goal-pasted-text.txt
+    sha256: 9be3feba979b2aa7de64385790c572bf6a2277c64d8456d1b761bb51cdd75639
+    stage_or_contract_id: stage0.product-goal
+  - source_path: reading/cross_book_phase2b/product-charter.yaml
+    sha256: a92ff386cc98f6b75c6ac46f9bea7985ae35ddd13b138d16cc12fb6adc014a5b
+    stage_or_contract_id: tarot_product_charter.v1
+  - source_path: synthesis/tarot-constitution/constitution.yaml
+    sha256: 8912e53282cd69e634913efdb7fa6e52986b2ae1e7cbf9fd8f7957a76feed5ed
+    stage_or_contract_id: tarot-constitution.v1
+  - source_path: synthesis/tarot-constitution/product-charter-ref.yaml
+    sha256: 5efc05c92ba410a7484285b526707f4603b7c390be62590e43a94c974577d0bd
+    stage_or_contract_id: product-charter-ref.phase2c
+  - source_path: runtime/phase3a/runtime-contract.yaml
+    sha256: c5dd895dd5ba33cbf8e9f81752406b66eebe7cffa35b8d325b5648753640404e
+    stage_or_contract_id: tarot-runtime-contract.phase3a.v1
+  - source_path: runtime/phase3b/runtime-architecture.yaml
+    sha256: e3e941b5d2cc96ceb737cb8686dae361730b4bfad5bf5620535328c824a00827
+    stage_or_contract_id: tarot-blind-runtime-prototype.phase3b.v1
+  - source_path: runtime/phase3c/knowledge-loader-contract.yaml
+    sha256: 931ca65b0316c79bf41ed44e4f34302b6c5d8de75cc44ed2a2a1462910802da1
+    stage_or_contract_id: tarot-knowledge-loader-integrity.phase3c.v1
+  - source_path: runtime/phase4a/canonical-card-registry.yaml
+    sha256: 261dc98049b022c21ce9aa67350592d7bde8cd76d8656514483e749488914d7a
+    stage_or_contract_id: tarot-canonical-card-registry.phase4a.v1
+  - source_path: runtime/phase4a/rws-visual-source-manifest.yaml
+    sha256: 3b4f5fa05293582f8bd51c722ac949e2e3dda1098fa26d53ef3a1d7d5f6e9fdc
+    stage_or_contract_id: rws-visual-source-manifest.phase4a.v1
+  - source_path: runtime/phase4a/visual-pilot-rechecks.yaml
+    sha256: 85d802fbf9ea102cd02ee8d09566a9c6976a46ad8e4e06fd5328f2fbeda816c0
+    stage_or_contract_id: rws-visual-pilot-rechecks.phase4a.v1
+  - source_path: runtime/phase4a/phase4a-contract.yaml
+    sha256: dce33ae0829b685ac37eac91013cc07488032474239468e1957dd7e1ea10b8c1
+    stage_or_contract_id: tarot-card-identity-and-visual-source-lock.phase4a.v1
+  - source_path: runtime/phase4b/phase4b-contract.yaml
+    sha256: d68ee848b2d8aade926f367b5a6f3f3fdcf5618237d011cbaccadb1778d39b9c
+    stage_or_contract_id: rws-factual-visual-canon.phase4b.v1
+  - source_path: runtime/phase4b/records/batch_01_major_arcana.yaml
+    sha256: 85b2f7c234e1f841997500e43d7a8b06d05efcc19fcdbb22e066a20e0e666c5d
+    stage_or_contract_id: rws-factual-visual-canon.phase4b.v1
+  - source_path: runtime/phase4b/records/batch_02_court_cards.yaml
+    sha256: c43a26d6e9b2f7de3073c54e6b0e1bf1898319b7bef92447b7d8f2dce0518653
+    stage_or_contract_id: rws-factual-visual-canon.phase4b.v1
+  - source_path: runtime/phase4b/records/batch_03_wands_cups.yaml
+    sha256: c3e6bf05208db74009d5ef4fee62cdac06fac5da1ee37cdb756e70864ccf05be
+    stage_or_contract_id: rws-factual-visual-canon.phase4b.v1
+  - source_path: runtime/phase4b/records/batch_04_swords_pentacles.yaml
+    sha256: c8ee5bfe9591c27b8f1d94df312fea31442cee55985012a4535b1d1add9608e9
+    stage_or_contract_id: rws-factual-visual-canon.phase4b.v1
+  - source_path: runtime/phase4c/visual-loader-contract.yaml
+    sha256: a7d9a0fb4711e1b9bbb13b62778224be7255c38ac7c33b02c9efa29cbb34dc42
+    stage_or_contract_id: tarot-visual-canon-runtime-integration.phase4c.v1
+  - source_path: runtime/phase4c/acceptance.md
+    sha256: 695f17eed6d2f524e1e2c5991b0dd3f073b2f50615885f81187b1e9261966f6e
+    stage_or_contract_id: tarot-visual-canon-runtime-integration.phase4c.v1
+  - source_path: reading/nichols_archetypal_journey_en/book-model.md
+    sha256: a4f9f52f96d675be339b7b112b8933d44ccf6cd16aeb7f9cbcbb6a6b98d82e72
+    stage_or_contract_id: nichols_jung_tarot_en.book-model.v1
+  - source_path: reading/nichols_archetypal_journey_en/retrieval-anchors.yaml
+    sha256: d5c790aa7c4787e14886d3ebb208d1aedbcc7fda3bd8385e9abd306fbcaa1244
+    stage_or_contract_id: nichols_jung_tarot_en.retrieval-anchors.v1
+  - source_path: reading/nichols_archetypal_journey_en/reasoning-chains.yaml
+    sha256: f0ad8466a0da0885b5799a377818a7d2108613be66d33cdcce6c67dae3c3ca70
+    stage_or_contract_id: nichols_jung_tarot_en.reasoning-chains.v1
+  - source_path: reading/greer_reversals_zh/book-model.md
+    sha256: a03ff533dd92260896dc2a12793b3af65cd45038f73f4f67dff4e37b55d78d95
+    stage_or_contract_id: greer_reversals_zh.book_model.v1
+  - source_path: reading/greer_reversals_zh/retrieval-anchors.yaml
+    sha256: 7b868913dc5175f9a0094effcd7f7e27234489c17cd1ca9760ab627e50a138c6
+    stage_or_contract_id: greer_reversals_zh.retrieval-anchors.v1
+  - source_path: reading/greer_reversals_zh/card-entry-anchors.jsonl
+    sha256: fdfbbcb187985898001782aea523fa7d2877c3041e576f2b6f7cf547f4fb4513
+    stage_or_contract_id: greer_reversals_zh.card-entry-anchors.v1
+  - source_path: reading/dawn_court_zh/book-model.md
+    sha256: 1a1055bc5264b101859e426b76a6084dfbde99071ef50feb47d88d55fe2acb42
+    stage_or_contract_id: dawn_court_zh.book-model.v1
+  - source_path: reading/dawn_court_zh/retrieval-anchors.yaml
+    sha256: ae7b8db73c8affeafd1164ecd1d453e631850cb1c3828d9defd7ec2f51bdaa75
+    stage_or_contract_id: dawn_court_zh.retrieval-anchors.v1
+  - source_path: reading/daniel_16_lessons_zh/book-model.md
+    sha256: 8a30f73fb288887d8ab9753de703fe9e83492cc6c8325bd058c004e4f3b60a1a
+    stage_or_contract_id: daniel_16_lessons_zh.book-model.v1
+  - source_path: reading/daniel_16_lessons_zh/retrieval-anchors.yaml
+    sha256: 7337e8c72c6da725db23f68259e2407aae939778f7aee198a9f6c223f35c4709
+    stage_or_contract_id: daniel_16_lessons_zh.retrieval-anchors.v1
+  - source_path: reading/daniel_16_lessons_zh/card-entry-anchors.jsonl
+    sha256: 8c6c8994d6d0779785d4686153bb4e50e210f6e63bb2a581fdc98e2159b55ae4
+    stage_or_contract_id: daniel_16_lessons_zh.card-entry-anchors.v1
+  - source_path: reading/tarot_dictionary_zh/book-model.md
+    sha256: d777b4710be1200862f06e6debfdcd9b933319a8123bf33f641d3d764a9006e6
+    stage_or_contract_id: tarot_dictionary_zh.book-model.v1
+  - source_path: reading/tarot_dictionary_zh/entry-anchors.jsonl
+    sha256: d1694d06f8dca7cad8d439b481baae32e609a62af0c1376f8420af7485cb723b
+    stage_or_contract_id: tarot_dictionary_zh.entry-anchors.v1

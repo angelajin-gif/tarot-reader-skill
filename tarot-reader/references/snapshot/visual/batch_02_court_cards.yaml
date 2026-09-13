@@ -1,0 +1,396 @@
+phase: 4B
+batch_id: batch_02_court_cards
+status: validated
+records:
+  - card_id: wands_page
+    factual_visual_id: rws.factual.wands_page
+    review_batch: batch_02_court_cards
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#wands_page
+    legacy_visual_record_ref:
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/wands_page.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Page_of_Wands_%28Rider-Waite_Smith_tarot_deck%29.png/960px-Page_of_Wands_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:Page of Wands (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: e93c9a011bfab8c48de7f54e93c1ee306a806014d610152c5e57ad6996ad20e3
+    observations:
+      scene: 一名人物站在开阔地面上，画面右侧有一根向上延伸的发芽权杖，背景下方可见起伏山地。
+      figures: [一名站立人物]
+      action: 人物位于画面中央偏左，手持画面右侧的竖直发芽权杖；双腿分开站立。
+      gaze_and_facing: 人物身体和脸部朝向画面右侧；眼睛细节不足以确认具体视线。
+      spatial_relations: [人物位于画面中央偏左, 发芽权杖位于人物画面右侧并向上延伸, 服饰上的多处蜥蜴状纹样分布在人物躯干和腿部, 地面位于画面下方, 山地位于背景下方]
+      objects: [发芽权杖, 羽饰帽, 带重复蜥蜴状纹样的服饰, 斗篷, 靴子, 山地]
+    edition_specific_visuals: [浅蓝色天空, 橙色地面, 红色发芽权杖, 黄色和绿色服饰, 红色腿部衣物]
+    symbolic_readings: []
+    unresolved_visuals: [发芽权杖的植物种类无法确认, 人物具体视线无法确认]
+  - card_id: wands_knight
+    factual_visual_id: rws.factual.wands_knight
+    review_batch: batch_02_court_cards
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#wands_knight
+    legacy_visual_record_ref:
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/wands_knight.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Knight_of_Wands_%28Rider-Waite_Smith_tarot_deck%29.png/960px-Knight_of_Wands_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:Knight of Wands (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: f1c23b57e4bf12a34ca787e1cb04d7212ab5e65c492705af339d3898f6adc9cb
+    observations:
+      scene: 一名骑士骑在一匹马背上，马的前腿抬起，背景为开阔地面和起伏山地。
+      figures: [一名骑士, 一匹马]
+      action: 骑士手持画面左侧的竖直发芽权杖；马的前腿抬起，后腿位于地面，身体向画面左侧延伸。
+      gaze_and_facing: 骑士身体和脸部朝向画面左侧；马的头部朝向画面左侧；具体视线无法确认。
+      spatial_relations: [骑士位于马背上, 发芽权杖位于骑士画面左侧并向上延伸, 骑士服饰和马匹覆盖物上可见多处蜥蜴状纹样, 马位于画面中央, 山地位于画面下方背景]
+      objects: [发芽权杖, 马, 马具, 鞍具, 头盔, 羽饰, 盔甲, 带重复蜥蜴状纹样的马匹覆盖物和服饰]
+    edition_specific_visuals: [浅蓝色天空, 橙色地面, 红色马匹与披风, 黄色服饰, 蓝灰色盔甲]
+    symbolic_readings: []
+    unresolved_visuals: [马的具体运动阶段和远景细部无法从静态缩略图确认]
+  - card_id: wands_queen
+    factual_visual_id: rws.factual.wands_queen
+    review_batch: batch_02_court_cards
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#wands_queen
+    legacy_visual_record_ref: pilot/phase-0.5/rws-visual-records.yaml#rws.queen_of_wands
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/wands_queen.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Queen_of_Wands_%28Rider-Waite_Smith_tarot_deck%29.png/960px-Queen_of_Wands_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:Queen of Wands (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: 641a45bb8b7f5f7c017718a278fea5efa6a51a79c636be91d090606b6679c8cb
+    observations:
+      scene: 一名人物坐在王座上，王座两侧有狮头状装饰，背景有带图案的帷幕，帷幕上有两只相向的狮子状图案，中间有一处向日葵状图案，前景有一只猫。
+      figures: [一名坐着人物, 一只猫]
+      action: 人物手持画面左侧的竖直发芽权杖，另一只手持画面右侧的向日葵；猫位于前景并保持坐姿。
+      gaze_and_facing: 人物躯干大致朝向画面前方，脸部朝向画面右侧；猫的具体视线无法确认。
+      spatial_relations: [人物位于王座中央, 发芽权杖位于人物画面左侧, 向日葵位于人物画面右侧, 王座两侧有两个狮头状装饰, 帷幕上有两只相向的狮子状图案且中间有一处向日葵状图案, 猫位于人物和王座前方, 帷幕位于人物后方]
+      objects: [王座, 王座两侧的两个狮头状装饰, 发芽权杖, 向日葵, 头冠, 带两只相向狮子状图案和中间向日葵状图案的帷幕, 猫]
+    edition_specific_visuals: [浅蓝色背景, 黄色服饰和王座装饰, 红色帷幕与花朵, 绿色植物, 黑色猫]
+    symbolic_readings: []
+    unresolved_visuals: [帷幕图案的细小线条无法完全辨认, 猫的具体视线无法确认]
+  - card_id: wands_king
+    factual_visual_id: rws.factual.wands_king
+    review_batch: batch_02_court_cards
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#wands_king
+    legacy_visual_record_ref:
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/wands_king.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/King_of_Wands_%28Rider-Waite_Smith_tarot_deck%29.png/960px-King_of_Wands_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:King of Wands (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: b18e52c313b43c24ab9f3e9348499ddc382fa59b472aa74228670b39f08b60f6
+    observations:
+      scene: 一名人物坐在王座上，王座后方有带图案的帷幕，帷幕中央有一只清晰的狮子状图案，画面左侧有一根发芽权杖，前景地面有一只蜥蜴状小动物。
+      figures: [一名坐着人物, 一只蜥蜴状小动物]
+      action: 人物手持画面左侧的竖直发芽权杖，另一只手位于身体前方；蜥蜴状小动物位于地面。
+      gaze_and_facing: 人物躯干和脸部朝向画面左侧；蜥蜴状小动物的头部朝向画面左侧，尾部向画面右侧延伸。
+      spatial_relations: [人物位于王座中央, 发芽权杖位于人物画面左侧, 帷幕位于人物后方且有多处重复蜥蜴状纹样和一只清晰的狮子状图案, 蜥蜴状小动物位于画面下方前景, 王座位于人物后方]
+      objects: [王座, 发芽权杖, 头冠, 带多处重复蜥蜴状纹样和中央狮子状图案的帷幕, 图案披风, 蜥蜴状小动物]
+    edition_specific_visuals: [浅蓝色背景, 红色外袍与权杖, 绿色披风, 黄色头冠和服饰, 灰色王座]
+    symbolic_readings: []
+    unresolved_visuals: [蜥蜴状小动物的具体物种无法确认, 帷幕和披风上的细小图案线条不完全清楚]
+  - card_id: cups_page
+    factual_visual_id: rws.factual.cups_page
+    review_batch: batch_02_court_cards
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#cups_page
+    legacy_visual_record_ref: pilot/phase-0.5/rws-visual-records.yaml#rws.page_of_cups
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/cups_page.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Page_of_Cups_%28Rider-Waite_Smith_tarot_deck%29.png/960px-Page_of_Cups_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:Page of Cups (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: 31226749eba93e462a18b1a096a7a3cdafb738c00588e202114c5f37360441da
+    observations:
+      scene: 一名人物站在水边，手中杯子里探出一条鱼，背景下方有水面和岸边地面。
+      figures: [一名站立人物, 一条鱼]
+      action: 人物手持位于画面左侧的杯子；鱼从杯口探出。
+      gaze_and_facing: 人物身体大致朝向画面前方，脸部朝向画面左侧并向下；鱼头朝向画面右侧。
+      spatial_relations: [人物位于画面中央, 杯子和鱼位于人物画面左侧, 水面位于画面下方, 岸边地面位于人物脚下]
+      objects: [杯子, 鱼, 羽饰帽, 图案服饰, 水面, 岸边地面]
+    edition_specific_visuals: [浅色背景, 蓝色头巾与服饰, 红色衣袖和图案, 黄色杯子与靴子, 蓝色水面]
+    symbolic_readings: []
+    unresolved_visuals: [服饰花纹细部不完全清楚]
+  - card_id: cups_knight
+    factual_visual_id: rws.factual.cups_knight
+    review_batch: batch_02_court_cards
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#cups_knight
+    legacy_visual_record_ref:
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/cups_knight.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Knight_of_Cups_%28Rider-Waite_Smith_tarot_deck%29.png/960px-Knight_of_Cups_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:Knight of Cups (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: 7d8f06c5ab8a866b71426996016fa81219bf9dae736ed0f505fcdb21d025d869
+    observations:
+      scene: 一名骑士骑在一匹马背上，马头向下，背景有水面、岸边地面和起伏山地。
+      figures: [一名骑士, 一匹马]
+      action: 骑士手持位于画面右侧的杯子，另一只手靠近缰绳；马头向画面右侧下垂，身体横向站立。
+      gaze_and_facing: 骑士身体和脸部朝向画面右侧；马的头部朝向画面右侧并向下；具体视线无法确认。
+      spatial_relations: [骑士位于马背上, 翼状装饰位于骑士头盔上方, 杯子位于骑士画面右侧, 鱼形纹样位于马匹覆盖物和骑士服饰上, 马位于画面中央, 水面位于画面下方, 山地位于背景右下方]
+      objects: [杯子, 马, 缰绳, 马具, 鞍具, 头盔羽饰, 翼状装饰, 盔甲, 马匹覆盖物, 鱼形纹样]
+    edition_specific_visuals: [浅蓝色天空, 灰蓝色盔甲, 黄色杯子, 红色衣物与马匹覆盖物, 蓝色水面, 橙色山地]
+    symbolic_readings: []
+    unresolved_visuals: [马的具体步态无法从静态图确认, 盔甲和马匹覆盖物上其余细小图案不完全清楚]
+  - card_id: cups_queen
+    factual_visual_id: rws.factual.cups_queen
+    review_batch: batch_02_court_cards
+    review_status: phase4a_frozen_reference
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#cups_queen
+    legacy_visual_record_ref: pilot/phase-0.5/rws-visual-records.yaml#rws.queen_of_cups
+    phase4a_recheck_ref: runtime/phase4a/visual-pilot-rechecks.yaml#cups_queen
+    review_copy:
+      path: runtime/phase4a/visual-pilot/images/cups_queen.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Queen_of_Cups_%28Rider-Waite_Smith_tarot_deck%29.png/960px-Queen_of_Cups_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:Queen of Cups (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: 2d8255be78a5b7262a71235e9006c809675a429dfb7f74c3e5d8724ac42df694
+    observations: phase4a_reference
+    edition_specific_visuals: phase4a_reference
+    symbolic_readings: []
+    unresolved_visuals: phase4a_reference
+  - card_id: cups_king
+    factual_visual_id: rws.factual.cups_king
+    review_batch: batch_02_court_cards
+    review_status: phase4a_frozen_reference
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#cups_king
+    legacy_visual_record_ref: pilot/phase-0.5/rws-visual-records.yaml#rws.king_of_cups
+    phase4a_recheck_ref: runtime/phase4a/visual-pilot-rechecks.yaml#cups_king
+    review_copy:
+      path: runtime/phase4a/visual-pilot/images/cups_king.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/King_of_Cups_%28Rider-Waite_Smith_tarot_deck%29.png/960px-King_of_Cups_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:King of Cups (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: 3abd8798071c25d3799ae400df61a64224d84fc7b3e2eb1885f221a083396f1a
+    observations: phase4a_reference
+    edition_specific_visuals: phase4a_reference
+    symbolic_readings: []
+    unresolved_visuals: phase4a_reference
+  - card_id: swords_page
+    factual_visual_id: rws.factual.swords_page
+    review_batch: batch_02_court_cards
+    review_status: phase4a_frozen_reference
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#swords_page
+    legacy_visual_record_ref: pilot/phase-0.5/rws-visual-records.yaml#rws.page_of_swords
+    phase4a_recheck_ref: runtime/phase4a/visual-pilot-rechecks.yaml#swords_page
+    review_copy:
+      path: runtime/phase4a/visual-pilot/images/swords_page.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Page_of_Swords_%28Rider-Waite_Smith_tarot_deck%29.png/960px-Page_of_Swords_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:Page of Swords (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: 6370eba4f0628a1a8b533e8454719f6d51e5b165674eb9450dd63fc92935d055
+    observations: phase4a_reference
+    edition_specific_visuals: phase4a_reference
+    symbolic_readings: []
+    unresolved_visuals: phase4a_reference
+  - card_id: swords_knight
+    factual_visual_id: rws.factual.swords_knight
+    review_batch: batch_02_court_cards
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#swords_knight
+    legacy_visual_record_ref: pilot/phase-0.5/rws-visual-records.yaml#rws.knight_of_swords
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/swords_knight.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Knight_of_Swords_%28Rider-Waite_Smith_tarot_deck%29.png/960px-Knight_of_Swords_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:Knight of Swords (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: a1b4379163be8364e3aa8acaa5ca755eea62269d9f3dbe70001e73b9c206d36e
+    observations:
+      scene: 一名骑士骑在一匹向画面左侧伸展的马上，马的前腿向画面左下方伸出，后腿向画面右下方伸展，背景有大片云层、开阔地面和远处山地。
+      figures: [一名骑士, 一匹马]
+      action: 骑士举起一把向画面左上方延伸的宝剑；马的前腿向画面左下方伸出，后腿向画面右下方伸展；马具腹带上可见多处蝴蝶纹样。
+      gaze_and_facing: 骑士身体和脸部朝向画面左侧；马的头部朝向画面左侧；具体视线无法确认。
+      spatial_relations: [骑士位于马背上并靠近画面右侧, 宝剑位于骑士身体前方并向左上方延伸, 马位于画面中央, 云层位于背景上方, 山地位于画面下方]
+      objects: [宝剑, 马, 马具, 缰绳, 鞍具, 马具腹带上的蝴蝶纹样, 头盔羽饰, 盔甲, 披风]
+    edition_specific_visuals: [浅蓝色天空, 灰白色云层, 红色披风与服饰, 灰蓝色盔甲, 黄色地面]
+    symbolic_readings: []
+    unresolved_visuals: [云层和服饰纹样的细小线条不完全清楚, 马的具体运动阶段无法由静态图确认]
+  - card_id: swords_queen
+    factual_visual_id: rws.factual.swords_queen
+    review_batch: batch_02_court_cards
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#swords_queen
+    legacy_visual_record_ref: pilot/phase-0.5/rws-visual-records.yaml#rws.queen_of_swords
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/swords_queen.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Queen_of_Swords_%28Rider-Waite_Smith_tarot_deck%29.png/960px-Queen_of_Swords_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:Queen of Swords (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: 6abd0037e882a9be83cad05f1517ec23db8f9052877fcc0a83b86f3eb837ee9b
+    observations:
+      scene: 一名人物坐在带有雕刻装饰的王座上，手中有一把竖直宝剑，背景有云层、树木和地面。
+      figures: [一名坐着人物, 一只飞行中的鸟]
+      action: 人物一只手握住竖直宝剑，另一只手在身体画面右侧抬起并张开；人物保持坐姿。
+      gaze_and_facing: 人物躯干朝向画面前方，脸部朝向画面右侧；飞鸟的具体朝向无法确认。
+      spatial_relations: [人物位于王座中央, 宝剑位于人物身体前方并向上延伸, 抬起的手位于人物画面右侧, 王座位于人物后方, 云层分布在背景和王座周围, 飞鸟位于画面上方]
+      objects: [王座, 宝剑, 头冠, 抬起的手, 王座上的人面样装饰, 云层, 树木, 飞鸟]
+    edition_specific_visuals: [浅蓝色天空, 灰白色云层和王座, 红色披风, 黄色头冠, 蓝绿色和红色衣物, 绿色地面]
+    symbolic_readings: []
+    unresolved_visuals: [王座装饰的部分细小轮廓无法完全辨认, 飞鸟的具体朝向无法确认]
+  - card_id: swords_king
+    factual_visual_id: rws.factual.swords_king
+    review_batch: batch_02_court_cards
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#swords_king
+    legacy_visual_record_ref:
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/swords_king.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/King_of_Swords_%28Rider-Waite_Smith_tarot_deck%29.png/960px-King_of_Swords_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:King of Swords (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: eecbeb2237e03bb16219d163dc806885430aeda5dd36041c9b22b41c2ba9ceeb
+    observations:
+      scene: 一名人物坐在高背王座上，手中有一把竖直宝剑，背景上方可见两只飞行中的鸟，另有云层、树木和地面。
+      figures: [一名坐着人物, 两只飞行中的鸟]
+      action: 人物一只手握住画面左侧的竖直宝剑，另一只手放在身体画面右侧；人物保持坐姿。
+      gaze_and_facing: 人物躯干和脸部朝向画面前方，具体视线无法确认；飞鸟的具体朝向无法确认。
+      spatial_relations: [人物位于高背王座中央, 宝剑位于人物画面左侧并向上延伸, 王座位于人物后方, 王座靠背可见上部翼状纹样、中央对称卷曲纹样和前板人面样装饰, 两只飞行中的鸟位于上方背景, 云层位于画面右侧和下方背景, 树木位于画面左右下方]
+      objects: [高背王座, 竖直宝剑, 头冠, 王座靠背上部的翼状纹样, 王座靠背中央的对称卷曲纹样, 王座前板的人面样装饰, 云层, 树木, 两只飞行中的鸟]
+    edition_specific_visuals: [浅蓝色天空, 蓝色衣物, 红色披风, 黄色头冠, 灰白色云层和王座, 绿色地面]
+    symbolic_readings: []
+    unresolved_visuals: [王座纹样的细小线条无法完全辨认, 两只飞鸟的具体朝向无法确认]
+  - card_id: pentacles_page
+    factual_visual_id: rws.factual.pentacles_page
+    review_batch: batch_02_court_cards
+    review_status: phase4a_frozen_reference
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#pentacles_page
+    legacy_visual_record_ref: pilot/phase-0.5/rws-visual-records.yaml#rws.page_of_pentacles
+    phase4a_recheck_ref: runtime/phase4a/visual-pilot-rechecks.yaml#pentacles_page
+    review_copy:
+      path: runtime/phase4a/visual-pilot/images/pentacles_page.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Page_of_Pentacles_%28Rider-Waite_Smith_tarot_deck%29.png/960px-Page_of_Pentacles_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:Page of Pentacles (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: b2e798c79c7f9b24287e99feeaa0e3c668a273d1bd20cba69c7fcd516042b78b
+    observations: phase4a_reference
+    edition_specific_visuals: phase4a_reference
+    symbolic_readings: []
+    unresolved_visuals: phase4a_reference
+  - card_id: pentacles_knight
+    factual_visual_id: rws.factual.pentacles_knight
+    review_batch: batch_02_court_cards
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#pentacles_knight
+    legacy_visual_record_ref: pilot/phase-0.5/rws-visual-records.yaml#rws.knight_of_pentacles
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/pentacles_knight.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Knight_of_Pentacles_%28Rider-Waite_Smith_tarot_deck%29.png/960px-Knight_of_Pentacles_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:Knight of Pentacles (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: f6909e470c2fa095c0519f242fe144e4d1ffc39f8d1d171b5de9b9c33ae65456
+    observations:
+      scene: 一名骑士骑在一匹马上，手持一枚钱币，背景有田地、山地和低矮植被。
+      figures: [一名骑士, 一匹马]
+      action: 骑士在身体前方托住一枚钱币；马保持站立构图，头部向下并朝向画面右侧。
+      gaze_and_facing: 骑士身体和脸部朝向画面右侧；马的头部朝向画面右侧并略向下；具体视线无法确认。
+      spatial_relations: [骑士位于马背上, 钱币位于骑士身体前方和画面右侧, 马位于画面中央, 山地位于背景下方, 田地位于画面下方]
+      objects: [钱币, 马, 马具, 鞍具, 头盔羽饰, 盔甲, 马匹覆盖物, 田地, 山地]
+    edition_specific_visuals: [黄色天空, 黑色马匹与服饰, 红色马具和地面, 蓝灰色盔甲, 绿色植被]
+    symbolic_readings: []
+    unresolved_visuals: [马的具体步态无法由静态图确认, 马具和服饰细小图案不完全清楚]
+  - card_id: pentacles_queen
+    factual_visual_id: rws.factual.pentacles_queen
+    review_batch: batch_02_court_cards
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#pentacles_queen
+    legacy_visual_record_ref: pilot/phase-0.5/rws-visual-records.yaml#rws.queen_of_pentacles
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/pentacles_queen.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Queen_of_Pentacles_%28Rider-Waite_Smith_tarot_deck%29.png/960px-Queen_of_Pentacles_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:Queen of Pentacles (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: 4f8c332a73db8112fa3a63cda104f79c787b2d8e700cb52bae2d3404af91919f
+    observations:
+      scene: 一名人物坐在花叶环绕的王座上，双手托住一枚钱币，画面右下方前景有一只兔子，兔子头部朝向画面左侧，背景和王座上可见动物头与果实雕刻，另有岩石、植物和地面。
+      figures: [一名坐着人物, 一只兔子]
+      action: 人物双手在身体前方托住钱币；人物保持坐姿。
+      gaze_and_facing: 人物躯干和脸部朝向画面左侧并略向下，眼睛方向朝向钱币附近；兔子头部朝向画面左侧。
+      spatial_relations: [人物位于王座中央, 钱币位于人物身体前方偏画面左侧, 王座位于人物后方且可见动物头与果实雕刻, 兔子位于画面右下方前景且头部朝向画面左侧, 花叶位于画面上方和两侧, 岩石和地面位于画面下方]
+      objects: [钱币, 王座, 王座上的动物头雕刻, 王座上的果实雕刻, 头冠, 花叶, 兔子, 岩石, 植物, 地面]
+    edition_specific_visuals: [黄色背景, 红色衣物和花朵, 绿色花叶, 蓝灰色岩石, 灰白色王座]
+    symbolic_readings: []
+    unresolved_visuals: [花叶和王座织物的细小纹理不完全清楚]
+  - card_id: pentacles_king
+    factual_visual_id: rws.factual.pentacles_king
+    review_batch: batch_02_court_cards
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#pentacles_king
+    legacy_visual_record_ref: pilot/phase-0.5/rws-visual-records.yaml#rws.king_of_pentacles
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/pentacles_king.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/King_of_Pentacles_%28Rider-Waite_Smith_tarot_deck%29.png/960px-King_of_Pentacles_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:King of Pentacles (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: a19ec2337ab5067f171a0c1a766f861d8e58069de068421361fe96481c6fd632
+    observations:
+      scene: 一名人物坐在王座上，王座四角各有一处牛头状装饰，背景和王座周围可见植物与葡萄藤叶，右侧有远处建筑。
+      figures: [一名坐着人物]
+      action: 人物一只手握住画面左侧的竖直权杖，另一只手在身体画面右侧持住钱币；人物保持坐姿。
+      gaze_and_facing: 人物躯干和脸部朝向画面前方，具体视线无法确认。
+      spatial_relations: [人物位于王座中央, 权杖位于人物画面左侧, 钱币位于人物身体前方偏画面右侧, 四处牛头状装饰分布在王座四角, 葡萄藤叶和其他植物分布在王座周围与画面左侧背景, 建筑位于画面右侧背景]
+      objects: [王座, 四处牛头状装饰, 竖直权杖, 钱币, 头冠, 葡萄藤, 葡萄藤叶, 其他植物, 远处建筑]
+    edition_specific_visuals: [黄色背景, 深色衣物, 绿色植物和葡萄藤叶, 红色衣物与花朵, 灰白色建筑]
+    symbolic_readings: []
+    unresolved_visuals: [王座靠背装饰的部分细小轮廓不完全清楚, 远处建筑的细部无法确认]

@@ -1,0 +1,106 @@
+# Cross-page chains are evidence groupings, not new content layers.
+chains:
+  - chain_id: "chain.introduction.symbol-vs-sign"
+    pdf_pages: [21, 31]
+    purpose: "Tarot as picture language; separate symbol from sign and resist stacked grids"
+    status: "source-backed"
+  - chain_id: "chain.map.sequence-vertical-horizontal-reader-discipline"
+    pdf_pages: [31, 47]
+    purpose: "map structure, horizontal movement, vertical mediation, projection, and disciplined first contact"
+    status: "source-backed"
+  - chain_id: "chain.fool.motif-projection-polarity-reality"
+    pdf_pages: [49, 78]
+    purpose: "visible motif to amplification, projection, polarity, deck variation, and human choice"
+    status: "source-backed"
+  - chain_id: "chain.practice.image-to-reading-and-agency"
+    pdf_pages: [489, 509]
+    purpose: "use symbolic material in readings without replacing lived agency"
+    status: "source-backed"
+  - chain_id: "chain.the_fool.motif-to-human-experience"
+    pdf_pages: [49, 78]
+    purpose: "The Fool in Tarot and in Us: trace visible motif, amplification, polarity, and archetype-to-human bridge"
+    status: "source-backed_chapter_chain"
+  - chain_id: "chain.the_magician.motif-to-human-experience"
+    pdf_pages: [79, 111]
+    purpose: "The Magician: Creator and Trickster: trace visible motif, amplification, polarity, and archetype-to-human bridge"
+    status: "source-backed_chapter_chain"
+  - chain_id: "chain.the_popess.motif-to-human-experience"
+    pdf_pages: [112, 130]
+    purpose: "The Popess: High Priestess of Tarot: trace visible motif, amplification, polarity, and archetype-to-human bridge"
+    status: "source-backed_chapter_chain"
+  - chain_id: "chain.the_empress.motif-to-human-experience"
+    pdf_pages: [131, 151]
+    purpose: "The Empress: Madonna, Great Mother, Queen of Heaven and Earth: trace visible motif, amplification, polarity, and archetype-to-human bridge"
+    status: "source-backed_chapter_chain"
+  - chain_id: "chain.the_emperor.motif-to-human-experience"
+    pdf_pages: [152, 172]
+    purpose: "The Emperor: Father of Civilization: trace visible motif, amplification, polarity, and archetype-to-human bridge"
+    status: "source-backed_chapter_chain"
+  - chain_id: "chain.the_pope.motif-to-human-experience"
+    pdf_pages: [173, 184]
+    purpose: "The Pope: The Visible Face of God: trace visible motif, amplification, polarity, and archetype-to-human bridge"
+    status: "source-backed_chapter_chain"
+  - chain_id: "chain.the_lover.motif-to-human-experience"
+    pdf_pages: [185, 197]
+    purpose: "The Lover: Victim of Cupid's Golden Error: trace visible motif, amplification, polarity, and archetype-to-human bridge"
+    status: "source-backed_chapter_chain"
+  - chain_id: "chain.the_chariot.motif-to-human-experience"
+    pdf_pages: [198, 214]
+    purpose: "The Chariot: It Carries Us Home: trace visible motif, amplification, polarity, and archetype-to-human bridge"
+    status: "source-backed_chapter_chain"
+  - chain_id: "chain.justice.motif-to-human-experience"
+    pdf_pages: [215, 229]
+    purpose: "Justice: Is There Any?: trace visible motif, amplification, polarity, and archetype-to-human bridge"
+    status: "source-backed_chapter_chain"
+  - chain_id: "chain.the_hermit.motif-to-human-experience"
+    pdf_pages: [230, 247]
+    purpose: "The Hermit: Is There Anybody There?: trace visible motif, amplification, polarity, and archetype-to-human bridge"
+    status: "source-backed_chapter_chain"
+  - chain_id: "chain.wheel_of_fortune.motif-to-human-experience"
+    pdf_pages: [248, 275]
+    purpose: "The Wheel of Fortune: Help!: trace visible motif, amplification, polarity, and archetype-to-human bridge"
+    status: "source-backed_chapter_chain"
+  - chain_id: "chain.strength.motif-to-human-experience"
+    pdf_pages: [276, 294]
+    purpose: "Strength: Whose?: trace visible motif, amplification, polarity, and archetype-to-human bridge"
+    status: "source-backed_chapter_chain"
+  - chain_id: "chain.the_hanged_man.motif-to-human-experience"
+    pdf_pages: [295, 308]
+    purpose: "The Hanged Man: Suspense: trace visible motif, amplification, polarity, and archetype-to-human bridge"
+    status: "source-backed_chapter_chain"
+  - chain_id: "chain.death.motif-to-human-experience"
+    pdf_pages: [309, 336]
+    purpose: "Death: The Enemy: trace visible motif, amplification, polarity, and archetype-to-human bridge"
+    status: "source-backed_chapter_chain"
+  - chain_id: "chain.temperance.motif-to-human-experience"
+    pdf_pages: [337, 351]
+    purpose: "Temperance: Heavenly Alchemist: trace visible motif, amplification, polarity, and archetype-to-human bridge"
+    status: "source-backed_chapter_chain"
+  - chain_id: "chain.the_devil.motif-to-human-experience"
+    pdf_pages: [352, 380]
+    purpose: "The Devil: Dark Angel: trace visible motif, amplification, polarity, and archetype-to-human bridge"
+    status: "source-backed_chapter_chain"
+  - chain_id: "chain.the_tower.motif-to-human-experience"
+    pdf_pages: [381, 396]
+    purpose: "The Tower of Destruction: The Stroke of Liberation: trace visible motif, amplification, polarity, and archetype-to-human bridge"
+    status: "source-backed_chapter_chain"
+  - chain_id: "chain.the_star.motif-to-human-experience"
+    pdf_pages: [397, 419]
+    purpose: "The Star: Ray of Hope: trace visible motif, amplification, polarity, and archetype-to-human bridge"
+    status: "source-backed_chapter_chain"
+  - chain_id: "chain.the_moon.motif-to-human-experience"
+    pdf_pages: [420, 436]
+    purpose: "The Moon: Maiden or Menace?: trace visible motif, amplification, polarity, and archetype-to-human bridge"
+    status: "source-backed_chapter_chain"
+  - chain_id: "chain.the_sun.motif-to-human-experience"
+    pdf_pages: [437, 449]
+    purpose: "The Sun: Shining Center: trace visible motif, amplification, polarity, and archetype-to-human bridge"
+    status: "source-backed_chapter_chain"
+  - chain_id: "chain.judgement.motif-to-human-experience"
+    pdf_pages: [450, 463]
+    purpose: "Judgement: A Vocation: trace visible motif, amplification, polarity, and archetype-to-human bridge"
+    status: "source-backed_chapter_chain"
+  - chain_id: "chain.the_world.motif-to-human-experience"
+    pdf_pages: [464, 488]
+    purpose: "The World: A Window of Eternity: trace visible motif, amplification, polarity, and archetype-to-human bridge"
+    status: "source-backed_chapter_chain"

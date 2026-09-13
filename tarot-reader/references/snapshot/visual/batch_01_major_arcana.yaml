@@ -1,0 +1,558 @@
+phase: 4B
+batch_id: batch_01_major_arcana
+status: validated
+records:
+  - card_id: magician
+    factual_visual_id: rws.factual.magician
+    review_batch: batch_01_major_arcana
+    review_status: phase4a_frozen_reference
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#magician
+    legacy_visual_record_ref: pilot/phase-0.5/rws-visual-records.yaml#rws.magician
+    phase4a_recheck_ref: runtime/phase4a/visual-pilot-rechecks.yaml#magician
+    review_copy:
+      path: runtime/phase4a/visual-pilot/images/magician.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/The_Magician_%28Rider-Waite_Smith_tarot_deck%29.png/960px-The_Magician_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:The Magician (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: ab61e903a18acf92a275dfb2ae6df93c811f89bfa81eca590790929cb46fe259
+    observations: phase4a_reference
+    edition_specific_visuals: phase4a_reference
+    symbolic_readings: []
+    unresolved_visuals: phase4a_reference
+  - card_id: high_priestess
+    factual_visual_id: rws.factual.high_priestess
+    review_batch: batch_01_major_arcana
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#high_priestess
+    legacy_visual_record_ref:
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/high_priestess.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/The_High_Priestess_%28Rider-Waite_Smith_tarot_deck%29.png/960px-The_High_Priestess_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:The High Priestess (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: 28e843ca13b0ee95a34d4f3d44f4b19324f2db8096a43ce6fb93bcc49f3fb59c
+    observations:
+      scene: 一名人物坐在两根柱子之间的座椅上，身后有带图案的帷幕或屏风，脚下覆盖布面。
+      figures: [单一坐着人物]
+      action: 人物双手在身体前方持有一件卷册状物体并保持坐姿。
+      gaze_and_facing: 人物躯干和脸部朝向画面前方。
+      spatial_relations: [人物位于两根柱子之间, 一根柱位于画面左侧, 另一根柱位于画面右侧, 卷册位于人物腿部前方, 新月形物体位于脚部下方]
+      objects: [柱子, 字母 B, 字母 J, 帷幕, 卷册, 新月形物体, 座椅]
+    edition_specific_visuals: [黑色与白色柱体, 浅蓝色衣物和背景, 黄色新月形物体, 红色与绿色帷幕图案]
+    symbolic_readings: []
+    unresolved_visuals: [卷册上的具体文字无法从缩略图确认, 帷幕后图案的具体细节不完全清楚]
+  - card_id: empress
+    factual_visual_id: rws.factual.empress
+    review_batch: batch_01_major_arcana
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#empress
+    legacy_visual_record_ref:
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/empress.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/The_Empress_%28Rider-Waite_Smith_tarot_deck%29.png/960px-The_Empress_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20260410233733
+      source_file: File:The Empress (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: edb80fb640ecd3a200e406a5d77aaa3ff57933658d9ec9bfc6402ffb3a09af3c
+    observations:
+      scene: 一名人物坐在有靠背的座椅上，背景有树木与水流，前景是田地和草本植物。
+      figures: [单一坐着人物]
+      action: 人物一手握住带圆形顶端的竖直权杖，另一只手放在身体右侧的座椅或衣物上。
+      gaze_and_facing: 人物躯干和脸部大致朝向画面前方。
+      spatial_relations: [人物位于画面中央, 水流位于画面右侧, 带图案的盾牌位于人物左侧下方, 田地位于画面下方]
+      objects: [座椅, 权杖, 圆形顶端, 头冠, 盾牌, 水流, 树木, 田地]
+    edition_specific_visuals: [黄色背景, 红色座椅与披肩, 白色衣物, 绿色树木与植物, 蓝色水流, 灰色和黄色地面]
+    symbolic_readings: []
+    unresolved_visuals: [盾牌表面的具体图案在缩略图中不完全清楚, 权杖顶端圆形物体的具体纹理无法确认]
+  - card_id: emperor
+    factual_visual_id: rws.factual.emperor
+    review_batch: batch_01_major_arcana
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#emperor
+    legacy_visual_record_ref: pilot/phase-0.5/rws-visual-records.yaml#rws.emperor
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/emperor.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/The_Emperor_%28Rider-Waite_Smith_tarot_deck%29.png/960px-The_Emperor_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:The Emperor (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: 928e9417584ce9f0f9e2e43a422afeeb7cf2a8daa5e12b894d39695bbabf5366
+    observations:
+      scene: 一名留有长须的人物坐在石质王座上，王座靠背上部左右各有一处羊头状装饰，扶手下方左右各有一处羊头状装饰，背景下方可见山地与水面。
+      figures: [一名坐着人物]
+      action: 人物一只手握住画面左侧的竖直权杖，另一只手在画面右侧持有球形物体；双腿在座椅前方交叠。
+      gaze_and_facing: 人物躯干和脸部朝向画面前方。
+      spatial_relations: [人物位于画面中央, 王座靠背上部左右和扶手下方左右共四处羊头状装饰, 山地位于人物后方下部, 水面位于画面下方两侧, 权杖位于人物画面左侧, 球形物体位于人物画面右侧]
+      objects: [石质王座, 四处羊头状装饰, 头冠, 竖直权杖, 球形物体, 山地, 水面]
+    edition_specific_visuals: [橙红色背景, 红色外袍, 浅蓝色腿部衣物, 黄色权杖与球形物体, 灰色王座与羊头装饰, 黄色和灰色山地]
+    symbolic_readings: []
+    unresolved_visuals: [球形物体的具体纹理无法从缩略图确认, 王座和装饰上的细小图案无法完全辨认]
+  - card_id: hierophant
+    factual_visual_id: rws.factual.hierophant
+    review_batch: batch_01_major_arcana
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#hierophant
+    legacy_visual_record_ref:
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/hierophant.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/The_Hierophant_%28Rider-Waite_Smith_tarot_deck%29.png/960px-The_Hierophant_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:The Hierophant (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: d460eedd7540bdf81d145eb4eb3339fa1d8db931bc776eb0515db361494dd857
+    observations:
+      scene: 一名人物坐在两根柱子之间的座椅上，画面下方左右各有一名较小人物，地面铺有带图案的平面。
+      figures: [一名中央坐着人物, 两名位于下方的较小人物]
+      action: 中央人物一只手抬起，另一只手握住顶部为多重十字结构的竖直权杖；下方两名人物位于中央人物前方两侧。
+      gaze_and_facing: 中央人物朝向画面前方；下方两名人物分别朝向中央区域。
+      spatial_relations: [中央人物位于两根柱子之间, 两名较小人物位于中央人物下方左右两侧, 权杖位于中央人物画面右侧, 两把交叉钥匙位于下方人物之间的前景, 座椅位于柱子之间]
+      objects: [座椅, 两根柱子, 头冠, 多重十字权杖, 两把交叉钥匙, 带图案地面]
+    edition_specific_visuals: [红色外袍, 黄色头冠与饰物, 灰色柱子和座椅, 蓝色与黄色下方人物衣物, 红色和黑色地面图案]
+    symbolic_readings: []
+    unresolved_visuals: [中央人物抬起的手指数量在缩略图中可辨但具体手势含义不作判断, 权杖顶端的具体形状无法完全确认, 下方人物衣物上的细小图案不完全清楚]
+  - card_id: lovers
+    factual_visual_id: rws.factual.lovers
+    review_batch: batch_01_major_arcana
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#lovers
+    legacy_visual_record_ref:
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/lovers.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/The_Lovers_%28Rider-Waite_Smith_tarot_deck%29.png/960px-The_Lovers_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:The Lovers (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: fb09d7cb810e5700de437731fdfe88f9267862c9474c5b6a6b66274999a6dbd6
+    observations:
+      scene: 画面下方有两名站立人物，画面上方有一名带翅膀的人物，背景两侧各有一棵树，后方可见山地。
+      figures: [一名上方带翅膀人物, 画面左下方一名站立人物, 画面右下方一名站立人物]
+      action: 上方人物的双臂向左右伸展；下方两名人物双臂下垂站立。
+      gaze_and_facing: 上方人物面向画面前方；左下方人物朝向画面右侧，右下方人物朝向画面左侧。
+      spatial_relations: [上方人物位于两名下方人物之间, 两名下方人物位于画面左右两侧, 左侧树位于左下方人物后方, 右侧树位于右下方人物后方, 山地位于两名下方人物后方]
+      objects: [翅膀, 左侧树木, 左侧树干旁的蛇形线条, 右侧树木, 右侧树上的火焰形图案, 山地, 云状图案]
+    edition_specific_visuals: [黄色上方背景, 红色和黑色翅膀, 蓝灰色地面与山地, 绿色和红色左侧树木, 蓝绿色和橙红色右侧树木与图案]
+    symbolic_readings: []
+    unresolved_visuals: [上方人物头部周围的图案细节无法完全辨认, 云状图案内部的细小形状不完全清楚]
+  - card_id: chariot
+    factual_visual_id: rws.factual.chariot
+    review_batch: batch_01_major_arcana
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#chariot
+    legacy_visual_record_ref:
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/chariot.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/The_Chariot_%28Rider-Waite_Smith_tarot_deck%29.png/960px-The_Chariot_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:The Chariot (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: 5653c90a1fa494e039b73ea7e21954b70122d35e1a51d1e3de8990fbd7b5880a
+    observations:
+      scene: 一名人物站在带顶篷的车体中，车体前方下部有两只低伏动物，背景两侧有建筑物和水面。
+      figures: [一名站立人物, 两只位于车体前方的低伏动物]
+      action: 中央人物双臂下垂，一只手握住画面左侧的竖直棒状物体；两只动物保持低伏姿势。
+      gaze_and_facing: 中央人物朝向画面前方；两只动物的头部朝向画面前方附近。
+      spatial_relations: [人物位于车体中央上方, 两只动物位于车体前方左右两侧, 顶篷位于人物上方, 建筑物位于画面左右背景, 水面位于画面下方两侧]
+      objects: [车体, 顶篷, 头冠, 竖直棒状物体, 翼状图案, 两只低伏动物, 左右建筑物, 水面]
+    edition_specific_visuals: [黄色背景, 蓝灰色顶篷和铠甲, 黑色与白色动物, 黄色和红色建筑屋顶, 绿色植物, 红色车体标记]
+    symbolic_readings: []
+    unresolved_visuals: [两只动物的具体物种无法仅从缩略图确认, 车体前方翼状图案中的细小形状不完全清楚, 竖直棒状物体的具体类型无法确认]
+  - card_id: strength
+    factual_visual_id: rws.factual.strength
+    review_batch: batch_01_major_arcana
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#strength
+    legacy_visual_record_ref: pilot/phase-0.5/rws-visual-records.yaml#rws.strength
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/strength.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Strength_%28Rider-Waite_Smith_tarot_deck%29.png/960px-Strength_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:Strength (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: 5605e48be95fd395521945823446a99b068fdeb637129caaca3a981efc4215f1
+    observations:
+      scene: 一名人物在户外景观中俯身靠近一只大型猫科动物，背景有山地、树木和地面植被。
+      figures: [一名俯身人物, 一只大型猫科动物]
+      action: 人物双手位于动物头部和口部附近；动物保持站立姿势，头部向左侧伸出。
+      gaze_and_facing: 人物头部朝向画面左下方；动物头部朝向画面左侧。
+      spatial_relations: [人物位于动物上方和左侧, 动物位于画面下方中央偏右, 山地位于背景左下方, 植被位于画面下方]
+      objects: [头部上方的环状图案, 花叶装饰, 山地, 树木, 地面植被]
+    edition_specific_visuals: [黄色背景, 白色人物衣物, 红色猫科动物, 绿色植被, 蓝色山地, 红色与绿色花叶装饰]
+    symbolic_readings: []
+    unresolved_visuals: [头部上方环状图案的细部无法完全辨认, 动物口部附近手指与毛发线条的交界不完全清楚, 远景植被的具体种类无法确认]
+  - card_id: hermit
+    factual_visual_id: rws.factual.hermit
+    review_batch: batch_01_major_arcana
+    review_status: phase4a_frozen_reference
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#hermit
+    legacy_visual_record_ref: pilot/phase-0.5/rws-visual-records.yaml#rws.hermit
+    phase4a_recheck_ref: runtime/phase4a/visual-pilot-rechecks.yaml#hermit
+    review_copy:
+      path: runtime/phase4a/visual-pilot/images/hermit.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/The_Hermit_%28Rider-Waite_Smith_tarot_deck%29.png/960px-The_Hermit_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:The Hermit (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: c91941cc988d6d5684178836ae6acd1aa21a70979ae4a96fb8cfb7bbfbda3560
+    observations: phase4a_reference
+    edition_specific_visuals: phase4a_reference
+    symbolic_readings: []
+    unresolved_visuals: phase4a_reference
+  - card_id: wheel_of_fortune
+    factual_visual_id: rws.factual.wheel_of_fortune
+    review_batch: batch_01_major_arcana
+    review_status: phase4a_frozen_reference
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#wheel_of_fortune
+    legacy_visual_record_ref: pilot/phase-0.5/rws-visual-records.yaml#rws.wheel_of_fortune
+    phase4a_recheck_ref: runtime/phase4a/visual-pilot-rechecks.yaml#wheel_of_fortune
+    review_copy:
+      path: runtime/phase4a/visual-pilot/images/wheel_of_fortune.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Wheel_of_Fortune_%28Rider-Waite_Smith_tarot_deck%29.png/960px-Wheel_of_Fortune_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:Wheel of Fortune (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: 40a2301dd94ac0b1acc0fc1a17112bd2206a1d6bf1e4ec2996deb300d78ecfe3
+    observations: phase4a_reference
+    edition_specific_visuals: phase4a_reference
+    symbolic_readings: []
+    unresolved_visuals: phase4a_reference
+  - card_id: justice
+    factual_visual_id: rws.factual.justice
+    review_batch: batch_01_major_arcana
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#justice
+    legacy_visual_record_ref: pilot/phase-0.5/rws-visual-records.yaml#rws.justice
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/justice.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Justice_%28Rider-Waite_Smith_tarot_deck%29.png/960px-Justice_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:Justice (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: d4251170b39f2667d34fe6369902f9aaf86842022f73b269803ade610a49a441
+    observations:
+      scene: 一名人物坐在两根柱子之间的座椅上，身后有帷幕，人物脚下有铺设的平面。
+      figures: [单一坐着人物]
+      action: 人物一只手握住竖直长剑，另一只手提着一架秤；人物保持坐姿。
+      gaze_and_facing: 人物躯干和脸部朝向画面前方。
+      spatial_relations: [人物位于两根柱子之间, 长剑位于人物画面左侧, 秤位于人物画面右侧, 帷幕位于人物后方, 座椅位于柱子之间]
+      objects: [座椅, 两根柱子, 帷幕, 头冠, 长剑, 秤]
+    edition_specific_visuals: [红色帷幕与外袍, 黄色头冠和剑柄, 绿色披肩, 灰色柱子与座椅, 黄色背景]
+    symbolic_readings: []
+    unresolved_visuals: [秤盘和剑身上的细小纹理无法完全辨认, 帷幕上的具体图案不完全清楚]
+  - card_id: hanged_man
+    factual_visual_id: rws.factual.hanged_man
+    review_batch: batch_01_major_arcana
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#hanged_man
+    legacy_visual_record_ref:
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/hanged_man.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/The_Hanged_Man_%28Rider-Waite_Smith_tarot_deck%29.png/960px-The_Hanged_Man_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:The Hanged Man (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: bd39414fb5e9ae165cc787ea2782d39a1cd923bc3837513bd932398185e5917d
+    observations:
+      scene: 一名人物位于水平树枝下方，身体倒置，树枝两端有叶片和枝条。
+      figures: [单一倒置人物]
+      action: 人物一只脚踝与水平树枝相连，另一条腿在膝部弯曲；双手在缩略图中未清晰可见。
+      gaze_and_facing: 人物头部倒置，脸部朝向画面前方。
+      spatial_relations: [人物位于树枝下方, 一只脚位于树枝附近, 另一条腿向画面右侧弯曲, 头部位于画面下方, 叶片位于树枝两端]
+      objects: [水平树枝, 叶片, 人物衣物, 头部周围的放射状图案]
+    edition_specific_visuals: [红色上衣与裤腿, 蓝色外衣, 黄色头部周围图案, 绿色叶片, 浅灰色背景]
+    symbolic_readings: []
+    unresolved_visuals: [双臂与衣物的具体位置在缩略图中不完全清楚, 脚踝与树枝连接处的细节无法完全辨认, 头部周围放射状图案的具体边界不完全清楚]
+  - card_id: death
+    factual_visual_id: rws.factual.death
+    review_batch: batch_01_major_arcana
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#death
+    legacy_visual_record_ref: pilot/phase-0.5/rws-visual-records.yaml#rws.death
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/death.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Death_%28Rider-Waite_Smith_tarot_deck%29.png/960px-Death_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:Death (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: bbd2bf1129da9001d425574a3b12dadce55e5ea54d3f4f782c7064c26573609c
+    observations:
+      scene: 一名骨骼形人物骑在一匹马背上并位于画面中央，背景有河流、两座塔和日轮，画面下方另有多名人物。
+      figures: [一名骑马的骨骼形人物, 一匹马, 画面右下方一名穿衣物并戴头饰人物, 画面右下方一名穿衣物人物, 画面左下方一名俯卧人物]
+      action: 骑马人物手持竖直旗杆；马的头部向右侧伸出；下方人物分别处于跪坐、坐卧或俯卧姿势。
+      gaze_and_facing: 骑马人物和马的头部朝向画面右侧；下方人物的头部朝向各不相同，具体视线无法从缩略图确认。
+      spatial_relations: [骑马人物位于马背上, 马位于画面中央, 旗杆位于画面左侧, 两座塔和日轮位于马的后方右侧, 河流横贯画面下部, 其他人物位于马的前后下方]
+      objects: [马, 盔甲, 竖直旗杆, 旗帜, 旗帜上的花形图案, 两座塔, 日轮, 河流, 岸边植物]
+    edition_specific_visuals: [黑色盔甲与马具, 白色马匹, 黄色衣物与头饰, 蓝色河流, 黄色日轮, 红色和黑色旗帜图案, 绿色岸边植物]
+    symbolic_readings: []
+    unresolved_visuals: [下方人物的具体身份无法从缩略图确认, 旗帜上的花形图案细节不完全清楚, 日轮与塔的细小轮廓无法完全辨认]
+  - card_id: temperance
+    factual_visual_id: rws.factual.temperance
+    review_batch: batch_01_major_arcana
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#temperance
+    legacy_visual_record_ref:
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/temperance.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Temperance_%28Rider-Waite_Smith_tarot_deck%29.png/960px-Temperance_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:Temperance (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: ee4c5268a9ab7a9eafbd80974c1f4a0174f9086d48b5d0831ad59d31e8ad8943
+    observations:
+      scene: 一名带翅膀的人物站在水面与陆地交界处，背景有山地、日轮、植被和花朵。
+      figures: [单一带翅膀人物]
+      action: 人物双手分别持有两个杯子，两个杯子之间可见一条液体状线条；人物一只脚位于水中，另一只脚位于陆地上。
+      gaze_and_facing: 人物躯干和脸部朝向画面前方。
+      spatial_relations: [人物位于画面中央, 两个杯子位于人物胸腹部前方, 水面位于画面下方, 山地和日轮位于画面左下方, 植被和花朵位于画面右下方]
+      objects: [翅膀, 两个杯子, 液体状线条, 山地, 日轮, 水面, 植被, 花朵, 头部周围的放射状图案]
+    edition_specific_visuals: [红色与黑色翅膀, 白色长袍, 黄色杯子, 蓝色水面与线条, 绿色植被, 黄色日轮, 红色和黄色花朵]
+    symbolic_readings: []
+    unresolved_visuals: [两个杯子之间蓝色线条的具体形态在缩略图中不完全清楚, 头部周围放射状图案的细小边界无法完全辨认, 右下方花朵的具体种类无法确认]
+  - card_id: devil
+    factual_visual_id: rws.factual.devil
+    review_batch: batch_01_major_arcana
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#devil
+    legacy_visual_record_ref: pilot/phase-0.5/rws-visual-records.yaml#rws.devil
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/devil.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/The_Devil_%28Rider-Waite_Smith_tarot_deck%29.png/960px-The_Devil_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:The Devil (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: ce5a44a0fd249d0ebf9d0d82e8790404f47ad7aac6b11d10a913f72fae245373
+    observations:
+      scene: 一名带角和翅膀的人形人物位于画面中央上方和台座上方；下方左右各有一名站立人物，颈部附近可见链条。
+      figures: [一名带角和翅膀的人形人物, 左下方一名站立人物, 右下方一名站立人物]
+      action: 中央人物一只手抬起并向外展开手掌，另一只手下垂；下方两名人物站在台座两侧，链条从颈部附近向下垂落。
+      gaze_and_facing: 中央人物朝向画面前方；左下方人物面向画面右侧，右下方人物面向画面左侧。
+      spatial_relations: [中央人物位于台座上方, 两名下方人物位于台座左右两侧, 链条位于两名下方人物身体前方, 翅膀位于中央人物两侧, 角位于中央人物头部上方]
+      objects: [台座, 翅膀, 角, 链条, 中央人物头部上方的五角形图案, 两名下方人物身后的尾状附属物]
+    edition_specific_visuals: [黑色背景, 橙红色中央人物, 黑色与灰色翅膀, 黄色和橙红色下方人物衣物与附属物, 灰白色链条]
+    symbolic_readings: []
+    unresolved_visuals: [中央人物头部图案的细节无法完全辨认, 两名下方人物尾状附属物的具体形状不完全清楚, 台座和链条连接处的细节无法确认]
+  - card_id: tower
+    factual_visual_id: rws.factual.tower
+    review_batch: batch_01_major_arcana
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#tower
+    legacy_visual_record_ref: pilot/phase-0.5/rws-visual-records.yaml#rws.tower
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/tower.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/The_Tower_%28Rider-Waite_Smith_tarot_deck%29.png/960px-The_Tower_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:The Tower (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: 2bbdf736f7ed1a9bc39a661bde253d34f87b28379f00bc2baa7062e3bfb3a5a4
+    observations:
+      scene: 画面中央有一座高塔，塔顶上方和周围有火焰状图案与锯齿状线条，塔体两侧各有一名人物，背景有云层和下方的岩石或山体。
+      figures: [塔体左侧一名人物, 塔体右侧一名人物]
+      action: 两名人物的身体分别向画面左右下方倾斜，手脚伸向外侧；塔体上方可见火焰状图案。
+      gaze_and_facing: 两名人物的脸部细节和具体朝向无法从缩略图确认。
+      spatial_relations: [塔体位于画面中央, 两名人物位于塔体左右两侧, 锯齿状线条位于塔顶上方和右侧, 云层分布在塔体周围, 岩石或山体位于画面下方]
+      objects: [高塔, 塔顶结构, 锯齿状线条, 火焰状图案, 云层, 岩石或山体]
+    edition_specific_visuals: [黑色背景, 灰色塔体, 红色与黄色火焰状图案, 黄色锯齿状线条, 蓝色人物衣物, 灰白色云层]
+    symbolic_readings: []
+    unresolved_visuals: [锯齿状线条的具体来源无法仅从缩略图确认, 两名人物的姿势是否包含运动过程无法由静态图判定, 塔顶结构的细小轮廓不完全清楚]
+  - card_id: star
+    factual_visual_id: rws.factual.star
+    review_batch: batch_01_major_arcana
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#star
+    legacy_visual_record_ref: pilot/phase-0.5/rws-visual-records.yaml#rws.star
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/star.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/The_Star_%28Rider-Waite_Smith_tarot_deck%29.png/960px-The_Star_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:The Star (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: c0b1d84f00371811b80efe66a8092f742e1be93af61ea988dbebf37cefdf7157
+    observations:
+      scene: 一名人物在水边跪立，双手各持一个容器，天空中有一个大型八角星和七个较小星形图案，背景有山地和树木。
+      figures: [一名跪立人物, 树上的一只鸟状动物]
+      action: 人物一只手将容器向水面倾斜，另一只手将容器向画面右侧地面倾斜；两个容器下方各有一条水流状线条。
+      gaze_and_facing: 人物躯干和头部朝向画面左侧并略向下；鸟状动物的头部朝向画面右侧。
+      spatial_relations: [人物位于画面中央, 水面位于画面下方左侧, 树木位于画面右侧, 一个大型八角星和七个较小星形图案位于人物上方, 山地位于人物后方]
+      objects: [两个容器, 两条水流状线条, 水面, 一个大型八角星, 七个较小星形图案, 山地, 树木, 鸟状动物, 地面植物]
+    edition_specific_visuals: [浅蓝色天空与水面, 黄色大型星形图案, 白色较小星形图案, 橙色人物, 绿色植被, 红色和黄色树上动物]
+    symbolic_readings: []
+    unresolved_visuals: [鸟状动物的具体物种无法确认, 两条水流状线条的细部无法完全辨认]
+  - card_id: moon
+    factual_visual_id: rws.factual.moon
+    review_batch: batch_01_major_arcana
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#moon
+    legacy_visual_record_ref:
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/moon.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/The_Moon_%28Rider-Waite_Smith_tarot_deck%29.png/960px-The_Moon_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:The Moon (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: 3402c34cc1770bd69458559a77312b7b93613dca319ec371f6c74a03d44b20a6
+    observations:
+      scene: 画面上方有一个大型圆形图案，画面中部左右各有一座塔，两只动物位于中部，前景水面中有一只甲壳类动物。
+      figures: [画面中部左侧一只站立动物, 画面中部右侧一只站立动物, 前景水面中一只甲壳类动物]
+      action: 两只站立动物的头部向上方和中央区域抬起；甲壳类动物位于水面中，身体朝向画面上方。
+      gaze_and_facing: 两只站立动物的头部朝向画面上方附近；甲壳类动物朝向画面上方，具体视线无法确认。
+      spatial_relations: [圆形图案位于画面上方, 两座塔位于画面左右两侧, 两只站立动物位于两座塔之间, 甲壳类动物位于水面前景中央, 一条路径从前景水面向两座塔之间延伸]
+      objects: [圆形图案, 放射状尖角, 两座塔, 两只站立动物, 甲壳类动物, 水面, 路径, 山地, 植物, 多个小型悬浮图案]
+    edition_specific_visuals: [浅蓝色天空与水面, 黄色圆形图案和小型悬浮图案, 灰白色塔体, 橙色与黄色站立动物, 红黑色甲壳类动物, 绿色地面植物]
+    symbolic_readings: []
+    unresolved_visuals: [两只站立动物的具体物种无法确认, 圆形图案内部脸部轮廓的细节不完全清楚, 小型悬浮图案的准确数量与形状无法完全辨认]
+  - card_id: sun
+    factual_visual_id: rws.factual.sun
+    review_batch: batch_01_major_arcana
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#sun
+    legacy_visual_record_ref:
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/sun.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/The_Sun_%28Rider-Waite_Smith_tarot_deck%29.png/960px-The_Sun_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:The Sun (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: 5d0cbb4d3dc6ef818344ad911f5e123811a6c7e48f036f11c35e82eb41650b09
+    observations:
+      scene: 画面上方有一个带面部轮廓的圆形图案，画面下方有一名骑在马上的人物，背景有花朵、树木和围墙。
+      figures: [一名骑马人物, 一匹马]
+      action: 骑马人物一只手向画面左侧伸出，另一只手的位置在马颈附近；马保持站立姿势。
+      gaze_and_facing: 圆形图案中的面部轮廓朝向画面前方；骑马人物头部朝向画面左侧；马头朝向画面前方偏下。
+      spatial_relations: [圆形图案位于画面上方中央, 骑马人物位于马背上, 马位于画面下方中央, 花朵位于人物和马的后方, 围墙位于画面下方背景]
+      objects: [圆形图案, 放射状光线, 马, 花朵, 树木, 围墙, 人物头部附近的羽状图案]
+    edition_specific_visuals: [黄色圆形图案和光线, 浅蓝色背景, 红色马匹覆盖物, 白色马匹, 橙色人物, 黄色花朵与绿色植物]
+    symbolic_readings: []
+    unresolved_visuals: [人物头部附近羽状图案的具体物体无法确认, 圆形图案面部轮廓的细小线条不完全清楚, 背景花朵的准确数量无法从缩略图确认]
+  - card_id: judgement
+    factual_visual_id: rws.factual.judgement
+    review_batch: batch_01_major_arcana
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#judgement
+    legacy_visual_record_ref:
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/judgement.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Judgement_%28Rider-Waite_Smith_tarot_deck%29.png/960px-Judgement_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:Judgement (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: 4ab1a92236bf486af4f0a101a0bfb216d68d8cc395cc0493dc3e05a7345cf51a
+    observations:
+      scene: 画面上方云层中有一名带翅膀的人物，画面下方有六名人物，其中前景左中右各一名、远景左中右各一名，另有三个矩形容器和水面，远处可见山地。
+      figures: [一名云层中的带翅膀人物, 前景左侧一名人物, 前景中央一名人物, 前景右侧一名人物, 远景左侧一名人物, 远景中央一名人物, 远景右侧一名人物]
+      action: 上方人物双手持号角靠近口部；下方前景三名和远景三名人物的双臂向上或向两侧伸出，分别位于矩形容器内或其旁边。
+      gaze_and_facing: 上方人物面向画面前方；下方前景和远景六名人物整体朝向画面中央或上方，个体视线无法确认。
+      spatial_relations: [带翅膀人物位于画面上方云层中, 号角位于上方人物身体前方, 前景左中右各一名下方人物位于画面下部, 远景左中右各一名下方人物位于前景人物后方, 三个矩形容器位于前景人物周围, 水面位于画面下方, 山地位于远景]
+      objects: [翅膀, 号角, 号角前的旗帜, 云层, 三个矩形容器, 水面, 山地, 小型树木]
+    edition_specific_visuals: [浅蓝色天空与水面, 红色和黑色翅膀, 黄色头发与号角, 灰白色云层和人物, 红色十字形图案, 黑色矩形容器]
+    symbolic_readings: []
+    unresolved_visuals: [下方人物的具体身份无法从缩略图确认, 号角和云层的细部不完全清楚, 云层与背景山地的边界在局部不完全清晰]
+  - card_id: fool
+    factual_visual_id: rws.factual.fool
+    review_batch: batch_01_major_arcana
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#fool
+    legacy_visual_record_ref: pilot/phase-0.5/rws-visual-records.yaml#rws.fool
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/fool.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/The_Fool_%28Rider-Waite_Smith_tarot_deck%29.png/960px-The_Fool_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:The Fool (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: 328b9cf10a0088fdf6a1ce3a42bc80bac228862feab8751d60853ceae2e25a50
+    observations:
+      scene: 一名人物站在岩石边缘，身旁有一只小型犬，背景有山地和天空中的圆形图案。
+      figures: [一名站立人物, 一只站立小型犬]
+      action: 人物一只手向画面右侧伸出并持有一朵花，另一只手握住肩后的斜放杖状物体；小型犬抬头站立。
+      gaze_and_facing: 人物头部朝向画面左侧上方；小型犬头部朝向画面左上方附近。
+      spatial_relations: [人物位于岩石边缘中央, 小型犬位于人物画面右下方, 杖状物体位于人物肩后, 圆形图案位于画面右上方, 山地位于画面下方背景]
+      objects: [岩石边缘, 花, 杖状物体, 杖状物体末端的包裹物, 小型犬, 山地, 圆形图案]
+    edition_specific_visuals: [黄色天空, 黑色和绿色人物衣物, 红色衣物内衬, 黄色靴子, 白色小型犬, 浅蓝色山地, 白色与黄色圆形图案]
+    symbolic_readings: []
+    unresolved_visuals: [花朵和杖状物体末端包裹物的具体种类无法确认, 圆形图案的完整边界在画面右上方之外不可见, 岩石表面细小纹理不完全清楚]
+  - card_id: world
+    factual_visual_id: rws.factual.world
+    review_batch: batch_01_major_arcana
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#world
+    legacy_visual_record_ref: pilot/phase-0.5/rws-visual-records.yaml#rws.world
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/world.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/The_World_%28Rider-Waite_Smith_tarot_deck%29.png/960px-The_World_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:The World (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: 5b7515e688e44b13841f2c56a48624b9b1154b93cba56a01c5b06742b23c5bbf
+    observations:
+      scene: 一名人物位于椭圆形花环中央，花环四角分别可见人形头像、鹰头、牛头和狮头，背景有云层。
+      figures: [一名花环中央人物, 左上方人形头像, 右上方鹰头, 左下方牛头, 右下方狮头]
+      action: 中央人物双手分别握住两根竖直棒状物体，一条腿交叠在另一条腿前方；一条布带位于人物身体周围。
+      gaze_and_facing: 中央人物头部朝向画面左侧附近；左上方人形头像朝向画面右侧，右上方鹰头朝向画面左侧，左下方牛头朝向画面右侧，右下方狮头朝向画面左侧，具体视线无法确认。
+      spatial_relations: [中央人物位于花环内部, 两根棒状物体位于中央人物左右两侧, 左上方人形头像位于花环左上方, 右上方鹰头位于花环右上方, 左下方牛头位于花环左下方, 右下方狮头位于花环右下方, 云层分布在花环外侧]
+      objects: [椭圆形花环, 两根竖直棒状物体, 布带, 左上方人形头像, 右上方鹰头, 左下方牛头, 右下方狮头, 云层]
+    edition_specific_visuals: [绿色花环, 红色布带, 浅蓝色背景, 橙色中央人物, 灰白色云层, 黄色和橙色四角图像]
+    symbolic_readings: []
+    unresolved_visuals: [四角头像内部的细小线条不完全清楚, 两根棒状物体顶端和底端的细部不完全清楚, 花环枝叶纹理和布带结扣的细节无法完全辨认]

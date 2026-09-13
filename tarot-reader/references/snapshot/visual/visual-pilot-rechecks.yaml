@@ -1,0 +1,199 @@
+---
+phase: 4A
+document_id: rws-visual-pilot-rechecks.phase4a.v1
+status: reviewed_frozen
+review_scope: eight_card_visual_pilot_only
+source_manifest: runtime/phase4a/rws-visual-source-manifest.yaml
+review_copy_rule: review copies are evidence for observation review; canonical original SHA-1 remains in the source manifest
+records:
+  - card_id: magician
+    visual_id: rws.magician
+    review_status: reviewed_local_copy
+    review_copy:
+      path: runtime/phase4a/visual-pilot/images/magician.png
+      kind: commons_thumbnail
+      checksum_algorithm: sha256
+      checksum: ab61e903a18acf92a275dfb2ae6df93c811f89bfa81eca590790929cb46fe259
+    source_record_ref: pilot/phase-0.5/rws-visual-records.yaml#rws.magician
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#magician
+    observations:
+      scene: 人物站在一张摆有物件的桌子后方，画面上方有无限符号，前景和边框可见植物。
+      figures: [单一站立人物]
+      action: 一只手举起权杖，另一只手向下伸出。
+      gaze_and_facing: 人物身体和脸部朝向画面前方。
+      spatial_relations: [人物位于桌子后方, 桌面横跨画面下部, 多个物件分布在桌面上]
+      objects: [权杖, 圣杯, 宝剑, 钱币, 无限符号, 桌子, 花卉]
+    edition_specific_visuals: [红色外袍, 黄色背景, 红白绿花卉色彩]
+    symbolic_readings: []
+    unresolved_visuals: []
+    legacy_observation_reclassification:
+      moved_from_visual_observation: []
+      reason: "Reviewed against the RWS review copy; no symbolic conclusion is stored in observations."
+
+  - card_id: wands_ace
+    visual_id: rws.ace_of_wands
+    review_status: reviewed_local_copy
+    review_copy:
+      path: runtime/phase4a/visual-pilot/images/ace_of_wands.png
+      kind: commons_thumbnail
+      checksum_algorithm: sha256
+      checksum: ef2f4573fc3284378f1402416ee0d8e9a5f4deedde524725046018d76adf3771
+    source_record_ref: pilot/phase-0.5/rws-visual-records.yaml#rws.ace_of_wands
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#wands_ace
+    observations:
+      scene: 一只从云中伸出的手握住一根垂直向上的权杖，背景有山地、水面和树木。
+      figures: [云中手]
+      action: 手握住并举起权杖。
+      gaze_and_facing: none
+      spatial_relations: [权杖位于画面中央并向上延伸, 云在权杖右侧, 山地和水面位于下方背景]
+      objects: [发芽权杖, 云, 山地, 水面, 树木]
+    edition_specific_visuals: [红色权杖, 绿色叶片, 浅色云地背景]
+    symbolic_readings: []
+    unresolved_visuals: []
+    legacy_observation_reclassification:
+      moved_from_visual_observation: []
+      reason: "Reviewed against the RWS review copy; visual description is kept separate from any functional interpretation."
+
+  - card_id: swords_page
+    visual_id: rws.page_of_swords
+    review_status: reviewed_local_copy
+    review_copy:
+      path: runtime/phase4a/visual-pilot/images/swords_page.png
+      kind: commons_thumbnail
+      checksum_algorithm: sha256
+      checksum: 6370eba4f0628a1a8b533e8454719f6d51e5b165674eb9450dd63fc92935d055
+    source_record_ref: pilot/phase-0.5/rws-visual-records.yaml#rws.page_of_swords
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#swords_page
+    observations:
+      scene: 一名人物站在云层和起伏地面之间的高处，背景可见天空与水面。
+      figures: [单一站立人物]
+      action: 人物双手握住一把向上斜伸的宝剑。
+      gaze_and_facing: 人物身体和脸部朝向画面左侧。
+      spatial_relations: [人物位于画面中央, 云层分布在人物周围, 地面与水面位于下方]
+      objects: [宝剑, 云层, 草地, 水面, 树木]
+    edition_specific_visuals: [浅蓝色天空, 灰白色云层, 红色上衣和靴子, 黄色裤子, 绿色地面]
+    symbolic_readings: []
+    unresolved_visuals: []
+    legacy_observation_reclassification:
+      moved_from_visual_observation: [保持警戒]
+      reason: "The legacy phrase is retained only as a reclassification trace; the reviewed record stores hand, sword and facing facts instead."
+
+  - card_id: cups_queen
+    visual_id: rws.queen_of_cups
+    review_status: reviewed_local_copy
+    review_copy:
+      path: runtime/phase4a/visual-pilot/images/cups_queen.png
+      kind: commons_thumbnail
+      checksum_algorithm: sha256
+      checksum: 2d8255be78a5b7262a71235e9006c809675a429dfb7f74c3e5d8724ac42df694
+    source_record_ref: pilot/phase-0.5/rws-visual-records.yaml#rws.queen_of_cups
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#cups_queen
+    observations:
+      scene: 人物坐在水边的王座上，双手托着一个华丽的杯子。
+      figures: [单一坐着人物]
+      action: 人物双手在身体前方托住杯子。
+      gaze_and_facing: 人物身体和脸部大致朝向画面左侧。
+      spatial_relations: [王座和人物位于画面中央, 杯子在人物左侧前方, 水面位于下方和侧后方]
+      objects: [华丽杯, 王座, 水面, 岸边]
+    edition_specific_visuals: [浅蓝色天空与水面, 白色和浅蓝色衣物, 红色与黄色披肩, 深色王座, 黄色杯子]
+    symbolic_readings: []
+    unresolved_visuals: [人物是否直视杯子无法从缩略图确定]
+    legacy_observation_reclassification:
+      moved_from_visual_observation: []
+      reason: "Reviewed against the local Commons thumbnail; uncertain gaze detail remains explicit rather than being promoted as fact."
+
+  - card_id: hermit
+    visual_id: rws.hermit
+    review_status: reviewed_local_copy
+    review_copy:
+      path: runtime/phase4a/visual-pilot/images/hermit.png
+      kind: commons_thumbnail
+      checksum_algorithm: sha256
+      checksum: c91941cc988d6d5684178836ae6acd1aa21a70979ae4a96fb8cfb7bbfbda3560
+    source_record_ref: pilot/phase-0.5/rws-visual-records.yaml#rws.hermit
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#hermit
+    observations:
+      scene: 披斗篷的人站在山地或地面上，背景是天空。
+      figures: [单一人物]
+      action: 人物一手举起灯笼，另一只手握住一根竖直的手杖。
+      gaze_and_facing: 人物身体侧向画面左侧，脸部朝向左侧。
+      spatial_relations: [人物位于中央偏右, 灯笼在人物左侧, 手杖沿人物身体左侧向下延伸, 地面位于下方]
+      objects: [灯笼, 手杖, 斗篷, 山地]
+    edition_specific_visuals: [灰紫色和浅色斗篷, 黄色灯光, 蓝灰色背景, 黄色手杖]
+    symbolic_readings: []
+    unresolved_visuals: [灯笼内部的具体图案在缩略图中不完全清楚]
+    legacy_observation_reclassification:
+      moved_from_visual_observation: [照看前方]
+      reason: "The legacy phrase is retained only as a reclassification trace; the reviewed record describes the lantern, hand and facing without assigning an intention."
+
+  - card_id: cups_king
+    visual_id: rws.king_of_cups
+    review_status: reviewed_local_copy
+    review_copy:
+      path: runtime/phase4a/visual-pilot/images/cups_king.png
+      kind: commons_thumbnail
+      checksum_algorithm: sha256
+      checksum: 3abd8798071c25d3799ae400df61a64224d84fc7b3e2eb1885f221a083396f1a
+    source_record_ref: pilot/phase-0.5/rws-visual-records.yaml#rws.king_of_cups
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#cups_king
+    observations:
+      scene: 人物坐在被水面环绕的王座上，手中有杯子和权杖。
+      figures: [单一坐着人物]
+      action: 人物坐在王座上，一只手握住杯子，另一只手握住权杖。
+      gaze_and_facing: 人物身体大致朝向画面前方，脸部略偏向画面左侧。
+      spatial_relations: [人物位于画面中央, 杯子在身体左侧前方, 权杖在身体右侧, 水面分布在王座周围]
+      objects: [杯子, 权杖, 王座, 水面, 鱼, 船]
+    edition_specific_visuals: [红色披肩, 绿色和蓝色衣物, 浅蓝色水面, 黄色杯子与权杖]
+    symbolic_readings: []
+    unresolved_visuals: [远景中的船只轮廓在缩略图中不完全清楚]
+    legacy_observation_reclassification:
+      moved_from_visual_observation: [俯视钱币]
+      reason: "The legacy facing phrase is retained only as a reclassification trace; the reviewed record binds facing to this card's visible figure and does not transfer the phrase."
+
+  - card_id: wheel_of_fortune
+    visual_id: rws.wheel_of_fortune
+    review_status: reviewed_local_copy
+    review_copy:
+      path: runtime/phase4a/visual-pilot/images/wheel_of_fortune.png
+      kind: commons_thumbnail
+      checksum_algorithm: sha256
+      checksum: 40a2301dd94ac0b1acc0fc1a17112bd2206a1d6bf1e4ec2996deb300d78ecfe3
+    source_record_ref: pilot/phase-0.5/rws-visual-records.yaml#rws.wheel_of_fortune
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#wheel_of_fortune
+    observations:
+      scene: 画面中央有一个大型圆轮，四角分布带翅膀的生物，背景有云层。
+      figures: [四个角落的带翅膀生物, 圆轮周围的蛇形和人形图案]
+      action: 四个角落的生物分别与书本相邻，圆轮和其上的图形呈平面静态构图。
+      gaze_and_facing: 四角生物的朝向各不相同，具体视线方向无法从缩略图确定。
+      spatial_relations: [圆轮位于中央, 四角生物位于画面四角, 云层位于圆轮外周围]
+      objects: [圆轮, 蛇形图案, 字母, 书本, 云层, 翅膀]
+    edition_specific_visuals: [橙色圆轮, 蓝色背景, 黄色与红色生物, 白灰色云层]
+    symbolic_readings: []
+    unresolved_visuals: [四角生物的具体种类和书页内容在缩略图中无法确认]
+    legacy_observation_reclassification:
+      moved_from_visual_observation: [旋转或变化构图]
+      reason: "The legacy motion/change phrase is retained only as a reclassification trace; the reviewed record describes the static wheel composition."
+
+  - card_id: pentacles_page
+    visual_id: rws.page_of_pentacles
+    review_status: reviewed_local_copy
+    review_copy:
+      path: runtime/phase4a/visual-pilot/images/pentacles_page.png
+      kind: commons_thumbnail
+      checksum_algorithm: sha256
+      checksum: b2e798c79c7f9b24287e99feeaa0e3c668a273d1bd20cba69c7fcd516042b78b
+    source_record_ref: pilot/phase-0.5/rws-visual-records.yaml#rws.page_of_pentacles
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#pentacles_page
+    observations:
+      scene: 一名人物站在田野中，双手在身体前方托起一枚钱币，远景有树木和山丘。
+      figures: [单一站立人物]
+      action: 人物双手托住并举起一枚圆形钱币。
+      gaze_and_facing: 人物身体和脸部朝向画面右侧，脸部朝向钱币所在方向。
+      spatial_relations: [人物位于画面中央偏左, 钱币在人物右上方, 树木位于左下方远景, 山丘位于右下方远景, 田野位于前景]
+      objects: [钱币, 树木, 山丘, 田野]
+    edition_specific_visuals: [黄色背景, 红色头巾, 绿色衣袍, 蓝灰色山丘, 绿色田野]
+    symbolic_readings: []
+    unresolved_visuals: []
+    legacy_observation_reclassification:
+      moved_from_visual_observation: []
+      reason: "Reviewed against the local Commons thumbnail; only static scene, pose, facing, spatial and object facts are promoted."

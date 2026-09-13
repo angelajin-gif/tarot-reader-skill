@@ -1,0 +1,156 @@
+phase: 3B
+runtime_architecture_id: tarot-blind-runtime-prototype.phase3b.v1
+status: blind_executable_prototype
+purpose: >-
+  A small executable prototype that receives raw reading input and independently
+  selects evidence-gated capabilities. It is not a final Skill, production
+  engine, card database, vector index, or fixed workflow.
+contract_refs:
+  runtime_contract: runtime/phase3a/runtime-contract.yaml
+  constitution: synthesis/tarot-constitution/constitution.yaml
+  product_charter: synthesis/tarot-constitution/product-charter-ref.yaml
+
+execution_model:
+  raw_input_only: true
+  evaluator_data_is_not_runtime_input: true
+  prohibited_input_keys:
+    - active_principles
+    - capability_gates
+    - retrieval_ledger
+    - expected_answer
+    - acceptance_notes
+    - reference_judgment
+  hard_edges:
+    - gestalt_before_reference_retrieval
+    - holistic_hypothesis_before_dictionary
+    - counterevidence_before_decision
+    - specialist_can_return_to_hypothesis
+  free_capabilities: true
+  fixed_sequence: false
+  fixed_weights: false
+  question_classifier: false
+  case_id_routing: false
+
+source_layer:
+  not_final_knowledge_load: true
+  source_classes:
+    - product_constraint
+    - textbook
+    - general_rws
+    - general_tarot
+    - original_inference
+  on_demand_sources:
+    - source_id: product_charter
+      source_class: product_constraint
+      source_ref: synthesis/tarot-constitution/product-charter-ref.yaml
+    - source_id: constitution
+      source_class: product_constraint
+      source_ref: synthesis/tarot-constitution/constitution.yaml
+    - source_id: daniel_upright_baseline
+      source_class: textbook
+      source_ref: reading/daniel_16_lessons_zh/book-model.md:45-57
+      activation: always_for_card_baseline
+    - source_id: greer_reversal
+      source_class: textbook
+      source_ref: reading/greer_reversals_zh/book-model.md:40-72
+      activation: actual_reversal_only
+    - source_id: dawn_court
+      source_class: textbook
+      source_ref: reading/dawn_court_zh/book-model.md:46-74
+      activation: court_ontology_evidence_only
+    - source_id: nichols_symbolic
+      source_class: textbook
+      source_ref: reading/nichols_archetypal_journey_en/book-model.md:105-127
+      activation: reliable_major_movement_or_projection_only
+    - source_id: dictionary_reference
+      source_class: textbook
+      source_ref: reading/tarot_dictionary_zh/book-model.md:26-36
+      activation: holistic_hypothesis_and_domain_evidence_only
+    - source_id: rws_supplied_visual
+      source_class: general_rws
+      source_ref: schemas/reading-case.md:34-49
+      activation: supplied_visual_observation_only
+  card_surface_lexicon:
+    purpose: >-
+      Prototype-only surface tags for the eight metamorphic inputs. These are
+      small operation cues, not a production 78-card semantic database.
+    source_class: textbook
+    source_ref: reading/daniel_16_lessons_zh/card-entry-anchors.jsonl
+    entries:
+      magician:
+        kind: major
+        tags: [focused_agency, tools, execution]
+      ace_of_wands:
+        kind: minor
+        tags: [initiation, energy, launch]
+      page_of_swords:
+        kind: court
+        tags: [information, observation, alertness]
+      queen_of_cups:
+        kind: court
+        tags: [care, coordination, receptivity]
+      five_of_wands:
+        kind: minor
+        tags: [competition, friction, contested_field]
+      hermit:
+        kind: major
+        tags: [distance, withdrawal, inward_review]
+      two_of_swords:
+        kind: minor
+        tags: [uncertainty, stalemate, withheld_decision]
+      king_of_cups:
+        kind: court
+        tags: [emotional_regulation, contained_response, boundary]
+      wheel_of_fortune:
+        kind: major
+        tags: [changing_conditions, movement, opportunity]
+      eight_of_wands:
+        kind: minor
+        tags: [message_flow, speed, development]
+      page_of_pentacles:
+        kind: court
+        tags: [practical_learning, preparation, tangible_step]
+
+capability_selection:
+  reversal_gate:
+    evidence: reversals_provided=true and an actual card orientation is reversed
+    inactive_control: no direction information means Greer is not loaded
+  court_gate:
+    evidence: court card plus a role/person/ontology question
+    inactive_control: court cards without an ontology decision remain baseline evidence
+  symbolic_amplification_gate:
+    evidence: at least two Major cards, supplied visual observation, or a projection tension
+    inactive_control: one Major alone does not authorize a journey claim
+  projection_gate:
+    evidence: user interpretation and observable external behavior coexist
+    inactive_control: a user label without external behavior remains an interpretation
+  prediction_agency_gate:
+    evidence: bounded future/event question plus an actionable subject
+    inactive_control: unbounded future language does not authorize timing or certainty
+  correspondence_gate:
+    evidence: local visual/element/number/astrology evidence is explicitly present
+    inactive_control: no fixed correspondence inference is made
+  dictionary_gate:
+    evidence: gestalt and initial hypothesis exist before a domain lookup
+    inactive_control: no clear manifestation question or no hypothesis means no lookup
+
+output_contract:
+  internal:
+    - input_sha256
+    - loaded_sources
+    - capability_ledger
+    - retrieval_ledger
+    - invariants_applied
+    - execution_edges
+  analysis:
+    - situation_split
+    - gestalt_observations
+    - source_anchors
+    - candidate_readings
+    - decision
+    - source_trace
+  output:
+    - answer
+    - follow_up_question_asked
+    - safety_boundary
+  no_internal_log_dump: true

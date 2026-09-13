@@ -1,0 +1,53 @@
+# Tarot Reader Skill
+
+An evidence-traceable Rider–Waite–Smith tarot reading skill for Codex. The current public release is `tarot-reader.stage10.v1.1` (`frozen`).
+
+## What it does
+
+- Reads cards supplied by the user; it never draws or identifies cards from uploaded images.
+- Builds one relational narrative instead of concatenating isolated card meanings.
+- Keeps visible RWS facts, Teacher Model operations, user context, and original inference distinct.
+- Places specific visual or Teacher Model evidence beside the claim it affects.
+- Ends ordinary completed readings with optional user-drawn follow-up spreads.
+- Fails closed on unknown cards, ambiguous aliases, source drift, or unsupported Dictionary units.
+
+## Boundaries
+
+This is a reflective reading tool, not medical, legal, financial, or other professional advice. It does not claim access to another person's private thoughts or guarantee future events.
+
+The package contains no source PDFs, review-copy images, raw OCR chunks, user images, or expected model answers. Its Dictionary route is intentionally limited to 22 manually reviewed condensed units and provides no guessed fallback.
+
+## Install
+
+Copy the `tarot-reader` directory into your Codex skills directory:
+
+```sh
+cp -R tarot-reader ~/.codex/skills/tarot-reader
+```
+
+Then start a new Codex conversation and invoke `$tarot-reader` with your question, context, cards, and any known positions or orientations.
+
+## Validate
+
+The repository includes a portable integrity check that does not require the private build workspace:
+
+```sh
+ruby scripts/verify_public_package.rb
+```
+
+If Codex's `skill-creator` utilities are available, you can additionally run `quick_validate.py tarot-reader`. The frozen v1.1 release records 23 runs, 1,264 assertions, and zero failures in its complete build workspace. See [`tarot-reader/acceptance.md`](tarot-reader/acceptance.md) for the release evidence and scope.
+
+## Repository layout
+
+```text
+tarot-reader/
+├── SKILL.md
+├── acceptance.md
+├── agents/
+├── references/
+└── scripts/
+scripts/
+└── verify_public_package.rb
+```
+
+The project is expected to evolve through new versioned release candidates; frozen artifacts are not edited in place.

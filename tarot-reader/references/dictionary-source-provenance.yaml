@@ -1,0 +1,66 @@
+provenance_id: tarot_dictionary_zh.phase1e.visual-review-units.v1
+status: frozen
+source_book_id: tarot_dictionary_zh
+source_policy:
+  source_pdf_is_not_packaged: true
+  raw_ocr_is_not_runtime_content: true
+  double_column_text_is_not_copied: true
+  unsupported_entries_fail_closed: true
+  derived_content_policy: manually_condensed_from_page_review
+source_artifacts:
+  - source_repo_path: reading/tarot_dictionary_zh/source-chunks.jsonl
+    sha256: 2a96e672fa35cd5ac1401a4c8f57b4e0b48e517d0514b738fc7262b6af630d62
+    stage_or_contract_id: tarot_dictionary_zh.phase1e.frozen
+    source_status: ocr_candidate_visual_review_pending
+  - source_repo_path: reading/tarot_dictionary_zh/layout-observations.jsonl
+    sha256: 2d9da39e3315699d4f6b5bc5ae12f48490c2ceb17be37f37b6b09db2b0acf115
+    stage_or_contract_id: tarot_dictionary_zh.phase1e.frozen
+    source_status: layout_observation_record
+  - source_repo_path: reading/tarot_dictionary_zh/entry-anchors.jsonl
+    sha256: d1694d06f8dca7cad8d439b481baae32e609a62af0c1376f8420af7485cb723b
+    stage_or_contract_id: tarot_dictionary_zh.phase1e.frozen
+    source_status: locator_only
+  - source_repo_path: reading/tarot_dictionary_zh/entry-boundaries.jsonl
+    sha256: 00bbbb6086e112834297f08c9c724a6730a83adc0fa85ad35db1b385524b4f1c
+    stage_or_contract_id: tarot_dictionary_zh.phase1e.frozen
+    source_status: card_and_orientation_boundary_record
+  - source_repo_path: reading/tarot_dictionary_zh/source-qa.md
+    sha256: 49402cf887e7408d40d28ffa6a28ff2c0410d1642de89c83412393ca64b37e18
+    stage_or_contract_id: tarot_dictionary_zh.phase1e.frozen
+    source_status: layout_and_transcription_qa
+  - source_repo_path: reading/tarot_dictionary_zh/dictionary-runtime-rechecks.yaml
+    sha256: 63aacd560dfee6612b5b32db7e05da2feec6b55b4c7181850ac435accb67a34a
+    stage_or_contract_id: tarot_dictionary_zh.phase1e.frozen
+    source_status: evaluator_and_acceptance_record_not_runtime_content
+  - source_repo_path: 塔罗解牌字典中文版 .pdf
+    sha256: be95fc2cdc185c82c3b98cecd8446b9dd7e0155055e0359b90ac68d7ef0c2487
+    stage_or_contract_id: tarot_dictionary_zh.phase1e.frozen
+    source_status: local_visual_review_source_not_packaged
+manual_review:
+  method: rendered_local_pdf_page_review_with_single_column_reading
+  content_status: condensed_units_reviewed_against_readable_page_regions
+  ocr_status: not_promoted_to_canonical_transcription
+  reviewed_pdf_pages:
+    - 13
+    - 14
+    - 28
+    - 59
+    - 64
+    - 70
+    - 96
+    - 100
+    - 166
+    - 174
+    - 202
+    - 258
+    - 288
+    - 289
+    - 306
+    - 310
+    - 326
+    - 334
+    - 352
+    - 366
+    - 371
+    - 382
+  column_rule: each unit names the visually reviewed column; no cross-column OCR concatenation is promoted

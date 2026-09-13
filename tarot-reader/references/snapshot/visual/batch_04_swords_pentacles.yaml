@@ -1,0 +1,524 @@
+phase: 4B
+batch_id: batch_04_swords_pentacles
+status: validated
+records:
+  - card_id: swords_ace
+    factual_visual_id: rws.factual.swords_ace
+    review_batch: batch_04_swords_pentacles
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#swords_ace
+    legacy_visual_record_ref: pilot/phase-0.5/rws-visual-records.yaml#rws.ace_of_swords
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/swords_ace.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/One_of_Swords_%28Rider-Waite_Smith_tarot_deck%29.png/960px-One_of_Swords_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:One of Swords (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: a47babb2bdd92501ef92b15044a29ab859461119c5acff4e548bfdc9d913021d
+    observations:
+      scene: 画面下方有起伏山地；一只手从画面左侧云团中伸出，握住一把竖直长剑，剑尖向上。
+      figures: []
+      action: 手从云团中伸出并握住剑柄；剑身保持竖直，剑尖位于画面上方。
+      gaze_and_facing: 无完整人物面部；手部没有可记录的视线方向。
+      spatial_relations: [手和剑位于画面中央, 云团位于手的左后方, 冠状物横跨剑尖附近, 两侧下垂叶枝位于剑的上方左右, 山地位于画面下方远景]
+      objects: [一把剑, 一只手, 冠状物, 两侧下垂叶枝, 云团, 山地]
+    edition_specific_visuals: [浅灰色背景, 蓝绿色剑, 黄色冠状物, 绿色叶枝, 红色枝叶果点, 紫红色山地]
+    symbolic_readings: []
+    unresolved_visuals: []
+  - card_id: swords_two
+    factual_visual_id: rws.factual.swords_two
+    review_batch: batch_04_swords_pentacles
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#swords_two
+    legacy_visual_record_ref: pilot/phase-0.5/rws-visual-records.yaml#rws.two_of_swords
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/swords_two.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Two_of_Swords_%28Rider-Waite_Smith_tarot_deck%29.png/960px-Two_of_Swords_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:Two of Swords (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: 52c59ab5207f3d130045c39621330f1211d53f582b5e036e926d95a8666bc862
+    observations:
+      scene: 一名蒙眼人物坐在水边的石台上，身后可见水面、岩石和远处低山，上方有弯月。
+      figures: [一名坐着人物]
+      action: 人物双臂在胸前交叉，双手各握一把剑柄；两把剑从胸前分别斜向画面左上和右上延伸。
+      gaze_and_facing: 人物身体和脸部大致朝向画面前方；眼部被布带遮住，具体视线无法确认。
+      spatial_relations: [人物位于画面中央前景, 两把剑位于人物身体两侧并向上外展, 水面和岩石位于人物后方, 低山位于水面远处, 弯月位于画面右上方]
+      objects: [两把剑, 眼部布带, 石台, 水面, 岩石, 低山, 弯月]
+    edition_specific_visuals: [浅蓝色天空和水面, 白灰色服饰, 黑色头发和布带, 黄色弯月, 棕色岩石, 红黄色远山]
+    symbolic_readings: []
+    unresolved_visuals: []
+  - card_id: swords_three
+    factual_visual_id: rws.factual.swords_three
+    review_batch: batch_04_swords_pentacles
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#swords_three
+    legacy_visual_record_ref: pilot/phase-0.5/rws-visual-records.yaml#rws.three_of_swords
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/swords_three.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Three_of_Swords_%28Rider-Waite_Smith_tarot_deck%29.png/960px-Three_of_Swords_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:Three of Swords (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: 51a1e4ed834dae245d2160429dd411bf3c9871916045542778a9f51a3618586c
+    observations:
+      scene: 画面中央有一个心形物体，背景为云层和雨线，三把剑穿过该物体。
+      figures: []
+      action: 一把剑从上方向下穿过心形物体中央；另外两把剑从上方左右两侧斜向下穿入同一物体。
+      gaze_and_facing: 无人物和动物，因而没有可记录的视线或朝向。
+      spatial_relations: [心形物体位于画面中央, 一把剑位于心形物体正上方并竖直穿过, 另外两把剑位于心形物体上方左右并斜向穿过, 云层位于背景, 雨线覆盖画面]
+      objects: [三把剑, 心形物体, 云层, 雨线]
+    edition_specific_visuals: [红色心形物体, 蓝色剑, 灰色云层, 浅灰色背景]
+    symbolic_readings: []
+    unresolved_visuals: []
+  - card_id: swords_four
+    factual_visual_id: rws.factual.swords_four
+    review_batch: batch_04_swords_pentacles
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#swords_four
+    legacy_visual_record_ref: pilot/phase-0.5/rws-visual-records.yaml#rws.four_of_swords
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/swords_four.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Four_of_Swords_%28Rider-Waite_Smith_tarot_deck%29.png/960px-Four_of_Swords_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:Four of Swords (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: 6b0bd2b741c24838df2c3991ede8433d345c7e26a62cec42bdbfe6141c6eabbe
+    observations:
+      scene: 一名人物横躺在石制平台上；人物上方墙面悬挂三把剑，画面下方另有一把横向放置的剑，左上方有带图案的玻璃窗。
+      figures: [一名横躺人物]
+      action: 人物仰卧在石制平台上，双手合拢置于胸前；三把剑在上方墙面竖直悬挂，另一把剑在前景下方横向放置。
+      gaze_and_facing: 人物头部位于画面右侧，面部朝向上方；具体视线无法确认。
+      spatial_relations: [人物位于画面下方中部的平台上, 三把剑位于人物上方墙面并彼此平行, 横放的剑位于画面下方前景, 玻璃窗位于人物左上方背景]
+      objects: [石制平台, 带图案的玻璃窗, 三把悬挂的剑, 一把横放的剑, 墙面]
+    edition_specific_visuals: [黄色平台和下方地面, 红蓝绿色玻璃窗图案, 黄色衣物, 黑色剑线稿]
+    symbolic_readings: []
+    unresolved_visuals: []
+  - card_id: swords_five
+    factual_visual_id: rws.factual.swords_five
+    review_batch: batch_04_swords_pentacles
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#swords_five
+    legacy_visual_record_ref:
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/swords_five.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Five_of_Swords_%28Rider-Waite_Smith_tarot_deck%29.png/960px-Five_of_Swords_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:Five of Swords (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: a999ecd65893f214d6e42ff6f0c1771a38ed9dc2911f89564e84b3d0a03fc751
+    observations:
+      scene: 一名持剑人物位于临水地面的前景，背景有两名远处人物、水面和大片云层。
+      figures: [一名前景站立人物, 一名背景左侧人物, 一名背景中央较小人物]
+      action: 前景人物携带三把剑，其中一把位于身体前方近竖直向下，另外两把位于身体右后方并斜向左下；另有两把剑在画面左下方地面交叉放置。两名背景人物呈向画面左侧行走姿势。
+      gaze_and_facing: 前景人物身体和脸部朝向画面左侧；两名背景人物背部或侧面朝向画面左侧，具体视线无法确认。
+      spatial_relations: [前景人物位于画面右侧, 三把剑与前景人物身体前后重叠, 两把交叉的剑位于画面左下方前景地面, 两名背景人物位于水面前方远处, 云层位于人物上方背景]
+      objects: [五把剑, 水面, 云层, 临水地面]
+    edition_specific_visuals: [浅蓝色天空和水面, 绿色外袍, 红色袖口和靴子, 蓝色剑, 棕灰色云层, 黄色靴面]
+    symbolic_readings: []
+    unresolved_visuals: []
+  - card_id: swords_six
+    factual_visual_id: rws.factual.swords_six
+    review_batch: batch_04_swords_pentacles
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#swords_six
+    legacy_visual_record_ref: pilot/phase-0.5/rws-visual-records.yaml#rws.six_of_swords
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/swords_six.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Six_of_Swords_%28Rider-Waite_Smith_tarot_deck%29.png/960px-Six_of_Swords_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:Six of Swords (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: 2c3c5196829530c8710652d6c212d2b61cf515f2b4cc23422861f90855590d91
+    observations:
+      scene: 一艘小船位于水面上，船内竖立六把剑；船上有一名站立人物和两名位于船首、部分被布料遮挡的人物，远处有岸线和树木。
+      figures: [一名站立人物, 一名船首较大人物, 一名船首较小人物]
+      action: 站立人物在船尾手持长桨；两名船首人物坐或蜷缩在船内；六把剑均竖直插放在船内，剑柄在上、剑尖向下。
+      gaze_and_facing: 站立人物背向画面前方并朝向画面上方；船首两名人物的脸部和具体视线被布料及船体遮挡，无法确认。
+      spatial_relations: [站立人物位于船尾左侧, 两名人物位于船首下方, 六把剑位于船内并分成中部两把与右侧四把, 船体位于水面上, 岸线和树木位于背景]
+      objects: [六把剑, 小船, 长桨, 布料, 水面, 岸线, 树木]
+    edition_specific_visuals: [浅灰色天空, 蓝色水面和剑身, 橙红色船体, 橙黄色衣物, 灰蓝色布料, 绿色岸边]
+    symbolic_readings: []
+    unresolved_visuals: []
+  - card_id: swords_seven
+    factual_visual_id: rws.factual.swords_seven
+    review_batch: batch_04_swords_pentacles
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#swords_seven
+    legacy_visual_record_ref: pilot/phase-0.5/rws-visual-records.yaml#rws.seven_of_swords
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/swords_seven.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Seven_of_Swords_%28Rider-Waite_Smith_tarot_deck%29.png/960px-Seven_of_Swords_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:Seven of Swords (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: 007c6dff15d9c30bc7c4ab79af3b4048c3bed80ca23a476147664f61d254bbf7
+    observations:
+      scene: 一名人物位于营地或建筑物前方，双手携带五把剑；画面右侧地面竖立两把剑，背景有帐篷状建筑、地面和云团。
+      figures: [一名站立人物]
+      action: 人物身体和腿部呈向画面左侧行走姿势并携带五把剑；五把剑从画面左下方握持处向右上方斜向排列；另外两把剑在画面右侧竖直插在地面，剑柄在上、剑尖向下。
+      gaze_and_facing: 人物身体朝向画面左侧，脸部转向画面右侧；具体视线无法确认。
+      spatial_relations: [人物位于画面中央偏左前景, 五把携带剑横跨人物身体前后并向右上方延伸, 两把竖立剑位于画面右侧地面, 帐篷状建筑位于竖立剑后方, 云团位于左下方背景]
+      objects: [七把剑, 帐篷状建筑, 地面, 云团]
+    edition_specific_visuals: [黄色天空和地面, 橄榄色外袍, 红色帽子和靴子, 浅蓝色剑, 灰绿色与红色建筑图案]
+    symbolic_readings: []
+    unresolved_visuals: []
+  - card_id: swords_eight
+    factual_visual_id: rws.factual.swords_eight
+    review_batch: batch_04_swords_pentacles
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#swords_eight
+    legacy_visual_record_ref: pilot/phase-0.5/rws-visual-records.yaml#rws.eight_of_swords
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/swords_eight.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Eight_of_Swords_%28Rider-Waite_Smith_tarot_deck%29.png/960px-Eight_of_Swords_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:Eight of Swords (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: 27417c5857e2a917d74187245f2b7f91695ef0da8247c892bf3538cf99b3b92d
+    observations:
+      scene: 一名蒙眼人物站在浅水和泥地之间，身体周围竖立八把剑，右后方有带尖塔的建筑。
+      figures: [一名站立人物]
+      action: 人物被多条布带缠绕并站立在水边；八把剑分布在人物左右两侧，均竖直插入地面，剑柄在上、剑尖向下。
+      gaze_and_facing: 人物身体大致朝向画面前方，脸部朝向画面左侧；眼部被布带遮住，具体视线无法确认。
+      spatial_relations: [人物位于画面中央前景, 左侧有三把竖立剑, 右侧有五把竖立剑, 建筑位于人物右后方, 水面和泥地位于人物脚下前景]
+      objects: [八把剑, 眼部布带, 身体布带, 带尖塔建筑, 水面, 泥地]
+    edition_specific_visuals: [红橙色服饰, 浅蓝色剑, 灰白色天空, 棕蓝色水面和地面, 灰色建筑]
+    symbolic_readings: []
+    unresolved_visuals: []
+  - card_id: swords_nine
+    factual_visual_id: rws.factual.swords_nine
+    review_batch: batch_04_swords_pentacles
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#swords_nine
+    legacy_visual_record_ref: pilot/phase-0.5/rws-visual-records.yaml#rws.nine_of_swords
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/swords_nine.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Nine_of_Swords_%28Rider-Waite_Smith_tarot_deck%29.png/960px-Nine_of_Swords_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      source_file: File:Nine of Swords (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: c2453cea5706757f3eecefbc3fff25eca70104825eaaf2ef3d07a5d96b597fe2
+    observations:
+      scene: 一名人物坐在床上，床上覆盖带重复图案的被面；人物上方墙面横向排列九把剑。
+      figures: [一名坐在床上的人物]
+      action: 人物坐在床上，身体前倾，双手遮住脸部和头部；九把剑彼此平行地横向固定在人物上方墙面。
+      gaze_and_facing: 人物头部向下并被双手遮挡，脸部和具体视线无法确认。
+      spatial_relations: [人物位于画面下方中部床上, 九把剑位于人物上方并从画面左侧向右侧延伸, 床和被面位于前景下方, 墙面位于人物后方]
+      objects: [九把剑, 床, 被面, 墙面]
+    edition_specific_visuals: [黑色背景墙, 浅蓝色剑, 灰白色衣物, 红橙色床铺, 蓝黄红色重复图案被面]
+    symbolic_readings: []
+    unresolved_visuals: []
+  - card_id: swords_ten
+    factual_visual_id: rws.factual.swords_ten
+    review_batch: batch_04_swords_pentacles
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#swords_ten
+    legacy_visual_record_ref:
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/swords_ten.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Ten_of_Swords_%28Rider-Waite_Smith_tarot_deck%29.png/960px-Ten_of_Swords_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20260410225113
+      source_file: File:Ten of Swords (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: 304e54a76be3c2a3bc8cf510551bc05f6b8b1aa116b82933a0e74b144d9f66b2
+    observations:
+      scene: 一名人物俯卧在地面上，身体上方和周围分布十把剑；背景有水面、远处地面和低矮地貌。
+      figures: [一名俯卧人物]
+      action: 人物俯卧，头部位于画面右下方，双臂向画面左侧伸展；十把剑的剑柄位于上方，剑尖朝下，剑身竖直或略微倾斜并与人物身体区域重叠。
+      gaze_and_facing: 人物头部朝向画面右侧并向下，眼睛和具体视线无法确认。
+      spatial_relations: [人物位于画面下方前景, 十把剑横跨人物上方并向下延伸至地面, 水面位于人物后方中景, 远处地面和低矮地貌位于背景]
+      objects: [十把剑, 俯卧人物, 地面, 水面, 远处地貌]
+    edition_specific_visuals: [黑色天空, 浅蓝色剑, 红色衣物, 浅黄色地面, 蓝色水面]
+    symbolic_readings: []
+    unresolved_visuals: []
+  - card_id: pentacles_ace
+    factual_visual_id: rws.factual.pentacles_ace
+    review_batch: batch_04_swords_pentacles
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#pentacles_ace
+    legacy_visual_record_ref:
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/pentacles_ace.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/One_of_Pentacles_%28Rider-Waite_Smith_tarot_deck%29.png/960px-One_of_Pentacles_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20260410230701
+      source_file: File:One of Pentacles (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: 17558dac7fb6307c756e4dfae1f1ca4c5f60a2b89805bdd1a261ad8a1cea457f
+    observations:
+      scene: 一只手从画面左侧云团中伸出并托住一枚大型钱币；下方有灌木、拱形植物和一条小路。
+      figures: []
+      action: 手从云团中伸出，掌心向上托住一枚钱币；钱币中央有清晰的五角星线纹。
+      gaze_and_facing: 无完整人物面部，手部没有可记录的视线方向。
+      spatial_relations: [手和钱币位于画面上方中央, 云团位于手的左后方, 灌木和拱形植物位于画面下方, 小路穿过下方植物区域]
+      objects: [一枚钱币, 一只手, 五角星线纹, 云团, 灌木, 拱形植物, 小路]
+    edition_specific_visuals: [浅灰色背景, 黄色钱币, 绿色灌木, 红色果点, 蓝色远景, 黄色小路]
+    symbolic_readings: []
+    unresolved_visuals: []
+  - card_id: pentacles_two
+    factual_visual_id: rws.factual.pentacles_two
+    review_batch: batch_04_swords_pentacles
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#pentacles_two
+    legacy_visual_record_ref:
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/pentacles_two.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Two_of_Pentacles_%28Rider-Waite_Smith_tarot_deck%29.png/960px-Two_of_Pentacles_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20260410230701
+      source_file: File:Two of Pentacles (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: b259d1ea15fa73159a5b651d9b4049cc273037565d8f24c828487dbb12121bbd
+    observations:
+      scene: 一名人物站在水边，身体周围有一条带状物环绕两个钱币；背景为波浪和两艘远处船只。
+      figures: [一名站立人物]
+      action: 人物双手分别托住画面左上方和右下方的两个钱币；带状物在两个钱币和人物身体周围形成交叉环绕，人物双腿呈分开站立姿势。
+      gaze_and_facing: 人物身体大致朝向画面前方，脸部朝向画面左侧；具体视线无法确认。
+      spatial_relations: [人物位于画面中央, 左上钱币位于人物左手上方, 右下钱币位于人物右手附近, 带状物连接并环绕两个钱币, 波浪位于人物脚下后方, 船只位于远处水面]
+      objects: [两个钱币, 两处五角星线纹, 带状物, 波浪, 两艘船]
+    edition_specific_visuals: [浅蓝色天空和水面, 黄色钱币, 绿色带状物, 红橙色服饰, 绿色鞋子]
+    symbolic_readings: []
+    unresolved_visuals: []
+  - card_id: pentacles_three
+    factual_visual_id: rws.factual.pentacles_three
+    review_batch: batch_04_swords_pentacles
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#pentacles_three
+    legacy_visual_record_ref:
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/pentacles_three.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Three_of_Pentacles_%28Rider-Waite_Smith_tarot_deck%29.png/960px-Three_of_Pentacles_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20260410230701
+      source_file: File:Three of Pentacles (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: 61e932292983de99e31f82f4f8842fd5ebe32db3234305e0f6bba2fb39e76c29
+    observations:
+      scene: 石制拱门和柱体占据画面中央，上方拱门内有三个钱币，拱门下方可见三名人物。
+      figures: [一名画面左侧人物, 一名中央部分被柱体遮挡的人物, 一名画面右侧人物]
+      action: 左侧人物双手靠近拱门；中央人物位于柱体附近并手持圆形物件；右侧人物手持展开的片状物件，三人均站在拱门下方。
+      gaze_and_facing: 左侧人物朝向画面右侧，右侧人物朝向画面左侧；中央人物部分被柱体遮挡，三人的具体视线无法完全确认。
+      spatial_relations: [三个钱币在拱门上方呈上方一枚、下方左右各一枚的三角排列, 三名人物位于钱币和拱门下方, 中央柱体位于人物之间, 石阶和地面位于下方]
+      objects: [三个钱币, 三处五角星线纹, 石制拱门, 柱体, 圆形物件, 片状物件, 石阶]
+    edition_specific_visuals: [黑色拱门线稿, 红橙色披覆, 蓝灰色衣物, 黄色服饰, 浅灰色石墙]
+    symbolic_readings: []
+    unresolved_visuals: []
+  - card_id: pentacles_four
+    factual_visual_id: rws.factual.pentacles_four
+    review_batch: batch_04_swords_pentacles
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#pentacles_four
+    legacy_visual_record_ref: pilot/phase-0.5/rws-visual-records.yaml#rws.four_of_pentacles
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/pentacles_four.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Four_of_Pentacles_%28Rider-Waite_Smith_tarot_deck%29.png/960px-Four_of_Pentacles_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20260410230707
+      source_file: File:Four of Pentacles (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: a0601c3f50b33fecf69cd90296921261033f04828868decf3df1d4d889c2bb3e
+    observations:
+      scene: 一名人物坐在城镇前方的座椅上；四个钱币分别位于人物头顶、胸前、左脚下和右脚下。
+      figures: [一名坐着人物]
+      action: 人物双臂环抱胸前的钱币，双脚分别压在下方左右两个钱币上，头顶上方另有一枚钱币。
+      gaze_and_facing: 人物身体和脸部大致朝向画面前方，具体视线无法确认。
+      spatial_relations: [一枚钱币位于人物头顶上方, 一枚钱币与人物双臂在胸前重叠, 两枚钱币位于人物双脚下方, 城镇和建筑位于人物后方]
+      objects: [四个钱币, 四处五角星线纹, 座椅, 城镇, 建筑]
+    edition_specific_visuals: [黄色钱币, 红黑色外袍, 蓝色围巾, 红蓝色城镇建筑, 浅灰色背景]
+    symbolic_readings: []
+    unresolved_visuals: []
+  - card_id: pentacles_five
+    factual_visual_id: rws.factual.pentacles_five
+    review_batch: batch_04_swords_pentacles
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#pentacles_five
+    legacy_visual_record_ref: pilot/phase-0.5/rws-visual-records.yaml#rws.five_of_pentacles
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/pentacles_five.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Five_of_Pentacles_%28Rider-Waite_Smith_tarot_deck%29.png/960px-Five_of_Pentacles_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20260410230709
+      source_file: File:Five of Pentacles (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: 865c31cc912f7adb596532af2d0fc8a8cf65636391064e2445ba009860ba85bc
+    observations:
+      scene: 两名人物在雪地上经过一扇带图案的玻璃窗，窗内清晰排列五个钱币。
+      figures: [一名画面左侧人物, 一名画面右侧披覆人物]
+      action: 两名人物均位于窗下雪地并呈行走姿势；左侧人物拄着两根长条形拐杖，右侧人物被长披覆物包裹。
+      gaze_and_facing: 两名人物的头部均向下或侧向，具体视线无法确认。
+      spatial_relations: [五个钱币位于人物上方的玻璃窗内, 左侧人物位于画面左下方, 右侧人物位于画面右下方, 窗框位于两名人物后方, 雪地位于前景]
+      objects: [五个钱币, 五处五角星线纹, 带图案的玻璃窗, 两根拐杖, 披覆物, 雪地]
+    edition_specific_visuals: [黄色钱币, 绿色植物图案, 红蓝色玻璃窗, 蓝绿色衣物, 橙红色披覆物, 白色雪地]
+    symbolic_readings: []
+    unresolved_visuals: []
+  - card_id: pentacles_six
+    factual_visual_id: rws.factual.pentacles_six
+    review_batch: batch_04_swords_pentacles
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#pentacles_six
+    legacy_visual_record_ref:
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/pentacles_six.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Six_of_Pentacles_%28Rider-Waite_Smith_tarot_deck%29.png/960px-Six_of_Pentacles_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20260410230707
+      source_file: File:Six of Pentacles (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: bc521ca8dea7863a76a04cbb55873575ececdfc2fe84ddd3308d4999e0f3d0f9
+    observations:
+      scene: 一名人物站在两名较低位置人物之间，背景墙面上排列六个钱币；中央人物用画面右侧的手持一杆秤。
+      figures: [一名中央站立人物, 一名画面左侧人物, 一名画面右侧人物]
+      action: 中央人物用画面右侧的手提着秤，画面左侧的手向画面左侧伸出；中央人物与左侧人物之间可见两个小圆形物件，右侧人物位于中央人物脚边。
+      gaze_and_facing: 中央人物脸部朝向画面左侧；左侧人物脸部朝向画面右侧并向上；右侧人物脸部朝向画面左侧并向上，具体视线无法确认。
+      spatial_relations: [六个钱币分布在中央人物上方墙面, 中央人物位于画面中部, 左侧人物位于中央人物左下方, 右侧人物位于中央人物右下方, 秤由中央人物画面右侧的手持有]
+      objects: [六个钱币, 六处五角星线纹, 秤, 两个小圆形物件, 建筑, 灌木]
+    edition_specific_visuals: [黄色钱币, 红色中央外袍, 蓝灰色围巾和右侧衣物, 黄色左侧衣物, 浅灰色背景]
+    symbolic_readings: []
+    unresolved_visuals: []
+  - card_id: pentacles_seven
+    factual_visual_id: rws.factual.pentacles_seven
+    review_batch: batch_04_swords_pentacles
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#pentacles_seven
+    legacy_visual_record_ref: pilot/phase-0.5/rws-visual-records.yaml#rws.seven_of_pentacles
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/pentacles_seven.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Seven_of_Pentacles_%28Rider-Waite_Smith_tarot_deck%29.png/960px-Seven_of_Pentacles_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20260410230714
+      source_file: File:Seven of Pentacles (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: 731faa8104bc51b7ba4068f38da304acf8330dcc8c6a17aedaee694dda92d99a
+    observations:
+      scene: 一名人物站在画面右侧，左侧有一大丛叶片和七个钱币；人物脚下是地面和低矮植物。
+      figures: [一名站立人物]
+      action: 人物双手扶着一根竖直长柄工具，身体向画面左侧倾斜；七个钱币分布在左侧叶丛的不同高度和下方地面边缘。
+      gaze_and_facing: 人物身体和脸部朝向画面左侧并向下，具体视线无法确认。
+      spatial_relations: [七个钱币位于画面左侧叶丛中和叶丛下方, 人物位于钱币右侧, 长柄工具位于人物身体前方并落到地面, 远处地面位于人物后方]
+      objects: [七个钱币, 七处五角星线纹, 叶丛, 长柄工具, 地面]
+    edition_specific_visuals: [黄色钱币, 绿色叶丛, 橙黄色服饰, 蓝色袖子和裤子, 红褐色长柄工具, 紫红色地面]
+    symbolic_readings: []
+    unresolved_visuals: []
+  - card_id: pentacles_eight
+    factual_visual_id: rws.factual.pentacles_eight
+    review_batch: batch_04_swords_pentacles
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#pentacles_eight
+    legacy_visual_record_ref: pilot/phase-0.5/rws-visual-records.yaml#rws.eight_of_pentacles
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/pentacles_eight.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Eight_of_Pentacles_%28Rider-Waite_Smith_tarot_deck%29.png/960px-Eight_of_Pentacles_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20260410230713
+      source_file: File:Eight of Pentacles (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: 66bc6527a7fa58aad6e3819df87684275d48a4469cb546af4380c235b25dd761
+    observations:
+      scene: 一名人物坐在长凳上，右侧竖直排列六个钱币，长凳上和地面各有一个钱币；左侧背景有建筑物。
+      figures: [一名坐着人物]
+      action: 人物一手持锤状工具，另一手持细长工具，细长工具的端部位于长凳上的钱币处；人物坐在长凳上低头朝向工作区域。
+      gaze_and_facing: 人物身体和脸部朝向画面右侧并向下，具体视线无法确认。
+      spatial_relations: [六个钱币沿画面右侧竖直木面排列, 一个钱币位于长凳上并靠近人物手中工具, 一个钱币位于画面下方地面, 人物位于长凳左侧中部, 建筑物位于左后方]
+      objects: [八个钱币, 八处五角星线纹, 长凳, 锤状工具, 细长工具, 木面, 建筑物]
+    edition_specific_visuals: [黄色钱币, 蓝灰色衣物, 红色裤子和鞋, 棕红色木面, 浅灰色背景]
+    symbolic_readings: []
+    unresolved_visuals: []
+  - card_id: pentacles_nine
+    factual_visual_id: rws.factual.pentacles_nine
+    review_batch: batch_04_swords_pentacles
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#pentacles_nine
+    legacy_visual_record_ref:
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/pentacles_nine.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Nine_of_Pentacles_%28Rider-Waite_Smith_tarot_deck%29.png/960px-Nine_of_Pentacles_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20260410230714
+      source_file: File:Nine of Pentacles (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: 89e326b2df0513bce3bffed04fba2c0afb6b9eca11167764b7c2c9a0df3abfb8
+    observations:
+      scene: 一名人物站在灌木和葡萄藤之间，手臂上停着一只鸟；画面下方地面上有一只蜗牛，九个钱币分布在人物左右两侧的植物间。
+      figures: [一名站立人物, 一只鸟, 一只蜗牛]
+      action: 人物抬起画面右侧手臂承托鸟；鸟站在手上，蜗牛位于画面左下方地面；九个钱币固定或放置在左右两侧叶丛的不同高度。
+      gaze_and_facing: 人物脸部朝向画面左侧并向下；鸟头朝向画面左侧，蜗牛头部朝向画面右侧；人物和动物的具体视线无法确认。
+      spatial_relations: [人物位于画面中央, 鸟位于人物画面右侧抬起的手上, 九个钱币分成画面左侧六枚和右侧三枚并嵌在叶丛间, 蜗牛位于画面左下方前景地面]
+      objects: [九个钱币, 九处五角星线纹, 灌木, 葡萄藤, 鸟, 蜗牛, 地面]
+    edition_specific_visuals: [黄色天空和钱币, 绿色灌木, 红色果实, 米黄色披覆物, 红色头饰, 棕绿色鸟和黑色蜗牛]
+    symbolic_readings: []
+    unresolved_visuals: []
+  - card_id: pentacles_ten
+    factual_visual_id: rws.factual.pentacles_ten
+    review_batch: batch_04_swords_pentacles
+    review_status: reviewed
+    canonical_source_ref: runtime/phase4a/rws-visual-source-manifest.yaml#pentacles_ten
+    legacy_visual_record_ref:
+    phase4a_recheck_ref:
+    review_copy:
+      path: runtime/phase4b/review-copies/pentacles_ten.png
+      kind: commons_thumbnail
+      acquisition_url: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Ten_of_Pentacles_%28Rider-Waite_Smith_tarot_deck%29.png/960px-Ten_of_Pentacles_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20260410230719
+      source_file: File:Ten of Pentacles (Rider-Waite Smith tarot deck).png
+      download_width: 960
+      download_height: 1646
+      checksum_algorithm: sha256
+      checksum: dd3d79b6d17f3b95bcc87b221626fdc708b4aebc99e4c6d8acfdf24e395fdf09
+    observations:
+      scene: 城镇、拱桥和建筑物前有四名人物；画面下方有两只狗，其中一只部分被遮挡；十个钱币分布在建筑、桥拱、人物和植物之间。
+      figures: [四名人物（左下方一名白发人物、中部两名成人、右下方一名较小人物）, 两只狗（其中一只部分被遮挡）]
+      action: 白发人物位于左下方并面向画面内；两名成人站在中部，较小人物位于右下方；两只狗位于人物前方地面上，其中一只部分被遮挡，可见的一只头部朝向画面左侧。
+      gaze_and_facing: 白发人物脸部朝向画面右侧；中部两名成人彼此朝向左右两侧；较小人物脸部朝向画面左侧，具体视线无法确认；两只狗中可见的一只头部朝向画面左侧，部分被遮挡的一只具体朝向无法确认。
+      spatial_relations: [十个钱币分布为上方和中部建筑区域、左右两侧植物区域及下方前景, 四名人物位于钱币下方和中部, 两只狗位于右下方前景，其中一只部分被遮挡, 拱桥位于人物后方上方, 城镇建筑位于背景]
+      objects: [十个钱币, 十处五角星线纹, 拱桥, 城镇建筑, 植物, 两只狗, 地面]
+    edition_specific_visuals: [黄色钱币, 蓝色天空和衣物, 红橙色建筑及披覆物, 绿色植物, 白灰色狗, 棕色地面]
+    symbolic_readings: []
+    unresolved_visuals: []

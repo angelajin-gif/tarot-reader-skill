@@ -1,0 +1,51 @@
+book_id: dawn_court_zh
+status: compiled_minimal_anchors
+anchors:
+  - concept: court_as_role_not_identity
+    source_pages: [16, 17, 23, 24, 69, 70, 100]
+    excerpt_ids: [dawn_court_zh.ex0016, dawn_court_zh.ex0017, dawn_court_zh.ex0023, dawn_court_zh.ex0024, dawn_court_zh.ex0069, dawn_court_zh.ex0070, dawn_court_zh.ex0100]
+    why_retrievable: 决定 Court 是外部人物、問卜者自身面向、角色功能或行為模式，而不是固定身份。
+  - concept: multiple_court_ontology
+    source_pages: [23, 24, 50, 162, 163, 164, 165, 166, 167]
+    excerpt_ids: [dawn_court_zh.ex0023, dawn_court_zh.ex0024, dawn_court_zh.ex0050, dawn_court_zh.ex0162, dawn_court_zh.ex0163, dawn_court_zh.ex0164, dawn_court_zh.ex0165, dawn_court_zh.ex0166, dawn_court_zh.ex0167]
+    why_retrievable: 决定多张 Court 是多人关系结构，还是同一人在不同生活领域承载多个角色。
+  - concept: rank_progression_as_function
+    source_pages: [46, 47, 48, 52, 54, 58, 59, 63, 64]
+    excerpt_ids: [dawn_court_zh.ex0046, dawn_court_zh.ex0047, dawn_court_zh.ex0048, dawn_court_zh.ex0052, dawn_court_zh.ex0054, dawn_court_zh.ex0058, dawn_court_zh.ex0059, dawn_court_zh.ex0063, dawn_court_zh.ex0064]
+    why_retrievable: 决定 rank 是沟通、行动、关怀或领导的功能，而不是道德等级或年龄证明。
+  - concept: element_spread_context
+    source_pages: [26, 27, 28, 29, 30]
+    excerpt_ids: [dawn_court_zh.ex0026, dawn_court_zh.ex0027, dawn_court_zh.ex0028, dawn_court_zh.ex0029, dawn_court_zh.ex0030]
+    why_retrievable: 判断元素密度、缺席和互動如何改变情境，并避免把元素做成固定权重。
+  - concept: physical_age_gender_as_weak_identifier
+    source_pages: [22, 23, 24, 25]
+    excerpt_ids: [dawn_court_zh.ex0022, dawn_court_zh.ex0023, dawn_court_zh.ex0024, dawn_court_zh.ex0025]
+    why_retrievable: 防止用外貌、年龄、性别、婚育或生理特征直接确认 Court 身份。
+  - concept: astrology_as_candidate_narrowing
+    source_pages: [31, 32, 33, 34, 35, 36, 37, 38]
+    excerpt_ids: [dawn_court_zh.ex0031, dawn_court_zh.ex0032, dawn_court_zh.ex0033, dawn_court_zh.ex0034, dawn_court_zh.ex0035, dawn_court_zh.ex0036, dawn_court_zh.ex0037, dawn_court_zh.ex0038]
+    why_retrievable: 只有在背景提供生日或问卜者选择指定牌时，用星座缩小候选；不把星座当证件。
+  - concept: timing_as_current_tendency
+    source_pages: [39, 40, 41, 42, 43, 44]
+    excerpt_ids: [dawn_court_zh.ex0039, dawn_court_zh.ex0040, dawn_court_zh.ex0041, dawn_court_zh.ex0042, dawn_court_zh.ex0043, dawn_court_zh.ex0044]
+    why_retrievable: 处理事件窗口时保留自由意志、流程不确定性和复核节点。
+  - concept: archetype_behavior_shadow_action
+    source_pages: [69, 70, 75, 76, 82, 106, 123, 128, 139, 145, 150, 161, 162]
+    excerpt_ids: [dawn_court_zh.ex0069, dawn_court_zh.ex0070, dawn_court_zh.ex0075, dawn_court_zh.ex0076, dawn_court_zh.ex0082, dawn_court_zh.ex0106, dawn_court_zh.ex0123, dawn_court_zh.ex0128, dawn_court_zh.ex0139, dawn_court_zh.ex0145, dawn_court_zh.ex0150, dawn_court_zh.ex0161, dawn_court_zh.ex0162]
+    why_retrievable: 需要从 Court 生成行为候选、shadow 反证和下一步行动，而不是复述原型名字。
+  - concept: relationship_context_switch
+    source_pages: [168, 169, 210, 211, 212, 213, 214, 215, 217]
+    excerpt_ids: [dawn_court_zh.ex0168, dawn_court_zh.ex0169, dawn_court_zh.ex0210, dawn_court_zh.ex0211, dawn_court_zh.ex0212, dawn_court_zh.ex0213, dawn_court_zh.ex0214, dawn_court_zh.ex0215, dawn_court_zh.ex0217]
+    why_retrievable: 区分外在形象、内在面向、工作、相遇情境和关系功课，避免 soulmate/对象身份过早收敛。
+  - concept: pop_culture_as_reference_only
+    source_pages: [218, 219, 220, 221, 230, 236]
+    excerpt_ids: [dawn_court_zh.ex0218, dawn_court_zh.ex0219, dawn_court_zh.ex0220, dawn_court_zh.ex0221, dawn_court_zh.ex0230, dawn_court_zh.ex0236]
+    why_retrievable: 用角色案例生成或反驳原型候选，但不把流行文化角色当现实身份。
+  - concept: court_gift_spread
+    source_pages: [239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260]
+    excerpt_ids: [dawn_court_zh.ex0239, dawn_court_zh.ex0240, dawn_court_zh.ex0241, dawn_court_zh.ex0242, dawn_court_zh.ex0243, dawn_court_zh.ex0244, dawn_court_zh.ex0245, dawn_court_zh.ex0246, dawn_court_zh.ex0247, dawn_court_zh.ex0248, dawn_court_zh.ex0249, dawn_court_zh.ex0250, dawn_court_zh.ex0251, dawn_court_zh.ex0252, dawn_court_zh.ex0253, dawn_court_zh.ex0254, dawn_court_zh.ex0255, dawn_court_zh.ex0256, dawn_court_zh.ex0257, dawn_court_zh.ex0258, dawn_court_zh.ex0259, dawn_court_zh.ex0260]
+    why_retrievable: 只有需要设计 Court 反思/行动牌阵时回查，不把练习问题偷换成用户事实。
+  - concept: appendix_quick_reference_is_not_oracle
+    source_pages: [261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 281, 282, 283, 284, 285]
+    excerpt_ids: [dawn_court_zh.ex0261, dawn_court_zh.ex0285]
+    why_retrievable: 只在已有 Book Model 判断后快速定位元素、星座、时间和原型段落；不得退化成逐牌查表。

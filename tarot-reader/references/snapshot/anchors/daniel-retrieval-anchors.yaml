@@ -1,0 +1,55 @@
+version: 1
+book_id: daniel_16_lessons_zh
+scope: system_anchors_only
+anchors:
+  - concept: question_framing
+    source_pages: [24, 27, 29, 35]
+    why_retrievable: 将抽象问题改写为具体、有限时段且包含行动可能的问题
+  - concept: spread_purpose_shape_position_logic
+    source_pages: [214, 215, 216]
+    why_retrievable: 判断牌阵是否适合问题，以及牌位和图形如何组织解释
+  - concept: subjective_cut_vs_objective_cards
+    source_pages: [30, 32, 220, 224, 230]
+    why_retrievable: 分开问卜者主观视角、客观状况和阅读者建议
+  - concept: no_named_positions_gestalt
+    source_pages: [29, 214, 215]
+    why_retrievable: 无固定牌位时避免伪造过去现在结果，并以整体和候选轴组织牌
+  - concept: three_layer_deck_structure
+    source_pages: [38, 39, 41, 45, 47]
+    why_retrievable: 把 Major、Court、数字牌和花色域放回整体结构
+  - concept: suit_domain_and_element
+    source_pages: [39, 48, 49, 50, 225]
+    why_retrievable: 以花色和元素表达问题领域，不建立缺席或密度的固定 if-rule
+  - concept: major_three_by_seven_matrix
+    source_pages: [41, 42, 43, 44]
+    why_retrievable: 组织 Major 的个人、他人、世界和七主题结构
+  - concept: number_as_process
+    source_pages: [199, 200, 207, 208, 209, 210, 211, 212]
+    why_retrievable: 将数字作为过程候选，比较同号牌在不同花色的表达
+  - concept: court_as_person_or_role
+    source_pages: [45, 46, 47]
+    why_retrievable: 在人物、问卜者角色和行为功能之间切换
+  - concept: rws_color_observation
+    source_pages: [172, 175, 178, 179, 180, 181, 182]
+    why_retrievable: 先观察底色、衣着和自然物，再提出色彩象征候选
+  - concept: astrology_correspondence_as_optional_switch
+    source_pages: [184, 186, 187, 190, 195, 197]
+    why_retrievable: 在牌阵与问题支持时调用占星对应，禁止制造出生资料
+  - concept: card_image_to_reality_bridge
+    source_pages: [55, 67, 79, 91, 104, 122, 154]
+    why_retrievable: 按牌面描述→牌义→实例说明的路径把图像落到现实行为
+  - concept: time_flow_reading_order
+    source_pages: [219, 220, 221, 222]
+    why_retrievable: 在有过去现在未来结构时按影响关系和顺序组织事件倾向
+  - concept: four_elements_domain_switch
+    source_pages: [223, 224, 225, 227, 228]
+    why_retrievable: 按工作、关系、财务等问题 domain 选择关键元素位置
+  - concept: choice_spread_relative_comparison
+    source_pages: [229, 230, 231, 232]
+    why_retrievable: 比较 A/B 的相对状况和影响，不把牌写成绝对好坏
+  - concept: practice_archive_and_verification
+    source_pages: [218, 243, 244, 249, 250]
+    why_retrievable: 以案例档案和现实反馈改进 reading，而不是重复占卜验算
+  - concept: upright_only_scope_boundary
+    source_pages: [7, 55, 67, 79, 91, 104, 122]
+    why_retrievable: Daniel 只提供 upright/base function；真实逆位交给 Greer

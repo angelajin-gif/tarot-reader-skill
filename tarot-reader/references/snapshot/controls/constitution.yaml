@@ -1,0 +1,625 @@
+"constitution_id": "tarot-constitution.v1"
+"status": "ratified_frozen"
+"ratified_at": "2026-08-20"
+"canonical_role": "This YAML is the sole canonical Constitution version. README.md and validation.md are generated views."
+"order_note": "Principle order is stable-reference order only; it is not priority, weight, precedence, or a mandatory runtime module sequence."
+"product_charter_relation": "Product Charter determines product scope, interaction, deck, safety, and output. Tarot Constitution determines interpretive reasoning discipline. The adapter is recorded separately in product-charter-ref.yaml."
+"principle_count": 12
+"principles":
+  -
+    "principle_id": "TC-001"
+    "status": "ratified_global"
+    "statement": "问题、时间范围和牌位先定义解释空间；有牌位先服从牌位，无牌位不得补造过去、现在或结果等位置。"
+    "does_not_mean":
+      - "不代表所有 readings 必须使用同一种 spread。"
+      - "不代表左→右天然是时间线。"
+    "scope": "Question and spread organization in every reading."
+    "jurisdiction":
+      - "daniel"
+      - "nichols"
+    "conditions":
+      - "Input records a named layout or an explicit no-position state."
+      - "Question and time scope are explicit or unresolved."
+    "exceptions":
+      - "No-position left-to-right may be a bounded candidate axis."
+      - "A strong relation may become a pivot without becoming an invented position."
+    "counterevidence":
+      - "A user label cannot create a position."
+      - "A later retrieval cannot repair a fabricated layout."
+    "derived_from":
+      "phase2b_candidate": "TC-001"
+      "matrix_rows":
+        - "CQ-01"
+        - "CQ-02"
+        - "CQ-07"
+      "conflict_dispositions": []
+      "runtime_cases":
+        - "P2A-002"
+        - "P2A-003"
+        - "P2A-005"
+        - "P2A-009"
+      "book_sources":
+        -
+          "book_model_id": "daniel_16_lessons_zh.book-model.v1"
+          "refs":
+            - "reading/daniel_16_lessons_zh/book-model.md:19-37"
+            - "reading/daniel_16_lessons_zh/book-model.md:45-57"
+        -
+          "book_model_id": "nichols_jung_tarot_en.book-model.v1"
+          "refs":
+            - "reading/nichols_archetypal_journey_en/book-model.md:117-127"
+    "failure_mode_prevented": "Invented positions and psychological/event readings detached from the asked question."
+    "runtime_consequence": "Runtime records the question/layout boundary before interpreting card-level content."
+    "user_visible_effect": "The answer distinguishes what a named position supports from what a no-position sequence merely suggests."
+    "removal_test": "With TC-001 off, P2A-003 turns the left-to-right sequence into past-present-result and P2A-005 loses its bounded event question."
+  -
+    "principle_id": "TC-002"
+    "status": "ratified_global"
+    "statement": "先读 spread gestalt、card interaction、视觉关系和反证，再读单牌或单条 reference；整体关系不能被固定权重、pivot 分数或牌义相加替代。"
+    "does_not_mean":
+      - "不代表每张牌都必须有相同篇幅。"
+      - "不代表 gestalt 自动胜过明确的现实事实或牌位。"
+    "scope": "Whole-spread reasoning across all readings."
+    "jurisdiction":
+      - "daniel"
+      - "greer"
+      - "nichols"
+      - "dawn"
+      - "dictionary"
+    "conditions":
+      - "The field is recorded before retrieval."
+      - "Single-card claims are tested against neighboring cards and positions."
+    "exceptions":
+      - "A card can be a pivot when local evidence supports it."
+      - "The gestalt remains qualitative and auditable, not numeric."
+    "counterevidence":
+      - "A dramatic single-card or dictionary entry cannot erase cross-card counterevidence."
+      - "Density or absence alone cannot decide the story."
+    "derived_from":
+      "phase2b_candidate": "TC-002"
+      "matrix_rows":
+        - "CQ-03"
+        - "CQ-07"
+        - "CQ-08"
+      "conflict_dispositions":
+        - "CF-001"
+      "runtime_cases":
+        - "P2A-001"
+        - "P2A-002"
+        - "P2A-003"
+        - "P2A-007"
+        - "P2A-008"
+        - "P2A-010"
+      "book_sources":
+        -
+          "book_model_id": "daniel_16_lessons_zh.book-model.v1"
+          "refs":
+            - "reading/daniel_16_lessons_zh/book-model.md:19-37"
+            - "reading/daniel_16_lessons_zh/book-model.md:59-69"
+        -
+          "book_model_id": "greer_reversals_zh.book_model.v1"
+          "refs":
+            - "reading/greer_reversals_zh/book-model.md:74-76"
+        -
+          "book_model_id": "nichols_jung_tarot_en.book-model.v1"
+          "refs":
+            - "reading/nichols_archetypal_journey_en/book-model.md:117-127"
+        -
+          "book_model_id": "tarot_dictionary_zh.book-model.v1"
+          "refs":
+            - "reading/tarot_dictionary_zh/book-model.md:26-36"
+    "failure_mode_prevented": "Single-card stitching, fixed weight systems, and retrieval capture."
+    "runtime_consequence": "The first analysis record is a field/interaction hypothesis, not a list of independent card meanings."
+    "user_visible_effect": "The user receives one story whose card-to-card relations are explained; reference entries remain subordinate."
+    "removal_test": "With TC-002 off, P2A-008 lets a Tower manifestation dominate Temperance/Four of Swords and P2A-010 collapses into a false binary."
+  -
+    "principle_id": "TC-003"
+    "status": "ratified_global"
+    "statement": "观察事实、用户解释、牌面证据和原创推断必须分层；用户标签不能直接成为现实事实，原创推断必须保存 evidence→operation→warrant。"
+    "does_not_mean":
+      - "不代表用户解释没有价值。"
+      - "不代表原创推断必须使用模糊或无用的语言。"
+    "scope": "Every claim, especially motive, event, and relationship claims."
+    "jurisdiction":
+      - "daniel"
+      - "greer"
+      - "nichols"
+      - "dawn"
+      - "dictionary"
+    "conditions":
+      - "Observed facts and interpretations are entered separately."
+      - "Every original inference names evidence and warrant."
+    "exceptions":
+      - "Supplied feedback may update a candidate."
+      - "A clear main judgment is still required."
+    "counterevidence":
+      - "A user label is not external evidence."
+      - "A symbolic or psychological hypothesis cannot become diagnosis, motive fact, or event fact without additional evidence."
+    "derived_from":
+      "phase2b_candidate": "TC-003"
+      "matrix_rows":
+        - "CQ-02"
+        - "CQ-06"
+        - "CQ-10"
+        - "CQ-13"
+      "conflict_dispositions":
+        - "CF-002"
+        - "CF-007"
+      "runtime_cases":
+        - "P2A-001"
+        - "P2A-004"
+        - "P2A-006"
+        - "P2A-010"
+      "book_sources":
+        -
+          "book_model_id": "nichols_jung_tarot_en.book-model.v1"
+          "refs":
+            - "reading/nichols_archetypal_journey_en/book-model.md:79-89"
+        -
+          "book_model_id": "greer_reversals_zh.book_model.v1"
+          "refs":
+            - "reading/greer_reversals_zh/book-model.md:89-102"
+        -
+          "book_model_id": "daniel_16_lessons_zh.book-model.v1"
+          "refs":
+            - "reading/daniel_16_lessons_zh/book-model.md:77-82"
+        -
+          "book_model_id": "dawn_court_zh.book-model.v1"
+          "refs":
+            - "reading/dawn_court_zh/book-model.md:58-74"
+        -
+          "book_model_id": "tarot_dictionary_zh.book-model.v1"
+          "refs":
+            - "reading/tarot_dictionary_zh/book-model.md:49-58"
+    "failure_mode_prevented": "User-label confirmation and unsupported original invention."
+    "runtime_consequence": "Runtime keeps situation facts, interpretations, card evidence, and inference warrant as separate trace elements."
+    "user_visible_effect": "The answer can be direct while marking which parts are observed, inferred, or unresolved."
+    "removal_test": "With TC-003 off, P2A-004 promotes ‘avoidant/punishing’ to fact and P2A-006 promotes intentional deception without evidence."
+  -
+    "principle_id": "TC-004"
+    "status": "ratified_global"
+    "statement": "每个主判断都必须保留至少一条支持、会削弱它的反证、一个有局部依据的次要可能性和不能确定的边界；矛盾不能被 both/and 或可能性堆叠抹平。"
+    "does_not_mean":
+      - "不代表所有候选都同等可能。"
+      - "不代表 Reader 可以永远拒绝作主判断。"
+    "scope": "Ambiguous, contradictory, and high-stakes readings."
+    "jurisdiction":
+      - "greer"
+      - "nichols"
+      - "dawn"
+      - "daniel"
+      - "dictionary"
+    "conditions":
+      - "A secondary possibility has local evidence."
+      - "Counterevidence is stated explicitly."
+    "exceptions":
+      - "If no alternative has support, say so."
+      - "If evidence does not converge, the unresolved boundary stays visible."
+    "counterevidence":
+      - "Poetic polarity cannot replace a decision."
+      - "A disclaimer cannot replace counterevidence or a main judgment."
+    "derived_from":
+      "phase2b_candidate": "TC-004"
+      "matrix_rows":
+        - "CQ-08"
+        - "CQ-09"
+        - "CQ-16"
+      "conflict_dispositions":
+        - "CF-002"
+        - "CF-005"
+      "runtime_cases":
+        - "P2A-001"
+        - "P2A-002"
+        - "P2A-004"
+        - "P2A-006"
+        - "P2A-008"
+        - "P2A-010"
+      "book_sources":
+        -
+          "book_model_id": "greer_reversals_zh.book_model.v1"
+          "refs":
+            - "reading/greer_reversals_zh/book-model.md:89-102"
+        -
+          "book_model_id": "nichols_jung_tarot_en.book-model.v1"
+          "refs":
+            - "reading/nichols_archetypal_journey_en/book-model.md:91-103"
+        -
+          "book_model_id": "dawn_court_zh.book-model.v1"
+          "refs":
+            - "reading/dawn_court_zh/book-model.md:96-115"
+        -
+          "book_model_id": "daniel_16_lessons_zh.book-model.v1"
+          "refs":
+            - "reading/daniel_16_lessons_zh/book-model.md:104-120"
+    "failure_mode_prevented": "Story completion by deleting contradiction or avoiding a judgment through endless possibilities."
+    "runtime_consequence": "The decision record always contains main, secondary, counterevidence, and unresolved."
+    "user_visible_effect": "The user sees a clear judgment plus a bounded alternative and boundary, not an author-opinion list."
+    "removal_test": "With TC-004 off, P2A-002, P2A-008, and P2A-010 lose the evidence that limits their dramatic readings."
+  -
+    "principle_id": "TC-005"
+    "status": "ratified_conditional"
+    "statement": "方向未提供时保持 unspecified，不启动 reversal branch；真实逆位时先用 upright baseline，再由 Greer 选择机制，最后才允许现实显化检索。"
+    "does_not_mean":
+      - "不代表 Daniel 认为逆位无效。"
+      - "不代表 Greer 的机制候选有固定调用顺序。"
+    "scope": "Orientation-dependent reasoning interface."
+    "jurisdiction":
+      - "daniel"
+      - "greer"
+      - "dictionary"
+    "conditions":
+      - "reversals_provided=true and an actual reversed card exist."
+      - "Greer uses position, neighbors, question, and context to select a mechanism."
+    "exceptions":
+      - "Unspecified orientation blocks reversed references."
+      - "Polarity can constrain a chosen mechanism but cannot replace Greer."
+    "counterevidence":
+      - "No orientation can be silently upgraded to upright or reversed."
+      - "Dictionary cannot choose a reversal mechanism."
+    "derived_from":
+      "phase2b_candidate": "TC-005"
+      "matrix_rows":
+        - "CQ-02"
+        - "CQ-11"
+      "conflict_dispositions":
+        - "CF-003"
+      "runtime_cases":
+        - "P2A-001"
+        - "P2A-004"
+        - "P2A-006"
+      "book_sources":
+        -
+          "book_model_id": "daniel_16_lessons_zh.book-model.v1"
+          "refs":
+            - "reading/daniel_16_lessons_zh/book-model.md:84-96"
+        -
+          "book_model_id": "greer_reversals_zh.book_model.v1"
+          "refs":
+            - "reading/greer_reversals_zh/book-model.md:40-51"
+        -
+          "book_model_id": "tarot_dictionary_zh.book-model.v1"
+          "refs":
+            - "reading/tarot_dictionary_zh/book-model.md:38-47"
+    "failure_mode_prevented": "Unprovided reversals, reversed-keyword answers, and authority leakage between baseline and mechanism selection."
+    "runtime_consequence": "The runtime branch is conditional: baseline first, Greer mechanism second, manifestation retrieval last."
+    "user_visible_effect": "When direction is absent, the answer does not mention a reversed mechanism; when direction is real, the answer explains the selected mechanism."
+    "removal_test": "With TC-005 off, actual-reversal cases jump from orientation to a keyword or allow a reversal branch in a negative control."
+  -
+    "principle_id": "TC-006"
+    "status": "ratified_specialist"
+    "statement": "Dictionary/reference 只能在 holistic hypothesis 形成后查询，并以 support、refine、challenge、alternative 或 no_change 返回；它不能生成主故事。"
+    "does_not_mean":
+      - "不代表 Dictionary 没有现实价值。"
+      - "不代表所有 retrieved entries 必须被拒绝。"
+    "scope": "Late reality-manifestation retrieval."
+    "jurisdiction":
+      - "dictionary"
+    "conditions":
+      - "Initial hypothesis and retrieval reason are recorded first."
+      - "Only applicable card/orientation/domain anchors are queried."
+    "exceptions":
+      - "Entries may challenge or be rejected."
+      - "Without orientation, reversed anchors remain unavailable."
+    "counterevidence":
+      - "A domain heading is not a meaning selector."
+      - "A vivid entry is not a specific fact or professional conclusion."
+    "derived_from":
+      "phase2b_candidate": "TC-006"
+      "matrix_rows":
+        - "CQ-03"
+        - "CQ-08"
+        - "CQ-14"
+      "conflict_dispositions":
+        - "CF-001"
+      "runtime_cases":
+        - "P2A-001"
+        - "P2A-002"
+        - "P2A-005"
+        - "P2A-006"
+        - "P2A-008"
+        - "P2A-010"
+      "book_sources":
+        -
+          "book_model_id": "tarot_dictionary_zh.book-model.v1"
+          "refs":
+            - "reading/tarot_dictionary_zh/book-model.md:3-18"
+            - "reading/tarot_dictionary_zh/book-model.md:26-36"
+            - "reading/tarot_dictionary_zh/book-model.md:49-72"
+    "failure_mode_prevented": "Lookup capture and one-card manifestation becoming the story."
+    "runtime_consequence": "Retrieval is a post-hypothesis operation with a typed effect and a return to the whole spread."
+    "user_visible_effect": "The answer may become more concrete while retaining ‘possible manifestation’ status."
+    "removal_test": "With TC-006 off, P2A-005 loses useful specificity, P2A-008 cannot show rejection of an extreme entry, and P2A-006 can turn deception into fact."
+  -
+    "principle_id": "TC-007"
+    "status": "ratified_specialist"
+    "statement": "多张 Court 先测试人物、self-aspect、关系角色、团队功能和行为模式等 ontology，再测试具体身份；人物数量不由 Court 数量决定，外貌/年龄/性别/星座只是弱线索。"
+    "does_not_mean":
+      - "不代表 Court 不能指向现实人物。"
+      - "不代表一人多角色可以抹平每张牌的证据链。"
+    "scope": "Court-card ontology and relationship structure."
+    "jurisdiction":
+      - "dawn"
+    "conditions":
+      - "Position, behavior, permissions, and spread structure support the ontology test."
+      - "Each Court retains an evidence chain."
+    "exceptions":
+      - "Explicitly separated real participants can strengthen a multi-person reading."
+      - "A person mapping may become primary after behavior evidence."
+    "counterevidence":
+      - "Court count is not person count."
+      - "Identity markers alone cannot establish who a Court is."
+    "derived_from":
+      "phase2b_candidate": "TC-007"
+      "matrix_rows":
+        - "CQ-10"
+        - "CQ-12"
+      "conflict_dispositions":
+        - "CF-004"
+      "runtime_cases":
+        - "P2A-001"
+        - "P2A-003"
+      "book_sources":
+        -
+          "book_model_id": "dawn_court_zh.book-model.v1"
+          "refs":
+            - "reading/dawn_court_zh/book-model.md:14-31"
+            - "reading/dawn_court_zh/book-model.md:46-74"
+            - "reading/dawn_court_zh/book-model.md:96-115"
+    "failure_mode_prevented": "Court identity lock-in, stereotype matching, and person-count inference."
+    "runtime_consequence": "Court ontology is resolved before Dictionary person/event vocabulary is consulted."
+    "user_visible_effect": "The answer describes role/function and the evidence needed before naming a person."
+    "removal_test": "With TC-007 off, P2A-001 treats the spread as three coworkers and P2A-003 turns Page into a young named competitor."
+  -
+    "principle_id": "TC-008"
+    "status": "ratified_specialist"
+    "statement": "真实逆位不是反义词；从 upright baseline 生成有限机制候选，再用牌位、邻牌、问题、现实背景和反证选择阻塞、内化、过量、误用、延迟或改向等表达。"
+    "does_not_mean":
+      - "不代表十二种机制是固定流水线。"
+      - "不代表多个机制可以无证据并列。"
+    "scope": "Actual reversed cards only."
+    "jurisdiction":
+      - "greer"
+    "conditions":
+      - "A local context signal supports the selected mechanism."
+      - "Alternative mechanisms remain when evidence does not converge."
+    "exceptions":
+      - "Mechanisms may co-exist only when they describe one observable process."
+      - "No direction means no mechanism selection."
+    "counterevidence":
+      - "Negative language is not mechanism evidence by itself."
+      - "A mechanism cannot establish another person's hidden motive."
+    "derived_from":
+      "phase2b_candidate": "TC-008"
+      "matrix_rows":
+        - "CQ-09"
+        - "CQ-11"
+      "conflict_dispositions":
+        - "CF-003"
+      "runtime_cases":
+        - "P2A-001"
+        - "P2A-004"
+        - "P2A-006"
+      "book_sources":
+        -
+          "book_model_id": "greer_reversals_zh.book_model.v1"
+          "refs":
+            - "reading/greer_reversals_zh/book-model.md:40-72"
+            - "reading/greer_reversals_zh/book-model.md:74-102"
+    "failure_mode_prevented": "Reversal keyword, reversal-density, or fixed-method overinterpretation."
+    "runtime_consequence": "The runtime explains why one reversal mechanism is selected and which alternatives were downgraded."
+    "user_visible_effect": "The answer uses mechanism language only when the input and spread support it."
+    "removal_test": "With TC-008 off, P2A-006 becomes ‘Magician reversed equals deception’ and P2A-004 can diagnose a person from a reversed Court-like card."
+  -
+    "principle_id": "TC-009"
+    "status": "ratified_specialist"
+    "statement": "RWS visual fact 到现实判断必须经过 motif、warrant、alternative/context gate；Nichols 的 Marseille、其他牌组和艺术图像只能迁移方法，不能迁移视觉事实。"
+    "does_not_mean":
+      - "不代表所有 visual material 都必须被排除。"
+      - "不代表 Nichols 的文化材料自动成为 universal fact。"
+    "scope": "RWS visual evidence and symbolic amplification."
+    "jurisdiction":
+      - "nichols"
+    "conditions":
+      - "Active deck and verified visual fact are known."
+      - "Each amplification identifies motif and warrant."
+    "exceptions":
+      - "No verified visual record means no claimed visual fact."
+      - "Deck-specific author material remains deck-specific."
+    "counterevidence":
+      - "A poetic association without motif/warrant cannot decide the reading."
+      - "Cross-deck direction, pose, animal, or composition cannot enter RWS evidence."
+    "derived_from":
+      "phase2b_candidate": "TC-009"
+      "matrix_rows":
+        - "CQ-03"
+        - "CQ-05"
+        - "CQ-13"
+      "conflict_dispositions":
+        - "CF-001"
+        - "CF-006"
+      "runtime_cases":
+        - "P2A-002"
+        - "P2A-007"
+        - "P2A-008"
+        - "P2A-010"
+      "book_sources":
+        -
+          "book_model_id": "nichols_jung_tarot_en.book-model.v1"
+          "refs":
+            - "reading/nichols_archetypal_journey_en/book-model.md:30-77"
+            - "reading/nichols_archetypal_journey_en/book-model.md:91-127"
+        -
+          "book_model_id": "nichols_jung_tarot_en.book-model.v1"
+          "refs":
+            - "schemas/rws-visual-canon.md:1-37"
+    "failure_mode_prevented": "Literary inflation, unsupported amplification, and cross-deck visual contamination."
+    "runtime_consequence": "The analysis records the visual fact, motif, warrant, polarity, and context gate separately."
+    "user_visible_effect": "The user receives richer symbolic reasoning without a deck-specific fact being presented as RWS fact."
+    "removal_test": "With TC-009 off, P2A-007 lets traditional vocabulary or cross-deck imagery overrule the actual RWS/context evidence."
+  -
+    "principle_id": "TC-010"
+    "status": "ratified_conditional"
+    "statement": "Projection 可以解释问卜者对图像/关系的反应，但不能抹除已提供的外部行为；若两层都有证据，内在与外部同时保留，并分别标注强度与未决。"
+    "does_not_mean":
+      - "不代表所有外部行为都是 projection。"
+      - "不代表 internal and external claims are equally strong in every case."
+    "scope": "Relationship and motive readings where internal and external evidence coexist."
+    "jurisdiction":
+      - "nichols"
+      - "greer"
+      - "daniel"
+    "conditions":
+      - "Observable behavior is separately recorded."
+      - "Projection is tied to reaction/field evidence."
+    "exceptions":
+      - "Without observable behavior, external motive stays unresolved."
+      - "Projection cannot establish diagnosis or hidden fact."
+    "counterevidence":
+      - "A strong reaction alone cannot prove an external person's motive."
+      - "External behavior cannot be dismissed merely because projection is possible."
+    "derived_from":
+      "phase2b_candidate": "TC-010"
+      "matrix_rows":
+        - "CQ-06"
+        - "CQ-13"
+      "conflict_dispositions":
+        - "CF-002"
+      "runtime_cases":
+        - "P2A-004"
+        - "P2A-010"
+      "book_sources":
+        -
+          "book_model_id": "nichols_jung_tarot_en.book-model.v1"
+          "refs":
+            - "reading/nichols_archetypal_journey_en/book-model.md:79-89"
+            - "reading/nichols_archetypal_journey_en/book-model.md:144-153"
+        -
+          "book_model_id": "greer_reversals_zh.book_model.v1"
+          "refs":
+            - "reading/greer_reversals_zh/book-model.md:57-72"
+        -
+          "book_model_id": "daniel_16_lessons_zh.book-model.v1"
+          "refs":
+            - "reading/daniel_16_lessons_zh/book-model.md:77-82"
+    "failure_mode_prevented": "Psychologizing external reality or upgrading reaction into motive/third-party fact."
+    "runtime_consequence": "The reading keeps internal hypothesis and external evidence as separate layers before judgment."
+    "user_visible_effect": "The user sees both the observed behavior and the interpretation it may be amplifying when both matter."
+    "removal_test": "With TC-010 off, P2A-004 and P2A-010 are forced into ‘all projection’ or ‘betrayal’ instead of preserving the actual tension."
+  -
+    "principle_id": "TC-011"
+    "status": "constitutional_tension"
+    "statement": "Prediction/timing 可以表达当前条件下的倾向、窗口和事件可能性，但必须与现实 agency、条件和未决边界同时保留；Reader 不替这项张力伪造统一答案。"
+    "does_not_mean":
+      - "不代表完全禁止现实事件判断。"
+      - "不代表 agency 是阅读结尾追加的免责声明。"
+    "scope": "Prediction, timing, event tendency, and free will."
+    "jurisdiction":
+      - "daniel"
+      - "nichols"
+      - "greer"
+      - "dawn"
+      - "dictionary"
+    "conditions":
+      - "Question has a bounded time/event scope and actionable subject."
+      - "Event tendency, agency window, and unresolved are separately stated."
+    "exceptions":
+      - "Unbounded or high-risk questions remain symbolic or unresolved."
+      - "A timing window is not an exact date."
+    "counterevidence":
+      - "No card spread proves an immutable future or guaranteed outcome."
+      - "Do not select ‘prediction’ or ‘free will’ as the universal winner."
+    "derived_from":
+      "phase2b_candidate": "TC-011"
+      "matrix_rows":
+        - "CQ-14"
+        - "CQ-15"
+      "conflict_dispositions":
+        - "CF-005"
+      "runtime_cases":
+        - "P2A-002"
+        - "P2A-005"
+        - "P2A-009"
+      "book_sources":
+        -
+          "book_model_id": "daniel_16_lessons_zh.book-model.v1"
+          "refs":
+            - "reading/daniel_16_lessons_zh/book-model.md:9-17"
+            - "reading/daniel_16_lessons_zh/book-model.md:77-82"
+        -
+          "book_model_id": "nichols_jung_tarot_en.book-model.v1"
+          "refs":
+            - "reading/nichols_archetypal_journey_en/book-model.md:144-153"
+        -
+          "book_model_id": "greer_reversals_zh.book_model.v1"
+          "refs":
+            - "reading/greer_reversals_zh/book-model.md:30-38"
+            - "reading/greer_reversals_zh/book-model.md:100-102"
+        -
+          "book_model_id": "dawn_court_zh.book-model.v1"
+          "refs":
+            - "reading/dawn_court_zh/book-model.md:68-74"
+        -
+          "book_model_id": "tarot_dictionary_zh.book-model.v1"
+          "refs":
+            - "reading/tarot_dictionary_zh/book-model.md:49-58"
+    "failure_mode_prevented": "Deterministic prediction, exact-date invention, and agency erasure."
+    "runtime_consequence": "The reading exposes tendency, conditions, agency window, and unresolved rather than resolving the prediction/agency tension."
+    "user_visible_effect": "The user sees an event-level answer when supported, with the conditions and choices that keep it from becoming fate."
+    "removal_test": "With TC-011 off, P2A-002 becomes guaranteed job loss and P2A-009 becomes guaranteed improvement."
+  -
+    "principle_id": "TC-012"
+    "status": "ratified_conditional"
+    "statement": "元素、数字、颜色、占星和传统 correspondence 只能作为条件性 switch 或候选，不能成为固定权重、缺席 if-rule、外部事实或身份证明；与牌位、图像、spread 和行为冲突时保留反证。"
+    "does_not_mean":
+      - "不代表 correspondence 没有解释价值。"
+      - "不代表每次冲突都必须选择视觉而排除传统。"
+    "scope": "Optional correspondence use after question, layout, visual, and gestalt passes."
+    "jurisdiction":
+      - "daniel"
+      - "dawn"
+      - "nichols"
+      - "greer"
+    "conditions":
+      - "Question calls for the relevant domain and local evidence supports the switch."
+      - "The correspondence is recorded as candidate/support/refutation, not a score."
+    "exceptions":
+      - "Unprovided birth, identity, or deck facts are never invented."
+      - "A familiar correspondence without motif/context support remains weak or unresolved."
+    "counterevidence":
+      - "A correspondence cannot override a named position or stronger observed behavior."
+      - "Absence is not an automatic if-rule."
+    "derived_from":
+      "phase2b_candidate": "TC-012"
+      "matrix_rows":
+        - "CQ-05"
+        - "CQ-07"
+        - "CQ-09"
+      "conflict_dispositions":
+        - "CF-006"
+      "runtime_cases":
+        - "P2A-002"
+        - "P2A-007"
+        - "P2A-008"
+        - "P2A-010"
+      "book_sources":
+        -
+          "book_model_id": "daniel_16_lessons_zh.book-model.v1"
+          "refs":
+            - "reading/daniel_16_lessons_zh/book-model.md:59-69"
+            - "reading/daniel_16_lessons_zh/book-model.md:104-110"
+        -
+          "book_model_id": "dawn_court_zh.book-model.v1"
+          "refs":
+            - "reading/dawn_court_zh/book-model.md:58-74"
+        -
+          "book_model_id": "nichols_jung_tarot_en.book-model.v1"
+          "refs":
+            - "reading/nichols_archetypal_journey_en/book-model.md:30-48"
+        -
+          "book_model_id": "greer_reversals_zh.book_model.v1"
+          "refs":
+            - "reading/greer_reversals_zh/book-model.md:57-72"
+    "failure_mode_prevented": "Correspondence stacking, fixed weights, identity fabrication, and context override."
+    "runtime_consequence": "Correspondences can adjust a candidate but cannot replace spread/context evidence or become a numeric hierarchy."
+    "user_visible_effect": "The user may see a correspondence only when it changes the reading and its limitation is clear."
+    "removal_test": "With TC-012 off, P2A-007 lets a traditional planning correspondence overrule the spread and P2A-008 lets a dramatic traditional term overrule the recovery cards."

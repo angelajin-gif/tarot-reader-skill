@@ -1,0 +1,727 @@
+---
+phase: 4A
+registry_id: tarot-canonical-card-registry.phase4a.v1
+status: locked_for_join_integrity
+canonical_id_policy:
+  source_of_truth: reading/daniel_16_lessons_zh/card-entry-anchors.jsonl
+  runtime_input_ids: canonical_card_id
+  adapter_rule: source-specific aliases resolve to canonical_card_id; adapters never
+    mutate runtime input
+  expected_card_count: 78
+source_adapters:
+  daniel:
+    path: reading/daniel_16_lessons_zh/card-entry-anchors.jsonl
+    coverage: 78
+  dictionary:
+    path: reading/tarot_dictionary_zh/entry-anchors.jsonl
+    coverage: 78
+  greer:
+    path: reading/greer_reversals_zh/card-entry-anchors.jsonl
+    coverage: 78
+  visual:
+    path: pilot/phase-0.5/rws-visual-records.yaml
+    record_coverage: 45
+    unresolved_card_count: 33
+cards:
+- canonical_card_id: wands_ace
+  daniel_id: wands_ace
+  dictionary_id: wands_ace
+  greer_id: wands_一
+  visual_id: rws.ace_of_wands
+  visual_source_card_id: ace_of_wands
+  display_names:
+  - 权杖一
+  - Ace of Wands
+- canonical_card_id: wands_two
+  daniel_id: wands_two
+  dictionary_id: wands_two
+  greer_id: wands_二
+  visual_id: rws.two_of_wands
+  visual_source_card_id: two_of_wands
+  display_names:
+  - 权杖二
+  - Two of Wands
+- canonical_card_id: wands_three
+  daniel_id: wands_three
+  dictionary_id: wands_three
+  greer_id: wands_三
+  visual_id: rws.three_of_wands
+  visual_source_card_id: three_of_wands
+  display_names:
+  - 权杖三
+  - Three of Wands
+- canonical_card_id: wands_four
+  daniel_id: wands_four
+  dictionary_id: wands_four
+  greer_id: wands_四
+  visual_id: 
+  visual_source_card_id: 
+  display_names:
+  - 权杖四
+  - Four of Wands
+- canonical_card_id: wands_five
+  daniel_id: wands_five
+  dictionary_id: wands_five
+  greer_id: wands_五
+  visual_id: 
+  visual_source_card_id: 
+  display_names:
+  - 权杖五
+  - Five of Wands
+- canonical_card_id: wands_six
+  daniel_id: wands_six
+  dictionary_id: wands_six
+  greer_id: wands_六
+  visual_id: rws.six_of_wands
+  visual_source_card_id: six_of_wands
+  display_names:
+  - 权杖六
+  - Six of Wands
+- canonical_card_id: wands_seven
+  daniel_id: wands_seven
+  dictionary_id: wands_seven
+  greer_id: wands_七
+  visual_id: 
+  visual_source_card_id: 
+  display_names:
+  - 权杖七
+  - Seven of Wands
+- canonical_card_id: wands_eight
+  daniel_id: wands_eight
+  dictionary_id: wands_eight
+  greer_id: wands_八
+  visual_id: rws.eight_of_wands
+  visual_source_card_id: eight_of_wands
+  display_names:
+  - 权杖八
+  - Eight of Wands
+- canonical_card_id: wands_nine
+  daniel_id: wands_nine
+  dictionary_id: wands_nine
+  greer_id: wands_九
+  visual_id: 
+  visual_source_card_id: 
+  display_names:
+  - 权杖九
+  - Nine of Wands
+- canonical_card_id: wands_ten
+  daniel_id: wands_ten
+  dictionary_id: wands_ten
+  greer_id: wands_十
+  visual_id: rws.ten_of_wands
+  visual_source_card_id: ten_of_wands
+  display_names:
+  - 权杖十
+  - Ten of Wands
+- canonical_card_id: cups_ace
+  daniel_id: cups_ace
+  dictionary_id: cups_ace
+  greer_id: cups_一
+  visual_id: 
+  visual_source_card_id: 
+  display_names:
+  - 圣杯一
+  - Ace of Cups
+- canonical_card_id: cups_two
+  daniel_id: cups_two
+  dictionary_id: cups_two
+  greer_id: cups_二
+  visual_id: rws.two_of_cups
+  visual_source_card_id: two_of_cups
+  display_names:
+  - 圣杯二
+  - Two of Cups
+- canonical_card_id: cups_three
+  daniel_id: cups_three
+  dictionary_id: cups_three
+  greer_id: cups_三
+  visual_id: 
+  visual_source_card_id: 
+  display_names:
+  - 圣杯三
+  - Three of Cups
+- canonical_card_id: cups_four
+  daniel_id: cups_four
+  dictionary_id: cups_four
+  greer_id: cups_四
+  visual_id: rws.four_of_cups
+  visual_source_card_id: four_of_cups
+  display_names:
+  - 圣杯四
+  - Four of Cups
+- canonical_card_id: cups_five
+  daniel_id: cups_five
+  dictionary_id: cups_five
+  greer_id: cups_五
+  visual_id: 
+  visual_source_card_id: 
+  display_names:
+  - 圣杯五
+  - Five of Cups
+- canonical_card_id: cups_six
+  daniel_id: cups_six
+  dictionary_id: cups_six
+  greer_id: cups_六
+  visual_id: rws.six_of_cups
+  visual_source_card_id: six_of_cups
+  display_names:
+  - 圣杯六
+  - Six of Cups
+- canonical_card_id: cups_seven
+  daniel_id: cups_seven
+  dictionary_id: cups_seven
+  greer_id: cups_七
+  visual_id: 
+  visual_source_card_id: 
+  display_names:
+  - 圣杯七
+  - Seven of Cups
+- canonical_card_id: cups_eight
+  daniel_id: cups_eight
+  dictionary_id: cups_eight
+  greer_id: cups_八
+  visual_id: rws.eight_of_cups
+  visual_source_card_id: eight_of_cups
+  display_names:
+  - 圣杯八
+  - Eight of Cups
+- canonical_card_id: cups_nine
+  daniel_id: cups_nine
+  dictionary_id: cups_nine
+  greer_id: cups_九
+  visual_id: 
+  visual_source_card_id: 
+  display_names:
+  - 圣杯九
+  - Nine of Cups
+- canonical_card_id: cups_ten
+  daniel_id: cups_ten
+  dictionary_id: cups_ten
+  greer_id: cups_十
+  visual_id: 
+  visual_source_card_id: 
+  display_names:
+  - 圣杯十
+  - Ten of Cups
+- canonical_card_id: swords_ace
+  daniel_id: swords_ace
+  dictionary_id: swords_ace
+  greer_id: swords_一
+  visual_id: rws.ace_of_swords
+  visual_source_card_id: ace_of_swords
+  display_names:
+  - 宝剑一
+  - One of Swords
+- canonical_card_id: swords_two
+  daniel_id: swords_two
+  dictionary_id: swords_two
+  greer_id: swords_二
+  visual_id: rws.two_of_swords
+  visual_source_card_id: two_of_swords
+  display_names:
+  - 宝剑二
+  - Two of Swords
+- canonical_card_id: swords_three
+  daniel_id: swords_three
+  dictionary_id: swords_three
+  greer_id: swords_三
+  visual_id: rws.three_of_swords
+  visual_source_card_id: three_of_swords
+  display_names:
+  - 宝剑三
+  - Three of Swords
+- canonical_card_id: swords_four
+  daniel_id: swords_four
+  dictionary_id: swords_four
+  greer_id: swords_四
+  visual_id: rws.four_of_swords
+  visual_source_card_id: four_of_swords
+  display_names:
+  - 宝剑四
+  - Four of Swords
+- canonical_card_id: swords_five
+  daniel_id: swords_five
+  dictionary_id: swords_five
+  greer_id: swords_五
+  visual_id: 
+  visual_source_card_id: 
+  display_names:
+  - 宝剑五
+  - Five of Swords
+- canonical_card_id: swords_six
+  daniel_id: swords_six
+  dictionary_id: swords_six
+  greer_id: swords_六
+  visual_id: rws.six_of_swords
+  visual_source_card_id: six_of_swords
+  display_names:
+  - 宝剑六
+  - Six of Swords
+- canonical_card_id: swords_seven
+  daniel_id: swords_seven
+  dictionary_id: swords_seven
+  greer_id: swords_七
+  visual_id: rws.seven_of_swords
+  visual_source_card_id: seven_of_swords
+  display_names:
+  - 宝剑七
+  - Seven of Swords
+- canonical_card_id: swords_eight
+  daniel_id: swords_eight
+  dictionary_id: swords_eight
+  greer_id: swords_八
+  visual_id: rws.eight_of_swords
+  visual_source_card_id: eight_of_swords
+  display_names:
+  - 宝剑八
+  - Eight of Swords
+- canonical_card_id: swords_nine
+  daniel_id: swords_nine
+  dictionary_id: swords_nine
+  greer_id: swords_九
+  visual_id: rws.nine_of_swords
+  visual_source_card_id: nine_of_swords
+  display_names:
+  - 宝剑九
+  - Nine of Swords
+- canonical_card_id: swords_ten
+  daniel_id: swords_ten
+  dictionary_id: swords_ten
+  greer_id: swords_十
+  visual_id: 
+  visual_source_card_id: 
+  display_names:
+  - 宝剑十
+  - Ten of Swords
+- canonical_card_id: pentacles_ace
+  daniel_id: pentacles_ace
+  dictionary_id: pentacles_ace
+  greer_id: pentacles_一
+  visual_id: 
+  visual_source_card_id: 
+  display_names:
+  - 钱币一
+  - One of Pentacles
+- canonical_card_id: pentacles_two
+  daniel_id: pentacles_two
+  dictionary_id: pentacles_two
+  greer_id: pentacles_二
+  visual_id: 
+  visual_source_card_id: 
+  display_names:
+  - 钱币二
+  - Two of Pentacles
+- canonical_card_id: pentacles_three
+  daniel_id: pentacles_three
+  dictionary_id: pentacles_three
+  greer_id: pentacles_三
+  visual_id: 
+  visual_source_card_id: 
+  display_names:
+  - 钱币三
+  - Three of Pentacles
+- canonical_card_id: pentacles_four
+  daniel_id: pentacles_four
+  dictionary_id: pentacles_four
+  greer_id: pentacles_四
+  visual_id: rws.four_of_pentacles
+  visual_source_card_id: four_of_pentacles
+  display_names:
+  - 钱币四
+  - Four of Pentacles
+- canonical_card_id: pentacles_five
+  daniel_id: pentacles_five
+  dictionary_id: pentacles_five
+  greer_id: pentacles_五
+  visual_id: rws.five_of_pentacles
+  visual_source_card_id: five_of_pentacles
+  display_names:
+  - 钱币五
+  - Five of Pentacles
+- canonical_card_id: pentacles_six
+  daniel_id: pentacles_six
+  dictionary_id: pentacles_six
+  greer_id: pentacles_六
+  visual_id: 
+  visual_source_card_id: 
+  display_names:
+  - 钱币六
+  - Six of Pentacles
+- canonical_card_id: pentacles_seven
+  daniel_id: pentacles_seven
+  dictionary_id: pentacles_seven
+  greer_id: pentacles_七
+  visual_id: rws.seven_of_pentacles
+  visual_source_card_id: seven_of_pentacles
+  display_names:
+  - 钱币七
+  - Seven of Pentacles
+- canonical_card_id: pentacles_eight
+  daniel_id: pentacles_eight
+  dictionary_id: pentacles_eight
+  greer_id: pentacles_八
+  visual_id: rws.eight_of_pentacles
+  visual_source_card_id: eight_of_pentacles
+  display_names:
+  - 钱币八
+  - Eight of Pentacles
+- canonical_card_id: pentacles_nine
+  daniel_id: pentacles_nine
+  dictionary_id: pentacles_nine
+  greer_id: pentacles_九
+  visual_id: 
+  visual_source_card_id: 
+  display_names:
+  - 钱币九
+  - Nine of Pentacles
+- canonical_card_id: pentacles_ten
+  daniel_id: pentacles_ten
+  dictionary_id: pentacles_ten
+  greer_id: pentacles_十
+  visual_id: 
+  visual_source_card_id: 
+  display_names:
+  - 钱币十
+  - Ten of Pentacles
+- canonical_card_id: wands_page
+  daniel_id: wands_page
+  dictionary_id: wands_page
+  greer_id: page_of_wands
+  visual_id: 
+  visual_source_card_id: 
+  display_names:
+  - 权杖侍者
+  - Page of Wands
+- canonical_card_id: wands_knight
+  daniel_id: wands_knight
+  dictionary_id: wands_knight
+  greer_id: knight_of_wands
+  visual_id: 
+  visual_source_card_id: 
+  display_names:
+  - 权杖骑士
+  - Knight of Wands
+- canonical_card_id: wands_queen
+  daniel_id: wands_queen
+  dictionary_id: wands_queen
+  greer_id: queen_of_wands
+  visual_id: rws.queen_of_wands
+  visual_source_card_id: queen_of_wands
+  display_names:
+  - 权杖王后
+  - Queen of Wands
+- canonical_card_id: wands_king
+  daniel_id: wands_king
+  dictionary_id: wands_king
+  greer_id: king_of_wands
+  visual_id: 
+  visual_source_card_id: 
+  display_names:
+  - 权杖国王
+  - King of Wands
+- canonical_card_id: cups_page
+  daniel_id: cups_page
+  dictionary_id: cups_page
+  greer_id: page_of_cups
+  visual_id: rws.page_of_cups
+  visual_source_card_id: page_of_cups
+  display_names:
+  - 圣杯侍者
+  - Page of Cups
+- canonical_card_id: cups_knight
+  daniel_id: cups_knight
+  dictionary_id: cups_knight
+  greer_id: knight_of_cups
+  visual_id: 
+  visual_source_card_id: 
+  display_names:
+  - 圣杯骑士
+  - Knight of Cups
+- canonical_card_id: cups_queen
+  daniel_id: cups_queen
+  dictionary_id: cups_queen
+  greer_id: queen_of_cups
+  visual_id: rws.queen_of_cups
+  visual_source_card_id: queen_of_cups
+  display_names:
+  - 圣杯王后
+  - Queen of Cups
+- canonical_card_id: cups_king
+  daniel_id: cups_king
+  dictionary_id: cups_king
+  greer_id: king_of_cups
+  visual_id: rws.king_of_cups
+  visual_source_card_id: king_of_cups
+  display_names:
+  - 圣杯国王
+  - King of Cups
+- canonical_card_id: swords_page
+  daniel_id: swords_page
+  dictionary_id: swords_page
+  greer_id: page_of_swords
+  visual_id: rws.page_of_swords
+  visual_source_card_id: page_of_swords
+  display_names:
+  - 宝剑侍者
+  - Page of Swords
+- canonical_card_id: swords_knight
+  daniel_id: swords_knight
+  dictionary_id: swords_knight
+  greer_id: knight_of_swords
+  visual_id: rws.knight_of_swords
+  visual_source_card_id: knight_of_swords
+  display_names:
+  - 宝剑骑士
+  - Knight of Swords
+- canonical_card_id: swords_queen
+  daniel_id: swords_queen
+  dictionary_id: swords_queen
+  greer_id: queen_of_swords
+  visual_id: rws.queen_of_swords
+  visual_source_card_id: queen_of_swords
+  display_names:
+  - 宝剑王后
+  - Queen of Swords
+- canonical_card_id: swords_king
+  daniel_id: swords_king
+  dictionary_id: swords_king
+  greer_id: king_of_swords
+  visual_id: 
+  visual_source_card_id: 
+  display_names:
+  - 宝剑国王
+  - King of Swords
+- canonical_card_id: pentacles_page
+  daniel_id: pentacles_page
+  dictionary_id: pentacles_page
+  greer_id: page_of_pentacles
+  visual_id: rws.page_of_pentacles
+  visual_source_card_id: page_of_pentacles
+  display_names:
+  - 钱币侍者
+  - Page of Pentacles
+- canonical_card_id: pentacles_knight
+  daniel_id: pentacles_knight
+  dictionary_id: pentacles_knight
+  greer_id: knight_of_pentacles
+  visual_id: rws.knight_of_pentacles
+  visual_source_card_id: knight_of_pentacles
+  display_names:
+  - 钱币骑士
+  - Knight of Pentacles
+- canonical_card_id: pentacles_queen
+  daniel_id: pentacles_queen
+  dictionary_id: pentacles_queen
+  greer_id: queen_of_pentacles
+  visual_id: rws.queen_of_pentacles
+  visual_source_card_id: queen_of_pentacles
+  display_names:
+  - 钱币王后
+  - Queen of Pentacles
+- canonical_card_id: pentacles_king
+  daniel_id: pentacles_king
+  dictionary_id: pentacles_king
+  greer_id: king_of_pentacles
+  visual_id: rws.king_of_pentacles
+  visual_source_card_id: king_of_pentacles
+  display_names:
+  - 钱币国王
+  - King of Pentacles
+- canonical_card_id: magician
+  daniel_id: magician
+  dictionary_id: magician
+  greer_id: the_magician
+  visual_id: rws.magician
+  visual_source_card_id: magician
+  display_names:
+  - 魔术师
+  - The Magician
+- canonical_card_id: high_priestess
+  daniel_id: high_priestess
+  dictionary_id: high_priestess
+  greer_id: the_high_priestess
+  visual_id: 
+  visual_source_card_id: 
+  display_names:
+  - 女祭司
+  - The High Priestess
+- canonical_card_id: empress
+  daniel_id: empress
+  dictionary_id: empress
+  greer_id: the_empress
+  visual_id: 
+  visual_source_card_id: 
+  display_names:
+  - 女皇
+  - The Empress
+- canonical_card_id: emperor
+  daniel_id: emperor
+  dictionary_id: emperor
+  greer_id: the_emperor
+  visual_id: rws.emperor
+  visual_source_card_id: emperor
+  display_names:
+  - 皇帝
+  - The Emperor
+- canonical_card_id: hierophant
+  daniel_id: hierophant
+  dictionary_id: hierophant
+  greer_id: the_hierophant
+  visual_id: 
+  visual_source_card_id: 
+  display_names:
+  - 教皇
+  - The Hierophant
+- canonical_card_id: lovers
+  daniel_id: lovers
+  dictionary_id: lovers
+  greer_id: the_lovers
+  visual_id: 
+  visual_source_card_id: 
+  display_names:
+  - 恋人
+  - The Lovers
+- canonical_card_id: chariot
+  daniel_id: chariot
+  dictionary_id: chariot
+  greer_id: the_chariot
+  visual_id: 
+  visual_source_card_id: 
+  display_names:
+  - 战车
+  - The Chariot
+- canonical_card_id: strength
+  daniel_id: strength
+  dictionary_id: strength
+  greer_id: strength
+  visual_id: rws.strength
+  visual_source_card_id: strength
+  display_names:
+  - 力量
+  - Strength
+- canonical_card_id: hermit
+  daniel_id: hermit
+  dictionary_id: hermit
+  greer_id: the_hermit
+  visual_id: rws.hermit
+  visual_source_card_id: hermit
+  display_names:
+  - 隐士
+  - The Hermit
+- canonical_card_id: wheel_of_fortune
+  daniel_id: wheel_of_fortune
+  dictionary_id: wheel_of_fortune
+  greer_id: wheel_of_fortune
+  visual_id: rws.wheel_of_fortune
+  visual_source_card_id: wheel_of_fortune
+  display_names:
+  - 命运之轮
+  - Wheel of Fortune
+- canonical_card_id: justice
+  daniel_id: justice
+  dictionary_id: justice
+  greer_id: justice
+  visual_id: rws.justice
+  visual_source_card_id: justice
+  display_names:
+  - 正义
+  - Justice
+- canonical_card_id: hanged_man
+  daniel_id: hanged_man
+  dictionary_id: hanged_man
+  greer_id: the_hanged_man
+  visual_id: 
+  visual_source_card_id: 
+  display_names:
+  - 吊人
+  - The Hanged Man
+- canonical_card_id: death
+  daniel_id: death
+  dictionary_id: death
+  greer_id: death
+  visual_id: rws.death
+  visual_source_card_id: death
+  display_names:
+  - 死神
+  - Death
+- canonical_card_id: temperance
+  daniel_id: temperance
+  dictionary_id: temperance
+  greer_id: temperance
+  visual_id: 
+  visual_source_card_id: 
+  display_names:
+  - 节制
+  - Temperance
+- canonical_card_id: devil
+  daniel_id: devil
+  dictionary_id: devil
+  greer_id: the_devil
+  visual_id: rws.devil
+  visual_source_card_id: devil
+  display_names:
+  - 恶魔
+  - The Devil
+- canonical_card_id: tower
+  daniel_id: tower
+  dictionary_id: tower
+  greer_id: the_tower
+  visual_id: rws.tower
+  visual_source_card_id: tower
+  display_names:
+  - 高塔
+  - The Tower
+- canonical_card_id: star
+  daniel_id: star
+  dictionary_id: star
+  greer_id: the_star
+  visual_id: rws.star
+  visual_source_card_id: star
+  display_names:
+  - 星星
+  - The Star
+- canonical_card_id: moon
+  daniel_id: moon
+  dictionary_id: moon
+  greer_id: the_moon
+  visual_id: 
+  visual_source_card_id: 
+  display_names:
+  - 月亮
+  - The Moon
+- canonical_card_id: sun
+  daniel_id: sun
+  dictionary_id: sun
+  greer_id: the_sun
+  visual_id: 
+  visual_source_card_id: 
+  display_names:
+  - 太阳
+  - The Sun
+- canonical_card_id: judgement
+  daniel_id: judgement
+  dictionary_id: judgement
+  greer_id: judgement
+  visual_id: 
+  visual_source_card_id: 
+  display_names:
+  - 审判
+  - Judgement
+- canonical_card_id: fool
+  daniel_id: fool
+  dictionary_id: fool
+  greer_id: the_fool
+  visual_id: rws.fool
+  visual_source_card_id: fool
+  display_names:
+  - 愚人
+  - The Fool
+- canonical_card_id: world
+  daniel_id: world
+  dictionary_id: world
+  greer_id: the_world
+  visual_id: rws.world
+  visual_source_card_id: world
+  display_names:
+  - 世界
+  - The World

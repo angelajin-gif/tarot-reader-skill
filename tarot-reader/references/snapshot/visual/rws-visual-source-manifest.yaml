@@ -1,0 +1,1416 @@
+---
+phase: 4A
+manifest_id: rws-visual-source-manifest.phase4a.v1
+deck_id: rws
+status: source_locked_observations_not_fully_verified
+source_set:
+  name: Rider-Waite-Smith tarot deck (Geldard)
+  category_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  retrieval_date: '2026-08-21'
+  source_note: The Commons category lists 78 files in one cleaned image set. Source
+    metadata is pinned per file; this does not by itself certify every observation.
+records:
+- card_id: wands_ace
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/e/e5/Ace_of_Wands_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:Ace_of_Wands_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:Ace of Wands (Rider-Waite Smith tarot deck).png
+    image_checksum: e11de70fb7dc28b386b48c8932fa23362a723eaf
+    checksum_algorithm: sha1
+    bytes: 14054607
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: pilot_reviewed
+  visual_record_id: rws.ace_of_wands
+  visual_record_source_card_id: ace_of_wands
+- card_id: wands_two
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/9/97/Two_of_Wands_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:Two_of_Wands_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:Two of Wands (Rider-Waite Smith tarot deck).png
+    image_checksum: 4a6cd5152229c2b213e5c8549cd272467bdf3bc8
+    checksum_algorithm: sha1
+    bytes: 13719563
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: pilot_record_unrechecked
+  visual_record_id: rws.two_of_wands
+  visual_record_source_card_id: two_of_wands
+- card_id: wands_three
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/3/31/Three_of_Wands_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:Three_of_Wands_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:Three of Wands (Rider-Waite Smith tarot deck).png
+    image_checksum: 1227fbea6e7d992fb92602fe5a6e4bc6a39d1882
+    checksum_algorithm: sha1
+    bytes: 14980151
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: pilot_record_unrechecked
+  visual_record_id: rws.three_of_wands
+  visual_record_source_card_id: three_of_wands
+- card_id: wands_four
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/0/0c/Four_of_Wands_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:Four_of_Wands_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:Four of Wands (Rider-Waite Smith tarot deck).png
+    image_checksum: 9efa4564fbb213b63e64ff573e4ebda0c0eb66ca
+    checksum_algorithm: sha1
+    bytes: 12416178
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: unresolved_visual
+  visual_record_id: 
+  visual_record_source_card_id: 
+- card_id: wands_five
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/4/42/Five_of_Wands_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:Five_of_Wands_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:Five of Wands (Rider-Waite Smith tarot deck).png
+    image_checksum: 1430b7d78c6ac66d0c6832dfd62e41b4d92405f8
+    checksum_algorithm: sha1
+    bytes: 13155576
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: unresolved_visual
+  visual_record_id: 
+  visual_record_source_card_id: 
+- card_id: wands_six
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/0/0e/Six_of_Wands_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:Six_of_Wands_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:Six of Wands (Rider-Waite Smith tarot deck).png
+    image_checksum: 1d4f287d366c952e77cc7515c0ebe8727c053d54
+    checksum_algorithm: sha1
+    bytes: 13573791
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: pilot_record_unrechecked
+  visual_record_id: rws.six_of_wands
+  visual_record_source_card_id: six_of_wands
+- card_id: wands_seven
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/7/7f/Seven_of_Wands_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:Seven_of_Wands_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:Seven of Wands (Rider-Waite Smith tarot deck).png
+    image_checksum: b89d59322676214e92d845d369b963bdd4a4a05b
+    checksum_algorithm: sha1
+    bytes: 12072555
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: unresolved_visual
+  visual_record_id: 
+  visual_record_source_card_id: 
+- card_id: wands_eight
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/0/0a/Eight_of_Wands_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:Eight_of_Wands_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:Eight of Wands (Rider-Waite Smith tarot deck).png
+    image_checksum: 817eff773383edf79fe1f764964c090affbbe99d
+    checksum_algorithm: sha1
+    bytes: 11635733
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: pilot_record_unrechecked
+  visual_record_id: rws.eight_of_wands
+  visual_record_source_card_id: eight_of_wands
+- card_id: wands_nine
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/b/b7/Nine_of_Wands_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:Nine_of_Wands_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:Nine of Wands (Rider-Waite Smith tarot deck).png
+    image_checksum: 74735b016ad4f87bdbc0f6679296f26495f746bc
+    checksum_algorithm: sha1
+    bytes: 13502891
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: unresolved_visual
+  visual_record_id: 
+  visual_record_source_card_id: 
+- card_id: wands_ten
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/7/7c/Ten_of_Wands_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:Ten_of_Wands_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:Ten of Wands (Rider-Waite Smith tarot deck).png
+    image_checksum: 1d7805a1e3bc98d501c9a23e9427314f349794e9
+    checksum_algorithm: sha1
+    bytes: 13444282
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: pilot_record_unrechecked
+  visual_record_id: rws.ten_of_wands
+  visual_record_source_card_id: ten_of_wands
+- card_id: cups_ace
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/8/86/Ace_of_Cups_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:Ace_of_Cups_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:Ace of Cups (Rider-Waite Smith tarot deck).png
+    image_checksum: 9db875e95a6d3ac009a139b1eed75b99b7289d46
+    checksum_algorithm: sha1
+    bytes: 14114791
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: unresolved_visual
+  visual_record_id: 
+  visual_record_source_card_id: 
+- card_id: cups_two
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/7/7b/Two_of_Cups_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:Two_of_Cups_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:Two of Cups (Rider-Waite Smith tarot deck).png
+    image_checksum: bab9707004a32a71fe1d40f4865acdebee313d2f
+    checksum_algorithm: sha1
+    bytes: 14354756
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: pilot_record_unrechecked
+  visual_record_id: rws.two_of_cups
+  visual_record_source_card_id: two_of_cups
+- card_id: cups_three
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/9/9e/Three_of_Cups_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:Three_of_Cups_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:Three of Cups (Rider-Waite Smith tarot deck).png
+    image_checksum: 7e358a176499fdd550284a393324538eb18258aa
+    checksum_algorithm: sha1
+    bytes: 13930082
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: unresolved_visual
+  visual_record_id: 
+  visual_record_source_card_id: 
+- card_id: cups_four
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/c/cd/Four_of_Cups_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:Four_of_Cups_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:Four of Cups (Rider-Waite Smith tarot deck).png
+    image_checksum: 5513c26c19dcbc90345205445de0452e8bd34542
+    checksum_algorithm: sha1
+    bytes: 12624083
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: pilot_record_unrechecked
+  visual_record_id: rws.four_of_cups
+  visual_record_source_card_id: four_of_cups
+- card_id: cups_five
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/3/34/Five_of_Cups_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:Five_of_Cups_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:Five of Cups (Rider-Waite Smith tarot deck).png
+    image_checksum: cb6f5426462900a76ee9334788a2f825d2eba273
+    checksum_algorithm: sha1
+    bytes: 11788800
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: unresolved_visual
+  visual_record_id: 
+  visual_record_source_card_id: 
+- card_id: cups_six
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/f/f7/Six_of_Cups_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:Six_of_Cups_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:Six of Cups (Rider-Waite Smith tarot deck).png
+    image_checksum: afdf12b67cb2ce30392d2fbb06dbf8edbd309503
+    checksum_algorithm: sha1
+    bytes: 14940289
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: pilot_record_unrechecked
+  visual_record_id: rws.six_of_cups
+  visual_record_source_card_id: six_of_cups
+- card_id: cups_seven
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/5/5e/Seven_of_Cups_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:Seven_of_Cups_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:Seven of Cups (Rider-Waite Smith tarot deck).png
+    image_checksum: 8bb5c45b677e672bfafa7641eb5289ac235426c2
+    checksum_algorithm: sha1
+    bytes: 12065546
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: unresolved_visual
+  visual_record_id: 
+  visual_record_source_card_id: 
+- card_id: cups_eight
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/0/0b/Eight_of_Cups_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:Eight_of_Cups_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:Eight of Cups (Rider-Waite Smith tarot deck).png
+    image_checksum: 66f166d46a42494235c7ebc090e9bf9600f84475
+    checksum_algorithm: sha1
+    bytes: 12818300
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: pilot_record_unrechecked
+  visual_record_id: rws.eight_of_cups
+  visual_record_source_card_id: eight_of_cups
+- card_id: cups_nine
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/8/86/Nine_of_Cups_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:Nine_of_Cups_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:Nine of Cups (Rider-Waite Smith tarot deck).png
+    image_checksum: bfd5ae6aa5c04936acfad31f51bbccd3974fef13
+    checksum_algorithm: sha1
+    bytes: 11407005
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: unresolved_visual
+  visual_record_id: 
+  visual_record_source_card_id: 
+- card_id: cups_ten
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/9/9c/Ten_of_Cups_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:Ten_of_Cups_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:Ten of Cups (Rider-Waite Smith tarot deck).png
+    image_checksum: 664458e409eab86ecabc054490afca60b982ec52
+    checksum_algorithm: sha1
+    bytes: 15078293
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: unresolved_visual
+  visual_record_id: 
+  visual_record_source_card_id: 
+- card_id: swords_ace
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/f/fd/One_of_Swords_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:One_of_Swords_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:One of Swords (Rider-Waite Smith tarot deck).png
+    image_checksum: e44b41a402885db9da23f8b20fde215f7ed971fb
+    checksum_algorithm: sha1
+    bytes: 13761703
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: pilot_record_unrechecked
+  visual_record_id: rws.ace_of_swords
+  visual_record_source_card_id: ace_of_swords
+- card_id: swords_two
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/7/7d/Two_of_Swords_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:Two_of_Swords_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:Two of Swords (Rider-Waite Smith tarot deck).png
+    image_checksum: d254dcdc94ff1bac87fa95fb8fa537e618500e7a
+    checksum_algorithm: sha1
+    bytes: 12994964
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: pilot_record_unrechecked
+  visual_record_id: rws.two_of_swords
+  visual_record_source_card_id: two_of_swords
+- card_id: swords_three
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/9/9f/Three_of_Swords_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:Three_of_Swords_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:Three of Swords (Rider-Waite Smith tarot deck).png
+    image_checksum: b10f7146a78f621b41dd1fb5b02272527c99896c
+    checksum_algorithm: sha1
+    bytes: 12243061
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: pilot_record_unrechecked
+  visual_record_id: rws.three_of_swords
+  visual_record_source_card_id: three_of_swords
+- card_id: swords_four
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/6/61/Four_of_Swords_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:Four_of_Swords_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:Four of Swords (Rider-Waite Smith tarot deck).png
+    image_checksum: 5ea58e1345ddbf1f04bb85446fdb85e3cdae3ccd
+    checksum_algorithm: sha1
+    bytes: 13261239
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: pilot_record_unrechecked
+  visual_record_id: rws.four_of_swords
+  visual_record_source_card_id: four_of_swords
+- card_id: swords_five
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/4/42/Five_of_Swords_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:Five_of_Swords_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:Five of Swords (Rider-Waite Smith tarot deck).png
+    image_checksum: d4c21b6edcd733cfc9e59a21b539e4db3bc853e4
+    checksum_algorithm: sha1
+    bytes: 12808092
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: unresolved_visual
+  visual_record_id: 
+  visual_record_source_card_id: 
+- card_id: swords_six
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/f/f4/Six_of_Swords_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:Six_of_Swords_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:Six of Swords (Rider-Waite Smith tarot deck).png
+    image_checksum: ec732d6bc05f31b1ea8688560b74a04328b8bcc0
+    checksum_algorithm: sha1
+    bytes: 14608240
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: pilot_record_unrechecked
+  visual_record_id: rws.six_of_swords
+  visual_record_source_card_id: six_of_swords
+- card_id: swords_seven
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/0/04/Seven_of_Swords_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:Seven_of_Swords_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:Seven of Swords (Rider-Waite Smith tarot deck).png
+    image_checksum: e7d7ac7f034761c42a0c435a9e1df27ca2e9d9ab
+    checksum_algorithm: sha1
+    bytes: 12858634
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: pilot_record_unrechecked
+  visual_record_id: rws.seven_of_swords
+  visual_record_source_card_id: seven_of_swords
+- card_id: swords_eight
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/b/be/Eight_of_Swords_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:Eight_of_Swords_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:Eight of Swords (Rider-Waite Smith tarot deck).png
+    image_checksum: d88bd03d6e238df05a899b6862c1b7e2fcb62e5a
+    checksum_algorithm: sha1
+    bytes: 13856146
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: pilot_record_unrechecked
+  visual_record_id: rws.eight_of_swords
+  visual_record_source_card_id: eight_of_swords
+- card_id: swords_nine
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/1/1f/Nine_of_Swords_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:Nine_of_Swords_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:Nine of Swords (Rider-Waite Smith tarot deck).png
+    image_checksum: c29de70245a00c5b2108291f8c8016794634b721
+    checksum_algorithm: sha1
+    bytes: 12281562
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: pilot_record_unrechecked
+  visual_record_id: rws.nine_of_swords
+  visual_record_source_card_id: nine_of_swords
+- card_id: swords_ten
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/6/62/Ten_of_Swords_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:Ten_of_Swords_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:Ten of Swords (Rider-Waite Smith tarot deck).png
+    image_checksum: 6fa6bde4cb3b5cb685c7d01d63b5bde95cd4066f
+    checksum_algorithm: sha1
+    bytes: 10976402
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: unresolved_visual
+  visual_record_id: 
+  visual_record_source_card_id: 
+- card_id: pentacles_ace
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/5/54/One_of_Pentacles_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:One_of_Pentacles_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:One of Pentacles (Rider-Waite Smith tarot deck).png
+    image_checksum: 0e6cba957980b4d32259cc9f6b51072a68308dd0
+    checksum_algorithm: sha1
+    bytes: 13958746
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: unresolved_visual
+  visual_record_id: 
+  visual_record_source_card_id: 
+- card_id: pentacles_two
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/1/14/Two_of_Pentacles_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:Two_of_Pentacles_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:Two of Pentacles (Rider-Waite Smith tarot deck).png
+    image_checksum: d250b386ed7a9cfb588911299e42d0c8a8006090
+    checksum_algorithm: sha1
+    bytes: 14556118
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: unresolved_visual
+  visual_record_id: 
+  visual_record_source_card_id: 
+- card_id: pentacles_three
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/e/ea/Three_of_Pentacles_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:Three_of_Pentacles_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:Three of Pentacles (Rider-Waite Smith tarot deck).png
+    image_checksum: 90fcedb4821b689d56f9a7e2aa2f920a25536530
+    checksum_algorithm: sha1
+    bytes: 13754945
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: unresolved_visual
+  visual_record_id: 
+  visual_record_source_card_id: 
+- card_id: pentacles_four
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/c/c9/Four_of_Pentacles_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:Four_of_Pentacles_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:Four of Pentacles (Rider-Waite Smith tarot deck).png
+    image_checksum: 54f4328367d6f8df74e612dd86898354346229b5
+    checksum_algorithm: sha1
+    bytes: 13646428
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: pilot_record_unrechecked
+  visual_record_id: rws.four_of_pentacles
+  visual_record_source_card_id: four_of_pentacles
+- card_id: pentacles_five
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/e/e7/Five_of_Pentacles_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:Five_of_Pentacles_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:Five of Pentacles (Rider-Waite Smith tarot deck).png
+    image_checksum: a29b90787a455f1bb68f77e60bad8620481fe681
+    checksum_algorithm: sha1
+    bytes: 13402768
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: pilot_record_unrechecked
+  visual_record_id: rws.five_of_pentacles
+  visual_record_source_card_id: five_of_pentacles
+- card_id: pentacles_six
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/c/cf/Six_of_Pentacles_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:Six_of_Pentacles_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:Six of Pentacles (Rider-Waite Smith tarot deck).png
+    image_checksum: b2ce0a07f2f6aeca13fbff45d0fb1c7e00d640ba
+    checksum_algorithm: sha1
+    bytes: 14247575
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: unresolved_visual
+  visual_record_id: 
+  visual_record_source_card_id: 
+- card_id: pentacles_seven
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/1/10/Seven_of_Pentacles_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:Seven_of_Pentacles_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:Seven of Pentacles (Rider-Waite Smith tarot deck).png
+    image_checksum: 2d96844f2ebbed5999d53f55e8c6b92a12669ce0
+    checksum_algorithm: sha1
+    bytes: 14821784
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: pilot_record_unrechecked
+  visual_record_id: rws.seven_of_pentacles
+  visual_record_source_card_id: seven_of_pentacles
+- card_id: pentacles_eight
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/4/45/Eight_of_Pentacles_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:Eight_of_Pentacles_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:Eight of Pentacles (Rider-Waite Smith tarot deck).png
+    image_checksum: 57790487b3e9b4cfd2d43e4d1eb127fb7527878a
+    checksum_algorithm: sha1
+    bytes: 14053956
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: pilot_record_unrechecked
+  visual_record_id: rws.eight_of_pentacles
+  visual_record_source_card_id: eight_of_pentacles
+- card_id: pentacles_nine
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/5/55/Nine_of_Pentacles_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:Nine_of_Pentacles_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:Nine of Pentacles (Rider-Waite Smith tarot deck).png
+    image_checksum: 96b75a43fe945a2c51496779bdb74aa3bf2ea50d
+    checksum_algorithm: sha1
+    bytes: 12368814
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: unresolved_visual
+  visual_record_id: 
+  visual_record_source_card_id: 
+- card_id: pentacles_ten
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/f/f3/Ten_of_Pentacles_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:Ten_of_Pentacles_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:Ten of Pentacles (Rider-Waite Smith tarot deck).png
+    image_checksum: e86548b4897e55537b5b67f9dba3880f37004b1d
+    checksum_algorithm: sha1
+    bytes: 13184320
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: unresolved_visual
+  visual_record_id: 
+  visual_record_source_card_id: 
+- card_id: wands_page
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/3/34/Page_of_Wands_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:Page_of_Wands_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:Page of Wands (Rider-Waite Smith tarot deck).png
+    image_checksum: 79cf953983c8059300ca2e09884a3c13f4d66d8c
+    checksum_algorithm: sha1
+    bytes: 14543080
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: unresolved_visual
+  visual_record_id: 
+  visual_record_source_card_id: 
+- card_id: wands_knight
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/2/2a/Knight_of_Wands_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:Knight_of_Wands_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:Knight of Wands (Rider-Waite Smith tarot deck).png
+    image_checksum: 886f3971719f64027fd38fbc31a12479b59ec2a1
+    checksum_algorithm: sha1
+    bytes: 15317535
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: unresolved_visual
+  visual_record_id: 
+  visual_record_source_card_id: 
+- card_id: wands_queen
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/8/8b/Queen_of_Wands_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:Queen_of_Wands_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:Queen of Wands (Rider-Waite Smith tarot deck).png
+    image_checksum: a12e7780ab0eedcf12ab8bc68280fec658a64cba
+    checksum_algorithm: sha1
+    bytes: 14547406
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: pilot_record_unrechecked
+  visual_record_id: rws.queen_of_wands
+  visual_record_source_card_id: queen_of_wands
+- card_id: wands_king
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/e/e1/King_of_Wands_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:King_of_Wands_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:King of Wands (Rider-Waite Smith tarot deck).png
+    image_checksum: 8b751adaee69a911a351d88a79ec022a0b98fc29
+    checksum_algorithm: sha1
+    bytes: 14901887
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: unresolved_visual
+  visual_record_id: 
+  visual_record_source_card_id: 
+- card_id: cups_page
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/5/5e/Page_of_Cups_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:Page_of_Cups_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:Page of Cups (Rider-Waite Smith tarot deck).png
+    image_checksum: 66faced1f954995b3118bd33be17cab8e6e296c7
+    checksum_algorithm: sha1
+    bytes: 14977247
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: pilot_record_unrechecked
+  visual_record_id: rws.page_of_cups
+  visual_record_source_card_id: page_of_cups
+- card_id: cups_knight
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/1/16/Knight_of_Cups_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:Knight_of_Cups_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:Knight of Cups (Rider-Waite Smith tarot deck).png
+    image_checksum: 8f392b729cea790f7fac213aa8e0cd1c88beb85a
+    checksum_algorithm: sha1
+    bytes: 14235773
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: unresolved_visual
+  visual_record_id: 
+  visual_record_source_card_id: 
+- card_id: cups_queen
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/a/a4/Queen_of_Cups_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:Queen_of_Cups_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:Queen of Cups (Rider-Waite Smith tarot deck).png
+    image_checksum: a25fb0d27e4c327511c1024f220b8efa7888a15e
+    checksum_algorithm: sha1
+    bytes: 12044506
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: pilot_reviewed
+  visual_record_id: rws.queen_of_cups
+  visual_record_source_card_id: queen_of_cups
+- card_id: cups_king
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/4/4e/King_of_Cups_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:King_of_Cups_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:King of Cups (Rider-Waite Smith tarot deck).png
+    image_checksum: 06a0ddeb57db8822e4a420e79e856332b1923d91
+    checksum_algorithm: sha1
+    bytes: 14122913
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: pilot_reviewed
+  visual_record_id: rws.king_of_cups
+  visual_record_source_card_id: king_of_cups
+- card_id: swords_page
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/e/ef/Page_of_Swords_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:Page_of_Swords_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:Page of Swords (Rider-Waite Smith tarot deck).png
+    image_checksum: 6a542934e67e05ad7a970d4736d0bba75685bfdf
+    checksum_algorithm: sha1
+    bytes: 13549285
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: pilot_reviewed
+  visual_record_id: rws.page_of_swords
+  visual_record_source_card_id: page_of_swords
+- card_id: swords_knight
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/f/f1/Knight_of_Swords_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:Knight_of_Swords_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:Knight of Swords (Rider-Waite Smith tarot deck).png
+    image_checksum: 5186399f2f6d50cc4f8abd6e852e2584247ba3c3
+    checksum_algorithm: sha1
+    bytes: 13303469
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: pilot_record_unrechecked
+  visual_record_id: rws.knight_of_swords
+  visual_record_source_card_id: knight_of_swords
+- card_id: swords_queen
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/b/b1/Queen_of_Swords_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:Queen_of_Swords_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:Queen of Swords (Rider-Waite Smith tarot deck).png
+    image_checksum: 9f1e229312e7684650503f2c04935a7cb39c2ab2
+    checksum_algorithm: sha1
+    bytes: 12853114
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: pilot_record_unrechecked
+  visual_record_id: rws.queen_of_swords
+  visual_record_source_card_id: queen_of_swords
+- card_id: swords_king
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/8/85/King_of_Swords_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:King_of_Swords_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:King of Swords (Rider-Waite Smith tarot deck).png
+    image_checksum: f3805a53a864f4626e1003185c7e8fdbb4ce1d37
+    checksum_algorithm: sha1
+    bytes: 14097442
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: unresolved_visual
+  visual_record_id: 
+  visual_record_source_card_id: 
+- card_id: pentacles_page
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/8/86/Page_of_Pentacles_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:Page_of_Pentacles_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:Page of Pentacles (Rider-Waite Smith tarot deck).png
+    image_checksum: 4cb3e73610dd830966c860981202977c0508a996
+    checksum_algorithm: sha1
+    bytes: 12243913
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: pilot_reviewed
+  visual_record_id: rws.page_of_pentacles
+  visual_record_source_card_id: page_of_pentacles
+- card_id: pentacles_knight
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/d/d8/Knight_of_Pentacles_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:Knight_of_Pentacles_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:Knight of Pentacles (Rider-Waite Smith tarot deck).png
+    image_checksum: bfeaee7365ecd1c21653c1cfab5cc1e8c2b378c6
+    checksum_algorithm: sha1
+    bytes: 12091245
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: pilot_record_unrechecked
+  visual_record_id: rws.knight_of_pentacles
+  visual_record_source_card_id: knight_of_pentacles
+- card_id: pentacles_queen
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/1/1d/Queen_of_Pentacles_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:Queen_of_Pentacles_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:Queen of Pentacles (Rider-Waite Smith tarot deck).png
+    image_checksum: 41158c473ef15e267bbfc6e1a39d02d7adf96256
+    checksum_algorithm: sha1
+    bytes: 14114046
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: pilot_record_unrechecked
+  visual_record_id: rws.queen_of_pentacles
+  visual_record_source_card_id: queen_of_pentacles
+- card_id: pentacles_king
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/a/a5/King_of_Pentacles_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:King_of_Pentacles_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:King of Pentacles (Rider-Waite Smith tarot deck).png
+    image_checksum: 544f6bce1fe45425493f05a323528ea4e8650c2b
+    checksum_algorithm: sha1
+    bytes: 12787314
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: pilot_record_unrechecked
+  visual_record_id: rws.king_of_pentacles
+  visual_record_source_card_id: king_of_pentacles
+- card_id: magician
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/5/57/The_Magician_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:The_Magician_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:The Magician (Rider-Waite Smith tarot deck).png
+    image_checksum: 7f9ff2ce39a7ada374cd39d1c80bd720611efb90
+    checksum_algorithm: sha1
+    bytes: 11585112
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: pilot_reviewed
+  visual_record_id: rws.magician
+  visual_record_source_card_id: magician
+- card_id: high_priestess
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/0/0d/The_High_Priestess_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:The_High_Priestess_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:The High Priestess (Rider-Waite Smith tarot deck).png
+    image_checksum: a4c1c3b3a3238573031e511be1e4b64b06d7e99f
+    checksum_algorithm: sha1
+    bytes: 13691173
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: unresolved_visual
+  visual_record_id: 
+  visual_record_source_card_id: 
+- card_id: empress
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/f/fb/The_Empress_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:The_Empress_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:The Empress (Rider-Waite Smith tarot deck).png
+    image_checksum: 28ccdb185989ec7b78a54d76b8afb8ec5bda292e
+    checksum_algorithm: sha1
+    bytes: 12279504
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: unresolved_visual
+  visual_record_id: 
+  visual_record_source_card_id: 
+- card_id: emperor
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/f/f8/The_Emperor_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:The_Emperor_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:The Emperor (Rider-Waite Smith tarot deck).png
+    image_checksum: eded0289e19630187a705170fae9e513bb262acc
+    checksum_algorithm: sha1
+    bytes: 13529850
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: pilot_record_unrechecked
+  visual_record_id: rws.emperor
+  visual_record_source_card_id: emperor
+- card_id: hierophant
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/f/fe/The_Hierophant_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:The_Hierophant_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:The Hierophant (Rider-Waite Smith tarot deck).png
+    image_checksum: c1f68a49e712c2f1a4a9ba7ad6598a994d7f6085
+    checksum_algorithm: sha1
+    bytes: 13101883
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: unresolved_visual
+  visual_record_id: 
+  visual_record_source_card_id: 
+- card_id: lovers
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/1/1b/The_Lovers_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:The_Lovers_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:The Lovers (Rider-Waite Smith tarot deck).png
+    image_checksum: 582218deee2c51ea5921c8eb0a7db1dc3084fed4
+    checksum_algorithm: sha1
+    bytes: 14050535
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: unresolved_visual
+  visual_record_id: 
+  visual_record_source_card_id: 
+- card_id: chariot
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/8/88/The_Chariot_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:The_Chariot_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:The Chariot (Rider-Waite Smith tarot deck).png
+    image_checksum: 39380a187ab9301b7f06c286111500c34a38374e
+    checksum_algorithm: sha1
+    bytes: 12817144
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: unresolved_visual
+  visual_record_id: 
+  visual_record_source_card_id: 
+- card_id: strength
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/7/74/Strength_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:Strength_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:Strength (Rider-Waite Smith tarot deck).png
+    image_checksum: dd0028b27fba1eebd32b7333f928ecf96201756b
+    checksum_algorithm: sha1
+    bytes: 11806116
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: pilot_record_unrechecked
+  visual_record_id: rws.strength
+  visual_record_source_card_id: strength
+- card_id: hermit
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/1/1a/The_Hermit_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:The_Hermit_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:The Hermit (Rider-Waite Smith tarot deck).png
+    image_checksum: 378f13a30250fe4b73322b59e8273d6fb686fa4e
+    checksum_algorithm: sha1
+    bytes: 11469758
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: pilot_reviewed
+  visual_record_id: rws.hermit
+  visual_record_source_card_id: hermit
+- card_id: wheel_of_fortune
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/0/03/Wheel_of_Fortune_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:Wheel_of_Fortune_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:Wheel of Fortune (Rider-Waite Smith tarot deck).png
+    image_checksum: ba0da44ccc971fa8abd8c665212ca3edc620c848
+    checksum_algorithm: sha1
+    bytes: 13219744
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: pilot_reviewed
+  visual_record_id: rws.wheel_of_fortune
+  visual_record_source_card_id: wheel_of_fortune
+- card_id: justice
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/8/85/Justice_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:Justice_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:Justice (Rider-Waite Smith tarot deck).png
+    image_checksum: ad247bc71ef5f2f3de382590f54201239e26026f
+    checksum_algorithm: sha1
+    bytes: 13064298
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: pilot_record_unrechecked
+  visual_record_id: rws.justice
+  visual_record_source_card_id: justice
+- card_id: hanged_man
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/8/8e/The_Hanged_Man_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:The_Hanged_Man_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:The Hanged Man (Rider-Waite Smith tarot deck).png
+    image_checksum: 827b9301dc6a7d09fa8956b140963777f02b967d
+    checksum_algorithm: sha1
+    bytes: 13764925
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: unresolved_visual
+  visual_record_id: 
+  visual_record_source_card_id: 
+- card_id: death
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/d/d3/Death_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:Death_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:Death (Rider-Waite Smith tarot deck).png
+    image_checksum: 4a16bccb8cdf668c2f0b84b98df29d2da18bdb94
+    checksum_algorithm: sha1
+    bytes: 13649341
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: pilot_record_unrechecked
+  visual_record_id: rws.death
+  visual_record_source_card_id: death
+- card_id: temperance
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/6/66/Temperance_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:Temperance_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:Temperance (Rider-Waite Smith tarot deck).png
+    image_checksum: e2a7be28a16ceeba416ed345c59253efcac1d85e
+    checksum_algorithm: sha1
+    bytes: 14100242
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: unresolved_visual
+  visual_record_id: 
+  visual_record_source_card_id: 
+- card_id: devil
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/b/b5/The_Devil_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:The_Devil_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:The Devil (Rider-Waite Smith tarot deck).png
+    image_checksum: d77dbb69786d01cc88d192f579502c01f91db935
+    checksum_algorithm: sha1
+    bytes: 12384317
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: pilot_record_unrechecked
+  visual_record_id: rws.devil
+  visual_record_source_card_id: devil
+- card_id: tower
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/8/8c/The_Tower_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:The_Tower_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:The Tower (Rider-Waite Smith tarot deck).png
+    image_checksum: e55e3cad3a03031c4a0fd1e87775cfc3ee800727
+    checksum_algorithm: sha1
+    bytes: 11603028
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: pilot_record_unrechecked
+  visual_record_id: rws.tower
+  visual_record_source_card_id: tower
+- card_id: star
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/0/09/The_Star_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:The_Star_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:The Star (Rider-Waite Smith tarot deck).png
+    image_checksum: 659b60ca69de4e7c68e1f15da8b66b30ef8cca0a
+    checksum_algorithm: sha1
+    bytes: 12027307
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: pilot_record_unrechecked
+  visual_record_id: rws.star
+  visual_record_source_card_id: star
+- card_id: moon
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/1/18/The_Moon_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:The_Moon_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:The Moon (Rider-Waite Smith tarot deck).png
+    image_checksum: f565d060c32ce06c4ad5b6d9eac3938595af0b89
+    checksum_algorithm: sha1
+    bytes: 12876903
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: unresolved_visual
+  visual_record_id: 
+  visual_record_source_card_id: 
+- card_id: sun
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/0/0a/The_Sun_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:The_Sun_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:The Sun (Rider-Waite Smith tarot deck).png
+    image_checksum: 2a88e848c46f267cbde7d3ed3da17a0ddd793d3c
+    checksum_algorithm: sha1
+    bytes: 13489518
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: unresolved_visual
+  visual_record_id: 
+  visual_record_source_card_id: 
+- card_id: judgement
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/2/2e/Judgement_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:Judgement_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:Judgement (Rider-Waite Smith tarot deck).png
+    image_checksum: 86390853595ac05b4215f58b6463c1aaebe36fa9
+    checksum_algorithm: sha1
+    bytes: 13587979
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: unresolved_visual
+  visual_record_id: 
+  visual_record_source_card_id: 
+- card_id: fool
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/c/c0/The_Fool_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:The_Fool_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:The Fool (Rider-Waite Smith tarot deck).png
+    image_checksum: 07b631d6b5f0399da6d3cdb5fc12f499689f231b
+    checksum_algorithm: sha1
+    bytes: 12652993
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: pilot_record_unrechecked
+  visual_record_id: rws.fool
+  visual_record_source_card_id: fool
+- card_id: world
+  image_source:
+    source_type: remote_original_image
+    source_url: https://upload.wikimedia.org/wikipedia/commons/9/95/The_World_%28Rider-Waite_Smith_tarot_deck%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+    description_url: https://commons.wikimedia.org/wiki/File:The_World_(Rider-Waite_Smith_tarot_deck).png
+    source_file: File:The World (Rider-Waite Smith tarot deck).png
+    image_checksum: ef754216107c2492af2335eda360065346bfed11
+    checksum_algorithm: sha1
+    bytes: 13213273
+    width: 2100
+    height: 3600
+    mime: image/png
+  edition: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  source_set_url: https://commons.wikimedia.org/wiki/Category:Rider-Waite-Smith_tarot_deck_(Geldard)
+  verification_status: source_locked
+  observation_verification_status: pilot_record_unrechecked
+  visual_record_id: rws.world
+  visual_record_source_card_id: world

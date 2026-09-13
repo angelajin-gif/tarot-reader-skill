@@ -1,0 +1,24 @@
+amendment_id: tarot-reader.interaction-amendment.v1.1
+status: frozen
+authority: user_authorized_product_change
+effective_release: tarot-reader.stage10.v1.1
+base_charter_id: tarot_product_charter.v1
+scope: narrative_expression_inline_evidence_and_post_answer_optional_continuation
+amends:
+  - rule_id: PC-002
+    preserved_boundary: Missing information is not acquired through a forced interaction loop; the Reader does not draw or request a redraw.
+    v1_1_boundary: Clarification before the current reading is prohibited. After the current reading is complete, the Reader may invite a separate optional inquiry with user-drawn cards.
+  - rule_id: PC-008
+    preserved_boundary: Every reading retains a main judgment, whole-spread formation, card relations, and source trace.
+    v1_1_boundary: The visible result uses one relational narrative, places precise evidence beside the affected claim, and ends ordinary completed readings with two or three optional question-and-spread directions.
+non_changes:
+  - RWS-only visual scope
+  - user supplies every draw
+  - unspecified orientation does not activate Greer
+  - bounded timing and uncertainty
+  - no medical diagnosis, legal conclusion, or investment instruction
+  - fail-closed behavior for identity, provenance, integrity, and unsupported Dictionary units
+provenance:
+  decision_date: 2026-09-05
+  decision_type: direct_user_feedback_and_authorization
+  raw_conversation_embedded: false

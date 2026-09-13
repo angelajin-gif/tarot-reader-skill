@@ -1,0 +1,310 @@
+"phase": "3A"
+"runtime_contract_id": "tarot-runtime-contract.phase3a.v1"
+"status": "validated_minimal_contract"
+"scope": "This contract defines authority, capability gates, retrieval discipline, and evidence activation for one reading. It is not a final Skill, engine, router, state machine, or fixed workflow."
+"canonical_inputs":
+  "constitution": "synthesis/tarot-constitution/constitution.yaml"
+  "product_charter": "synthesis/tarot-constitution/product-charter-ref.yaml"
+  "phase2a_cases": "reading/cross_book_phase2a/runtime-cases.yaml"
+  "phase2b_on_off": "reading/cross_book_phase2b/constitution-on-off.yaml"
+"source_taxonomy":
+  "source_class_order_is_not_priority": true
+  "classes":
+    -
+      "source_class": "product_constraint"
+      "role": "Product scope, interaction, deck, safety, and output boundary."
+      "may_do":
+        - "Set hard product limits."
+        - "Control interaction behavior."
+      "may_not_do":
+        - "Pretend to be textbook evidence."
+        - "Generate card meaning."
+      "required_trace":
+        - "source_ref"
+        - "changed_judgment"
+    -
+      "source_class": "textbook"
+      "role": "Book Model methods, warrants, limitations, and specialist operations."
+      "may_do":
+        - "Authorize a bounded interpretive operation within its jurisdiction."
+        - "Provide method and counterevidence."
+      "may_not_do":
+        - "Override product constraints."
+        - "Override verified RWS visual facts."
+        - "Become a universal card database."
+      "required_trace":
+        - "book_model_ref"
+        - "operation"
+        - "changed_judgment"
+    -
+      "source_class": "general_rws"
+      "role": "Verified or explicitly supplied RWS visual facts and general RWS structure."
+      "may_do":
+        - "Describe the active RWS image or deck structure."
+        - "Supply visual evidence for an inference."
+      "may_not_do":
+        - "Pretend to be a book author's claim."
+        - "Import Marseille/other-deck facts."
+        - "Decide the whole story alone."
+      "required_trace":
+        - "visual_or_structure_ref"
+        - "changed_judgment"
+    -
+      "source_class": "general_tarot"
+      "role": "Non-authoritative general Tarot knowledge outside the five books, used only as contextual candidate material."
+      "may_do":
+        - "Offer a bounded conventional vocabulary or alternative candidate."
+        - "Refine a hypothesis when it does not conflict with the active Constitution or stronger evidence."
+      "may_not_do":
+        - "Pretend to be textbook provenance."
+        - "Override Constitution or Product Charter."
+        - "Override verified RWS visual facts."
+        - "Convert a conventional association into a fact."
+      "conflict_policy":
+        "with_textbook": "downgrade, reject, or explicitly preserve the conflict"
+        "with_constitution": "Constitution controls interpretive discipline; general_tarot remains a candidate or is rejected"
+        "with_general_rws": "separate visual fact from conventional association; visual fact is not overwritten"
+        "with_original_inference": "keep the source class separate and state whether it changed the judgment"
+      "required_trace":
+        - "source_ref"
+        - "not_textbook_claim"
+        - "constitution_not_overridden"
+        - "returned_effect"
+        - "changed_judgment"
+    -
+      "source_class": "original_inference"
+      "role": "Reader's current-spread synthesis and reality mapping."
+      "may_do":
+        - "Produce the main judgment, secondary possibility, and unresolved boundary from evidence."
+      "may_not_do":
+        - "Pretend to be user fact, textbook, general RWS, or general Tarot knowledge."
+        - "Skip the evidence→operation→warrant chain."
+      "required_trace":
+        - "evidence"
+        - "operation"
+        - "warrant"
+        - "changed_judgment"
+"permanent_constraints":
+  -
+    "rule_id": "RC-001"
+    "statement": "Keep observed facts, user interpretations, card evidence, and original inference distinct."
+    "constitution_refs":
+      - "TC-003"
+    "product_refs":
+      - "PC-009"
+      - "PC-010"
+  -
+    "rule_id": "RC-002"
+    "statement": "Register spread gestalt and card interaction before reference retrieval; do not use fixed weights or mandatory module order."
+    "constitution_refs":
+      - "TC-001"
+      - "TC-002"
+    "product_refs":
+      - "PC-011"
+      - "PC-012"
+      - "PC-013"
+  -
+    "rule_id": "RC-003"
+    "statement": "Every inference preserves evidence → operation → warrant, support, counterevidence, and unresolved boundary."
+    "constitution_refs":
+      - "TC-003"
+      - "TC-004"
+    "product_refs":
+      - "PC-008"
+      - "PC-010"
+  -
+    "rule_id": "RC-004"
+    "statement": "The output gives a clear main judgment while retaining a bounded secondary possibility and unresolved boundary."
+    "constitution_refs":
+      - "TC-004"
+      - "TC-011"
+    "product_refs":
+      - "PC-005"
+      - "PC-008"
+  -
+    "rule_id": "RC-005"
+    "statement": "Specialist capability is jurisdictional and evidence-gated; a specialist remains inactive when its trigger is absent."
+    "constitution_refs":
+      - "TC-005"
+      - "TC-006"
+      - "TC-007"
+      - "TC-008"
+      - "TC-009"
+      - "TC-010"
+      - "TC-011"
+      - "TC-012"
+    "product_refs":
+      - "PC-013"
+  -
+    "rule_id": "RC-006"
+    "statement": "The final source trace distinguishes product constraint, textbook, general RWS, general Tarot, and original inference."
+    "constitution_refs":
+      - "TC-003"
+      - "TC-006"
+      - "TC-009"
+    "product_refs":
+      - "PC-007"
+      - "PC-010"
+"capability_gates":
+  -
+    "gate_id": "reversal_gate"
+    "capability": "Greer reversal mechanism selection"
+    "activation_evidence":
+      - "reversals_provided=true"
+      - "at least one actual card orientation=reversed"
+    "inactive_when":
+      - "orientation is unspecified"
+      - "reversals_provided=false or unknown"
+    "authorized_principles":
+      - "TC-005"
+      - "TC-008"
+    "authorized_textbook":
+      - "greer_reversals_zh.book_model.v1"
+    "not_a_stage": true
+  -
+    "gate_id": "court_gate"
+    "capability": "Dawn Court ontology and role structure"
+    "activation_evidence":
+      - "Court ontology must be resolved"
+      - "multiple Court cards or identity/role question creates an ontology decision"
+    "inactive_when":
+      - "no Court ontology question is being decided"
+    "authorized_principles":
+      - "TC-007"
+    "authorized_textbook":
+      - "dawn_court_zh.book-model.v1"
+    "not_a_stage": true
+  -
+    "gate_id": "symbolic_amplification_gate"
+    "capability": "Nichols visual motif, amplification, polarity, and archetype-to-human bridge"
+    "activation_evidence":
+      - "reliable active-deck RWS motif or spread movement is present"
+      - "amplification can state a warrant and alternative"
+    "inactive_when":
+      - "no verified RWS motif"
+      - "amplification would be only a keyword or imported deck fact"
+    "authorized_principles":
+      - "TC-002"
+      - "TC-009"
+      - "TC-010"
+      - "TC-011"
+    "authorized_textbook":
+      - "nichols_jung_tarot_en.book-model.v1"
+    "not_a_stage": true
+  -
+    "gate_id": "projection_gate"
+    "capability": "Projection and internal/external dual-layer analysis"
+    "activation_evidence":
+      - "user interpretation conflicts with or may amplify observable external behavior"
+      - "spread supports an internal reaction hypothesis"
+    "inactive_when":
+      - "no internal/external tension is present"
+    "authorized_principles":
+      - "TC-003"
+      - "TC-004"
+      - "TC-010"
+    "authorized_textbook":
+      - "nichols_jung_tarot_en.book-model.v1"
+      - "greer_reversals_zh.book_model.v1"
+    "not_a_stage": true
+  -
+    "gate_id": "prediction_agency_gate"
+    "capability": "Conditional event tendency, timing window, and agency boundary"
+    "activation_evidence":
+      - "question asks about an event, message, timing, or future outcome"
+      - "current conditions and an actionable subject are available"
+    "inactive_when":
+      - "question is not event/timing oriented"
+      - "the question is unbounded or cannot be influenced"
+    "authorized_principles":
+      - "TC-004"
+      - "TC-011"
+    "authorized_textbook":
+      - "daniel_16_lessons_zh.book-model.v1"
+      - "nichols_jung_tarot_en.book-model.v1"
+    "not_a_stage": true
+  -
+    "gate_id": "correspondence_gate"
+    "capability": "Conditional use of element, number, color, astrology, and tradition correspondence"
+    "activation_evidence":
+      - "local question/context calls for the correspondence"
+      - "the correspondence has card/spread/visual support"
+    "inactive_when":
+      - "correspondence would be a fixed weight or identity fact"
+      - "no local evidence supports it"
+    "authorized_principles":
+      - "TC-002"
+      - "TC-009"
+      - "TC-012"
+    "authorized_textbook":
+      - "daniel_16_lessons_zh.book-model.v1"
+      - "dawn_court_zh.book-model.v1"
+    "not_a_stage": true
+  -
+    "gate_id": "dictionary_gate"
+    "capability": "Late reference lookup for plausible real-world manifestations"
+    "activation_evidence":
+      - "holistic hypothesis already exists"
+      - "retrieval reason and applicable card/orientation/domain are recorded"
+    "inactive_when":
+      - "no holistic hypothesis"
+      - "retrieval would generate rather than test the story"
+      - "orientation is unavailable for reversed lookup"
+    "authorized_principles":
+      - "TC-002"
+      - "TC-005"
+      - "TC-006"
+    "authorized_textbook":
+      - "tarot_dictionary_zh.book-model.v1"
+    "not_a_stage": true
+"retrieval_contract":
+  "required_fields":
+    - "hypothesis_before_retrieval"
+    - "retrieval_reason"
+    - "source"
+    - "returned_effect"
+    - "hypothesis_after_retrieval"
+  "returned_effect_values":
+    - "support"
+    - "refine"
+    - "challenge"
+    - "alternative"
+    - "no_change"
+  "rules":
+    - "Retrieval is late relative to gestalt and initial candidate generation."
+    - "A returned entry may weaken or reject the initial hypothesis."
+    - "Dictionary does not choose Court ontology, reversal mechanism, symbolic field, or prediction/agency resolution."
+    - "general_tarot is never silently relabeled textbook and must state whether it changed the judgment."
+"evidence_activation_ledger":
+  "required_fields":
+    - "rule_id"
+    - "gate_evidence"
+    - "activated"
+    - "effect_on_reading"
+    - "no_op_reason"
+  "rule_id_domain": "TC-001..TC-012 and capability gate IDs; stable references only, not execution order."
+  "inactive_specialist_requirement": "TC-006..TC-009 and their corresponding gates must record an explicit no_op_reason when not activated."
+"output_contract":
+  "user_visible":
+    - "main_judgment"
+    - "how_the_story_forms"
+    - "card_and_card_support_or_conflict"
+    - "bounded_secondary"
+    - "unresolved_boundary"
+    - "minimal_source_trace"
+  "internal_only":
+    - "gate ledger"
+    - "retrieval ledger"
+    - "source-class diagnostics"
+    - "candidate rejection details"
+  "rule": "Internal records control the reading but are not dumped as a module-by-module workflow in the user answer."
+"non_pipeline_rules":
+  - "Gates are independent capabilities, not a fixed sequence."
+  - "A capability may be inactive in a reading even if its Book Model exists."
+  - "The contract does not classify users or questions into a fixed router taxonomy."
+  - "The contract does not create weights, scores, or a 12-module runtime."
+"validation_set":
+  "case_source": "reading/cross_book_phase2a/runtime-cases.yaml"
+  "case_count": 10
+  "new_cases_added": 0
+  "replay_rule": "on-state main judgments must remain semantically identical to Phase 2B on-state records."

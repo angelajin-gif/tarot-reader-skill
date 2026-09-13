@@ -1,0 +1,100 @@
+phase: 3C
+knowledge_loader_contract_id: tarot-knowledge-loader-integrity.phase3c.v1
+status: integrity_pilot
+purpose: >-
+  Define what the runtime is allowed to load and how source integrity is
+  preserved before broader RWS visual or knowledge expansion. This is a loader
+  contract, not a runtime architecture or card database.
+
+control_inputs:
+  product_charter:
+    path: reading/cross_book_phase2b/product-charter.yaml
+    sha256: a92ff386cc98f6b75c6ac46f9bea7985ae35ddd13b138d16cc12fb6adc014a5b
+    required_rule_count: 13
+    required_authority: user_decided_product_constraint
+    required_user_decided: true
+  constitution:
+    path: synthesis/tarot-constitution/constitution.yaml
+    sha256: 8912e53282cd69e634913efdb7fa6e52986b2ae1e7cbf9fd8f7957a76feed5ed
+    required_global_status: ratified_global
+    required_global_principles: [TC-001, TC-002, TC-003, TC-004]
+  product_charter_ref:
+    path: synthesis/tarot-constitution/product-charter-ref.yaml
+    sha256: 5efc05c92ba410a7484285b526707f4603b7c390be62590e43a94c974577d0bd
+
+global_invariants:
+  resolution: >-
+    Load the four global principles from the Constitution file by status and
+    principle_id. Do not reproduce their statements in loader code.
+  required_ids: [TC-001, TC-002, TC-003, TC-004]
+  runtime_use:
+    - TC-001 defines question/time/spread input boundary.
+    - TC-002 defines gestalt-before-reference and no additive card scoring.
+    - TC-003 defines facts/user interpretations/card evidence separation.
+    - TC-004 defines support/counterevidence/secondary/unresolved output minimum.
+  hard_failure: Any required global principle is missing, duplicated, or loaded from a non-canonical file.
+
+card_unit:
+  grain: one_card_per_draw
+  required_fields: [card_id, orientation]
+  orientation_values: [upright, reversed, unspecified]
+  direction_scope: per_card
+  rules:
+    - Each card retains its own orientation; no spread-wide orientation is derived.
+    - Greer can be queried only for cards whose own orientation is reversed and whose input explicitly provides direction.
+    - An unspecified card never becomes upright or reversed by inference.
+    - Source-specific card IDs may use an explicit adapter, but the runtime card_id remains unchanged.
+  source_id_adapters:
+    greer_reversals_zh:
+      magician: the_magician
+
+source_loaders:
+  greer:
+    source_class: textbook
+    path: reading/greer_reversals_zh/card-entry-anchors.jsonl
+    selection_key: source_card_id
+    selection_scope: only_each_card_where_orientation_is_reversed
+    return: all_reversal_mechanism_candidates_for_each_target_card
+    forbidden: [first_matching_anchor_only, spread_wide_orientation, upright_card_reversed_lookup]
+  dictionary:
+    source_class: textbook
+    path: reading/tarot_dictionary_zh/entry-anchors.jsonl
+    required_query_fields: [card_id, orientation, hypothesis, manifestation_need]
+    selection_scope: exact_card_and_exact_orientation
+    candidate_policy: return_all_matching_candidates_then_spread_tests_them
+    manifestation_need:
+      required_fields: [requested_domains, requested_entry_types, rationale]
+      fallback_domain: null
+    forbidden: [first_entry_only, work_else_relationship_fallback, reversed_lookup_for_upright_or_unspecified]
+  visual:
+    source_class: general_rws
+    path: pilot/phase-0.5/rws-visual-records.yaml
+    record_key: visual_id
+    required_packet_fields: [visual_id, card_id, scene, figures, action, gaze_and_facing, spatial_relations, objects, unresolved_visuals]
+    source_ref_rule: path_plus_visual_id_fragment
+    forbidden: [schemas_as_visual_fact, missing_visual_id, cross_deck_visual_substitution]
+
+gate_integrity:
+  semantic_inputs_not_keywords:
+    prediction_agency_gate: [asks_event, time_scope, actionable_subject_provided]
+    projection_gate: [same_event_or_subject, evidence_links]
+  rules:
+    - Equivalent structured evidence must yield the same gate result under different question wording.
+    - Facts and user interpretations alone do not activate projection; a relation between the two evidence layers is required.
+    - Major density is an observation only; it never independently authorizes symbolic amplification.
+
+integrity_checks:
+  - per_card_reversal_targeting
+  - multiple_reversal_independence
+  - mixed_orientation_dictionary_binding
+  - wording_invariance_for_structured_gate
+  - non_work_non_relationship_manifestation_need
+  - unrelated_fact_and_interpretation_projection_negative_control
+  - real_visual_record_binding
+
+not_in_scope:
+  - full_78_card_visual_canon
+  - final_skill
+  - vector_database
+  - production_knowledge_loader
+  - broader_blind_reading_suite

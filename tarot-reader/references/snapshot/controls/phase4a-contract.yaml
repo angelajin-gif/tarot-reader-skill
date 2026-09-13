@@ -1,0 +1,51 @@
+---
+phase: 4A
+contract_id: tarot-card-identity-and-visual-source-lock.phase4a.v1
+status: frozen
+
+runtime_image_boundary:
+  accepted_runtime_input: canonical_card_id
+  user_image_policy: never_inspect_user_uploaded_deck_images
+  unknown_deck_policy: do_not_transfer_custom_deck_visual_details
+  internal_visual_use: development_time_source_for_fixed_rws_visual_facts_only
+
+card_identity:
+  registry: runtime/phase4a/canonical-card-registry.yaml
+  required_bijection_sources: [daniel, dictionary, greer]
+  visual_adapter: source_visual_records_are_legacy_aliases_only
+  runtime_id_mutation_forbidden: true
+  collision_policy: fail_closed
+  orphan_policy: fail_closed
+
+rws_visual_source:
+  manifest: runtime/phase4a/rws-visual-source-manifest.yaml
+  source_set: Rider-Waite-Smith tarot deck (Geldard) cleaned image set
+  original_metadata:
+    checksum_algorithm: sha1
+    source_metadata: Wikimedia Commons per-file imageinfo
+  review_copy_policy:
+    allowed: [commons_thumbnail, browser_visible_image, local_review_copy]
+    canonical_original_metadata_must_remain: true
+  observation_policy:
+    visual_fact_fields: [scene, figures, action, gaze_and_facing, spatial_relations, objects]
+    interpretation_fields: [symbolic_readings]
+    unresolved_field: unresolved_visuals
+    color_policy: edition_specific_only_until_color_fidelity_is_verified
+    schema_files_are_not_visual_evidence: true
+
+greer_coverage:
+  source_gaps: runtime/phase4a/greer-coverage-gaps.yaml
+  empty_anchor_policy: explicit_coverage_gap_or_framework_fallback
+  fallback_must_be_marked: coverage_fallback
+  fallback_is_not_selected_mechanism: true
+  silent_empty_result_forbidden: true
+
+freeze_gate:
+  required_visual_pilot_reviews: 8
+  current_visual_pilot_reviews: 8
+  required_before_freeze:
+    - registry validator passes 78/78 bijection and zero collisions/orphans
+    - eight pilot records have source-linked review evidence
+    - observation and symbolic interpretation remain separate
+    - unresolved visual details are explicit
+  full_78_visual_observations: out_of_scope_for_phase_4a

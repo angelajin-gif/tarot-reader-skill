@@ -1,0 +1,130 @@
+---
+phase: 4C
+phase_name: Phase 4C — 78-card Visual Canon Runtime Integration
+contract_id: tarot-visual-canon-runtime-integration.phase4c.v1
+status: frozen
+
+purpose: >-
+  Resolve the frozen 78-card factual visual canon at runtime by canonical_card_id.
+  Phase 4C is an integration boundary: it does not author new visual facts and
+  it does not inspect user-uploaded deck images.
+
+inputs:
+  canonical_registry:
+    path: runtime/phase4a/canonical-card-registry.yaml
+    key: canonical_card_id
+    required_card_count: 78
+    uniqueness: required
+  source_manifest:
+    path: runtime/phase4a/rws-visual-source-manifest.yaml
+    key: card_id
+    required_card_count: 78
+    binding_rule: phase4b_record.canonical_source_ref must equal manifest card ref
+  phase4a_rechecks:
+    path: runtime/phase4a/visual-pilot-rechecks.yaml
+    key: card_id
+    required_card_count: 8
+    binding_rule: required only for phase4a_frozen_reference records
+  phase4b_contract:
+    path: runtime/phase4b/phase4b-contract.yaml
+    required_status: frozen
+  phase4b_records:
+    key: card_id
+    record_files:
+      - runtime/phase4b/records/batch_01_major_arcana.yaml
+      - runtime/phase4b/records/batch_02_court_cards.yaml
+      - runtime/phase4b/records/batch_03_wands_cups.yaml
+      - runtime/phase4b/records/batch_04_swords_pentacles.yaml
+    required_record_count: 78
+    uniqueness: required
+
+resolution:
+  accepted_runtime_input: canonical_card_id
+  order_for_load_all: canonical_registry.cards
+  identity_rule: canonical_card_id is never mutated by a source adapter
+  status_sources:
+    phase4a_frozen_reference:
+      observation_source: runtime/phase4a/visual-pilot-rechecks.yaml
+      phase4b_observations_policy: placeholder_not_runtime_fact
+    reviewed:
+      observation_source: runtime/phase4b/records/<batch_file>.yaml
+      phase4b_observations_policy: direct_runtime_fact_source
+  unsupported_status_policy: fail_closed
+
+output:
+  packet_fields:
+    - canonical_card_id
+    - factual_visual_id
+    - scene
+    - figures
+    - action
+    - gaze_and_facing
+    - spatial_relations
+    - objects
+    - unresolved_visuals
+    - source_ref
+  observation_fields:
+    - scene
+    - figures
+    - action
+    - gaze_and_facing
+    - spatial_relations
+    - objects
+    - unresolved_visuals
+  source_ref_fields:
+    - canonical_registry
+    - canonical_source
+    - phase4b_record
+    - phase4a_recheck
+    - resolved_observation_source
+  forbidden_packet_fields:
+    - symbolic_readings
+    - edition_specific_visuals
+    - review_copy
+    - acquisition_url
+    - user_uploaded_deck_image
+    - card_meaning
+    - prediction
+    - psychological_interpretation
+  color_boundary: colors remain outside the visual fact packet
+  interpretation_boundary: symbolic_readings and card meaning remain outside the visual fact packet
+  user_image_boundary: user-uploaded deck images are never read or transferred
+
+fail_closed:
+  - missing canonical_card_id
+  - duplicate canonical_card_id
+  - missing Phase 4B record
+  - duplicate Phase 4B card_id
+  - missing or mismatched source binding
+  - unsupported review_status
+  - missing Phase 4A recheck for a frozen reference
+  - missing required observation field
+
+acceptance:
+  required_lookup_count: 78
+  required_unique_output_ids: 78
+  required_source_bound_records: 78
+  required_frozen_reference_resolutions: 8
+  required_direct_phase4b_resolutions: 70
+  regression_commands:
+    - ruby runtime/phase4c/test_visual_loader.rb
+    - ruby scripts/validate_phase3a_runtime.rb
+    - ruby scripts/validate_phase3b_runtime.rb
+    - ruby scripts/validate_phase3c_loader.rb
+    - ruby scripts/validate_phase4a_integrity.rb
+    - ruby scripts/validate_phase4b_integrity.rb
+
+freeze_gate:
+  required_card_count: 78
+  actual_card_count: 78
+  required_unique_canonical_ids: 78
+  actual_unique_canonical_ids: 78
+  required_source_bound_records: 78
+  actual_source_bound_records: 78
+  required_frozen_reference_resolutions: 8
+  actual_frozen_reference_resolutions: 8
+  required_direct_phase4b_resolutions: 70
+  actual_direct_phase4b_resolutions: 70
+  required_regression_suites: 6
+  actual_regression_suites: 6
+  status: pass
