@@ -1,19 +1,20 @@
 # Source governance
 
-The package preserves a minimal exact snapshot rather than copying PDFs or raw source chunks. `release-snapshot-manifest.yaml` records each canonical snapshot's original repository path, SHA-256, stage/contract ID, and canonical-snapshot status; it separately hashes the authored runtime behavior artifacts. `frozen-input-sha256.yaml` records the build inputs that must remain byte-identical. The Dictionary route additionally packages only 22 manually single-column-reviewed condensed units; `dictionary-source-provenance.yaml` records the source hashes, visual-review scope, page provenance, and the fact that OCR candidates remain unpromoted. `interaction-amendment-v1-1.yaml` records the narrow user-authorized change to PC-002 and PC-008 without rewriting the frozen Product Charter.
+This release keeps the 30 canonical snapshots byte-exact and adds a separate, non-canonical Teacher Evidence Layer. `release-snapshot-manifest.yaml` records every snapshot, authored runtime artifact, and Teacher Evidence artifact with SHA-256. `frozen-input-sha256.yaml` records the source inputs used to build the layer. The Teacher Evidence provenance file records book IDs, original paths, hashes, review scope, and the rule that condensed author evidence cannot override Phase 4C visual facts.
 
-Use these source classes distinctly:
+Source classes remain distinct:
 
 | Source class | Permitted role | Prohibited shortcut |
 | --- | --- | --- |
-| `product_constraint` | Scope, interaction, RWS-only, safety, output | Pretending it is textbook evidence |
-| `textbook` | Named Teacher Model method in its jurisdiction | Universal card database or override of product/visual facts |
-| `general_rws` | Narrow generic RWS context when no frozen fact is being replaced | Importing another deck or changing the visual canon |
-| `general_tarot` | Explicitly labeled contextual candidate | Presenting it as one of the five books or as a verified fact |
-| `original_inference` | Direct synthesis | Hiding the evidence → operation → warrant chain |
+| `product_constraint` | scope, interaction, RWS-only, safety, output | treating it as textbook evidence |
+| `textbook` | named Teacher Model method within its jurisdiction | universal card database or visual override |
+| `rws_visual_fact` | the only static RWS visual source | meaning, symbolism, prediction, or psychology |
+| `general_rws` | bounded canonical scene identification when identity and facts jointly support it | another deck, visual enrichment, or certainty beyond the packet |
+| `general_tarot` | explicitly labelled contextual candidate | pretending it is a five-book claim |
+| `original_inference` | direct synthesis | hiding evidence → operation → warrant |
 
-When sources disagree, preserve the distinction and show only a material conflict that changes the judgment. A textbook cannot override a verified RWS visual fact. A Dictionary entry cannot decide whether a reversal mechanism or Court role applies. User-provided facts can contextualize the reading but cannot prove another person's motive or identity.
+Daniel and Dawn units are manually condensed from rendered PDF pages; Daniel's 22 Major units bind both their opening card-entry page and the manually reviewed meaning/example continuation page. OCR is a locator only and is not runtime content. Seventy Greer entries have substantive card-specific reversal anchors. Eight Page/Knight entries are known coverage gaps: their query output is explicitly marked `coverage_fallback` and cites the reviewed general-method pages 58–63, not the empty card-entry anchor as a card-specific mechanism. Nichols has 22 card-specific Major units grounded in rendered chapter opening/detail pages plus the authored chapter chains; comparative deck material remains explicitly non-RWS. Dictionary content remains the 22 manually reviewed units; the other 1,168 metadata anchors are not content. A source hash mismatch, missing provenance, duplicate unit, unreviewed unit, or source drift is a stop-line condition.
 
-User-visible provenance is local to the claim it supports. Cite frozen visual evidence by card plus `factual_visual_id` and exact packet fact; cite Teacher evidence by model plus section, concept, or anchor; cite Dictionary evidence by `entry_id` and keep its excerpt/page provenance available. Short verbatim wording requires an exact match in the packaged snapshot and must be attributed to that snapshot or Teacher Model—not presented as a direct quotation from the original book unless an exact original excerpt is actually packaged. Dictionary condensed statements are also paraphrases, not book quotations. Otherwise use an explicitly labeled paraphrase. A bibliography-like list of names at the end does not satisfy provenance, and no source may be credited for the Reader's original synthesis.
+Teacher evidence must be labelled as paraphrase or author interpretation, not user fact. Daniel visual narrative cannot replace an exact Phase 4C fact. Dawn archetype cannot prove identity. Greer cannot activate without explicit reversal. Nichols comparative deck material cannot become RWS evidence. Dictionary condensed statements are reviewed paraphrases, not quotations. No source may be credited for the Reader's original synthesis.
 
-The package contains no expected answers, acceptance notes, reviewer judgments, raw PDF text, image files, or user uploads. Dictionary condensed statements are distinct derived reference units, not canonical visual facts or a complete card database. Snapshot changes, missing provenance, or a source hash mismatch are stop-line conditions; an unsupported Dictionary query returns no content rather than a guessed substitute.
+The runtime package contains no PDFs, review images, raw OCR text, expected answers, or acceptance notes. It exposes only the strict Teacher Evidence result whitelist and the visual packet whitelist. Unknown or unsupported content returns no guessed substitute.

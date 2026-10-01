@@ -1,4 +1,4 @@
-release_id: tarot-reader.stage10.v1.1
+release_id: tarot-reader.stage10.v1.3
 hash_algorithm: sha256
 verification_policy: compare_against_the_same_frozen_inputs_after_build
 inputs:
@@ -95,3 +95,21 @@ inputs:
   - source_path: reading/tarot_dictionary_zh/entry-anchors.jsonl
     sha256: d1694d06f8dca7cad8d439b481baae32e609a62af0c1376f8420af7485cb723b
     stage_or_contract_id: tarot_dictionary_zh.entry-anchors.v1
+  - source_path: reading/daniel_16_lessons_zh/source-chunks.jsonl
+    sha256: 0f6d0a557fd8c4d1ea30c51acb4b10ba1dc8ec954a2cf1c6e7754b0e7f1fb82b
+    stage_or_contract_id: daniel_16_lessons_zh.source-chunks.locator.v1
+  - source_path: reading/dawn_court_zh/source-chunks.jsonl
+    sha256: 6c2f7375588b23c186142b24c06d8fa83337140a2e128b5facd168c1e0ae54a5
+    stage_or_contract_id: dawn_court_zh.source-chunks.locator.v1
+  - source_path: 学会塔罗的16堂课中文版.pdf
+    sha256: c2db26c31908c71f0d0bb3526fcfc89ebc0ae9390281c1db29ed3e36bf13ddaf
+    stage_or_contract_id: daniel_16_lessons_zh.manual-page-review.v1.3
+  - source_path: "塔羅宮廷牌_原型人物解牌祕笈 -- 伊索妮_朵恩(Ethony Dawn);黄春华 译; -- null, null, 101 -- 楓樹林出版事業有限公司 -- a54ca4a53f8a9d838fbfff62572819f4 -- Anna’s Archive.pdf"
+    sha256: c8a8a8b1aae45999974b2dadba8af94821f1cbd5d46c63c2f40c6c115573de40
+    stage_or_contract_id: dawn_court_zh.manual-page-review.v1.3
+  - source_path: 荣格与塔罗原型之旅英文版.pdf
+    sha256: b3ac1983d4a506e40af4315673ca75ed41fb6598669a89438b08b6e6c0d883b2
+    stage_or_contract_id: nichols_jung_tarot_en.manual-source-review.v1.3
+  - source_path: "跟着大师学塔罗逆位牌 -- 玛莉_K_格瑞尔 -- 初版, 新北市板橋區, 2022[民111 -- 楓樹林出版事業有限公司 -- isbn13 9786267108758 -- 1a52c4d2c6d498376ad3d0bfe08f51fb -- Anna’s Archive.pdf"
+    sha256: 040fb7f27148df32777f82257a33536ae06f5264d09cb876a1f3d4c527e6c6a7
+    stage_or_contract_id: greer_reversals_zh.manual-source-review.v1.3

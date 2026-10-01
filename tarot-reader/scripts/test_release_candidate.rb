@@ -2,6 +2,7 @@
 
 require "digest"
 require "fileutils"
+require "find"
 require "json"
 require "minitest/autorun"
 require "open3"
@@ -10,6 +11,7 @@ require "yaml"
 
 require_relative "query_visual_facts"
 require_relative "query_dictionary_reference"
+require_relative "query_teacher_evidence"
 
 class TarotReaderReleaseCandidateTest < Minitest::Test
   SKILL_ROOT = File.expand_path("..", __dir__)
@@ -42,13 +44,14 @@ class TarotReaderReleaseCandidateTest < Minitest::Test
     end
     refute File.exist?(File.join(SKILL_ROOT, "README.md"))
     refute File.exist?(File.join(SKILL_ROOT, "changelog.md"))
-    assert File.exist?(File.join(SKILL_ROOT, "acceptance.md")), "frozen release requires acceptance evidence"
+    assert File.exist?(File.join(SKILL_ROOT, "acceptance.md")), "frozen release requires acceptance"
     assert File.exist?(File.join(SKILL_ROOT, "references/narrative-evidence-continuation.md"))
+    assert File.exist?(File.join(SKILL_ROOT, "references/rws-scene-bridge-v1-2.md"))
   end
 
   def test_snapshot_manifest_is_complete_and_byte_exact
     manifest = YAML.load_file(SNAPSHOT_MANIFEST)
-    assert_equal "tarot-reader.stage10.v1.1", manifest.fetch("release_id")
+    assert_equal "tarot-reader.stage10.v1.3", manifest.fetch("release_id")
     assert_equal "frozen", manifest.fetch("status")
     entries = manifest.fetch("entries")
     assert_equal 30, entries.length
@@ -62,9 +65,64 @@ class TarotReaderReleaseCandidateTest < Minitest::Test
     end
   end
 
+  def test_package_inventory_matches_manifest_and_has_no_symlinks
+    manifest = YAML.load_file(SNAPSHOT_MANIFEST)
+    declared = manifest.fetch("entries").map { |entry| entry.fetch("snapshot_path") }
+    %w[
+      authored_runtime_artifacts
+      release_evidence_artifacts
+      teacher_evidence_artifacts
+      release_control_artifacts
+      release_test_artifacts
+      derived_reference_artifacts
+    ].each do |section|
+      declared.concat(manifest.fetch(section).map { |entry| entry.fetch("artifact_path") })
+    end
+    declared << "references/release-snapshot-manifest.yaml"
+    assert_equal declared.length, declared.uniq.length, "duplicate release artifact path"
+
+    actual = []
+    Find.find(SKILL_ROOT) do |path|
+      next if path == SKILL_ROOT
+
+      relative = path.delete_prefix("#{SKILL_ROOT}/")
+      stat = File.lstat(path)
+      refute stat.symlink?, "symlink in release package: #{relative}"
+      actual << relative if stat.file?
+    end
+    assert_equal declared.sort, actual.sort, "release package has missing or unlisted files"
+  end
+
+  def test_actual_visual_query_rejects_unlisted_package_file
+    with_skill_copy do |copy_root|
+      File.write(File.join(copy_root, "source.pdf"), "AUDIT_UNLISTED_FILE")
+      _output, error, status = Open3.capture3(RbConfig.ruby, File.join(copy_root, "scripts/query_visual_facts.rb"), "strength")
+      refute status.success?
+      assert_match(/release package file inventory mismatch/, error)
+    end
+  end
+
+  def test_actual_visual_query_rejects_release_control_hash_drift
+    with_skill_copy do |copy_root|
+      File.open(File.join(copy_root, "references/frozen-input-sha256.yaml"), "a") { |file| file.write("\n# audit drift\n") }
+      _output, error, status = Open3.capture3(RbConfig.ruby, File.join(copy_root, "scripts/query_visual_facts.rb"), "strength")
+      refute status.success?
+      assert_match(/release_control_artifacts artifact hash mismatch/, error)
+    end
+  end
+
+  def test_actual_visual_query_rejects_symlink_in_package
+    with_skill_copy do |copy_root|
+      File.symlink("SKILL.md", File.join(copy_root, "linked-skill.md"))
+      _output, error, status = Open3.capture3(RbConfig.ruby, File.join(copy_root, "scripts/query_visual_facts.rb"), "strength")
+      refute status.success?
+      assert_match(/symlink in release package/, error)
+    end
+  end
+
   def test_recorded_frozen_input_hashes_match_repository_sources
     manifest = YAML.load_file(FROZEN_HASHES)
-    assert_equal "tarot-reader.stage10.v1.1", manifest.fetch("release_id")
+    assert_equal "tarot-reader.stage10.v1.3", manifest.fetch("release_id")
     checked = 0
     manifest.fetch("inputs").each do |entry|
       next if entry.fetch("source_path").start_with?("external/")
@@ -75,7 +133,7 @@ class TarotReaderReleaseCandidateTest < Minitest::Test
                    "hash drift for #{entry.fetch("source_path")}"
       checked += 1
     end
-    assert_equal 30, checked
+    assert_equal 36, checked
   end
 
   def test_snapshot_entries_match_the_recorded_source_hashes
@@ -107,7 +165,7 @@ class TarotReaderReleaseCandidateTest < Minitest::Test
     artifacts = manifest.fetch("authored_runtime_artifacts")
     assert_equal TarotReaderRelease::VisualFacts::AUTHORED_RUNTIME_PATHS.sort,
                  artifacts.map { |entry| entry.fetch("artifact_path") }.sort
-    assert_equal 12, artifacts.length
+    assert_equal 14, artifacts.length
     artifacts.each do |artifact|
       path = File.join(SKILL_ROOT, artifact.fetch("artifact_path"))
       assert File.file?(path), "missing authored runtime artifact #{artifact.fetch("artifact_path")}"
@@ -116,25 +174,12 @@ class TarotReaderReleaseCandidateTest < Minitest::Test
     end
   end
 
-  def test_release_evidence_is_present_hashed_and_tamper_evident
+  def test_frozen_release_has_hashed_acceptance
     manifest = YAML.load_file(SNAPSHOT_MANIFEST)
-    artifacts = manifest.fetch("release_evidence_artifacts")
-    assert_equal ["acceptance.md"], artifacts.map { |entry| entry.fetch("artifact_path") }
-    artifact = artifacts.first
-    acceptance_path = File.join(SKILL_ROOT, artifact.fetch("artifact_path"))
-    assert File.file?(acceptance_path)
-    assert_equal artifact.fetch("sha256"), Digest::SHA256.file(acceptance_path).hexdigest
-    assert_equal "formal_acceptance_and_freeze_record", artifact.fetch("evidence_role")
-
-    with_skill_copy do |copy_root|
-      copied_acceptance = File.join(copy_root, "acceptance.md")
-      File.write(copied_acceptance, File.read(copied_acceptance) + "\nAUDIT_TAMPERED_ACCEPTANCE\n")
-      _stdout, stderr, status = Open3.capture3(
-        RbConfig.ruby, File.join(copy_root, "scripts/query_visual_facts.rb"), "wands_two"
-      )
-      refute status.success?
-      assert_match(/release evidence artifact hash mismatch|failed closed/, stderr)
-    end
+    assert_equal "frozen", manifest.fetch("status")
+    evidence = manifest.fetch("release_evidence_artifacts")
+    assert_equal ["acceptance.md"], evidence.map { |entry| entry.fetch("artifact_path") }
+    assert_equal evidence.first.fetch("sha256"), Digest::SHA256.file(File.join(SKILL_ROOT, "acceptance.md")).hexdigest
   end
 
   def test_v1_1_interaction_amendment_is_narrow_and_auditable
@@ -148,15 +193,24 @@ class TarotReaderReleaseCandidateTest < Minitest::Test
     assert_equal false, amendment.fetch("provenance").fetch("raw_conversation_embedded")
   end
 
-  def test_formal_v1_1_freeze_identity_is_consistent
+  def test_v1_2_scene_identity_amendment_preserves_layer_boundaries
+    amendment = YAML.load_file(File.join(SKILL_ROOT, "references/scene-identity-amendment-v1-2.yaml"))
+    assert_equal "tarot-reader.scene-identity-amendment.v1.2", amendment.fetch("amendment_id")
+    assert_equal "release_candidate", amendment.fetch("status")
+    assert_equal "tarot-reader.stage10.v1.2", amendment.fetch("effective_release")
+    assert_equal "tarot-reader.stage10.v1.1", amendment.fetch("base_release")
+    assert_equal %w[frozen_visual_fact rws_scene_identification symbolic_or_psychological_inference],
+                 amendment.fetch("required_separation")
+    assert_includes amendment.dig("strength_case", "permitted_scene_identification"), "lion"
+    assert_includes amendment.fetch("boundaries"), "Never rewrite or enrich the frozen visual packet itself."
+  end
+
+  def test_v1_3_frozen_release_identity_is_consistent
     manifest = YAML.load_file(SNAPSHOT_MANIFEST)
     frozen_inputs = YAML.load_file(FROZEN_HASHES)
-    acceptance = File.read(File.join(SKILL_ROOT, "acceptance.md"))
-    assert_equal "tarot-reader.stage10.v1.1", manifest.fetch("release_id")
-    assert_equal "tarot-reader.stage10.v1.1", frozen_inputs.fetch("release_id")
+    assert_equal "tarot-reader.stage10.v1.3", manifest.fetch("release_id")
+    assert_equal "tarot-reader.stage10.v1.3", frozen_inputs.fetch("release_id")
     assert_equal "frozen", manifest.fetch("status")
-    assert_includes acceptance, "tarot-reader.stage10.v1.1"
-    assert_includes acceptance, "APPROVE / FROZEN"
     units = YAML.load_file(File.join(SKILL_ROOT, "references/dictionary-reference-units.yaml"))
     provenance = YAML.load_file(File.join(SKILL_ROOT, "references/dictionary-source-provenance.yaml"))
     assert_equal "frozen", units.fetch("status")
@@ -371,6 +425,58 @@ class TarotReaderReleaseCandidateTest < Minitest::Test
     end
   end
 
+  def test_teacher_evidence_manifest_and_five_book_coverage
+    manifest = YAML.load_file(SNAPSHOT_MANIFEST)
+    teacher_artifacts = manifest.fetch("teacher_evidence_artifacts")
+    assert_equal 7, teacher_artifacts.length
+    teacher_artifacts.each do |artifact|
+      path = File.join(SKILL_ROOT, artifact.fetch("artifact_path"))
+      assert File.file?(path)
+      assert_equal artifact.fetch("sha256"), Digest::SHA256.file(path).hexdigest
+      assert_equal false, artifact.fetch("canonical_snapshot")
+    end
+    release_tests = manifest.fetch("release_test_artifacts")
+    assert_equal 4, release_tests.length
+    release_tests.each do |artifact|
+      path = File.join(SKILL_ROOT, artifact.fetch("artifact_path"))
+      assert File.file?(path)
+      assert_equal artifact.fetch("sha256"), Digest::SHA256.file(path).hexdigest
+      assert_equal false, artifact.fetch("canonical_snapshot")
+    end
+
+    assert_equal 78, YAML.load_file(File.join(SKILL_ROOT, "references/teacher-evidence/daniel-card-units.yaml")).fetch("unit_count")
+    dawn = YAML.load_file(File.join(SKILL_ROOT, "references/teacher-evidence/dawn-court-units.yaml"))
+    assert_equal 16, dawn.fetch("court_unit_count")
+    assert_equal 4, dawn.fetch("rank_unit_count")
+    assert_equal 78, YAML.load_file(File.join(SKILL_ROOT, "references/teacher-evidence/greer-reversal-units.yaml")).fetch("unit_count")
+    assert_equal 22, YAML.load_file(File.join(SKILL_ROOT, "references/teacher-evidence/nichols-amplification-units.yaml")).fetch("unit_count")
+    assert File.exist?(File.join(SKILL_ROOT, "references/teacher-evidence-behavior-fixtures.yaml"))
+  end
+
+  def test_teacher_query_exposes_real_evidence_and_permissions
+    teacher = TarotReaderRelease::TeacherEvidence.new
+    daniel = teacher.query(selector: "wands_two", teacher: "daniel", orientation: "upright").fetch(0)
+    assert_equal "daniel.wands_two.upright_baseline", daniel.fetch("unit_id")
+    assert_includes daniel.dig("evidence_detail", "author_visual_narrative"), "城牆"
+    assert_equal "daniel_16_lessons_zh", daniel.dig("source_ref", "source_book_id")
+    assert_equal [55], daniel.dig("source_ref", "source_pages")
+
+    dawn = teacher.query(selector: "wands_queen", teacher: "dawn").fetch(0)
+    assert_equal "dawn.wands_queen.court", dawn.fetch("unit_id")
+    assert dawn.dig("evidence_detail", "strengths").is_a?(Array)
+    assert dawn.dig("evidence_detail", "shadow_or_failure_modes").is_a?(Array)
+
+    greer = teacher.query(selector: "swords_two", teacher: "greer", orientation: "reversed").fetch(0)
+    assert_equal "reversed_only", greer.fetch("orientation_scope")
+    assert greer.dig("evidence_detail", "reversal_mechanism_candidates").is_a?(Array)
+    assert_raises(TarotReaderRelease::ResolutionError) do
+      teacher.query(selector: "swords_two", teacher: "greer", orientation: "unspecified")
+    end
+    unspecified = teacher.query(selector: "wands_two", teacher: "daniel", orientation: "unspecified").fetch(0)
+    assert_equal "upright_baseline_for_unspecified_orientation", unspecified.fetch("orientation_scope")
+    refute_equal "upright", unspecified.fetch("orientation_scope")
+  end
+
   def test_behavior_matrix_is_raw_evaluator_input_without_answer_data
     matrix_path = File.join(SKILL_ROOT, "references", "behavior-test-matrix.yaml")
     matrix = YAML.load_file(matrix_path)
@@ -386,11 +492,15 @@ class TarotReaderReleaseCandidateTest < Minitest::Test
       bounded_future
       unbounded_future
       dictionary_late
+      dictionary_late_with_observation
       narrative_inline_evidence_continuation
       high_stakes_health
       high_stakes_legal_finance
     ]
     assert_equal required_cases.sort, matrix.fetch("cases").map { |item| item.fetch("case_id") }.sort
+    gaps = matrix.fetch("cases").to_h { |item| [item.fetch("case_id"), item.fetch("raw_input")] }
+    assert_includes gaps.fetch("dictionary_late").fetch("background"), "整体假设"
+    assert_includes gaps.fetch("dictionary_late_with_observation").fetch("background"), "邮件"
     matrix.fetch("cases").each do |item|
       raw_input = item.fetch("raw_input")
       refute raw_input.key?("expected_answer")
@@ -409,15 +519,22 @@ class TarotReaderReleaseCandidateTest < Minitest::Test
 
     assert_includes skill, "references/narrative-evidence-continuation.md"
     assert_includes skill, "references/interaction-amendment-v1-1.yaml"
+    assert_includes skill, "references/scene-identity-amendment-v1-2.yaml"
+    assert_includes skill, "references/rws-scene-bridge-v1-2.md"
     assert_includes skill, "one central narrative arc"
     assert_includes skill, "exact section, concept, or anchor"
     assert_includes skill, "two or three concrete directions"
-    refute_includes skill, "Do not ask follow-up questions"
-    assert_includes reader_contract, "clarification questions are prohibited"
-    assert_includes reader_contract, "post_answer_optional_continuation"
-    assert_includes composition, "When any Teacher capability is legitimately active"
+    assert_includes skill, "Do not ask follow-up questions"
+    assert_includes reader_contract, "does not draw, redraw, identify an uploaded image, or ask follow-up questions"
+    assert_includes reader_contract, "No citation quota exists"
+    assert_includes composition, "Do not cite every teacher"
+    assert_includes composition, "RWS scene identification"
+    bridge = File.read(File.join(SKILL_ROOT, "references/rws-scene-bridge-v1-2.md"))
+    assert_includes bridge, "a woman leans close to a lion"
+    assert_includes bridge, "It must not silently become the third layer"
     assert_includes composition, "Do not add this continuation when resolution or provenance has failed closed"
-    assert_includes composition, "it may not solicit cards for diagnosis, a legal verdict, or an investment instruction"
+    assert_includes composition, "do not ask cards to identify bodily signals"
+    assert_includes composition, "decide an investment amount or action"
   end
 
   def test_skill_does_not_embed_absolute_runtime_paths

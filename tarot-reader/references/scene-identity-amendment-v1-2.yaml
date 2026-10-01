@@ -1,0 +1,29 @@
+amendment_id: tarot-reader.scene-identity-amendment.v1.2
+status: release_candidate
+authority: user_authorized_product_change
+effective_release: tarot-reader.stage10.v1.2
+base_release: tarot-reader.stage10.v1.1
+scope: bounded_rws_scene_identification_in_user_visible_prose
+change:
+  preserved_factual_boundary: The frozen Phase 4A/4B visual packet remains byte-identical and is still the sole canonical source of static visual facts.
+  v1_2_boundary: When canonical card identity and packet facts jointly make a standard RWS scene unambiguous, the Reader names the specific participant and coherent visible action instead of repeating deliberately generic database wording.
+required_separation:
+  - frozen_visual_fact
+  - rws_scene_identification
+  - symbolic_or_psychological_inference
+strength_case:
+  packet_floor: A figure bends near a large feline with both hands at its head and mouth.
+  permitted_scene_identification: A woman gently handles or closes a lion's jaws, taming or containing the lion without a violent struggle.
+  not_visual_fact:
+    - inner strength
+    - compassion conquers instinct
+    - the querent will control another person
+boundaries:
+  - Never rewrite or enrich the frozen visual packet itself.
+  - Never import imagery from Marseille, Thoth, or a custom deck.
+  - Never use scene identification to assert a character's private motive, emotion, identity, or future event.
+  - If the participant, object, or action is genuinely ambiguous, preserve the packet wording and unresolved status.
+provenance:
+  decision_date: 2026-09-20
+  decision_type: direct_user_feedback_and_authorization
+  raw_conversation_embedded: false

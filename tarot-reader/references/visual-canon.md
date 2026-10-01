@@ -18,4 +18,6 @@ ruby scripts/query_visual_facts.rb swords_nine pentacles_ten
 
 The output packet is restricted to `canonical_card_id`, `factual_visual_id`, `scene`, `figures`, `action`, `gaze_and_facing`, `spatial_relations`, `objects`, `unresolved_visuals`, and `source_ref`. It deliberately omits `symbolic_readings`, `edition_specific_visuals`, `review_copy`, acquisition URLs, card meaning, prediction, psychological interpretation, and user images. Colors stay outside the packet. Use static facts only: count visible people, animals, and suit objects exactly when clear; record image-relative direction and spatial relation; put genuinely unclear texture, species, or gaze in `unresolved_visuals`.
 
-The visual packet is evidence, not an interpretation. Do not infer motive, emotion, identity, event, symbolism, or future movement from it.
+The visual packet is evidence, not an interpretation. It is also a factual floor rather than a requirement to repeat every deliberately generic noun verbatim. After successful resolution, `references/rws-scene-bridge-v1-2.md` permits a separate `RWS scene identification` layer when canonical card identity plus packet facts make a specific participant, animal, object, or coherent action unambiguous. This layer may say “lion” where the packet conservatively says “large feline,” but it may not alter the packet, erase an unresolved item, import another deck, or present symbolism as sight.
+
+Do not infer motive, emotion, personal identity, future event, or symbolism from the packet or disguise those claims as scene identification.

@@ -1,0 +1,4338 @@
+---
+teacher: greer
+book_id: greer_reversals_zh
+status: normalized_reviewed_source
+unit_count: 78
+units:
+- unit_id: greer.fool.reversal
+  teacher: greer
+  canonical_card_id: fool
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 愚人（ The Fool ） 这张牌代表了事物具体显化之前的 “ 宇宙精神能量 ” （ Spirit ），这 个时候，所有可能性都是存在的。
+    现在的你可能正处于人生的一个起 点，准备轻装上阵。 也许，你正在开展一些新事物，但你所具备的知 识可能不多，也没有太多深谋远虑。 愚人时时刻刻活在当下，用崭
+    新、永不厌倦的眼光看事物。
+  reversal_mechanism_candidates:
+  - mechanism: blockage_or_resistance
+    text_signals:
+    - 拒绝
+  - mechanism: projection
+    text_signals:
+    - 投射
+    - 把自己
+  - mechanism: internalization
+    text_signals:
+    - 内在
+    - 内心
+  - mechanism: absence_or_non_upright
+    text_signals:
+    - 缺少
+    - 没有
+  - mechanism: excess_or_compensation
+    text_signals:
+    - 极端
+  - mechanism: return_or_reconsideration
+    text_signals:
+    - 重新
+    - 检视
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+    - 魔法
+  reversal_anchor: 愚人逆位 愚人逆位代表不想去冒险，或是变成完全相反的 极端，非常冲动放肆、鲁莽冒险。 有时它是在提醒你 要谨慎小心，或是你该让自己长大，承担起成年人的
+    责任了。 而且它往往会对人的自由精神意志加以限制 或否认。 你的人生可能缺乏冒险精神，不然就是经常 拒绝外出冒险的机会。 现代的牌义解释，为正位愚人 牌的天真无邪赋予了一顶神圣的防护罩，但是对逆位
+    愚人牌的天真则解释为可能让你摔得惨兮兮。
+  context_switches:
+  - 愚人逆位 愚人逆位代表不想去冒险，或是变成完全相反的 极端，非常冲动放肆、鲁莽冒险。
+  - 现代的牌义解释，为正位愚人 牌的天真无邪赋予了一顶神圣的防护罩，但是对逆位 愚人牌的天真则解释为可能让你摔得惨兮兮。
+  - 但你的懊悔自责与想要赎罪的心意，却完全不被别 人当一回事。
+  - 如果这张逆位牌是代表你对别人的投射，那表示你可能认为他们 很天真但又不负责任、能够信任但又漫不经心、好像长不大。
+  alternatives:
+  - 愚人逆位 愚人逆位代表不想去冒险，或是变成完全相反的 极端，非常冲动放肆、鲁莽冒险。
+  - 现代的牌义解释，为正位愚人 牌的天真无邪赋予了一顶神圣的防护罩，但是对逆位 愚人牌的天真则解释为可能让你摔得惨兮兮。
+  - 但你的懊悔自责与想要赎罪的心意，却完全不被别 人当一回事。
+  - 如果这张逆位牌是代表你对别人的投射，那表示你可能认为他们 很天真但又不负责任、能够信任但又漫不经心、好像长不大。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 77
+  - 80
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0077
+  - greer_reversals_zh.ex0078
+  - greer_reversals_zh.ex0079
+  - greer_reversals_zh.ex0080
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.magician.reversal
+  teacher: greer
+  canonical_card_id: magician
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 魔术师（ The Magician ） 这是一张关于 “ 我、我自己、我这个人 ” 的牌，古早说法是 “ 吾人自 身 ” （
+    numero uno ）、本我或自我 ── 因此也可以单纯意指靠一己之力 完成某件事。 它也是指意识专注，运用各式工具、技巧、才能，集中 你的意志力来完成一项任务。
+  reversal_mechanism_candidates:
+  - mechanism: blockage_or_resistance
+    text_signals:
+    - 阻碍
+  - mechanism: projection
+    text_signals:
+    - 投射
+  - mechanism: delay_or_difficulty
+    text_signals:
+    - 困难
+  - mechanism: internalization
+    text_signals:
+    - 内在
+  - mechanism: absence_or_non_upright
+    text_signals:
+    - 没有
+    - 不足
+  - mechanism: excess_or_compensation
+    text_signals:
+    - 过度
+  - mechanism: return_or_reconsideration
+    text_signals:
+    - 重新
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+    - 魔法
+    - 看穿
+  reversal_anchor: 魔术师逆位 魔术师逆位让我想到年轻人： “ 不是我；不是我干 的。 我当时根本不在场。 ” 事情可能跟你计划的不一 样。 情况可能非常棘手。
+    你可能不得不放下你的责 任、放下这件事。 或许是你没有具备必要的技能（不 适任），或是你无法单靠自己做到这件事（能力不 足）。 思考一下，你是不是把焦点放错地方了。
+  context_switches:
+  - 魔术师逆位牌 代表的是过度自信或自信心不足带来的危险，也可能是承担了太多事 情，或是事情超出你的能力范围。
+  - 也可能代表你没有足够的自信可以创建亲密友谊。
+  - 如果这张逆位牌是代表对别人的投射，那表示你可能会被他们的 闪亮外表、长袖善舞、狡诈所吸引，但又怀疑他们是不是要欺骗你耍 弄你，或者，你认为他们根本就自以为无所不知、鲁莽又不够专业，
+    只想要不惜一切代价取得成功。
+  alternatives:
+  - 魔术师逆位牌 代表的是过度自信或自信心不足带来的危险，也可能是承担了太多事 情，或是事情超出你的能力范围。
+  - 也可能代表你没有足够的自信可以创建亲密友谊。
+  - 如果这张逆位牌是代表对别人的投射，那表示你可能会被他们的 闪亮外表、长袖善舞、狡诈所吸引，但又怀疑他们是不是要欺骗你耍 弄你，或者，你认为他们根本就自以为无所不知、鲁莽又不够专业，
+    只想要不惜一切代价取得成功。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 81
+  - 84
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0081
+  - greer_reversals_zh.ex0082
+  - greer_reversals_zh.ex0083
+  - greer_reversals_zh.ex0084
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.high_priestess.reversal
+  teacher: greer
+  canonical_card_id: high_priestess
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 女祭司（ The High Priestess / Papess ） 如果魔术师是代表自我，那么女祭司就是代表知识；两者合在一
+    起就是自我认识的开端。 女祭司的知识只能借由象征符号这层面纱被 看见，并以情绪和情感来传达。 这张牌意谓把时间花在独处上、独自一人与世隔绝，以及听从你 身体和本性的自然节奏与循环。
+  reversal_mechanism_candidates:
+  - mechanism: projection
+    text_signals:
+    - 投射
+  - mechanism: internalization
+    text_signals:
+    - 内在
+    - 内心
+    - 隐藏
+  - mechanism: absence_or_non_upright
+    text_signals:
+    - 没有
+  - mechanism: excess_or_compensation
+    text_signals:
+    - 极端
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+    - 魔法
+  - mechanism: shadow_or_unreliability
+    text_signals:
+    - 不可靠
+    - 黑暗
+  reversal_anchor: 女祭司逆位 女祭司逆位可能代表你难以接通你的直觉、忆起 你的梦境，或是了解你自己的感受。 你可能与你内在 的女性智慧脱节，或是对它予以否定。
+    有些人反而比 较能接受女祭司逆位，而无法坦然面对女祭司正位的 深沉暗流。 女祭司逆位的一个极端状况是，你可能会 变得不再害羞、不顾一切，玩弄肤浅的感情。
+  context_switches:
+  - 有时候，女祭司逆位也可能代表缺乏女性友人，或是被某个女人背 叛。
+  - 虽然多了孤单寂寞和缺乏自信的感觉，但另一方面，也代表你可 以坚定 “ 依靠自己 ” 。
+  - 如果你的角色是带给别 人鼓舞的人、是对方的反照镜或是仲裁者，你可能会感觉有点迷失自 我，对自己的角色产生怀疑。
+  - 如果这张牌代表你对他人的投射，那可能表示你认为对方是神圣 不可侵犯的，又或者相反，认为对方很不理性、放荡、不可靠。
+  alternatives:
+  - 有时候，女祭司逆位也可能代表缺乏女性友人，或是被某个女人背 叛。
+  - 虽然多了孤单寂寞和缺乏自信的感觉，但另一方面，也代表你可 以坚定 “ 依靠自己 ” 。
+  - 如果你的角色是带给别 人鼓舞的人、是对方的反照镜或是仲裁者，你可能会感觉有点迷失自 我，对自己的角色产生怀疑。
+  - 如果这张牌代表你对他人的投射，那可能表示你认为对方是神圣 不可侵犯的，又或者相反，认为对方很不理性、放荡、不可靠。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 85
+  - 88
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0085
+  - greer_reversals_zh.ex0086
+  - greer_reversals_zh.ex0087
+  - greer_reversals_zh.ex0088
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.empress.reversal
+  teacher: greer
+  canonical_card_id: empress
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 女皇（ The Empress ） 传统上这是代表母亲／情人的牌，也就是女性能量与创造性的生 命原力。 女皇牌代表大地和人类生育力的丰饶旺盛。
+    她促进与滋养万 物的生长和发展，将各种不同元素融合成一个和谐的整体。 作为维纳 斯－阿芙萝黛蒂女神的化身，她体现了爱和吸引力的能量，关注的是 社交与人际关系。
+  reversal_mechanism_candidates:
+  - mechanism: blockage_or_resistance
+    text_signals:
+    - 拒绝
+  - mechanism: projection
+    text_signals:
+    - 投射
+  - mechanism: internalization
+    text_signals:
+    - 内在
+    - 隐藏
+  - mechanism: absence_or_non_upright
+    text_signals:
+    - 没有
+  - mechanism: excess_or_compensation
+    text_signals:
+    - 过度
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+    - 魔法
+  - mechanism: shadow_or_unreliability
+    text_signals:
+    - 阴影
+  reversal_anchor: 女皇逆位 女皇逆位可能代表足以将人吞没、令人窒息、要 求极为严苛的母亲，或是母亲角色缺席，或是，你可 能不希望变得像你母亲一样。
+    她的负面阴性特质还包 括自我放纵、爱慕虚荣、肤浅。 但是从反面来说，你 可能会以一种建设性的思维去否定或拒绝传统女性角 色，或是决定不生小孩。 不过，这张逆位牌也可以代
+    表堕胎、流产、子宫切除、不孕、性冷感、离婚，或是守寡，但还要 看牌阵中是否有其他牌来支持这样的解释。
+  context_switches:
+  - 但是从反面来说，你 可能会以一种建设性的思维去否定或拒绝传统女性角 色，或是决定不生小孩。
+  - 不过，这张逆位牌也可以代 表堕胎、流产、子宫切除、不孕、性冷感、离婚，或是守寡，但还要 看牌阵中是否有其他牌来支持这样的解释。
+  - 女皇逆位也可能代表没有 妥善照顾自己或他人；或是，对人太过无私或过于慷慨。
+  - 有时这张逆位牌也可能代表 “ 空巢期 ” 症候群，你感觉自己很孤单而且 没用。
+  alternatives:
+  - 但是从反面来说，你 可能会以一种建设性的思维去否定或拒绝传统女性角 色，或是决定不生小孩。
+  - 不过，这张逆位牌也可以代 表堕胎、流产、子宫切除、不孕、性冷感、离婚，或是守寡，但还要 看牌阵中是否有其他牌来支持这样的解释。
+  - 女皇逆位也可能代表没有 妥善照顾自己或他人；或是，对人太过无私或过于慷慨。
+  - 有时这张逆位牌也可能代表 “ 空巢期 ” 症候群，你感觉自己很孤单而且 没用。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 89
+  - 92
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0089
+  - greer_reversals_zh.ex0090
+  - greer_reversals_zh.ex0091
+  - greer_reversals_zh.ex0092
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.emperor.reversal
+  teacher: greer
+  canonical_card_id: emperor
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 皇帝（ The Emperor ） 这张牌代表父亲、为人父、内在男人，以及年长的、阳刚的、如 父亲般的、权威的、专业的人。
+    女皇牌掌管的是我们的感性之心，皇 帝牌则是掌管我们的理智理性；他是整个有机体的首领，运用理性和 逻辑来执行仁慈的独裁。 这张牌代表的是你有很强的能力可以制定规
+    则律法、设定界限、为事物命名与定义，以及为你专长的领域分析。
+  reversal_mechanism_candidates:
+  - mechanism: blockage_or_resistance
+    text_signals:
+    - 拒绝
+  - mechanism: projection
+    text_signals:
+    - 投射
+    - 把自己
+  - mechanism: internalization
+    text_signals:
+    - 内在
+  - mechanism: breakthrough_or_redirection
+    text_signals:
+    - 突破
+  - mechanism: absence_or_non_upright
+    text_signals:
+    - 没有
+  - mechanism: excess_or_compensation
+    text_signals:
+    - 过度
+  - mechanism: return_or_reconsideration
+    text_signals:
+    - 重新
+  - mechanism: remedy_or_rectification
+    text_signals:
+    - 恢复
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+    - 魔法
+  reversal_anchor: 皇帝逆位 皇帝逆位通常代表一个不怎么仁慈的独裁者、自 以为正义的暴君。 或者，也可能代表其相反 ── 一个意 志薄弱、懦弱胆怯、没有男子气概的懦夫。
+    通常是介 于这两者之间，例如一名父亲、老板、领导者，他们 背叛了你的信任、放弃对你的支持、无法保护你，或 是不想继续坚持原则。 所以，出现这张牌表示我们的
+    父亲可能失职或无能，我们的顶头上司可能没有坚持 其职守，是个失败的领导者。
+  context_switches:
+  - 或者，也可能代表其相反 ── 一个意 志薄弱、懦弱胆怯、没有男子气概的懦夫。
+  - 皇帝逆位也可能暗指一种妄自尊大的心 态 ── 一丝不挂的国王却以为自己有穿衣服，结果变成了一个小丑。
+  - 如果你把自己的主导权 交给另一个人，可能会削弱你的自信心，变得不看重自己的价值。
+  - 如果牌阵中有 其他牌呼应，这张牌也可能代表不成熟或衰老，或是不符合传统的性 癖好和性取向。
+  alternatives:
+  - 或者，也可能代表其相反 ── 一个意 志薄弱、懦弱胆怯、没有男子气概的懦夫。
+  - 皇帝逆位也可能暗指一种妄自尊大的心 态 ── 一丝不挂的国王却以为自己有穿衣服，结果变成了一个小丑。
+  - 如果你把自己的主导权 交给另一个人，可能会削弱你的自信心，变得不看重自己的价值。
+  - 如果牌阵中有 其他牌呼应，这张牌也可能代表不成熟或衰老，或是不符合传统的性 癖好和性取向。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 93
+  - 96
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0093
+  - greer_reversals_zh.ex0094
+  - greer_reversals_zh.ex0095
+  - greer_reversals_zh.ex0096
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.hierophant.reversal
+  teacher: greer
+  canonical_card_id: hierophant
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 教皇（ The Hierophant / Pope ） 这是一张关于教导、谘询、学习的牌。 教皇牌代表你人生当中 “ 应 该
+    ” 和 “ 应当 ” 做的事，是你跟传统价值观与既定认知的链接。 教皇是透 过神明、社会以及政府制定的律法来教育你、培养你的良知。 这样至 少理论上可以确保你会尊重社会禁忌、服从纪律。
+  reversal_mechanism_candidates:
+  - mechanism: blockage_or_resistance
+    text_signals:
+    - 拒绝
+    - 束缚
+  - mechanism: projection
+    text_signals:
+    - 投射
+  - mechanism: breakthrough_or_redirection
+    text_signals:
+    - 离开
+  - mechanism: excess_or_compensation
+    text_signals:
+    - 过度
+    - 极端
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+    - 魔法
+  reversal_anchor: 教皇逆位 教皇逆位可以代表你对传统社会习俗的质疑、不 愿遵守规定、怀疑或藐视道德准则，或是拒绝你所受 的宗教教养。 它也意指
+    “ 局外人 ” 或违反传统信仰的意 识。 也许现在是你 “ 质疑权威 ” 的时候了。 你可能希望 选择你自己的行事标准，而不是只接受“ 当权者的规 定 ”
+    。
+  context_switches:
+  - 如果这张 逆位牌是出现在一般日常占卜中，它可能单纯意指不恰当的行为、程 度轻微的 “ 罪恶之事 ” ，或是让你感觉羞耻的事情。
+  - 也可 能代表相反的极端情况，你因为缺乏信念或因为胆怯而无法坚持自己 的理念。
+  - 如果有其他牌作为呼应，那有可能代表离 婚，或是脱离传统，或离开学校。
+  - 如果这张牌是代表你对别人的投射，那表示你可能将此人看做是 你接触灵性真理的途径，而且认为此人道行高过其他凡人，或是比一 般人更纯洁。
+  alternatives:
+  - 如果这张 逆位牌是出现在一般日常占卜中，它可能单纯意指不恰当的行为、程 度轻微的 “ 罪恶之事 ” ，或是让你感觉羞耻的事情。
+  - 也可 能代表相反的极端情况，你因为缺乏信念或因为胆怯而无法坚持自己 的理念。
+  - 如果有其他牌作为呼应，那有可能代表离 婚，或是脱离传统，或离开学校。
+  - 如果这张牌是代表你对别人的投射，那表示你可能将此人看做是 你接触灵性真理的途径，而且认为此人道行高过其他凡人，或是比一 般人更纯洁。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 97
+  - 100
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0097
+  - greer_reversals_zh.ex0098
+  - greer_reversals_zh.ex0099
+  - greer_reversals_zh.ex0100
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.lovers.reversal
+  teacher: greer
+  canonical_card_id: lovers
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 恋人（ The Lovers ） 借由这张牌，你学到如何将教皇牌所教导的道德责任应用于人际 互动上。 你可能正在为一种关系努力，包括跟家人、朋友、同事、爱
+    人、宇宙大灵，以及你内在不同层面的自己。 恋人牌经常会跟左右两 边的邻近牌相互牵连或显示出某种关联，要不是相互吸引，就是相互 平衡。
+  reversal_mechanism_candidates:
+  - mechanism: projection
+    text_signals:
+    - 投射
+  - mechanism: delay_or_difficulty
+    text_signals:
+    - 延迟
+    - 困难
+  - mechanism: internalization
+    text_signals:
+    - 内在
+    - 内心
+  - mechanism: absence_or_non_upright
+    text_signals:
+    - 没有
+  - mechanism: misuse_or_misdirection
+    text_signals:
+    - 不当
+  - mechanism: return_or_reconsideration
+    text_signals:
+    - 重新
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+    - 魔法
+  reversal_anchor: 恋人逆位 恋人逆位可能代表一种非形体的结合、一种精神 上而非肉体的融合。 有时这是一种纯粹的灵魂伴侣关 系，是在天堂的结合，但因物质环境而分开。
+    你可能 会将某人理想化（尤其是如果他们不在你身边），或 是将你们两人的关系理想化。 你可能正处在一个充满困难、不和谐、不成熟， 或是不健康的关系中，尤其如果这张牌两边的邻近牌出现关联呼应的
+    话，也许你在沟通上出了问题，或是不知道如何亲近某个人。
+  context_switches:
+  - 有时这是一种纯粹的灵魂伴侣关 系，是在天堂的结合，但因物质环境而分开。
+  - 你可能 会将某人理想化（尤其是如果他们不在你身边），或 是将你们两人的关系理想化。
+  - 你可能正处在一个充满困难、不和谐、不成熟， 或是不健康的关系中，尤其如果这张牌两边的邻近牌出现关联呼应的 话，也许你在沟通上出了问题，或是不知道如何亲近某个人。
+  - 另一种情况是，你可能会让自己沉迷于自 我放纵的肉体欢娱、贪恋色欲以及享乐主义。
+  alternatives:
+  - 有时这是一种纯粹的灵魂伴侣关 系，是在天堂的结合，但因物质环境而分开。
+  - 你可能 会将某人理想化（尤其是如果他们不在你身边），或 是将你们两人的关系理想化。
+  - 你可能正处在一个充满困难、不和谐、不成熟， 或是不健康的关系中，尤其如果这张牌两边的邻近牌出现关联呼应的 话，也许你在沟通上出了问题，或是不知道如何亲近某个人。
+  - 另一种情况是，你可能会让自己沉迷于自 我放纵的肉体欢娱、贪恋色欲以及享乐主义。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 101
+  - 104
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0101
+  - greer_reversals_zh.ex0102
+  - greer_reversals_zh.ex0103
+  - greer_reversals_zh.ex0104
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.chariot.reversal
+  teacher: greer
+  canonical_card_id: chariot
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 战车（ The Chariot ） 最早的胜利之牌或塔罗奇纸牌游戏，很可能就是源自图上这种马 车的胜利游行而发展出来的。 因此这张战车牌的出现，代表你可能会
+    获胜；也就是赢得胜利，或证明你居于支配地位。 你可能正试图取得 对你生活一切情况的掌控力。 若说前一张牌是代表爱，那么这张牌就 是代表战争，或至少是为维护自身利益而战。
+  reversal_mechanism_candidates:
+  - mechanism: projection
+    text_signals:
+    - 投射
+    - 把自己
+  - mechanism: delay_or_difficulty
+    text_signals:
+    - 困难
+  - mechanism: internalization
+    text_signals:
+    - 内在
+  - mechanism: breakthrough_or_redirection
+    text_signals:
+    - 离开
+  - mechanism: misuse_or_misdirection
+    text_signals:
+    - 不当
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+    - 魔法
+  - mechanism: shadow_or_unreliability
+    text_signals:
+    - 阴影
+  reversal_anchor: 战车逆位 战车逆位描绘的正是俄狄浦斯的故事。 俄狄浦斯 驾着战车停在一个三岔路口上，失手杀死了一名老 人。 在路上他遇到人面狮身兽司芬克斯，要求他回答
+    一个谜题，他答出正确答案： “ 人 ” ，因而解救了底比 斯王国，并娶了该国国王的遗孀为妻。 俄狄浦斯后来 发现，那个被他杀死的老人正是他的亲身父亲，他娶
+    的那位王后其实是他的母亲，这就是精神分析学家弗 洛伊德 “ 俄狄浦斯情结 ” （恋母情结）理论的由来。
+  context_switches:
+  - 你可能也正走在这 条自我追寻的道路上，试图克服重重障碍赢得胜利，但逆位牌要问的 是，你是不是得付出什么代价？
+  - 相反的情况是，你可能会攻击性过强，或是采取不正 当的手段跟人比赛。
+  - 如果这张牌代表你对别人的投射，你可能认为他们就是恶霸、不 法分子、违法者、抗争者或是革命人士。
+  - 如果是代表内在明亮阴影面 的投射，你可能会将此人理想化为战神或是救星，认为他可以解决任 何问题。
+  alternatives:
+  - 你可能也正走在这 条自我追寻的道路上，试图克服重重障碍赢得胜利，但逆位牌要问的 是，你是不是得付出什么代价？
+  - 相反的情况是，你可能会攻击性过强，或是采取不正 当的手段跟人比赛。
+  - 如果这张牌代表你对别人的投射，你可能认为他们就是恶霸、不 法分子、违法者、抗争者或是革命人士。
+  - 如果是代表内在明亮阴影面 的投射，你可能会将此人理想化为战神或是救星，认为他可以解决任 何问题。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 105
+  - 109
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0105
+  - greer_reversals_zh.ex0106
+  - greer_reversals_zh.ex0107
+  - greer_reversals_zh.ex0108
+  - greer_reversals_zh.ex0109
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.strength.reversal
+  teacher: greer
+  canonical_card_id: strength
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 力量（ Strength ） 坚忍是一种美德，可以帮助我们遏制恐惧、减缓冲动气势，以理 性来面对危险。 这张牌就是代表恐惧和蛮勇之间的平衡。
+    你可能正在 调整你的情绪，和你的本能直觉做朋友，面对任何可能会将你吞噬的 东西。 你正借由找到 “ 内在力量 ” 来创建自信 ── 而非一味使用战车牌 “
+    盛 气凌人的力量 ”[3]。
+  reversal_mechanism_candidates:
+  - mechanism: blockage_or_resistance
+    text_signals:
+    - 拒绝
+    - 束缚
+  - mechanism: projection
+    text_signals:
+    - 投射
+  - mechanism: internalization
+    text_signals:
+    - 内在
+    - 内心
+  - mechanism: excess_or_compensation
+    text_signals:
+    - 过度
+  - mechanism: misuse_or_misdirection
+    text_signals:
+    - 误用
+    - 不当
+  - mechanism: remedy_or_rectification
+    text_signals:
+    - 疗愈
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+    - 魔法
+  reversal_anchor: 力量逆位 出现力量牌逆位，代表你可能对自己的热情、冲 动或本能感到害怕，或是刚好相反，可能过于大胆和 放肆。 也许你的内心感到挣扎，正在与另一个内在自
+    我相互斗争，理智与本能、文明与粗野无法协调。 如 果你不将你的心放在某件事情上，你可能无法忍受这 种矛盾。 无法掌控的力量可能会将你压垮。
+  context_switches:
+  - 力量逆位 出现力量牌逆位，代表你可能对自己的热情、冲 动或本能感到害怕，或是刚好相反，可能过于大胆和 放肆。
+  - 此外，这张逆位牌也可能代表 “ 把猫咪从袋子里放出来 ”── 不单是 指无意中泄露了秘密，也代表一个人将原本应该受到约束（但实际上 无法被绑住）的力量，完完全全释放出来。
+  - 如果这张牌是代表你对别人的投射，可能表示你认为他们很情绪 化，或是控制欲很强。
+  alternatives:
+  - 力量逆位 出现力量牌逆位，代表你可能对自己的热情、冲 动或本能感到害怕，或是刚好相反，可能过于大胆和 放肆。
+  - 此外，这张逆位牌也可能代表 “ 把猫咪从袋子里放出来 ”── 不单是 指无意中泄露了秘密，也代表一个人将原本应该受到约束（但实际上 无法被绑住）的力量，完完全全释放出来。
+  - 如果这张牌是代表你对别人的投射，可能表示你认为他们很情绪 化，或是控制欲很强。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 110
+  - 113
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0110
+  - greer_reversals_zh.ex0111
+  - greer_reversals_zh.ex0112
+  - greer_reversals_zh.ex0113
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.hermit.reversal
+  teacher: greer
+  canonical_card_id: hermit
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 隐士（ The Hermit ） 跟教皇一样，隐士也可以代表一位老师或上师，但更像是人生向 导、导师，或榜样 ── 也就是荣格所说的
+    “ 智慧老人 ” 或老者（ senex ） 原型。 由于专注于独处和内省，你可能会选择不跟团体或组织接触， 虽然这张牌也代表你仍然会持续进修。 更切合的解释是，你是透过非
+    传统的途径在寻找真理、智慧和知识。
+  reversal_mechanism_candidates:
+  - mechanism: blockage_or_resistance
+    text_signals:
+    - 拒绝
+  - mechanism: projection
+    text_signals:
+    - 投射
+  - mechanism: internalization
+    text_signals:
+    - 内在
+    - 隐藏
+  - mechanism: excess_or_compensation
+    text_signals:
+    - 过度
+  - mechanism: return_or_reconsideration
+    text_signals:
+    - 检视
+  - mechanism: remedy_or_rectification
+    text_signals:
+    - 恢复
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+    - 魔法
+  reversal_anchor: 隐士逆位 你可能不想要一个人独处，所以隐士逆位有时是 代表你在追求一份感情，因为你怕自己到了晚年会一 个人孤独以终。 或是，你可能觉得自己孤僻，想要逃
+    避亲密关系。 你可能被人离弃，也可能是你自己疏远 了朋友或家人。 可能有某位老师或上师被证实是假道 学或背叛了你。 这张逆位牌也可能代表你过度要求自 己和他人都要非常完美，坚持不可能实现的标准。
+  context_switches:
+  - 你可能被人离弃，也可能是你自己疏远 了朋友或家人。
+  - 这张逆位牌也可能代表你过度要求自 己和他人都要非常完美，坚持不可能实现的标准。
+  - 或是刚好相反，你 可能变得非常鲁莽、轻率、爱炫耀，一点都不慎重周到。
+  - 你可能声称 自己是专业人士，但实际上却名不副实。
+  alternatives:
+  - 你可能被人离弃，也可能是你自己疏远 了朋友或家人。
+  - 这张逆位牌也可能代表你过度要求自 己和他人都要非常完美，坚持不可能实现的标准。
+  - 或是刚好相反，你 可能变得非常鲁莽、轻率、爱炫耀，一点都不慎重周到。
+  - 你可能声称 自己是专业人士，但实际上却名不副实。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 114
+  - 117
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0114
+  - greer_reversals_zh.ex0115
+  - greer_reversals_zh.ex0116
+  - greer_reversals_zh.ex0117
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.wheel_of_fortune.reversal
+  teacher: greer
+  canonical_card_id: wheel_of_fortune
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 命运之轮（ The Wheel of Fortune ） 命运之轮这张牌象征着我们生命每一个层面可能发生的变化、移 动、扩张和机会。
+    这种变化往往突然发生，而且相当明确，事发时或 许令人兴奋，但最终结果却难以预料。 不过，有了幸运女神的参与， 情势可能会转好。 从形上学的角度来说，你可能会觉得这是命中注定
+    而非偶然机遇，是共时性而非巧合所致。
+  reversal_mechanism_candidates:
+  - mechanism: blockage_or_resistance
+    text_signals:
+    - 阻碍
+  - mechanism: projection
+    text_signals:
+    - 投射
+  - mechanism: internalization
+    text_signals:
+    - 内在
+  - mechanism: breakthrough_or_redirection
+    text_signals:
+    - 摆脱
+  - mechanism: absence_or_non_upright
+    text_signals:
+    - 没有
+  - mechanism: excess_or_compensation
+    text_signals:
+    - 过量
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+    - 魔法
+  reversal_anchor: 命运之轮逆位 在传统解牌上，命运之轮逆位依然是对你有利的 好牌，只是比较不稳定 ── 就像在心理上玩熘熘球 ── 希望感和沮丧感不断交替起伏。
+    你可能因为原本期待 的事情发生变化（例如事情反复走走停停），导致事 情的进展有所延误，或是起了一点小烦恼。 你可能感 到忧心，为新的局势做好了准备，却又受到阻碍和阻
+    拦，不知接下来事情会如何发展。
+  context_switches:
+  - 另一种相反情况是，频繁的社交活动带来的兴奋感或生活上的一 些变化，会开始让你变得非常忙碌，而且脱不了身，就像你在跑步机 上无法停下来。
+  - 如果这时候你心里有所迟疑，觉得事情发生得太快太容易，可能 会因为想要把速度放慢下来，而变得过于谨慎、死板、保守。
+  - 某些解释会认为这张命运之轮逆位是代表失败和坏运，但很可能 这是跟心态有关，因为当我们认定逆位牌跟正位牌相反，这当中就已 经悄悄混进负面想法了。
+  - 如果这张牌代表你对别人的投射，也许你认为他们非常幸运，一 路向上爬升，命运正在对他们微笑，但如果你继续看下去，可能会看 到他们从云端坠落。
+  alternatives:
+  - 另一种相反情况是，频繁的社交活动带来的兴奋感或生活上的一 些变化，会开始让你变得非常忙碌，而且脱不了身，就像你在跑步机 上无法停下来。
+  - 如果这时候你心里有所迟疑，觉得事情发生得太快太容易，可能 会因为想要把速度放慢下来，而变得过于谨慎、死板、保守。
+  - 某些解释会认为这张命运之轮逆位是代表失败和坏运，但很可能 这是跟心态有关，因为当我们认定逆位牌跟正位牌相反，这当中就已 经悄悄混进负面想法了。
+  - 如果这张牌代表你对别人的投射，也许你认为他们非常幸运，一 路向上爬升，命运正在对他们微笑，但如果你继续看下去，可能会看 到他们从云端坠落。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 118
+  - 121
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0118
+  - greer_reversals_zh.ex0119
+  - greer_reversals_zh.ex0120
+  - greer_reversals_zh.ex0121
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.justice.reversal
+  teacher: greer
+  canonical_card_id: justice
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 正义（ Justice ） 这张牌的出现，代表你需要为你自己的行为负起责任。 你可能正 处于抉择时刻，这个决定关系到后面会产生什么结果。
+    你可能正在与 他人进行某种协议，你必须在自己和对方的需求与愿望当中取得平 衡；包括工作契约、婚姻、合伙关系、协商谈判、交换或是和解等 等。 你也许会涉入法庭案件、诉讼、调查或调解等情事。
+  reversal_mechanism_candidates:
+  - mechanism: projection
+    text_signals:
+    - 投射
+  - mechanism: internalization
+    text_signals:
+    - 内在
+    - 内心
+  - mechanism: excess_or_compensation
+    text_signals:
+    - 过度
+  - mechanism: return_or_reconsideration
+    text_signals:
+    - 检视
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+    - 魔法
+  reversal_anchor: 正义逆位 当人们看到正义逆位出现时，通常会说，那是代 表某些事情 “ 不公平 ” 。 人们担心正义会彻底被推翻， 秩序会被打乱，或是自己期望的结果受到阻挠。
+    这张 牌也代表可能有法律上的纠纷和败诉，或是完全藐视 法律。 你可能需要调整生活中和人际关系中的失衡状 况。 检视一下这张牌两侧的邻近牌，就可以看出问题 出在哪里。
+  context_switches:
+  - 也有可能代表相反情况，你谦虚地承认和接受 自己的错误。
+  - 这张逆位牌也可能意指恶有恶报，也就是有人得到报 应，而且是在奇特的情况下，被一种带有讽刺意味的正当手段报复 了，自业自得。
+  - 如果这张牌代表你对别人的投射，可能会去取笑律师和警察，要 不然就是像你在警匪片中看到的，把他们过度理想化。
+  alternatives:
+  - 也有可能代表相反情况，你谦虚地承认和接受 自己的错误。
+  - 这张逆位牌也可能意指恶有恶报，也就是有人得到报 应，而且是在奇特的情况下，被一种带有讽刺意味的正当手段报复 了，自业自得。
+  - 如果这张牌代表你对别人的投射，可能会去取笑律师和警察，要 不然就是像你在警匪片中看到的，把他们过度理想化。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 122
+  - 125
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0122
+  - greer_reversals_zh.ex0123
+  - greer_reversals_zh.ex0124
+  - greer_reversals_zh.ex0125
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.hanged_man.reversal
+  teacher: greer
+  canonical_card_id: hanged_man
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 吊人（ The Hanged Man ） 因为这张牌的图案本身就是上下颠倒的，所以平常会出现在逆位 牌的特征，你都能在这张正位牌里找到，所以直接在这段讨论。
+    吊人 可说是整副塔罗牌中最复杂的象征意象，或许这也可以解释，为何它 会出现在那么多电影和文学作品里。 我们之所以感到害怕，是因为我 们不了解它。
+  reversal_mechanism_candidates:
+  - mechanism: blockage_or_resistance
+    text_signals:
+    - 束缚
+  - mechanism: delay_or_difficulty
+    text_signals:
+    - 拖延
+  - mechanism: internalization
+    text_signals:
+    - 隐藏
+  - mechanism: breakthrough_or_redirection
+    text_signals:
+    - 摆脱
+  - mechanism: absence_or_non_upright
+    text_signals:
+    - 没有
+  reversal_anchor: 吊人逆位 注意：吊人逆位牌一般讨论的主题，在正位吊人 牌的解释中皆有提及。 吊人逆位看起来像是已经准备要采取行动，但似 乎无事要做。
+    从他头上那圈明亮的光环和整个人调皮 的站姿看来，他的状态似乎好到有点不太真实；而或 许这真的有点问题。 你可能想让人看起来不错，想要 讨好其他人，但背后可能隐藏着别有用心的动机。
+  context_switches:
+  - 吊人逆位看起来像是已经准备要采取行动，但似 乎无事要做。
+  - 你可能想让人看起来不错，想要 讨好其他人，但背后可能隐藏着别有用心的动机。
+  - 虽然你外表看起来意愿十足，但会 毁约或违背承诺，不愿做出当初答应的牺牲。
+  - 你也可能很不务实，对人生感到无聊厌烦，而且麻木不仁， 只到处闲晃、毫无目标。
+  alternatives:
+  - 吊人逆位看起来像是已经准备要采取行动，但似 乎无事要做。
+  - 你可能想让人看起来不错，想要 讨好其他人，但背后可能隐藏着别有用心的动机。
+  - 虽然你外表看起来意愿十足，但会 毁约或违背承诺，不愿做出当初答应的牺牲。
+  - 你也可能很不务实，对人生感到无聊厌烦，而且麻木不仁， 只到处闲晃、毫无目标。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 126
+  - 130
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0126
+  - greer_reversals_zh.ex0127
+  - greer_reversals_zh.ex0128
+  - greer_reversals_zh.ex0129
+  - greer_reversals_zh.ex0130
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.death.reversal
+  teacher: greer
+  canonical_card_id: death
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 死神（ Death ） 当你抽到这张牌，可能会有大大松了一口气的感觉，或是解脱与 感伤交织的情绪。 疑惑与忧心已经来到尽头；改变和转化已是必然发
+    生的结果。 一直以来你为之痛苦挣扎的事情，若不是即将结束或终 了，就是很快会有结果，你终于能够继续往前迈进。 这个过程就像修 剪树枝和制作堆肥，清出一条干净的道路来迎接新生命，同时，分解
+    和腐烂作用会将残枝碎叶转化为肥沃营养的土壤。
+  reversal_mechanism_candidates:
+  - mechanism: projection
+    text_signals:
+    - 投射
+  - mechanism: delay_or_difficulty
+    text_signals:
+    - 拖延
+  - mechanism: return_or_reconsideration
+    text_signals:
+    - 重新
+    - 再次
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+    - 魔法
+  - mechanism: shadow_or_unreliability
+    text_signals:
+    - 黑暗
+  reversal_anchor: 死神逆位 如果你试图抵抗无可避免的改变，那么死神逆位 会比正位更难面对。 你可能在拖延或逃避某件事情的 结局，因而欺骗自己，想要延后痛苦和悲伤，不想面
+    对新的成长。 它也可能代表你对预期发生之事的担忧 和烦恼 ── 尤其如果你认为那是坏事或是会带来伤害 ── 无论这个恐惧是否会成真。
+  context_switches:
+  - 死神逆位 如果你试图抵抗无可避免的改变，那么死神逆位 会比正位更难面对。
+  - 它也可能代表你对预期发生之事的担忧 和烦恼 ── 尤其如果你认为那是坏事或是会带来伤害 ── 无论这个恐惧是否会成真。
+  - 不过，这种悲观情绪也可能会让你在 最阳光灿烂的日子看起来阴郁、毫无生机。
+  - 但也可能是相反情况，你可能感觉自己好像 “ 死而复生 ” ，走出了 忧郁期或停滞期，再次苏醒过来，享受生命的喜悦和感官的欢愉。
+  alternatives:
+  - 死神逆位 如果你试图抵抗无可避免的改变，那么死神逆位 会比正位更难面对。
+  - 它也可能代表你对预期发生之事的担忧 和烦恼 ── 尤其如果你认为那是坏事或是会带来伤害 ── 无论这个恐惧是否会成真。
+  - 不过，这种悲观情绪也可能会让你在 最阳光灿烂的日子看起来阴郁、毫无生机。
+  - 但也可能是相反情况，你可能感觉自己好像 “ 死而复生 ” ，走出了 忧郁期或停滞期，再次苏醒过来，享受生命的喜悦和感官的欢愉。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 131
+  - 134
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0131
+  - greer_reversals_zh.ex0132
+  - greer_reversals_zh.ex0133
+  - greer_reversals_zh.ex0134
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.temperance.reversal
+  teacher: greer
+  canonical_card_id: temperance
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 节制（ Temperance ） 节制这张牌的含义是关于适度与调节，以及借由培养温和节制与 周到体贴之心，在两个极端之间找出适合自己的方式。
+    你可能正使用 混合、组合或成分交替法来创造出某样全新的东西，虽然这些混合物 在本质上可能是相反的。 你可以从这张牌两边的邻近牌看到这个情 况。
+  reversal_mechanism_candidates:
+  - mechanism: projection
+    text_signals:
+    - 投射
+  - mechanism: delay_or_difficulty
+    text_signals:
+    - 拖延
+    - 时机
+  - mechanism: internalization
+    text_signals:
+    - 内在
+  - mechanism: excess_or_compensation
+    text_signals:
+    - 过度
+    - 补偿
+  - mechanism: remedy_or_rectification
+    text_signals:
+    - 疗愈
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+    - 魔法
+  reversal_anchor: 节制逆位 节制逆位代表某些事情可能会失去平衡、发生冲 突或超出限度，因而产生压力，如果不予以缓解，可 能会导致健康状况不良。
+    请查看这张牌两侧的邻近 牌，找出可能的问题，或是有哪些事情无法相容。 也 有可能，你觉得有人不跟你配合，或是你的利益和需 求受到竞争或与人相冲突。 你可能会情绪失控，导致
+    与人争吵和意见分歧。
+  context_switches:
+  - 节制逆位 节制逆位代表某些事情可能会失去平衡、发生冲 突或超出限度，因而产生压力，如果不予以缓解，可 能会导致健康状况不良。
+  - 有可能你现在完全不想放弃任何东西，或是你告诉自己要忍住， 不能只答应其中一件事而不管另一种可能性。
+  - 如果这张牌代表你对他人的投射，可能会认为他们太优秀、太完 美，就像天使一样，比你更有才华。
+  - 或是相反，你可能会认为他们毫 无节制。
+  alternatives:
+  - 节制逆位 节制逆位代表某些事情可能会失去平衡、发生冲 突或超出限度，因而产生压力，如果不予以缓解，可 能会导致健康状况不良。
+  - 有可能你现在完全不想放弃任何东西，或是你告诉自己要忍住， 不能只答应其中一件事而不管另一种可能性。
+  - 如果这张牌代表你对他人的投射，可能会认为他们太优秀、太完 美，就像天使一样，比你更有才华。
+  - 或是相反，你可能会认为他们毫 无节制。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 135
+  - 138
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0135
+  - greer_reversals_zh.ex0136
+  - greer_reversals_zh.ex0137
+  - greer_reversals_zh.ex0138
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.devil.reversal
+  teacher: greer
+  canonical_card_id: devil
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 恶魔（ The Devil ） 恶魔这张牌的含义主要是关于恐惧、谎言和无知，最后导致怀疑 与悲观主义。 Devil 这个字是来自一个英文字根，意思是
+    “ 敌 手 ” （ adversary ），也就是跟你的利益或福祉相悖的人或事。 这张牌 可以告诉你，是什么东西在阻碍、限制或束缚你的创造力和行动，而 且可能跟童年期的罪恶感有关。
+  reversal_mechanism_candidates:
+  - mechanism: blockage_or_resistance
+    text_signals:
+    - 拒绝
+    - 束缚
+  - mechanism: projection
+    text_signals:
+    - 投射
+  - mechanism: internalization
+    text_signals:
+    - 内在
+    - 内心
+    - 隐藏
+  - mechanism: breakthrough_or_redirection
+    text_signals:
+    - 摆脱
+    - 翻转
+  - mechanism: absence_or_non_upright
+    text_signals:
+    - 没有
+  - mechanism: excess_or_compensation
+    text_signals:
+    - 过度
+    - 极端
+  - mechanism: misuse_or_misdirection
+    text_signals:
+    - 误用
+  - mechanism: remedy_or_rectification
+    text_signals:
+    - 恢复
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+    - 魔法
+  - mechanism: shadow_or_unreliability
+    text_signals:
+    - 阴影
+  reversal_anchor: 恶魔逆位 恶魔逆位这张牌，在牌义解释的极端性上可说比 其他牌更为强烈。 一方面，它代表邪恶的胜利、灵性 上的盲目，或屈服于诱惑、尽情纵欲。
+    但在相反的一 端，它也代表你可以远离邪恶和束缚，开始迈向精神 启蒙、灵性开悟的道路。 根据 “ 反向转化／物极必 反 ” 原理，你可能轻易从罪人变成圣人，像钟摆摆动得
+    太厉害就会翻过顶端，翻转到另一边。
+  context_switches:
+  - 但在相反的一 端，它也代表你可以远离邪恶和束缚，开始迈向精神 启蒙、灵性开悟的道路。
+  - 有时这张逆位牌也可能代表你觉得自己比其他人优越，因为他们 都有缺陷和弱点，或者代表你过度正直、过分讲求道德和美德。
+  - 如果你清楚知道 你的恐惧是毫无根据的，就可以从错误的压抑、操纵和依赖的模式中 解脱出来。
+  - 另一种情况是，你发现公众人物的弱点和邪恶 行为让你非常失望。
+  alternatives:
+  - 但在相反的一 端，它也代表你可以远离邪恶和束缚，开始迈向精神 启蒙、灵性开悟的道路。
+  - 有时这张逆位牌也可能代表你觉得自己比其他人优越，因为他们 都有缺陷和弱点，或者代表你过度正直、过分讲求道德和美德。
+  - 如果你清楚知道 你的恐惧是毫无根据的，就可以从错误的压抑、操纵和依赖的模式中 解脱出来。
+  - 另一种情况是，你发现公众人物的弱点和邪恶 行为让你非常失望。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 139
+  - 142
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0139
+  - greer_reversals_zh.ex0140
+  - greer_reversals_zh.ex0141
+  - greer_reversals_zh.ex0142
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.tower.reversal
+  teacher: greer
+  canonical_card_id: tower
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 高塔（ The Tower ） 高塔也是属于 “ 变动牌 ” ，但这张牌的变动通常是突然发生的、不 在预期中的、非自愿的。
+    它主要是指不稳定的动荡情势，以及这个动 荡带来的突破和崩坏。 通常这张牌代表突然发脾气或怒气爆发，你可 能会卷入攻击性的行动、争吵之中，有时也会有暴力行为。
+  reversal_mechanism_candidates:
+  - mechanism: blockage_or_resistance
+    text_signals:
+    - 束缚
+  - mechanism: projection
+    text_signals:
+    - 投射
+  - mechanism: internalization
+    text_signals:
+    - 内在
+    - 内心
+  - mechanism: breakthrough_or_redirection
+    text_signals:
+    - 突破
+    - 摆脱
+  - mechanism: absence_or_non_upright
+    text_signals:
+    - 没有
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+    - 魔法
+  reversal_anchor: 高塔逆位 在传统解释上，高塔逆位是代表高塔正位牌义的 影响力和影响程度削弱。 此外，它也可以代表惊险地 逃过灾难、摆脱束缚，或是艰难处境中止。
+    有一名位 问卜者认为牌面上这些人是 “ 平安逃离、安然无恙 ” 。 表示你可以在事态恶化之前全身而退。 另一个可能是，虽然你一直强调说没有问题，但 实际上你生活中有某些事情已经摇摇欲坠、快要崩盘。
+  context_switches:
+  - 另一个可能是，虽然你一直强调说没有问题，但 实际上你生活中有某些事情已经摇摇欲坠、快要崩盘。
+  - 如果这张牌代表你对别人的投射，你可能担心他们会制造麻烦， 或认为他们故意要制造混乱。
+  - 从个人内在层面来说，这张逆位牌可能代表内心的动荡、混乱或 是愤怒，或者也可能是神在 “ 踢你屁股 ” ，要让你摆脱得意自满的心 态。
+  - 不过，这些症状也可能代表你的身体正 在进行自我排毒。
+  alternatives:
+  - 另一个可能是，虽然你一直强调说没有问题，但 实际上你生活中有某些事情已经摇摇欲坠、快要崩盘。
+  - 如果这张牌代表你对别人的投射，你可能担心他们会制造麻烦， 或认为他们故意要制造混乱。
+  - 从个人内在层面来说，这张逆位牌可能代表内心的动荡、混乱或 是愤怒，或者也可能是神在 “ 踢你屁股 ” ，要让你摆脱得意自满的心 态。
+  - 不过，这些症状也可能代表你的身体正 在进行自我排毒。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 143
+  - 146
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0143
+  - greer_reversals_zh.ex0144
+  - greer_reversals_zh.ex0145
+  - greer_reversals_zh.ex0146
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.star.reversal
+  teacher: greer
+  canonical_card_id: star
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 星星（ The Star ） 经历过高塔的狂暴风雨，随之而来的是平静，你不仅摆脱了徒刑 枷锁，而且得到真正的解脱和安心。 它意谓一种情势，这时你可以完
+    全敞开心胸，诚实表露自己，不需有任何隐瞒。 这是自尊自信的核 心，也是对于人类能够不断进步向上的信仰。 星星这张牌的含义是： 要以务实的角度，将自己视为如宇宙般广大无边，是大自然的一股力
+    量。
+  reversal_mechanism_candidates:
+  - mechanism: projection
+    text_signals:
+    - 投射
+  - mechanism: delay_or_difficulty
+    text_signals:
+    - 时机
+  - mechanism: internalization
+    text_signals:
+    - 内在
+  - mechanism: absence_or_non_upright
+    text_signals:
+    - 缺少
+  - mechanism: remedy_or_rectification
+    text_signals:
+    - 疗愈
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+    - 魔法
+  - mechanism: shadow_or_unreliability
+    text_signals:
+    - 阴影
+  reversal_anchor: 星星逆位 星星逆位就像女英雄的冥界旅程。 你或许可以摆 脱一切对于自己的错误想法，包括仰仗地位、外表、 财产创建起来的自我。
+    抑或如同心理学家荣格所说 的 “ 明亮阴影 ” 概念，你可能会否定自己真正的天赋， 认为自己缺少才华、魅力或美貌。 因此，你无法看见 自己其实是一颗闪耀的明星。
+  context_switches:
+  - 或者，现在可能时机还不成熟，因此你无法得 到别人的认可，或是做什么外部的努力，但你可以往内沉思自省，或 是单纯 “ 存在 ” 就好，不需要 “ 做 ” 什么行动。
+  - 从相反面向来说，你可能会变得骄矜傲慢、狂妄自大，漤用他人 给你的赞美，瞧不起他们对你的恭维和赠礼。
+  - 或者，也可能代 表沉浸于毫无意义的狂热追求。
+  - 你也可能在憧憬一个根本无法达到的 理想，比如一个完美的灵魂伴侣，但似乎永远遥不可及。
+  alternatives:
+  - 或者，现在可能时机还不成熟，因此你无法得 到别人的认可，或是做什么外部的努力，但你可以往内沉思自省，或 是单纯 “ 存在 ” 就好，不需要 “ 做 ” 什么行动。
+  - 从相反面向来说，你可能会变得骄矜傲慢、狂妄自大，漤用他人 给你的赞美，瞧不起他们对你的恭维和赠礼。
+  - 或者，也可能代 表沉浸于毫无意义的狂热追求。
+  - 你也可能在憧憬一个根本无法达到的 理想，比如一个完美的灵魂伴侣，但似乎永远遥不可及。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 147
+  - 150
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0147
+  - greer_reversals_zh.ex0148
+  - greer_reversals_zh.ex0149
+  - greer_reversals_zh.ex0150
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.moon.reversal
+  teacher: greer
+  canonical_card_id: moon
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 月亮（ The Moon ） 这是一张与同步性、直觉、梦境、奥秘，以及象征主义（卡尔． 荣格认为象征就是 “ 含煳隐晦、不为人知晓、隐而未露的东西
+    ” ）有关 的牌。 由于月亮的光是属于反射光，因此这张牌也代表了事物的意义 从一样东西转移到另一样东西。 伊莱．列维说： “ 没有象征符号就没有 奥秘 ”
+    ，反之亦然。
+  reversal_mechanism_candidates:
+  - mechanism: blockage_or_resistance
+    text_signals:
+    - 拒绝
+  - mechanism: projection
+    text_signals:
+    - 投射
+  - mechanism: internalization
+    text_signals:
+    - 内在
+    - 无意识
+  - mechanism: absence_or_non_upright
+    text_signals:
+    - 没有
+  - mechanism: excess_or_compensation
+    text_signals:
+    - 过度
+    - 极端
+  - mechanism: remedy_or_rectification
+    text_signals:
+    - 不适
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+    - 魔法
+  reversal_anchor: 月亮逆位 月亮逆位的出现，代表你可能会否认肉眼看不到 的世界，执着于理性、理智、表面所见，以及具体实 物，尤其面对到困惑、感知到非理性事物时。
+    你可能 会阻挡通灵讯息，或拒绝接收直觉画面。 你可能想要 努力阻挡那些 “ 野性的东西 ” ，或是想要将它们吓跑， 这让你整个人精神疲惫和虚脱。
+  context_switches:
+  - 这些都可能是错觉，但也未必如此。
+  - 如果这张牌代表你对别人的投射，你可能会认为他们是喜欢做 梦、充满妄想或过度情绪化的人，而且对自己的行为不负责任。
+  - 此外，也可能指尿失禁或水肿、睡眠障碍、神经衰弱、失去嗅觉，或 任何受到旧脑和边缘系统影响的问题，以及所有跟原始生存有关的问 题。
+  - 也可能是指吸毒、酗酒、昏迷或垂死过程。
+  alternatives:
+  - 这些都可能是错觉，但也未必如此。
+  - 如果这张牌代表你对别人的投射，你可能会认为他们是喜欢做 梦、充满妄想或过度情绪化的人，而且对自己的行为不负责任。
+  - 此外，也可能指尿失禁或水肿、睡眠障碍、神经衰弱、失去嗅觉，或 任何受到旧脑和边缘系统影响的问题，以及所有跟原始生存有关的问 题。
+  - 也可能是指吸毒、酗酒、昏迷或垂死过程。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 151
+  - 154
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0151
+  - greer_reversals_zh.ex0152
+  - greer_reversals_zh.ex0153
+  - greer_reversals_zh.ex0154
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.sun.reversal
+  teacher: greer
+  canonical_card_id: sun
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 太阳（ The Sun ） 太阳是一张充满喜悦、光明灿烂幸福感的牌。 也是大家最喜欢的 好牌。 你现在可能为了某件事特别高兴，也或许只是单纯开心活着、
+    享受简单的快乐。 有时这张牌也预示着成功、荣耀、繁荣兴旺、理智 得胜，以及尽情展现真实自我 ── 或者，至少这些事情短暂实现了。
+  reversal_mechanism_candidates:
+  - mechanism: blockage_or_resistance
+    text_signals:
+    - 拒绝
+    - 束缚
+  - mechanism: projection
+    text_signals:
+    - 投射
+    - 把自己
+  - mechanism: internalization
+    text_signals:
+    - 内在
+  - mechanism: breakthrough_or_redirection
+    text_signals:
+    - 摆脱
+  - mechanism: excess_or_compensation
+    text_signals:
+    - 过度
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+    - 魔法
+  reversal_anchor: 太阳逆位 一般来说，太阳逆位与正位含义相同，只是程度 略微削弱或有过度的情形。 不管是哪一种情况，快乐 和满足感都可能因此降低。
+    你可能拒绝去感受你生命 中那些快乐的事，或者，你的喜悦似乎被乌云笼罩 着。 对别人来说非常清楚的事情，你却可能产生误 解。 或许你是害怕喜欢你自己、害怕接受好事，或是
+    你怀疑这种好是否能够长久维持下去，因为它 “ 好到令 人不敢相信 ” 。
+  context_switches:
+  - 或是相反情形，你的人生过度热烈了。
+  - 如果牌阵中的其他牌也显示出问题，那代表可能会有协议破裂、合约 作废的事情发生，或是原本一片光明的情况现在出现污点瑕疵。
+  - 如果 离婚，也会是心平气和地分手。
+  - 或者，根本就不是你的功劳，但你却硬要抢功。
+  alternatives:
+  - 或是相反情形，你的人生过度热烈了。
+  - 如果牌阵中的其他牌也显示出问题，那代表可能会有协议破裂、合约 作废的事情发生，或是原本一片光明的情况现在出现污点瑕疵。
+  - 如果 离婚，也会是心平气和地分手。
+  - 或者，根本就不是你的功劳，但你却硬要抢功。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 155
+  - 159
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0155
+  - greer_reversals_zh.ex0156
+  - greer_reversals_zh.ex0157
+  - greer_reversals_zh.ex0158
+  - greer_reversals_zh.ex0159
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.judgement.reversal
+  teacher: greer
+  canonical_card_id: judgement
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 审判（ Judgement ） 审判这张牌的含义是：超越物质界限或局促环境的狭隘限制。 你 发现自己来到一个十字路口，在那里，你得到某种顿悟或启示，为你
+    的人生带来了深刻而重大的变化。 就像蜕变的蝴蝶，你换上了新装， 或从束缚中解脱出来。 也许有什么东西正在 “ 呼唤 ” 你，可能是新的职 业、聪明的点子或是伟大的真理。
+  reversal_mechanism_candidates:
+  - mechanism: blockage_or_resistance
+    text_signals:
+    - 阻碍
+    - 抗拒
+  - mechanism: projection
+    text_signals:
+    - 投射
+  - mechanism: delay_or_difficulty
+    text_signals:
+    - 延迟
+    - 拖延
+  - mechanism: internalization
+    text_signals:
+    - 内在
+    - 内心
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+    - 魔法
+  reversal_anchor: 审判逆位 审判逆位代表艰难的过渡期及抗拒转变。 你可能 放弃一个目标，或因为感觉到原本的舒适安全受到威 胁，而逃离某个位置（某件事情）。
+    你可能讨厌改 变、逃避做决定或是需要时间来调整。 如果你深入挖 掘，可能会发现里头有瘀积和腐烂的东西。 你可能拒 绝听见 “ 呼唤 ” ，或是排斥新技术。
+  context_switches:
+  - 如果你深入挖 掘，可能会发现里头有瘀积和腐烂的东西。
+  - 另一个相反情形 是，你可能太过草率仓促，自愿要做某件事。
+  - 如果这张牌代表你对别人的投射，你可能会认为这些人想要借由 他们的个人名声或宣传力量来影响一般大众。
+  - 或是相反情况，你认为 他们是怯懦毫无主见的跟随者。
+  alternatives:
+  - 如果你深入挖 掘，可能会发现里头有瘀积和腐烂的东西。
+  - 另一个相反情形 是，你可能太过草率仓促，自愿要做某件事。
+  - 如果这张牌代表你对别人的投射，你可能会认为这些人想要借由 他们的个人名声或宣传力量来影响一般大众。
+  - 或是相反情况，你认为 他们是怯懦毫无主见的跟随者。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 160
+  - 163
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0160
+  - greer_reversals_zh.ex0161
+  - greer_reversals_zh.ex0162
+  - greer_reversals_zh.ex0163
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.world.reversal
+  teacher: greer
+  canonical_card_id: world
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 世界（ The World ） 作为大阿尔克那的最后一张牌，世界的含义是关于达成胜利、圆 满成功，在艰难奋斗之后终于得到胜利。
+    当目标达成，带着成就的光 辉，你就可以站在物质奖赏的中央宣告你的地位，收下你的奖励品。 当你的成就全部开花结果，世俗的礼物和认可就会围绕在你身旁。 这 张牌要说的是，你已经认知到自己是一个拥有多重面向的三維存在，
+    而且很确定你的肉体和精神是处在同步的世界。
+  reversal_mechanism_candidates:
+  - mechanism: blockage_or_resistance
+    text_signals:
+    - 阻碍
+    - 束缚
+  - mechanism: projection
+    text_signals:
+    - 投射
+  - mechanism: delay_or_difficulty
+    text_signals:
+    - 延迟
+  - mechanism: internalization
+    text_signals:
+    - 内在
+  - mechanism: excess_or_compensation
+    text_signals:
+    - 过度
+  - mechanism: return_or_reconsideration
+    text_signals:
+    - 重新
+    - 回到
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+    - 魔法
+  reversal_anchor: 世界逆位 与太阳牌一样，世界逆位基本上牌义保持不变， 只是在程度上会削弱。 工作升迁或奖励可能会受到延 迟或低于预期，胜利一样会到来，只是比较低调或不
+    为人知。 从另一个角度来说，也可能代表即使一件事 情达到完满成就，也随即跟着出现空虚感，有点类似 产后忧郁症。 旅行可能会遇到阻碍。
+  context_switches:
+  - 从另一个角度来说，也可能代表即使一件事 情达到完满成就，也随即跟着出现空虚感，有点类似 产后忧郁症。
+  - 如果牌阵中其他牌也显示有问题存在，那代表可能会失去现有职 务、遭遇失败，甚至发生灾祸。
+  - 如果这张牌是代表你对别人的投射，你可能会以理想化的眼光看 待他们，认为他们很美、很有成就、身边围绕着许多崇拜者。
+  - 无论是正位牌还是逆位牌，都预示生产顺利，但如果是 逆位牌，生产时间会稍延迟。
+  alternatives:
+  - 从另一个角度来说，也可能代表即使一件事 情达到完满成就，也随即跟着出现空虚感，有点类似 产后忧郁症。
+  - 如果牌阵中其他牌也显示有问题存在，那代表可能会失去现有职 务、遭遇失败，甚至发生灾祸。
+  - 如果这张牌是代表你对别人的投射，你可能会以理想化的眼光看 待他们，认为他们很美、很有成就、身边围绕着许多崇拜者。
+  - 无论是正位牌还是逆位牌，都预示生产顺利，但如果是 逆位牌，生产时间会稍延迟。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 164
+  - 169
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0164
+  - greer_reversals_zh.ex0165
+  - greer_reversals_zh.ex0166
+  - greer_reversals_zh.ex0167
+  - greer_reversals_zh.ex0168
+  - greer_reversals_zh.ex0169
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.wands_ace.reversal
+  teacher: greer
+  canonical_card_id: wands_ace
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 权杖一（ Ace of Wands ） 权杖一号牌在能量层面提供了新的机会。 这是一张代表 “ 很 赞 ” 或 “ 肯定 ”
+    的牌，无论你正在考虑什么事情，都可尽管去做。 它也可 以代表一个点子、一项热爱之事、一个灵感启示，或是自我成长的驱 策力。 有时候它也可以代表事情的发端（或生小孩）。
+  reversal_mechanism_candidates:
+  - mechanism: blockage_or_resistance
+    text_signals:
+    - 阻碍
+    - 抗拒
+    - 拒绝
+  - mechanism: delay_or_difficulty
+    text_signals:
+    - 延迟
+  - mechanism: internalization
+    text_signals:
+    - 内在
+  - mechanism: absence_or_non_upright
+    text_signals:
+    - 没有
+    - 不足
+  - mechanism: excess_or_compensation
+    text_signals:
+    - 过度
+  - mechanism: return_or_reconsideration
+    text_signals:
+    - 重新
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+    - 魔法
+  - mechanism: shadow_or_unreliability
+    text_signals:
+    - 阴影
+  reversal_anchor: 权杖一逆位 权杖一逆位有时也被称为 “ 反对牌 ” （ thumbs down ），是建议你暂时不要行动，意思就是 “ 不 行
+    ” 或 “ 不是现在 ” 。 不过，即使是逆位的一号牌，还是 可以感觉出端倪，这件事即将有一个新的开始。 你可 能已经准备要改变 ── 愿望或意愿都已经有了
+    ── 只是 恰当机会还没有出现。
+  context_switches:
+  - 另一种情况是，现在谈这件事 情还为时过早，你还没有足够的热情，也还没准备好 要接受它。
+  - 如果这个目标 是虚幻的或不合法的，那你的热忱可能用错地方了。
+  - 如果是过度狂热 或太过兴奋，那就会变得太过鲁莽轻率，可能会一开始就走错路。
+  - 如果是应征某个职位或提出一项计划，你可能会被拒绝、被否 决，或有人阻止你采取行动。
+  alternatives:
+  - 另一种情况是，现在谈这件事 情还为时过早，你还没有足够的热情，也还没准备好 要接受它。
+  - 如果这个目标 是虚幻的或不合法的，那你的热忱可能用错地方了。
+  - 如果是过度狂热 或太过兴奋，那就会变得太过鲁莽轻率，可能会一开始就走错路。
+  - 如果是应征某个职位或提出一项计划，你可能会被拒绝、被否 决，或有人阻止你采取行动。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 170
+  - 172
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0170
+  - greer_reversals_zh.ex0171
+  - greer_reversals_zh.ex0172
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.wands_two.reversal
+  teacher: greer
+  canonical_card_id: wands_two
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 权杖二（ Two of Wands ） 这张牌有时会被认为是代表 “ 拥有一切却渴望得到更多 ” 的牌。 抽 到权杖二，代表你可能正在决定下一个计划要做什么。
+    你可能在评估 各种不同的选择或行动计划，或是正在寻找替代方案。 伟特牌的权杖 二画了一个人手里捧着地球仪，象征对资源拥有掌控权。
+  reversal_mechanism_candidates:
+  - mechanism: blockage_or_resistance
+    text_signals:
+    - 阻碍
+  - mechanism: projection
+    text_signals:
+    - 投射
+    - 别人身上
+  - mechanism: delay_or_difficulty
+    text_signals:
+    - 困难
+  - mechanism: internalization
+    text_signals:
+    - 内在
+  - mechanism: breakthrough_or_redirection
+    text_signals:
+    - 离开
+  - mechanism: return_or_reconsideration
+    text_signals:
+    - 检视
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+  reversal_anchor: 权杖二逆位 权杖二也可称为 “ 灰姑娘牌／麻雀变凤凰牌 ” ，因 为它可以预言一个原本陷入僵局的情况将产生令人惊 讶的变化。
+    你可能缺乏方向、资源有限，或在决策过 程中感到束手无策和挫折。 你可能觉得自己受到某个 有支配性格的人的拘限，或是很讨厌出去旅行或离开 家里。 也许你在期待那些你无法拥有的东西。
+  context_switches:
+  - 但是，如果牌阵中有出现 代表欺骗的牌，那就要检视一下，你是不是一直都太容易上当或受 骗。
+  - 如果是将这张牌投射到别人身上，你可能觉得他们握有一切权 力，或是他们不愿意跟别人分享他们的财富，或者，你可能畏惧于他 们的名声，以致觉得自己不值得受到他们关注。
+  alternatives:
+  - 但是，如果牌阵中有出现 代表欺骗的牌，那就要检视一下，你是不是一直都太容易上当或受 骗。
+  - 如果是将这张牌投射到别人身上，你可能觉得他们握有一切权 力，或是他们不愿意跟别人分享他们的财富，或者，你可能畏惧于他 们的名声，以致觉得自己不值得受到他们关注。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 173
+  - 175
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0173
+  - greer_reversals_zh.ex0174
+  - greer_reversals_zh.ex0175
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.wands_three.reversal
+  teacher: greer
+  canonical_card_id: wands_three
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 权杖三（ Three of Wands ） 权杖二显示有一个决定待定夺，但到了权杖三，事情已经展开行 动。 在伟特牌图案中，那些船只都已经启航。
+    这张牌显示出你拥有阳 刚的魄力、信心和勇气，可以来开创事业，也许把三个人或三个条件 结合在一起就可以办成。 你站在权威的位置来指挥、监督和主导整个 活动。
+  reversal_mechanism_candidates:
+  - mechanism: projection
+    text_signals:
+    - 投射
+  - mechanism: delay_or_difficulty
+    text_signals:
+    - 困难
+  - mechanism: internalization
+    text_signals:
+    - 内在
+    - 潜意识
+  - mechanism: excess_or_compensation
+    text_signals:
+    - 极端
+  - mechanism: return_or_reconsideration
+    text_signals:
+    - 重新
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+    - 魔法
+  reversal_anchor: 权杖三逆位 权杖三逆位代表你很难将计划付诸实行，或是遇 到创造力瓶颈了。 你可能因为承担了超出能力范围的 事情而感到泄气，而且这些任务显然让你不堪负荷。
+    一个极端情况是，因为行动太过鲁莽仓促，不仅让自 己累个半死，还发生意外闪失，显示出你缺乏远见。 另一个极端是，你老是在做梦，有一堆期望和愿望， 但你根本不知从何着手，或因害怕承担风险，以致从
+    不起身行动，愿望也永远不会实现。
+  context_switches:
+  - 另一个极端是，你老是在做梦，有一堆期望和愿望， 但你根本不知从何着手，或因害怕承担风险，以致从 不起身行动，愿望也永远不会实现。
+  - 也可能会遇到很多困难，因为野 心太大、过于傲慢或是固执，接着就产生一堆焦虑，担心得不到回 报。
+  - 虽然这 些事情可能会导致延误和挫折，但基本上都是暂时的；情况有机会好 转。
+  - 不过，你的投资还是有可能得不到回报，或是，计划也可能会失 败。
+  alternatives:
+  - 另一个极端是，你老是在做梦，有一堆期望和愿望， 但你根本不知从何着手，或因害怕承担风险，以致从 不起身行动，愿望也永远不会实现。
+  - 也可能会遇到很多困难，因为野 心太大、过于傲慢或是固执，接着就产生一堆焦虑，担心得不到回 报。
+  - 虽然这 些事情可能会导致延误和挫折，但基本上都是暂时的；情况有机会好 转。
+  - 不过，你的投资还是有可能得不到回报，或是，计划也可能会失 败。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 176
+  - 178
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0176
+  - greer_reversals_zh.ex0177
+  - greer_reversals_zh.ex0178
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.wands_four.reversal
+  teacher: greer
+  canonical_card_id: wands_four
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 权杖四（ Four of Wands ） 正如权杖三代表启程，权杖四代表的是抵达或返家。 这张牌通常 会是一个庆祝图案，表示一个阶段已经完成，或一个季节及其劳动工
+    作结束。 一项工作任务完美达成，成果丰硕。 你的努力已经开花结 果，让你觉得很有成就感。 你会借由庆贺仪式来欢庆这样的时刻，像 是订婚、结婚、结业、毕业典礼、团聚、宴会、在大会或集会上接受
+    颁奖。
+  reversal_mechanism_candidates:
+  - mechanism: blockage_or_resistance
+    text_signals:
+    - 抗拒
+  - mechanism: projection
+    text_signals:
+    - 投射
+    - 别人身上
+  - mechanism: breakthrough_or_redirection
+    text_signals:
+    - 离开
+  - mechanism: return_or_reconsideration
+    text_signals:
+    - 回返
+    - 回到
+  - mechanism: remedy_or_rectification
+    text_signals:
+    - 恢复
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+    - 魔法
+    - 幽默
+  reversal_anchor: 权杖四逆位 在传统牌义解释上，权杖四逆位并不会改变正位 牌义。 虽然是逆位牌，但一般来说人们仍然幸福快 乐，生活还是很顺利，只是你可能忘了对这一切心存
+    感激。 我们大多数人对于家庭和学校聚会，以及一些 会议或宴会总是存着矛盾心态，不想参加或非常抗 拒。 你可能很想跟每个人见面，但同时又害怕彼此可 能无法相处愉快，也不喜欢繁文缛节的社交礼仪。
+  context_switches:
+  - 虽然是逆位牌，但一般来说人们仍然幸福快 乐，生活还是很顺利，只是你可能忘了对这一切心存 感激。
+  - 你可能很想跟每个人见面，但同时又害怕彼此可 能无法相处愉快，也不喜欢繁文缛节的社交礼仪。
+  - 如果你 正在参与一个你喜欢的工作坊或聚会，你可能在担心这个聚会如果结 束，你就得回到原来的生活。
+  - 如果家人或团体成员即将各奔东西，这 张牌可能代表你觉得伤心或开心。
+  alternatives:
+  - 虽然是逆位牌，但一般来说人们仍然幸福快 乐，生活还是很顺利，只是你可能忘了对这一切心存 感激。
+  - 你可能很想跟每个人见面，但同时又害怕彼此可 能无法相处愉快，也不喜欢繁文缛节的社交礼仪。
+  - 如果你 正在参与一个你喜欢的工作坊或聚会，你可能在担心这个聚会如果结 束，你就得回到原来的生活。
+  - 如果家人或团体成员即将各奔东西，这 张牌可能代表你觉得伤心或开心。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 179
+  - 181
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0179
+  - greer_reversals_zh.ex0180
+  - greer_reversals_zh.ex0181
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.wands_five.reversal
+  teacher: greer
+  canonical_card_id: wands_five
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 权杖五（ Five of Wands ） 权杖五破坏了权杖四的美好和谐。 这张牌暗示着你可能陷入了冲 突、竞争、权力斗争、竞赛、野心或骄傲心态。
+    从另一个角度来说， 伟特牌的图案画面也可以解释成团队游戏竞赛、相互激发灵感点子， 以及化解对立的立场与争取成功。 我把这张牌称为 “ 委员会牌 ” ，你可
+    能透过与他人的冲突和不同意见来检视自己的想法，或是你内在有五 个不同的自己因为欲望冲突而在相互争斗。
+  reversal_mechanism_candidates:
+  - mechanism: blockage_or_resistance
+    text_signals:
+    - 拒绝
+  - mechanism: projection
+    text_signals:
+    - 投射
+  - mechanism: internalization
+    text_signals:
+    - 内在
+    - 内心
+  - mechanism: excess_or_compensation
+    text_signals:
+    - 极端
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+    - 魔法
+  reversal_anchor: 权杖五逆位 权杖五逆位可以表示打破僵局，或结束一段冲突 和压力。 不过，这可能需要法律或专业的介入才行。 你可能会拒绝玩游戏，或是借由不加入战局来缓和一
+    个潜在的冲突情势。 但你无法一直置身事外。 就像美 国前总统克林顿和白宫女实习生陆文斯基的案子一 样，其他人可能想尽办法要为难你、骚扰你，最后甚 至对你提起法律诉讼。
+  context_switches:
+  - 但你无法一直置身事外。
+  - 在正位的伟特牌图案中，每 一根棍棒的角度都不一样，但是从逆位牌看起来，这五个人的脚刚好 整齐排成一列；因此，从另一个极端情况来说，你们最后有可能结成 一个团队一起共同努力，达成协议、结束敌对状态。
+  - 如果是将这 张牌投射到其他人身上，你可能认为他们是制造敌意或破坏和谐的 人，而你则一派悠闲，觉得自己跟这些冲突毫不相干。
+  - 你也可能怀疑 他们会使诈。
+  alternatives:
+  - 但你无法一直置身事外。
+  - 在正位的伟特牌图案中，每 一根棍棒的角度都不一样，但是从逆位牌看起来，这五个人的脚刚好 整齐排成一列；因此，从另一个极端情况来说，你们最后有可能结成 一个团队一起共同努力，达成协议、结束敌对状态。
+  - 如果是将这 张牌投射到其他人身上，你可能认为他们是制造敌意或破坏和谐的 人，而你则一派悠闲，觉得自己跟这些冲突毫不相干。
+  - 你也可能怀疑 他们会使诈。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 182
+  - 184
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0182
+  - greer_reversals_zh.ex0183
+  - greer_reversals_zh.ex0184
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.wands_six.reversal
+  teacher: greer
+  canonical_card_id: wands_six
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 权杖六（ Six of Wands ） 继权杖五的纷争之后，权杖六出现了一位胜利者或领袖，其他人 则集结在他身边支持拥护他。
+    似乎也代表了正在带动某种行动风潮。 这张牌代表成功、胜利、骄傲、自主权，或进步发展，而且通常是因 为某个单一个人本身的技能和勇气所促成。 在伟特牌中，我们看到一
+    名头戴桂冠的人物， “ 高高骑在马上 ” 。
+  reversal_mechanism_candidates:
+  - mechanism: blockage_or_resistance
+    text_signals:
+    - 阻碍
+    - 拒绝
+  - mechanism: projection
+    text_signals:
+    - 投射
+    - 别人身上
+  - mechanism: delay_or_difficulty
+    text_signals:
+    - 延迟
+  - mechanism: absence_or_non_upright
+    text_signals:
+    - 没有
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+  reversal_anchor: 权杖六逆位 权杖五逆位代表可能遭受迫害和骚扰，接着，到 了权杖六逆位，代表从高处摔下来。 这是标准的 “ 特洛 伊木马 ” 牌（译注：比喻内部的破坏集团）。
+    传统解释 上，它代表胜利或成功可能是短暂的。 敌人可能就在 本能寺，也许还会发生背叛或叛变。 消息或快递物件 半途遗失或被拦截，或是你遇到沟通不良的情况。
+  context_switches:
+  - 另一种情况是，你可能对你的下 属态度高傲、盛气凌人，或是颐指气使。
+  - 行动要步步为营，尤其是在你必须仰赖他人的情况下，但不要 让不信任感造成你们的隔阂。
+  - 如果你将这张牌投射到别人身上，认为获胜的是别人，那表示你 可能在嫉妒他们，不信任他们的能力，或是认为他们根本没有付出那 么多。
+  alternatives:
+  - 另一种情况是，你可能对你的下 属态度高傲、盛气凌人，或是颐指气使。
+  - 行动要步步为营，尤其是在你必须仰赖他人的情况下，但不要 让不信任感造成你们的隔阂。
+  - 如果你将这张牌投射到别人身上，认为获胜的是别人，那表示你 可能在嫉妒他们，不信任他们的能力，或是认为他们根本没有付出那 么多。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 185
+  - 187
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0185
+  - greer_reversals_zh.ex0186
+  - greer_reversals_zh.ex0187
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.wands_seven.reversal
+  teacher: greer
+  canonical_card_id: wands_seven
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 权杖七（ Seven of Wands ） 这是一张山大王（首领）牌。 这张牌的含义是：坚守阵地，打败 所有对手。 每当有人爬到最高位置就会有其他人等着要挑战他或将他
+    击倒，就像权杖七牌面画的那样。 接下来就是要考验你是否有足够的 气魄可以克服这些障碍。 勇敢承担成为领袖之后，当你面对逆境、甚 至是最单纯的谈判，都需要勇气与坚持不懈的毅力。
+  reversal_mechanism_candidates:
+  - mechanism: projection
+    text_signals:
+    - 投射
+  - mechanism: delay_or_difficulty
+    text_signals:
+    - 困难
+  - mechanism: excess_or_compensation
+    text_signals:
+    - 过度
+    - 过量
+    - 补偿
+    - 沉溺
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+    - 魔法
+  reversal_anchor: 权杖七逆位 这张逆位牌让人想起柏林墙，这道墙的设置是为 了让人们彼此相隔。 因此这张牌的含义也跟偏执狂有 关，或是关于如何克服偏执、将围墙拆除。
+    这张牌也 可以代表你觉得压力过大、不堪负荷，或是有太多事 情要处理。 你可能正在解决家人或朋友对你的工作或 交往对象的反对。 你可能主动筑起围墙或路障，让自
+    己跟人保持距离。
+  context_switches:
+  - 但这张牌也可能代表以烦躁为 借口，来逃避下一步的行动。
+  - 但也可能完全相反，你会变得顽强不屈、 攻击性强、愤恨难平，尤其是当你感觉自己随时会受伤，害怕变成受 害者，因而产生一种过度补偿的心态。
+  - 如果你是将这张牌投射到其他人身上，可能会 认为这些人意志力很薄弱，只会顺从或拍马屁，或者你认为他们像是 穷追不舍的跟骚者。
+  alternatives:
+  - 但这张牌也可能代表以烦躁为 借口，来逃避下一步的行动。
+  - 但也可能完全相反，你会变得顽强不屈、 攻击性强、愤恨难平，尤其是当你感觉自己随时会受伤，害怕变成受 害者，因而产生一种过度补偿的心态。
+  - 如果你是将这张牌投射到其他人身上，可能会 认为这些人意志力很薄弱，只会顺从或拍马屁，或者你认为他们像是 穷追不舍的跟骚者。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 188
+  - 191
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0188
+  - greer_reversals_zh.ex0189
+  - greer_reversals_zh.ex0190
+  - greer_reversals_zh.ex0191
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.wands_eight.reversal
+  teacher: greer
+  canonical_card_id: wands_eight
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 权杖八（ Eight of Wands ） 权杖八经常被称为 “ 恋爱牌 ” ，黄金黎明协会则是把这张牌称为 “ 迅 速 ”
+    。 也就是你整个人为某些事情激动倾心，比如对某人痴心迷恋、出 现很棒的想法，或是对某些事物很热衷，整个人被欲望冲昏了头脑， 肾上腺素飚升。 活动力和精力能量都被启动，全力加速上升。
+  reversal_mechanism_candidates:
+  - mechanism: blockage_or_resistance
+    text_signals:
+    - 阻碍
+    - 束缚
+  - mechanism: projection
+    text_signals:
+    - 投射
+  - mechanism: delay_or_difficulty
+    text_signals:
+    - 困难
+  - mechanism: internalization
+    text_signals:
+    - 内在
+  - mechanism: breakthrough_or_redirection
+    text_signals:
+    - 突破
+    - 摆脱
+  - mechanism: excess_or_compensation
+    text_signals:
+    - 过度
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+    - 魔法
+  reversal_anchor: 权杖八逆位 权杖八逆位的那些棍棒似乎挡住了去路，或是有 人正挥舞着那些木棍，所以，你可能很快会一头栽进 困难之中。 原本相处和谐一下子就起争执，原本痴心
+    迷恋变成嫉妒或敌对，你的情绪整个失控了。 你可能 会失恋。 你可能会太过冲动，或是陷入不稳定的反覆 无常模式中。 可能会与人意见不合而吵架。
+  context_switches:
+  - 另一方面，这张牌也可能代表罢工或怠 工，事情可能会突然遭到延期和取消。
+  - 也 有可能是相反的解释，这张牌也可能代表解除限制，现在你已经完全 摆脱束缚。
+  - 如果你是将这张牌投射到其他人身上，可能会认为他们过于鲁莽 仓促而坏了好事，平添困难阻碍。
+  alternatives:
+  - 另一方面，这张牌也可能代表罢工或怠 工，事情可能会突然遭到延期和取消。
+  - 也 有可能是相反的解释，这张牌也可能代表解除限制，现在你已经完全 摆脱束缚。
+  - 如果你是将这张牌投射到其他人身上，可能会认为他们过于鲁莽 仓促而坏了好事，平添困难阻碍。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 192
+  - 194
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0192
+  - greer_reversals_zh.ex0193
+  - greer_reversals_zh.ex0194
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.wands_nine.reversal
+  teacher: greer
+  canonical_card_id: wands_nine
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 权杖九（ Nine of Wands ） 权杖八的进展在权杖九得到完成。 伟特牌的权杖九画面中，所有 木棍都抵达目的地，被筑成一道防御要塞。
+    你可能正遭到某人或不明 事物的攻击。 你可能在守护和看管某项计划和利益，或是储备必须被 保护的应急物资。 就像一名老兵头上的伤证明了他的经历，你之前所 受的训练、培育，以及纪律，也已经为你培养出道德与精神的力量或
+    性格。
+  reversal_mechanism_candidates:
+  - mechanism: blockage_or_resistance
+    text_signals:
+    - 阻碍
+    - 拒绝
+  - mechanism: projection
+    text_signals:
+    - 投射
+  - mechanism: delay_or_difficulty
+    text_signals:
+    - 困难
+  - mechanism: internalization
+    text_signals:
+    - 内在
+  - mechanism: absence_or_non_upright
+    text_signals:
+    - 没有
+  - mechanism: excess_or_compensation
+    text_signals:
+    - 过度
+  - mechanism: return_or_reconsideration
+    text_signals:
+    - 重新
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+    - 魔法
+  reversal_anchor: 权杖九逆位 伟特牌权杖九逆位中的这个人，看起来似乎已经 准备要打破禁闭状态，正在寻找出路。 此时，正位牌 中的障碍和困难可能会变得更加严峻，孤独感和疏离
+    感也会更加强烈，最坏的情况是，会有一种被流放边 疆异地之感。 也许该是拆除防卫、重新投入人群的时 候了。 也有可能，你正在努力化解别人对你的反抗。
+  context_switches:
+  - 健康方面，可能会有一个不是很严重、但时间拖得很长 的疾病，可能是某种慢性病和烦人的小毛病，还有免疫系统低下，这 些都代表你正在为健康而战斗。
+  - 如果这张牌代表你对他人的投射，你可能觉得他们 充满敌意，好像拒绝你加入某个俱乐部或不让你跟他们同一国。
+  - 轻微但长期的疾病。
+  alternatives:
+  - 健康方面，可能会有一个不是很严重、但时间拖得很长 的疾病，可能是某种慢性病和烦人的小毛病，还有免疫系统低下，这 些都代表你正在为健康而战斗。
+  - 如果这张牌代表你对他人的投射，你可能觉得他们 充满敌意，好像拒绝你加入某个俱乐部或不让你跟他们同一国。
+  - 轻微但长期的疾病。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 195
+  - 197
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0195
+  - greer_reversals_zh.ex0196
+  - greer_reversals_zh.ex0197
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.wands_ten.reversal
+  teacher: greer
+  canonical_card_id: wands_ten
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 权杖十（ Ten of Wands ） 在权杖九达到个人圆满之后，进入到权杖十与社会分享结果。 出 现权杖十这张牌，代表成就与痛苦同时存在。
+    从一号牌开始，原本单 纯只是一个很棒的点子，后来继续增生，但或许是过度自信，到权杖 十这张牌变成承担了太多事情。 担子变得非常沉重。 可能是信息量超 载，或疲劳过度。
+  reversal_mechanism_candidates:
+  - mechanism: blockage_or_resistance
+    text_signals:
+    - 阻碍
+  - mechanism: projection
+    text_signals:
+    - 投射
+    - 把自己
+    - 别人身上
+  - mechanism: delay_or_difficulty
+    text_signals:
+    - 困难
+  - mechanism: internalization
+    text_signals:
+    - 隐藏
+  - mechanism: breakthrough_or_redirection
+    text_signals:
+    - 摆脱
+  - mechanism: absence_or_non_upright
+    text_signals:
+    - 没有
+  - mechanism: return_or_reconsideration
+    text_signals:
+    - 检视
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+    - 魔法
+  reversal_anchor: 权杖十逆位 权杖十逆位可以代表卸下重担、摆脱压迫、将责 任分担出去。 困难即将过去，你快要从压力中解脱 了，或是即将摆脱过去迎接新的开始。
+    从另一个角度 来说，你可能不愿承认某项工作对你负担太大。 如果 困在一个你无法负荷的职位，最后可能会有绝望和失 望的感觉。 你可能会 “ 把头埋在沙子里 ”
+    来逃避问题。
+  context_switches:
+  - 如果 困在一个你无法负荷的职位，最后可能会有绝望和失 望的感觉。
+  - 如果借用传统正位含义，它也可以代表赝品和假象、 金玉其外败絮其中，或者纯粹是一种伪装。
+  - 如果你把这张牌投射到别人身上，可能觉得他们充满矛盾和虚 伪，或是你认为他们根本不负责任、不值得信赖。
+  - 这张逆位牌也可能代表你长期以来的抱负或梦想就要 告终。
+  alternatives:
+  - 如果 困在一个你无法负荷的职位，最后可能会有绝望和失 望的感觉。
+  - 如果借用传统正位含义，它也可以代表赝品和假象、 金玉其外败絮其中，或者纯粹是一种伪装。
+  - 如果你把这张牌投射到别人身上，可能觉得他们充满矛盾和虚 伪，或是你认为他们根本不负责任、不值得信赖。
+  - 这张逆位牌也可能代表你长期以来的抱负或梦想就要 告终。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 198
+  - 200
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0198
+  - greer_reversals_zh.ex0199
+  - greer_reversals_zh.ex0200
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.cups_ace.reversal
+  teacher: greer
+  canonical_card_id: cups_ace
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 圣杯一（ Ace of Cups ） 圣杯一出现，代表在情感、心灵和家庭层面有了新的机会。 它可 能预示你会有一段新感情，或是现在的感情关系会进一步加深。
+    也可 能会有外遇、敞开心扉追求幸福，或是欢迎某人进入你家中。 会有很 多食物或饮料出现，或是会有派对或社交活动的机会。 你可能会经历 到一种莫名的冲动或情绪高涨，因为从牌面图案可以看到你的情感和
+    情绪满到溢出来了。
+  reversal_mechanism_candidates:
+  - mechanism: blockage_or_resistance
+    text_signals:
+    - 拒绝
+  - mechanism: delay_or_difficulty
+    text_signals:
+    - 延迟
+  - mechanism: internalization
+    text_signals:
+    - 内在
+  - mechanism: breakthrough_or_redirection
+    text_signals:
+    - 摆脱
+  - mechanism: absence_or_non_upright
+    text_signals:
+    - 没有
+  - mechanism: return_or_reconsideration
+    text_signals:
+    - 重新
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+  reversal_anchor: 圣杯一逆位 圣杯一逆位意味着在情感、心灵能力或梦境时刻 的经验受到限制或局限。 先前你对某人、对家庭或对 工作的热爱，可能随着时间逐渐消失或消散。
+    你可能 感到筋疲力尽、无比空虚。 你可能选择跟某件事情保 持距离，以免出现破坏性的影响。 可能受到不愉快回 忆和先前失望经验的影响，让你不愿意接受新的观念
+    或新的感情。
+  context_switches:
+  - 你可能会否认自己的感觉，或是相反， 对别人表现出虚情假意的关心和关怀，实际上你根本没那么在乎他 们。
+  - 如果你 有暴饮暴食或饮食失调的情形，那代表原因是来自更深层的内在。
+  - 如果你是将这张牌投 射到其他人身上，可能会认为他们个性很不稳定、容易变来变去。
+  - 从另一个角度来看，这张逆位牌也可能代 表一个转机，当你对于生命真正的本源有更多的了解，就能摆脱毒 品、酒精或其他瘾癖。
+  alternatives:
+  - 你可能会否认自己的感觉，或是相反， 对别人表现出虚情假意的关心和关怀，实际上你根本没那么在乎他 们。
+  - 如果你 有暴饮暴食或饮食失调的情形，那代表原因是来自更深层的内在。
+  - 如果你是将这张牌投 射到其他人身上，可能会认为他们个性很不稳定、容易变来变去。
+  - 从另一个角度来看，这张逆位牌也可能代 表一个转机，当你对于生命真正的本源有更多的了解，就能摆脱毒 品、酒精或其他瘾癖。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 201
+  - 203
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0201
+  - greer_reversals_zh.ex0202
+  - greer_reversals_zh.ex0203
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.cups_two.reversal
+  teacher: greer
+  canonical_card_id: cups_two
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 圣杯二（ Two of Cups ） 正如圣杯二的牌面图案所暗示的，这张牌的含义正是跟爱情以及 爱所带来的振奋与疗愈力量有关。
+    红色的、带着翅膀的狮子，描绘出 激情的潜在精神意义，而整张牌就是代表对等、平等，以及双方相互 尊重、互利互惠。 也有人认为这张牌相当能够诠释异性相吸的强大力
+    量，因为它代表了一段爱情或两人彼此关心互动所带来的可能性。
+  reversal_mechanism_candidates:
+  - mechanism: blockage_or_resistance
+    text_signals:
+    - 阻碍
+    - 拒绝
+  - mechanism: projection
+    text_signals:
+    - 投射
+    - 别人身上
+  - mechanism: internalization
+    text_signals:
+    - 内在
+    - 潜意识
+  - mechanism: absence_or_non_upright
+    text_signals:
+    - 没有
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+    - 魔法
+  - mechanism: shadow_or_unreliability
+    text_signals:
+    - 阴影
+  reversal_anchor: 圣杯二逆位 圣杯二逆位可以代表一种讯息，表示可能发生冲 突、双方互动处于 “ 拉扯 ” 状态，或是发生争吵、徒有 空洞的热情。
+    双方结合的企图可能会失败，至少暂时 是这样。 爱情可能会有阻碍或遭到反对。 双方的歧异 可能导致分手 ── 但未必一直如此。 这张逆位牌也暗示 可能会有一段孤立期，暂时不会谈恋爱，也不会有盲
+    目的欲望。
+  context_switches:
+  - 双方的歧异 可能导致分手 ── 但未必一直如此。
+  - 如果你们目前关系很好，那可能会短暂出现问 题。
+  - 这张牌也可能代表固执、沟通不良、分手、单恋、没有恋 情，或是有人对你泼脏水，败坏你的名声。
+  - 从另一个角度来说，这张逆位牌也可能是一张好 牌，除非有什么事情导致那些最坏的情况发生，否则就只是事情没有 像你期待的那样顺利而已。
+  alternatives:
+  - 双方的歧异 可能导致分手 ── 但未必一直如此。
+  - 如果你们目前关系很好，那可能会短暂出现问 题。
+  - 这张牌也可能代表固执、沟通不良、分手、单恋、没有恋 情，或是有人对你泼脏水，败坏你的名声。
+  - 从另一个角度来说，这张逆位牌也可能是一张好 牌，除非有什么事情导致那些最坏的情况发生，否则就只是事情没有 像你期待的那样顺利而已。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 204
+  - 206
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0204
+  - greer_reversals_zh.ex0205
+  - greer_reversals_zh.ex0206
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.cups_three.reversal
+  teacher: greer
+  canonical_card_id: cups_three
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 圣杯三（ Three of Cups ） 在圣杯二的配对结合之后，你开始扩展你的人际互动，进入圣杯 三所描绘的人际群体关系。
+    这张牌特别能代表纯女性的交友圈和集结 聚会，不过也是可以代表男性间的感情、男性与女性的友谊，或是感 情很好的工作团队。 这张牌也象征好人缘，而且暗示着可能有结盟机
+    会、聚会、欢乐场合、宴客，以及欢乐时光。
+  reversal_mechanism_candidates:
+  - mechanism: projection
+    text_signals:
+    - 投射
+  - mechanism: delay_or_difficulty
+    text_signals:
+    - 延迟
+  - mechanism: absence_or_non_upright
+    text_signals:
+    - 没有
+  - mechanism: excess_or_compensation
+    text_signals:
+    - 过度
+    - 过量
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+    - 魔法
+  reversal_anchor: 圣杯三逆位 圣杯三逆位出现，表示你的朋友可能会减少，社 交时间也会比平常更少，可能是因为你把注意力投注 在其他事情上使然。 生活可能会变得非常忙碌，几乎
+    没有时间出去玩或维系朋友之间的感情。 结果可能因 为失去朋友，或好友相处的欢乐时光消灭，而出现苦 乐参半的怀念情绪。 也可能意指你太过沉迷于与友同 乐，而开始感到厌倦。
+  context_switches:
+  - 也可能意指你太过沉迷于与友同 乐，而开始感到厌倦。
+  - 这张牌也可能代表你已经减少跟人聚会的时间，或是 “ 已 经戒酒 ” ，不再跟那群老朋友一起出去鬼混。
+  - 如果你正努力于某项工作 任务，希望最后能成功收场，那么这件事可能还存在着一些障碍，或 是缺乏其他人的助力。
+  - 这张逆位牌也可能代表你从某个派系或内部圈 子被除名，比如有人反对你，你感觉自己受到排挤。
+  alternatives:
+  - 也可能意指你太过沉迷于与友同 乐，而开始感到厌倦。
+  - 这张牌也可能代表你已经减少跟人聚会的时间，或是 “ 已 经戒酒 ” ，不再跟那群老朋友一起出去鬼混。
+  - 如果你正努力于某项工作 任务，希望最后能成功收场，那么这件事可能还存在着一些障碍，或 是缺乏其他人的助力。
+  - 这张逆位牌也可能代表你从某个派系或内部圈 子被除名，比如有人反对你，你感觉自己受到排挤。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 207
+  - 209
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0207
+  - greer_reversals_zh.ex0208
+  - greer_reversals_zh.ex0209
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.cups_four.reversal
+  teacher: greer
+  canonical_card_id: cups_four
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 圣杯四（ Four of Cups ） 圣杯四有时也被认为是代表圣杯三的 “ 狂欢夜之后的翌日早晨 ” 。 在尽情欢乐之后，你可能需要一点安静踏实的感觉，让自己沉淀和休
+    息。 你可能会借由静坐冥想、沉思或退出人群，来得到宁静。 或是， 你可能只感觉到昏沉慵懒、没有精神、人生无聊透顶。
+  reversal_mechanism_candidates:
+  - mechanism: blockage_or_resistance
+    text_signals:
+    - 拒绝
+  - mechanism: projection
+    text_signals:
+    - 投射
+  - mechanism: breakthrough_or_redirection
+    text_signals:
+    - 摆脱
+  - mechanism: excess_or_compensation
+    text_signals:
+    - 极端
+  - mechanism: return_or_reconsideration
+    text_signals:
+    - 重新
+    - 再次
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+  reversal_anchor: 圣杯四逆位 圣杯四逆位出现，代表你正在寻找新的机会来克 服无聊和被动消极状态。 为了让你的生命再次活跃起 来，你可能会重新考虑先前拒绝过的事情。
+    你需要的 只是一个征兆、预示或预感，来告诉你应该投入哪些 新的学习研究、结交哪些新朋友或是参加哪些活动。 逆位牌有时也代表你的通灵能力会提升，你会更加敏 锐，可以接收来自不可见之世界的讯息。
+  context_switches:
+  - 另一种解释，这张牌也可能代表一种烦躁不安的感觉，无法静静 坐着或静下心来想事情。
+  - 如果一段旧感情让你感到厌 烦，你会渴望结识新朋友，如果单纯只为了追求新鲜感，你可能不会 特别挑剔。
+  - 经常感觉疲惫和倦怠，尤 其如果因低血压、血液循环不良、贫血或慢性疲劳让你失去元气的话 [2]。
+  - 另一种情况是，它也可能代表精神能量被吸干。
+  alternatives:
+  - 另一种解释，这张牌也可能代表一种烦躁不安的感觉，无法静静 坐着或静下心来想事情。
+  - 如果一段旧感情让你感到厌 烦，你会渴望结识新朋友，如果单纯只为了追求新鲜感，你可能不会 特别挑剔。
+  - 经常感觉疲惫和倦怠，尤 其如果因低血压、血液循环不良、贫血或慢性疲劳让你失去元气的话 [2]。
+  - 另一种情况是，它也可能代表精神能量被吸干。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 210
+  - 212
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0210
+  - greer_reversals_zh.ex0211
+  - greer_reversals_zh.ex0212
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.cups_five.reversal
+  teacher: greer
+  canonical_card_id: cups_five
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 圣杯五（ Five of Cups ） 圣杯五意味着痛苦、悲哀、悲伤、失望，以及勉强牺牲。 经历过 圣杯四的消极被动之后，你可能因为失去大好机会或平静的生活而感
+    到懊悔。 伟特牌图案上的那个人披着黑色斗篷，正是代表无知、限制 或恐惧。 这张牌呈现了悲伤情绪的几个发展阶段：从失落到愤怒和绝 望、收十残局，然后跨过一座桥进入新阶段，最后回到代表本我的
+    家。
+  reversal_mechanism_candidates:
+  - mechanism: blockage_or_resistance
+    text_signals:
+    - 拒绝
+  - mechanism: projection
+    text_signals:
+    - 投射
+    - 把自己
+  - mechanism: internalization
+    text_signals:
+    - 隐藏
+  - mechanism: return_or_reconsideration
+    text_signals:
+    - 重新
+    - 再次
+    - 回到
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+  reversal_anchor: 圣杯五逆位 圣杯五逆位通常是满怀希望的，代表复原和更新 ── 走出失去的伤痛，继续你原来的生活。 如果你这样 做，可能会有意想不到的收获。
+    你可能会感到无比惊 喜，老朋友或亲人再次回到你身边，或是你受邀去参 加某个团圆聚会，或是发现有个朋友在默默支持你。 这张牌讲的是弥补裂痕，并让过去成为过去。
+  context_switches:
+  - 如果你这样 做，可能会有意想不到的收获。
+  - 失散的父母和孩子可能正在寻找他们的原生家庭，也可能会重新团 圆，要看牌阵中是否有其他牌作为呼应。
+  - 有时这张牌也代表你的处境 更加艰难，尤其如果你始终不愿承认自己确实失去了某些东西，不愿 意接受自己的伤心情绪，或是紧紧抓着悲伤不愿让它过去。
+  - 如果这张牌代表你对别人的投射，你可能认为他们困在过去不愿走出 来，或是把自己的才能浪费在注定会失败的事情上。
+  alternatives:
+  - 如果你这样 做，可能会有意想不到的收获。
+  - 失散的父母和孩子可能正在寻找他们的原生家庭，也可能会重新团 圆，要看牌阵中是否有其他牌作为呼应。
+  - 有时这张牌也代表你的处境 更加艰难，尤其如果你始终不愿承认自己确实失去了某些东西，不愿 意接受自己的伤心情绪，或是紧紧抓着悲伤不愿让它过去。
+  - 如果这张牌代表你对别人的投射，你可能认为他们困在过去不愿走出 来，或是把自己的才能浪费在注定会失败的事情上。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 213
+  - 215
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0213
+  - greer_reversals_zh.ex0214
+  - greer_reversals_zh.ex0215
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.cups_six.reversal
+  teacher: greer
+  canonical_card_id: cups_six
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 圣杯六（ Six of Cups ） 经历过圣杯五的失落之后，来到圣杯六，除了寻求过去的慰藉， 也接受现在朋友的安慰和支持。
+    整体而言，这张牌谈的是你的过去对 现在造成了什么样的影响。 你可能在怀念过去那些单纯快乐的时光， 或是早年的创伤现在可能正在影响着你。 有些回忆偶尔也会牵涉到前
+    世的业力羁绊。
+  reversal_mechanism_candidates:
+  - mechanism: blockage_or_resistance
+    text_signals:
+    - 拒绝
+  - mechanism: projection
+    text_signals:
+    - 投射
+    - 别人身上
+  - mechanism: internalization
+    text_signals:
+    - 内在
+    - 无意识
+  - mechanism: breakthrough_or_redirection
+    text_signals:
+    - 摆脱
+  - mechanism: excess_or_compensation
+    text_signals:
+    - 极端
+  - mechanism: return_or_reconsideration
+    text_signals:
+    - 重新
+    - 回到
+  - mechanism: remedy_or_rectification
+    text_signals:
+    - 疗愈
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+  reversal_anchor: 圣杯六逆位 虽然传统上认为圣杯六逆位是代表未来即将发生 之事，但现代解释则是强调对于过去经历的执着。 两 种解释合并起来就是，你可能正在摆脱过去，将眼光
+    放在未来，无论是否真的能够做到。 其实这两种情况 都意谓无法全然活在当下。 一直专注于过去，会让人 失去朝气、变得缺乏活力 ── 正如医疗直觉治疗师凯若 琳．密思（
+    Caroline Myss ）所指出， “ 伤痛 学 ” （ woundology ，译注：意思是坚持抓着自己过去的创伤不放）的 危险在于，它会让一个人无法走出旧伤。
+  context_switches:
+  - 圣杯六逆位 虽然传统上认为圣杯六逆位是代表未来即将发生 之事，但现代解释则是强调对于过去经历的执着。
+  - 从相反的极端来解释，你可 能会投入跟新兴技术、科幻小说或其他未来主义有关的工作。
+  - 虽然这 也可能是一张跟内在小孩有关的牌，但它也是在告诉你，该长大了， 要活在当下，或许你该放下你童年时候的家或家里的一些东西，无论 是隐喻性质的、还是指具体实物。
+  - 超越你过去的立根之处，尤其如果你对它感到羞耻的话， 可以激发你对未来的雄心壮志。
+  alternatives:
+  - 圣杯六逆位 虽然传统上认为圣杯六逆位是代表未来即将发生 之事，但现代解释则是强调对于过去经历的执着。
+  - 从相反的极端来解释，你可 能会投入跟新兴技术、科幻小说或其他未来主义有关的工作。
+  - 虽然这 也可能是一张跟内在小孩有关的牌，但它也是在告诉你，该长大了， 要活在当下，或许你该放下你童年时候的家或家里的一些东西，无论 是隐喻性质的、还是指具体实物。
+  - 超越你过去的立根之处，尤其如果你对它感到羞耻的话， 可以激发你对未来的雄心壮志。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 216
+  - 218
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0216
+  - greer_reversals_zh.ex0217
+  - greer_reversals_zh.ex0218
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.cups_seven.reversal
+  teacher: greer
+  canonical_card_id: cups_seven
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 圣杯七（ Seven of Cups ） 随着我们在圣杯牌组中前进，我们也渐次进入到梦境、幻想以及 异象的领域，幻境和错觉愈来愈难区分，要做出明确的抉择也愈来愈
+    困难。 由于七这个数字代表考验和试炼，因此这张牌也可能指一种精 神心灵上的冲突或灵魂的交战，它是在考验你看穿错谬概念的能力。
+  reversal_mechanism_candidates:
+  - mechanism: blockage_or_resistance
+    text_signals:
+    - 抗拒
+  - mechanism: projection
+    text_signals:
+    - 投射
+    - 别人身上
+  - mechanism: internalization
+    text_signals:
+    - 隐藏
+  - mechanism: absence_or_non_upright
+    text_signals:
+    - 没有
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+  reversal_anchor: 圣杯七逆位 圣杯七逆位强调清晰、合乎逻辑的思维、制定务 实的计划，以及确认事情的优先顺序。 它很清楚预示 你的愿望抱负将会实现。
+    你可能正在穿越混乱与假象 的迷雾，全神贯注于一个选定的目标上。 由于目标意 向坚定，你会设定计划并找到解决方案。 另一种情况是，你会变得更加慌张困惑，最严重
+    的情况是，有可能完全与现实脱节。
+  context_switches:
+  - 另一种情况是，你会变得更加慌张困惑，最严重 的情况是，有可能完全与现实脱节。
+  - 如果你是一位创意艺术家，那么这张牌可能代表你精心设计出一 个作品，但却缺乏正位牌所具备的那种生动想像力和灵魂。
+  - 如果你是 将这张牌投射到别人身上，那代表你认为他们是理性至上者，没有能 力欣赏富有想像力的美好事物，或是你认为他们看不到自己的立论前 提里隐藏的虚假谎言。
+  alternatives:
+  - 另一种情况是，你会变得更加慌张困惑，最严重 的情况是，有可能完全与现实脱节。
+  - 如果你是一位创意艺术家，那么这张牌可能代表你精心设计出一 个作品，但却缺乏正位牌所具备的那种生动想像力和灵魂。
+  - 如果你是 将这张牌投射到别人身上，那代表你认为他们是理性至上者，没有能 力欣赏富有想像力的美好事物，或是你认为他们看不到自己的立论前 提里隐藏的虚假谎言。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 219
+  - 221
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0219
+  - greer_reversals_zh.ex0220
+  - greer_reversals_zh.ex0221
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.cups_eight.reversal
+  teacher: greer
+  canonical_card_id: cups_eight
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 圣杯八（ Eight of Cups ） 八号牌代表往前迈进，随着前进的脚步适时调整。 在圣杯八，兴 致开始减弱或逐渐消退。
+    你可能会抛弃先前吸引你、滋养你，在情感 上支撑你，让你着迷不已的东西，比如圣杯七里的那些异象愿景。 一 段感情几乎把你的精神榨干，你感到筋疲力尽、相当疲惫、心情不
+    快、失望透顶。
+  reversal_mechanism_candidates:
+  - mechanism: blockage_or_resistance
+    text_signals:
+    - 阻碍
+    - 抗拒
+    - 拒绝
+    - 束缚
+  - mechanism: internalization
+    text_signals:
+    - 内在
+  - mechanism: excess_or_compensation
+    text_signals:
+    - 极端
+  - mechanism: return_or_reconsideration
+    text_signals:
+    - 重新
+    - 回到
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+    - 魔法
+  reversal_anchor: 圣杯八逆位 相对于圣杯八的转身离去，圣杯八逆位是代表在 一个滋养的环境中逐渐复元。 就像一个人为了寻找一 只失踪的羊而暂时抛弃他的羊群，这张逆位牌就是代
+    表寻回小羊之后的喜悦和庆宴。 传统解释上，这张逆 位牌代表坚持必经的过程以确保最后可以得到成功。 占满逆位牌最顶端的整排杯子，就是 “ 机会之窗 ” ，会
+    有更多的东西从这里进来。
+  context_switches:
+  - 这些杯子也可能单纯是这 个人从外面捡回来堆在家中的物品，表示他总是在寻找更多东西来囤 积，是一个积习难改的收集者。
+  - 也可能代表想要休 假却被拒绝，或是假期遭到延宕，或是很想去旅行但是受到阻碍。
+  - 也可能你自己或某人 对亲密关系感到害怕，很难对人许下承诺和遵守诺言。
+  - 另一种相反的 极端情况是，你可能发现自己很难放下过去往前走，即使一段感情早 已破裂、无可挽回，你仍顽固地执着于过去。
+  alternatives:
+  - 这些杯子也可能单纯是这 个人从外面捡回来堆在家中的物品，表示他总是在寻找更多东西来囤 积，是一个积习难改的收集者。
+  - 也可能代表想要休 假却被拒绝，或是假期遭到延宕，或是很想去旅行但是受到阻碍。
+  - 也可能你自己或某人 对亲密关系感到害怕，很难对人许下承诺和遵守诺言。
+  - 另一种相反的 极端情况是，你可能发现自己很难放下过去往前走，即使一段感情早 已破裂、无可挽回，你仍顽固地执着于过去。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 222
+  - 224
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0222
+  - greer_reversals_zh.ex0223
+  - greer_reversals_zh.ex0224
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.cups_nine.reversal
+  teacher: greer
+  canonical_card_id: cups_nine
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 圣杯九（ Nine of Cups ） 在传统解释上，圣杯九也被称为 “ 愿望牌 ” ，抽到这张牌表示你的 愿望会实现。 这张牌代表物质上的充裕和情感上的满足。
+    一般来说， 它是预示着身体健康状态良好，虽然可能稍有过度放纵的倾向。 你的 胃口满足了，愿望也实现了。 一切似乎都非常顺利；但是可能 “ 高处不 胜寒 ”
+    ，身居高处而感到孤单。
+  reversal_mechanism_candidates:
+  - mechanism: blockage_or_resistance
+    text_signals:
+    - 阻碍
+  - mechanism: delay_or_difficulty
+    text_signals:
+    - 困难
+  - mechanism: internalization
+    text_signals:
+    - 内在
+  - mechanism: excess_or_compensation
+    text_signals:
+    - 过度
+  - mechanism: return_or_reconsideration
+    text_signals:
+    - 重新
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+  reversal_anchor: 圣杯九逆位 出现圣杯九逆位这张牌，表示差错、错误、缺 失、缺点可能会被暴露出来。 这就是为什么这张牌在 传统解释上既是代表真相，同时也代表错误。
+    原本藏 在视线之外一切令人不悦的东西，可能都会暴露出 来。 只要你对人真心诚意、诚实、诚信，老实将事情 揭露，或承认自己的错误，真相就会显现。
+  context_switches:
+  - 从另一方面来说，这张牌也可能是关于追求内在快乐而非外在幸 福，追求精神上的喜乐而放弃物质上的享乐。
+  - 如果你重新去思考，究竟什么东西可以让你快乐、你真正想要的是什 么，那么你可能会觉得不需要再去维持外表的体面。
+  alternatives:
+  - 从另一方面来说，这张牌也可能是关于追求内在快乐而非外在幸 福，追求精神上的喜乐而放弃物质上的享乐。
+  - 如果你重新去思考，究竟什么东西可以让你快乐、你真正想要的是什 么，那么你可能会觉得不需要再去维持外表的体面。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 225
+  - 227
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0225
+  - greer_reversals_zh.ex0226
+  - greer_reversals_zh.ex0227
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.cups_ten.reversal
+  teacher: greer
+  canonical_card_id: cups_ten
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 圣杯十（ Ten of Cups ） 圣杯九的喜悦在圣杯十变成众人共有。 这个代表爱、想像力、梦 想以及潜意识的牌组，在这张牌达到最高潮。
+    它代表惊奇和狂喜、丰 厚报酬和庞大遗产、深情爱意和相互包容、和谐的情感关系以及幸福 的家。 这张牌意谓 “ 大千世界中所有最美好的一切都在这里了 ” 。
+  reversal_mechanism_candidates:
+  - mechanism: blockage_or_resistance
+    text_signals:
+    - 拒绝
+  - mechanism: delay_or_difficulty
+    text_signals:
+    - 延迟
+  - mechanism: internalization
+    text_signals:
+    - 内在
+  - mechanism: breakthrough_or_redirection
+    text_signals:
+    - 离开
+  - mechanism: absence_or_non_upright
+    text_signals:
+    - 没有
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+  reversal_anchor: 圣杯十逆位 圣杯十逆位暗示了家庭或人际关系中可能存在着 问题。 你可能很快就会遇到扫兴的事情或干扰，或是 你的愿望会受到现实的检验。
+    庆祝活动、返乡定居， 以及亲友团聚可能会被延迟、取消或让你感到情绪低 迷。 幻想或梦想可能破碎。 有时候，这张逆位牌也是 在预示孩子们离家之后你会出现 “
+    空巢症候群 ” 。
+  context_switches:
+  - 但它 也可能是告别、分手或失去你称之为家的东西。
+  - 另一种情况是，家人的情感需索和期望压得你喘不过气。
+  - 这张牌也可能意指从餍足变成憎恶。
+  alternatives:
+  - 但它 也可能是告别、分手或失去你称之为家的东西。
+  - 另一种情况是，家人的情感需索和期望压得你喘不过气。
+  - 这张牌也可能意指从餍足变成憎恶。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 228
+  - 230
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0228
+  - greer_reversals_zh.ex0229
+  - greer_reversals_zh.ex0230
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.swords_ace.reversal
+  teacher: greer
+  canonical_card_id: swords_ace
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 宝剑一（ Ace of Swords ） 这张一号牌象征下定新的决心与贯彻意志力。 你可能正在运用新 的思考方式，或直接切入问题化解模煳不清的论证。
+    图中剑尖朝上， 代表集中精力、全神贯注于新的方向和特定行动。 作为风象牌组的一 员，由于风元素与心理敏锐度有关，因此这张牌也代表新的计划或策 略，以及使用批判和解析法来作为分析事情的工具。
+  reversal_mechanism_candidates:
+  - mechanism: blockage_or_resistance
+    text_signals:
+    - 阻碍
+    - 拒绝
+  - mechanism: projection
+    text_signals:
+    - 投射
+    - 别人身上
+  - mechanism: breakthrough_or_redirection
+    text_signals:
+    - 离开
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+  reversal_anchor: 宝剑一逆位 跟权杖一逆位一样，宝剑一逆位也是劝告你 “ 现在 不要做这件事 ” 。 工作计划可能会延误、法院判决会对 你不利，或是先前的努力最后会失败。
+    我们天生内建 的 “ 战或逃 ” 生物机制这个时候会跟你说 “ 赶快逃！ ” 如果 武力攻击和思考逻辑都失败，请尝试不同的方法：铸 剑为犁（或者说，将宝剑换成钱币）（译注：引申为
+    化干戈为玉帛、停战以求和平之意）。
+  context_switches:
+  - "” 如果 武力攻击和思考逻辑都失败，请尝试不同的方法：铸 剑为犁（或者说，将宝剑换成钱币）（译注：引申为 化干戈为玉帛、停战以求和平之意）。"
+  - 如果这张牌代表双方结束敌对状态，那可能是因为你认为这件事 情注定会失败。
+  - 语言和逻辑也可能被拿来骗人。
+  - 你可能会害怕被责罚，感觉自己像 是 “ 刀下鱼肉 ” ，尤其如果你不服从的话。
+  alternatives:
+  - "” 如果 武力攻击和思考逻辑都失败，请尝试不同的方法：铸 剑为犁（或者说，将宝剑换成钱币）（译注：引申为 化干戈为玉帛、停战以求和平之意）。"
+  - 如果这张牌代表双方结束敌对状态，那可能是因为你认为这件事 情注定会失败。
+  - 语言和逻辑也可能被拿来骗人。
+  - 你可能会害怕被责罚，感觉自己像 是 “ 刀下鱼肉 ” ，尤其如果你不服从的话。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 231
+  - 233
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0231
+  - greer_reversals_zh.ex0232
+  - greer_reversals_zh.ex0233
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.swords_two.reversal
+  teacher: greer
+  canonical_card_id: swords_two
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 宝剑二（ Two of Swords ） 宝剑一代表只有一个想法，但宝剑二则是出现相互矛盾的观点， 而你正试图在这两种观点之间维持公正无私的和平，来取得和谐或一
+    致共识。 这也意味着暂时停止敌对行动与批判，而且拒绝选边站。 你 可能会参与外交谈判，或借由安抚和劝慰来缓和局面、平衡两方。
+  reversal_mechanism_candidates:
+  - mechanism: blockage_or_resistance
+    text_signals:
+    - 抗拒
+  - mechanism: internalization
+    text_signals:
+    - 隐藏
+  - mechanism: excess_or_compensation
+    text_signals:
+    - 极端
+  - mechanism: remedy_or_rectification
+    text_signals:
+    - 不适
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+  reversal_anchor: 宝剑二逆位 宝剑二逆位代表打破和平状态并采取行动。 忠诚 可能会被分裂，不管有意或无意，最后都会导致谎言 和欺骗。 你可能感觉四分五裂，像身在拉锯战中，无
+    法与自己和平相处。 你可能在抗拒权力平衡，试图制 造麻烦、扰乱计划，或者更恰当地说，你想要停止观 望，决定支持其中一方，不想再当骑墙派。
+  context_switches:
+  - 它跟 正位牌所呈现的 “ 分离但对等 ” 的意象截然不同，逆位牌是相互对立的 两方同时被涵盖在一个大整体里面，最后形成一种内部的和平。
+  - 从另 一种极端情况来说，由于这是把对立的两方限制或约束在某个范围之 内，以致对手也会变成像是假朋友一样，但却存在着背判的危险。
+  - "） 整体来说，宝剑二正位牌所说的那种双方僵持不下的僵局，对逆 位牌并不适用，但你也无法说他们是维持一种和谐关系。"
+  - 你会选边 站，但可能会选到错的一方。
+  alternatives:
+  - 它跟 正位牌所呈现的 “ 分离但对等 ” 的意象截然不同，逆位牌是相互对立的 两方同时被涵盖在一个大整体里面，最后形成一种内部的和平。
+  - 从另 一种极端情况来说，由于这是把对立的两方限制或约束在某个范围之 内，以致对手也会变成像是假朋友一样，但却存在着背判的危险。
+  - "） 整体来说，宝剑二正位牌所说的那种双方僵持不下的僵局，对逆 位牌并不适用，但你也无法说他们是维持一种和谐关系。"
+  - 你会选边 站，但可能会选到错的一方。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 234
+  - 236
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0234
+  - greer_reversals_zh.ex0235
+  - greer_reversals_zh.ex0236
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.swords_three.reversal
+  teacher: greer
+  canonical_card_id: swords_three
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 宝剑三（ Three of Swords ） 宝剑二的折衷妥协企图失败了，精神压力大到不堪负荷。 一颗心 脏被剑刺穿，这个意象第一次出现在塔罗牌中，是在十五世纪后期的
+    索拉布斯卡塔罗牌（ Sola-Busca deck ），由此可见，这张牌代表嫉 妒、心痛、决裂的这个传统含义由来已久。
+  reversal_mechanism_candidates:
+  - mechanism: blockage_or_resistance
+    text_signals:
+    - 拒绝
+  - mechanism: projection
+    text_signals:
+    - 投射
+    - 归咎
+    - 把自己
+  - mechanism: internalization
+    text_signals:
+    - 内心
+  - mechanism: absence_or_non_upright
+    text_signals:
+    - 没有
+  - mechanism: excess_or_compensation
+    text_signals:
+    - 极端
+  - mechanism: return_or_reconsideration
+    text_signals:
+    - 再次
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+  reversal_anchor: 宝剑三逆位 宝剑三逆位的出现，代表侥幸逃过一场灾难，随 之而来的一种解脱感。 这三把剑从心脏掉落出来，乌 云消散退去。 你可以放下悲伤情绪，踏上复原旅程。
+    旧伤口可能正在愈合，疼痛已逐渐减轻。 手术可能根 本没有必要，或是大概只会有小手术。 一场争执之 后，你正在收十自己的情绪，并承担起责任，而不是 去指责别人。
+  context_switches:
+  - 这张牌也可能代表你做出一个支持的承 诺 ── 无论是对朋友，还是对某个事业或组织。
+  - 如果是将这张牌投射到另一个人身上，你可能会认为他们根本就 是 “ 戏剧女王 ” ，反应过激，情绪超级浮夸，而这一直都是悲伤故事的 根源。
+  - 尽管我们的文化可能会看不起这些东 西，觉得荒谬可笑，但原始部落民族都知道，恶愿诅咒会为整个社区 带来很深的不安定与不和谐。
+  alternatives:
+  - 这张牌也可能代表你做出一个支持的承 诺 ── 无论是对朋友，还是对某个事业或组织。
+  - 如果是将这张牌投射到另一个人身上，你可能会认为他们根本就 是 “ 戏剧女王 ” ，反应过激，情绪超级浮夸，而这一直都是悲伤故事的 根源。
+  - 尽管我们的文化可能会看不起这些东 西，觉得荒谬可笑，但原始部落民族都知道，恶愿诅咒会为整个社区 带来很深的不安定与不和谐。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 237
+  - 240
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0237
+  - greer_reversals_zh.ex0238
+  - greer_reversals_zh.ex0239
+  - greer_reversals_zh.ex0240
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.swords_four.reversal
+  teacher: greer
+  canonical_card_id: swords_four
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 宝剑四（ Four of Swords ） 如果宝剑三的压力和痛苦没有减轻，可能会影响到你的健康，像 宝剑四描绘的一样。 为了逃避悲伤或厘清自己的思绪，你可能会一个
+    人躲起来或一直睡觉。 你可能希望暂时中止敌对状态，从压力中获得 一点喘息的机会，或是让自己静坐冥想或任意做梦幻想。
+  reversal_mechanism_candidates:
+  - mechanism: blockage_or_resistance
+    text_signals:
+    - 拒绝
+  - mechanism: projection
+    text_signals:
+    - 投射
+  - mechanism: delay_or_difficulty
+    text_signals:
+    - 困难
+  - mechanism: internalization
+    text_signals:
+    - 内在
+  - mechanism: breakthrough_or_redirection
+    text_signals:
+    - 离开
+  - mechanism: absence_or_non_upright
+    text_signals:
+    - 没有
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+  reversal_anchor: 宝剑四逆位 从伟特的逆位牌上，我们很容易就能看出，宝剑 三那三把交叉的剑在宝剑四中变成平行的整齐排列。 牌面上这个人现在似乎是从天花板往下看
+    ── 就像在梦 中或占卜时灵魂出窍一样。 你可能正从睡梦中醒来 （无论是字面意思或隐喻），比以前看得更清楚、或 是有了不同的视角。 在度过一段祥和宁静的时光之
+    后，你开始要来解决问题了。
+  context_switches:
+  - 如果不是，那请思考一下，你是不是在拒绝他人的建 言，或是没有好好照顾自己。
+  - 这张牌也可能代表你因为失眠或噩梦的 干扰而无法好好休息。
+  - 牌面上这个人也可能会掉入剑中。
+  - 如果你将这张牌投射到其他人身上，可能会认为他们永远都是那 么美好、永远完美无瑕，就像曾经叱咤一时但现已作古的领袖，或是 一位暂时沉睡的英雄，会在时代需要他的时候苏醒。
+  alternatives:
+  - 如果不是，那请思考一下，你是不是在拒绝他人的建 言，或是没有好好照顾自己。
+  - 这张牌也可能代表你因为失眠或噩梦的 干扰而无法好好休息。
+  - 牌面上这个人也可能会掉入剑中。
+  - 如果你将这张牌投射到其他人身上，可能会认为他们永远都是那 么美好、永远完美无瑕，就像曾经叱咤一时但现已作古的领袖，或是 一位暂时沉睡的英雄，会在时代需要他的时候苏醒。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 241
+  - 244
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0241
+  - greer_reversals_zh.ex0242
+  - greer_reversals_zh.ex0243
+  - greer_reversals_zh.ex0244
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.swords_five.reversal
+  teacher: greer
+  canonical_card_id: swords_five
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 宝剑五（ Five of Swords ） 宝剑四的暂时喘息，到了宝剑五爆发打斗场面。 天空中那些破碎 的锯齿状云朵，正是情绪风暴的反照。
+    头脑意识（包括字面意义和抽 象意义）再加上一连串的 “ 事实 ” ，打败了温情感受。 你可能跟人起了 争执，就像伟特牌图案的那三人当中的一个。
+  reversal_mechanism_candidates:
+  - mechanism: projection
+    text_signals:
+    - 投射
+  - mechanism: internalization
+    text_signals:
+    - 隐藏
+  - mechanism: return_or_reconsideration
+    text_signals:
+    - 再次
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+    - 魔法
+  reversal_anchor: 宝剑五逆位 这是少数几张在传统牌义解释上，正位与逆位牌 义相同的其中一张牌，不过逆位比正位多了残杀或葬 礼之后的哀痛感。 “
+    掩埋／埋葬 ” （ bury ）的意思是予 以隐藏或保护 ── 跟 “ 打捞／挽救 ” （ salvage ）刚好相 反。 因此，逆位牌可能代表一件事情带有潜藏的诱发
+    因素存在。
+  context_switches:
+  - 如果有一群人，他们跟你的工作任务无关，你可能就不会 去同情他们。
+  - 如果你是将这张牌 投射到其他人身上，可能会觉得他们试图要阻挠你做的事情。
+  - 另一个 角度来说，也可能代表你不想承认失败。
+  alternatives:
+  - 如果有一群人，他们跟你的工作任务无关，你可能就不会 去同情他们。
+  - 如果你是将这张牌 投射到其他人身上，可能会觉得他们试图要阻挠你做的事情。
+  - 另一个 角度来说，也可能代表你不想承认失败。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 245
+  - 248
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0245
+  - greer_reversals_zh.ex0246
+  - greer_reversals_zh.ex0247
+  - greer_reversals_zh.ex0248
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.swords_six.reversal
+  teacher: greer
+  canonical_card_id: swords_six
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 宝剑六（ Six of Swords ） 历经宝剑五的艰辛局面后，你可能需要将自己暂时抽离，让心情 恢复平静。 宝剑六这张牌往往被称为
+    “ 水路之旅 ” ，意谓任何一种形式 的过渡或通行（变迁）。 你可能正努力想办法从困境中脱身，以求恢 复和谐与心情上的平静。 你可能正在逃离某种危险，寻求安全的避难
+    所，但这张牌也同样可以代表假期旅行、愉快的航程或是调职。
+  reversal_mechanism_candidates:
+  - mechanism: blockage_or_resistance
+    text_signals:
+    - 抗拒
+    - 拒绝
+  - mechanism: projection
+    text_signals:
+    - 投射
+  - mechanism: delay_or_difficulty
+    text_signals:
+    - 困难
+  - mechanism: internalization
+    text_signals:
+    - 内在
+  - mechanism: breakthrough_or_redirection
+    text_signals:
+    - 离开
+  - mechanism: absence_or_non_upright
+    text_signals:
+    - 没有
+    - 不足
+  - mechanism: excess_or_compensation
+    text_signals:
+    - 过度
+    - 补偿
+    - 极端
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+  reversal_anchor: 宝剑六逆位 宝剑六逆位出现，代表你可能无法离开眼前的艰 难处境，或是在抗拒新的观点。 也许你在精神上和肉 体上都被困住了。 你可能会拒绝一次旅游行程，或是
+    一点都不想动。 更极端的情况是，你会变成广场恐惧 症，害怕开放空间、害怕接触人群。 事情可能会有延 误、计划可能会变更，或是货品运送会出问题。
+  context_switches:
+  - 这张牌也可能单纯意指从外地 旅游归来，可能还受了一些文化冲击。
+  - 如果你是将这张牌投射到其他人身上，可能会认为他们正在 “ 跳 船 ” ，弃你于不顾。
+  - 如果心理补偿不足， 你就会变成陷入两难，在恐惧和犹豫不决当中纠缠不已。
+  - 尤其如果牌面上这三个人 都出现更好，因为他们分别代表本我、内在小孩，以及灵魂向导。
+  alternatives:
+  - 这张牌也可能单纯意指从外地 旅游归来，可能还受了一些文化冲击。
+  - 如果你是将这张牌投射到其他人身上，可能会认为他们正在 “ 跳 船 ” ，弃你于不顾。
+  - 如果心理补偿不足， 你就会变成陷入两难，在恐惧和犹豫不决当中纠缠不已。
+  - 尤其如果牌面上这三个人 都出现更好，因为他们分别代表本我、内在小孩，以及灵魂向导。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 249
+  - 252
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0249
+  - greer_reversals_zh.ex0250
+  - greer_reversals_zh.ex0251
+  - greer_reversals_zh.ex0252
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.swords_seven.reversal
+  teacher: greer
+  canonical_card_id: swords_seven
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 宝剑七（ Seven of Swords ） 在宝剑六以具体行动逃离危险后，接着来到宝剑七，你提升了自 己的价值，也重新取回失去的东西
+    ── 像〇〇七詹姆斯．庞德一样。 这 张牌主要是在讲心智头脑的考验，以及运用战略技能来应对挑战。 你 可能会遇到一个要求秘密行动的危险情境，你的行动要不是很坚决，
+    就是摇摆不定。
+  reversal_mechanism_candidates:
+  - mechanism: projection
+    text_signals:
+    - 投射
+  - mechanism: internalization
+    text_signals:
+    - 内心
+  - mechanism: absence_or_non_upright
+    text_signals:
+    - 没有
+  - mechanism: return_or_reconsideration
+    text_signals:
+    - 回到
+    - 检视
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+  reversal_anchor: 宝剑七逆位 出现宝剑七逆位，你可能会因为害怕被抓包而变 得更加谨慎保守。 或许你太过老实，不想要做那些不 三不四的事情，因此无法成功，或是因为根本无心而
+    不愿意听取好的建议。 还有，你会选择趋吉避凶。 你 可能会否认自己做出的可耻行为。 可能会推翻先前的 计划和安排。 不老实或欺骗的行为可能会被揭露。
+  context_switches:
+  - 从 相反面向来说，也代表你可能非常大方表露自己，来 证明你没有隐瞒任何事情。
+  - 你可能一方面很想要什么东西，但一方面又害怕受伤，内心因此 陷入冲突。
+  - 如果自信心不够，又对别人有妒意，你可能不会公开行 动，但转而使用狡猾手段，偷偷在背后操弄。
+  - 另一种解释是，这张牌可能代表你重返某个意外事件现场、回到 旧地取回某样东西，或是去帮助另一个人。
+  alternatives:
+  - 从 相反面向来说，也代表你可能非常大方表露自己，来 证明你没有隐瞒任何事情。
+  - 你可能一方面很想要什么东西，但一方面又害怕受伤，内心因此 陷入冲突。
+  - 如果自信心不够，又对别人有妒意，你可能不会公开行 动，但转而使用狡猾手段，偷偷在背后操弄。
+  - 另一种解释是，这张牌可能代表你重返某个意外事件现场、回到 旧地取回某样东西，或是去帮助另一个人。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 253
+  - 256
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0253
+  - greer_reversals_zh.ex0254
+  - greer_reversals_zh.ex0255
+  - greer_reversals_zh.ex0256
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.swords_eight.reversal
+  teacher: greer
+  canonical_card_id: swords_eight
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 宝剑八（ Eight of Swords ） 宝剑八这张牌讲的是受到束缚；也是指绝望无助的受害者，或等 待英雄救美的少女。
+    因为发生宝剑七的事情之后，你能做的选择已经 不多。 你可能会面临公开批判、或是肉体上真的动弹不得、感官敏锐 度变差的危险。 你感觉自己的双手被绑住；不过，更可能为你带来阻
+    碍的，其实是你在扯自己后腿、批判自己。
+  reversal_mechanism_candidates:
+  - mechanism: blockage_or_resistance
+    text_signals:
+    - 束缚
+  - mechanism: projection
+    text_signals:
+    - 投射
+  - mechanism: internalization
+    text_signals:
+    - 隐藏
+  - mechanism: breakthrough_or_redirection
+    text_signals:
+    - 突破
+  - mechanism: excess_or_compensation
+    text_signals:
+    - 极端
+  - mechanism: return_or_reconsideration
+    text_signals:
+    - 重新
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+    - 魔法
+  reversal_anchor: 宝剑八逆位 宝剑八逆位这张牌跟重新评估和改进有关 ── 这两 种能力在正位牌中被批判性思维或外在环境限制住 了。 要克服这些限制，可能需要一点魔法
+    ── 不是胡迪 尼大师的那种舞台魔术，而是真正的魔法。 英国女演 员佛罗伦丝．法尔（ Florence Farr ）对魔法的定义 是： “ 打破寻常经验的限制
+    ” ，理查．卡文迪什 （ Richard Cavendish ）的定义是： “ 能够超越人类一 切限制的那股力量 ”[6]。
+  context_switches:
+  - 束缚可能是暂时的，但也可能是另一种极端情况，如果有明显合理的 理由证明你认为自己受到迫害，那么这些束缚可能会变得令人无法忍 受。
+  - 你也可能在隐藏自己的才能，但这种谦卑却是假的。
+  - 如果你是将这张牌投射到其他人身上，可能认为他们自认为受害 者，为每件事情找借口，因此把事情搞得一团糟。
+  alternatives:
+  - 束缚可能是暂时的，但也可能是另一种极端情况，如果有明显合理的 理由证明你认为自己受到迫害，那么这些束缚可能会变得令人无法忍 受。
+  - 你也可能在隐藏自己的才能，但这种谦卑却是假的。
+  - 如果你是将这张牌投射到其他人身上，可能认为他们自认为受害 者，为每件事情找借口，因此把事情搞得一团糟。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 257
+  - 260
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0257
+  - greer_reversals_zh.ex0258
+  - greer_reversals_zh.ex0259
+  - greer_reversals_zh.ex0260
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.swords_nine.reversal
+  teacher: greer
+  canonical_card_id: swords_nine
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 宝剑九（ Nine of Swords ） 宝剑八的危机变成了绝望，指责变成了羞耻，盲目无知变成了残 酷之行。 在宝剑九这张牌，我们看到了抑郁、痛苦、内疚、恐惧，还
+    有悔恨 ── 所有会让你颓丧疲惫的精神折磨都出现了。 这张牌也可能代 表失眠和噩梦、灵魂的暗夜，或是受伤和生病。 一切似乎都失败了、 也失去了，尤其这又是因为你自己的缺点和处置失当造成的。
+  reversal_mechanism_candidates:
+  - mechanism: projection
+    text_signals:
+    - 投射
+  - mechanism: delay_or_difficulty
+    text_signals:
+    - 延迟
+  - mechanism: return_or_reconsideration
+    text_signals:
+    - 再次
+    - 检视
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+  - mechanism: shadow_or_unreliability
+    text_signals:
+    - 阴影
+  reversal_anchor: 宝剑九逆位 宝剑九逆位可以代表走出抑郁。 噩梦已经结束， 情况正在好转。 真心的告解减轻了你的内疚和自责。 你开始让自己走出自怨自艾。
+    不过，若说要锲而不舍 将一项工作进行到底，你可能还缺了一点信心和精神 力气。 你可能会否认自己有羞耻、抑郁、孤独的感觉， 你的态度不是反抗、就是强烈否认。
+  context_switches:
+  - 如果牌阵中有其他牌作为呼应，那你可能要去检视一 下，是不是已经出现长期的、非常严重的，而且可能带有危险性的忧 郁症，而你自己却不愿意承认。
+  - 如果你是八卦流言的主角，而且你也因此而谴责批判自己， 你可能会躲开众人视线，避免面对其他人。
+  - 另一种情况是，你觉得自 己受到不公平对待，你想重建自己的声誉。
+  - 如果你是将这张牌投射到其他人身上，可能会认为此人心怀恐 惧、心情失望沮丧、执着于病态幻想。
+  alternatives:
+  - 如果牌阵中有其他牌作为呼应，那你可能要去检视一 下，是不是已经出现长期的、非常严重的，而且可能带有危险性的忧 郁症，而你自己却不愿意承认。
+  - 如果你是八卦流言的主角，而且你也因此而谴责批判自己， 你可能会躲开众人视线，避免面对其他人。
+  - 另一种情况是，你觉得自 己受到不公平对待，你想重建自己的声誉。
+  - 如果你是将这张牌投射到其他人身上，可能会认为此人心怀恐 惧、心情失望沮丧、执着于病态幻想。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 261
+  - 264
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0261
+  - greer_reversals_zh.ex0262
+  - greer_reversals_zh.ex0263
+  - greer_reversals_zh.ex0264
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.swords_ten.reversal
+  teacher: greer
+  canonical_card_id: swords_ten
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 宝剑十（ Ten of Swords ） 一般情况下，宝剑十的处境并没有像宝剑九那么艰难。 克劳利指 出，宝剑十指的是集体的精神错乱，而不是个人层次的疯狂与折磨。
+    你可能来到一种暴力和杀戮都已经超过极限的状态，这种灾难已经不 是属于个人层次了。 你过去一直深深相信某个人，但那人却背叛了 你，现在是你放手的时候了。
+  reversal_mechanism_candidates:
+  - mechanism: blockage_or_resistance
+    text_signals:
+    - 阻碍
+    - 拒绝
+    - 束缚
+  - mechanism: projection
+    text_signals:
+    - 投射
+  - mechanism: breakthrough_or_redirection
+    text_signals:
+    - 离开
+    - 翻转
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+  - mechanism: shadow_or_unreliability
+    text_signals:
+    - 黑暗
+  reversal_anchor: 宝剑十逆位 宝剑十逆位预示了复原与重生。 牌面上的十把剑 看起来像是从这个人的背部往下掉，黑暗也逐渐退 去。 黄色地平线上是一片蔚蓝的天。
+    你已经度过难 关、平安脱险，事情正在好转，但你可能感觉自己像 是大难不死的生还者。 解脱束缚与振奋人心的大跃进 即将到来。 压力得到舒缓，就像暴风雨过后天气一片
+    晴朗，因为你已经放下对于头脑理智的要求。
+  context_switches:
+  - 你已经度过难 关、平安脱险，事情正在好转，但你可能感觉自己像 是大难不死的生还者。
+  - 如果你的疾病刚刚康复，病症还是有可能复 发。
+  - 另一种情况是，你会有反复出现的健康问题，尤其是背部、慢性 疲劳、狼疮或免疫系统的毛病。
+  - 虽然逆境会翻转，但是对于过去痛苦经验的反应，可能还是 多少会阻碍你前进的脚步。
+  alternatives:
+  - 你已经度过难 关、平安脱险，事情正在好转，但你可能感觉自己像 是大难不死的生还者。
+  - 如果你的疾病刚刚康复，病症还是有可能复 发。
+  - 另一种情况是，你会有反复出现的健康问题，尤其是背部、慢性 疲劳、狼疮或免疫系统的毛病。
+  - 虽然逆境会翻转，但是对于过去痛苦经验的反应，可能还是 多少会阻碍你前进的脚步。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 265
+  - 268
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0265
+  - greer_reversals_zh.ex0266
+  - greer_reversals_zh.ex0267
+  - greer_reversals_zh.ex0268
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.pentacles_ace.reversal
+  teacher: greer
+  canonical_card_id: pentacles_ace
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 钱币一（ Ace of Pentacles ） 钱币一代表会有人提供你有形物质层面新的机会，为你带来财 运。 可能是接到一份工作或计划案，可能是加薪或职务晋升。
+    接受这 个新机会不仅带来实质报酬，也带来了责任。 这张牌包含了代表繁 荣、舒适、快乐和安全的种子，以及随着种子生长而得到的欢喜和满 足。
+  reversal_mechanism_candidates:
+  - mechanism: blockage_or_resistance
+    text_signals:
+    - 拒绝
+  - mechanism: delay_or_difficulty
+    text_signals:
+    - 延迟
+  - mechanism: internalization
+    text_signals:
+    - 隐藏
+  - mechanism: absence_or_non_upright
+    text_signals:
+    - 没有
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+    - 魔法
+  reversal_anchor: 钱币一逆位 根据传统含义，即使是逆位，也不会减少这张牌 的强大运势。 事实上，反而优势还会加倍扩大 ── 小发 财变成大富翁；没什么价值的小玩意儿变成无价之
+    宝；每一样东西都变成黄金。 不过，这有点像 “ 点石成 金 ” 的诅咒（译注： Midas touch ，出自希腊神话迈达 斯国王点石成金的故事）。
+  context_switches:
+  - 从另一个角 度来说，钱币一逆位也可能是在暗示你，要用比较轻松的态度去看待 这些东西，不要太执着，因为 “ 那不过就是钱罢了 ” 。
+  - 有钱但是不快乐。
+  - 愚人金（译注：也就 是黄铁矿，意指看起来像黄金但其实毫不值钱的矿物，比喻初看 喜欢，但其实不值得追求的人事物）。
+  alternatives:
+  - 从另一个角 度来说，钱币一逆位也可能是在暗示你，要用比较轻松的态度去看待 这些东西，不要太执着，因为 “ 那不过就是钱罢了 ” 。
+  - 有钱但是不快乐。
+  - 愚人金（译注：也就 是黄铁矿，意指看起来像黄金但其实毫不值钱的矿物，比喻初看 喜欢，但其实不值得追求的人事物）。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 269
+  - 271
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0269
+  - greer_reversals_zh.ex0270
+  - greer_reversals_zh.ex0271
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.pentacles_two.reversal
+  teacher: greer
+  canonical_card_id: pentacles_two
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 钱币二（ Two of Pentacles ） 钱币二，代表你得到的东西可能会翻倍 ── 很可能它给你带来的惊 喜多于快乐。
+    就像俗话说的 “ 钱磙钱 ” ，前提是这个钱要不停流通运 转，用钱来换取物品和服务的交易不能中断。 因此，这张牌也代表商 业活动，特别是指市场的波动。 二号牌通常代表选择，这张钱币二则
+    是代表你想要 “ 鱼与熊掌两者兼得 ” 。
+  reversal_mechanism_candidates:
+  - mechanism: projection
+    text_signals:
+    - 投射
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+  reversal_anchor: 钱币二逆位 这是一张 “ 繁文缛节 ” 或 “ 热搜新闻 ” 牌。 你可能会被 困在一堆烦人的表格、文书工作、档案和电子邮件
+    中。 讯息进来的速度比古董电报纸条跑得还要快，资 料数据不断累积，多到你几乎无法处理。 你可能正在 努力不要让讯息过载，或是正在处理电脑当机的问 题。 或者，你可能正在试着评估那些相互矛盾的数
+    据，比如股市指数或政治民意调查。
+  context_switches:
+  - 你可能已经改变了 你的观点，但外部看起来还不是很明显。
+  - 这张牌早期的含义是强调文学能力，但更像指新闻从业人员和约 雇写作者，根据作品完成的速度和数量来赚取报酬。
+  - 如果你是将这张牌投射到其他人身上，可能会认为他们很轻佻 妄动、优柔寡断，或是一个人做太多事，却一事无成。
+  alternatives:
+  - 你可能已经改变了 你的观点，但外部看起来还不是很明显。
+  - 这张牌早期的含义是强调文学能力，但更像指新闻从业人员和约 雇写作者，根据作品完成的速度和数量来赚取报酬。
+  - 如果你是将这张牌投射到其他人身上，可能会认为他们很轻佻 妄动、优柔寡断，或是一个人做太多事，却一事无成。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 272
+  - 274
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0272
+  - greer_reversals_zh.ex0273
+  - greer_reversals_zh.ex0274
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.pentacles_three.reversal
+  teacher: greer
+  canonical_card_id: pentacles_three
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 钱币三（ Three of Pentacles ） 在钱币二奋力让事情顺利持续进行之后，你现在得到了其他人的 帮助。 在伟特牌图案中，我们看到有一个团队正在参与教堂或寺庙的
+    建造，包括委派工作的修道院院长（或寺庙住持）、手上拿着营建计 划书的建筑师，以及技术精湛的工匠师傅。 每一个人都致力完成被指 定的任务，但这三个人必须协调一致、共同合作才能完成此项工作
+    ── 这本身就是一种本事。
+  reversal_mechanism_candidates:
+  - mechanism: blockage_or_resistance
+    text_signals:
+    - 拒绝
+  - mechanism: projection
+    text_signals:
+    - 投射
+  - mechanism: delay_or_difficulty
+    text_signals:
+    - 拖延
+  - mechanism: internalization
+    text_signals:
+    - 内在
+    - 无意识
+    - 潜意识
+  - mechanism: absence_or_non_upright
+    text_signals:
+    - 没有
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+    - 魔法
+  reversal_anchor: 钱币三逆位 钱币三逆位的牌面意象看起来像是正在挖洞，或 是陷落到地下室里面。 你可能会遇到跟工作有关的问 题。 可能会失业 ──
+    无论这对你来说是问题还是解脱。 面试和简报很不顺利，或是你主动拒绝一项工作机会 （或捐助）。 你跟同事或上司之间可能出了问题。 你 觉得自己没被看见和不受重视。
+  context_switches:
+  - 你的努力可能并不突出或是被视而不见，也可能你觉得这份工 作很无聊。
+  - 如果有人要来对你评量工 作，那你一定会被批评。
+  - 这张牌也可能代表某个阴谋策画想要破坏某个基础、根基或成 就，甚至是一种有计划的破坏行动。
+  - 如果你是将这张牌投射到其他人身上，可能会认为 他们心不甘情不愿、工作没有效率或是没有能力。
+  alternatives:
+  - 你的努力可能并不突出或是被视而不见，也可能你觉得这份工 作很无聊。
+  - 如果有人要来对你评量工 作，那你一定会被批评。
+  - 这张牌也可能代表某个阴谋策画想要破坏某个基础、根基或成 就，甚至是一种有计划的破坏行动。
+  - 如果你是将这张牌投射到其他人身上，可能会认为 他们心不甘情不愿、工作没有效率或是没有能力。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 275
+  - 277
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0275
+  - greer_reversals_zh.ex0276
+  - greer_reversals_zh.ex0277
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.pentacles_four.reversal
+  teacher: greer
+  canonical_card_id: pentacles_four
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 钱币四（ Four of Pentacles ） 钱币三的建构工作，在钱币四中以实体物品和权势力量的形式巩 固。 在现代塔罗套牌中，这张牌的重点是放在资源的掌控与保护，以
+    及安定稳固和设置边界。 不过，也可能代表你在情感关系中有所保 留、不愿付出。 从另一个角度来说，传统解释是强调善良和慷慨，但 依据现代思维，这也可能是一种自私自利的表现。
+  reversal_mechanism_candidates:
+  - mechanism: blockage_or_resistance
+    text_signals:
+    - 阻碍
+    - 拒绝
+  - mechanism: delay_or_difficulty
+    text_signals:
+    - 延迟
+  - mechanism: internalization
+    text_signals:
+    - 内心
+  - mechanism: excess_or_compensation
+    text_signals:
+    - 极端
+  - mechanism: return_or_reconsideration
+    text_signals:
+    - 重新
+  - mechanism: remedy_or_rectification
+    text_signals:
+    - 疗愈
+    - 恢复
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+    - 魔法
+  reversal_anchor: 钱币四逆位 钱币四逆位代表释放、风险，以及变化，这种状 态无论对钱币牌组或四号牌，都不是容易接受的事。 你可能会出现几种极端反应：愈来愈害怕、愈贪心、
+    守得更紧，不然就是像悉达多和其他苦行者那样，抛 下一切权势地位和财产。 这张牌的传统含义代表束 缚，虽然不是你的过错，却会带来阻碍、延误以及失 败。
+  context_switches:
+  - 也可能确实会碰到排水管堵塞的问题。
+  - 如果你是将这张牌投 射到他人身上，可能会认为他们内心有一种需要，想要去掌控每一件 事情，想要牢牢抓住属于他们的东西。
+  - 如果有其他牌作为呼应，钱币四逆位也可能代表放松和解除紧张 情绪。
+  - 虽然这不是什么革 命，但你可能正在努力抵制或推翻某个权力集团，或试图打破垅断。
+  alternatives:
+  - 也可能确实会碰到排水管堵塞的问题。
+  - 如果你是将这张牌投 射到他人身上，可能会认为他们内心有一种需要，想要去掌控每一件 事情，想要牢牢抓住属于他们的东西。
+  - 如果有其他牌作为呼应，钱币四逆位也可能代表放松和解除紧张 情绪。
+  - 虽然这不是什么革 命，但你可能正在努力抵制或推翻某个权力集团，或试图打破垅断。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 278
+  - 281
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0278
+  - greer_reversals_zh.ex0279
+  - greer_reversals_zh.ex0280
+  - greer_reversals_zh.ex0281
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.pentacles_five.reversal
+  teacher: greer
+  canonical_card_id: pentacles_five
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 钱币五（ Five of Pentacles ） 推翻钱币四创建起来的成果，钱币五代表了财务危机、物质条件 不稳定，以及出现
+    “ 场内干扰 ” ，需要在物质层面上进行一些调整。 从 伟特牌的牌面图案我们看到，教堂的一扇窗户灯火通明，俯瞰着教堂 外那些生活艰苦的人们，将他们 “ 冷落在外
+    ” 。
+  reversal_mechanism_candidates:
+  - mechanism: blockage_or_resistance
+    text_signals:
+    - 拒绝
+  - mechanism: projection
+    text_signals:
+    - 投射
+    - 归咎
+  - mechanism: absence_or_non_upright
+    text_signals:
+    - 没有
+  - mechanism: misuse_or_misdirection
+    text_signals:
+    - 不合适
+  - mechanism: return_or_reconsideration
+    text_signals:
+    - 重新
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+    - 魔法
+  - mechanism: shadow_or_unreliability
+    text_signals:
+    - 阴影
+  reversal_anchor: 钱币五逆位 钱币五逆位意指在变动中持续坚持、失业后重返 工作岗位，或是破产之后重新翻身。 它也代表面对物 质上或精神上困境之后来到一个转捩点。
+    从伟特牌的 钱币五逆位我们看到，现在大雪已经在牌面上端，黑 暗渐渐褪去，教堂窗户变成了一道进入避难所的门。 可想而知，你已经找到避难所。
+  context_switches:
+  - 另一种完全相反的解释是，由于资源的混乱或漤用、浪费而造成 损失。
+  - 如果你是将这张牌投射到其他人身上，可能会认为此人生活荒 淫放荡，而且会把他们的不幸归咎于是因为他们自己不节制或没有道 德，将社会弊病归咎于人们生活不检点。
+  - 从另一个角度来 说，如果你跟你所爱的人有疏远的情况，接下来你们之间的不愉快会 化解，重新言归于好。
+  alternatives:
+  - 另一种完全相反的解释是，由于资源的混乱或漤用、浪费而造成 损失。
+  - 如果你是将这张牌投射到其他人身上，可能会认为此人生活荒 淫放荡，而且会把他们的不幸归咎于是因为他们自己不节制或没有道 德，将社会弊病归咎于人们生活不检点。
+  - 从另一个角度来 说，如果你跟你所爱的人有疏远的情况，接下来你们之间的不愉快会 化解，重新言归于好。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 282
+  - 285
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0282
+  - greer_reversals_zh.ex0283
+  - greer_reversals_zh.ex0284
+  - greer_reversals_zh.ex0285
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.pentacles_six.reversal
+  teacher: greer
+  canonical_card_id: pentacles_six
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 钱币六（ Six of Pentacles ） 钱币五的那两名乞丐，在钱币六中找到了善心的施主。 黄金黎明 协会认为，每一张六号牌都是该牌组和该元素的最颠峰状态。
+    六号是 代表和谐、互惠，以及社会关怀的数字，就像赞助者需要有人被赞 助，施与者也需要有接受者。 你可能正在捐助他人，或接受别人的金 钱、礼物或帮助。
+  reversal_mechanism_candidates:
+  - mechanism: blockage_or_resistance
+    text_signals:
+    - 拒绝
+  - mechanism: projection
+    text_signals:
+    - 投射
+  - mechanism: absence_or_non_upright
+    text_signals:
+    - 没有
+  - mechanism: excess_or_compensation
+    text_signals:
+    - 极端
+  - mechanism: return_or_reconsideration
+    text_signals:
+    - 重新
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+    - 魔法
+  reversal_anchor: 钱币六逆位 这张逆位牌的其中一个解释面向就是侠盗罗宾汉 ── 劫富济贫，将富人的财富重新分配给穷人。 权势力 量的差距可能更加悬殊，因此渴望扭转这种局面。
+    你 可能感觉被亏待或被否定。 一种极端的解释是，贪婪 之心压倒了正位牌代表的公平正义。 另一个相反的解 释是，可能出现呆帐、 “ 一夜致富计划 ” 或预期进帐的
+    收入没有实现。
+  context_switches:
+  - 另一个相反的解 释是，可能出现呆帐、 “ 一夜致富计划 ” 或预期进帐的 收入没有实现。
+  - 如果你是把这张牌投射到其他人身上，可能会认为他们不够慷 慨，不然就是认为他们永远不满足。
+  - 如果你过去曾经受到不公平的对待或忽视，可能会渴望得到关 注。
+  - 如果曾经有人向你借钱，那这笔 钱可能拿不回来了，所以，也许就把它当成那是你送给对方的礼物或 捐赠吧。
+  alternatives:
+  - 另一个相反的解 释是，可能出现呆帐、 “ 一夜致富计划 ” 或预期进帐的 收入没有实现。
+  - 如果你是把这张牌投射到其他人身上，可能会认为他们不够慷 慨，不然就是认为他们永远不满足。
+  - 如果你过去曾经受到不公平的对待或忽视，可能会渴望得到关 注。
+  - 如果曾经有人向你借钱，那这笔 钱可能拿不回来了，所以，也许就把它当成那是你送给对方的礼物或 捐赠吧。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 286
+  - 289
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0286
+  - greer_reversals_zh.ex0287
+  - greer_reversals_zh.ex0288
+  - greer_reversals_zh.ex0289
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.pentacles_seven.reversal
+  teacher: greer
+  canonical_card_id: pentacles_seven
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 钱币七（ Seven of Pentacles ） 钱币七是一张跟发愤努力、耐心等待以及评估评价有关的牌。 你 可能正在评估你的收获，确认先前的努力是否值得。
+    作为一张代表考 验和挑战的牌，它要你发挥技能、勇气和决心来证明自己可以成功。 整体而言，这张牌是预示你的辛勤劳动会有好的结果。
+  reversal_mechanism_candidates:
+  - mechanism: projection
+    text_signals:
+    - 投射
+  - mechanism: delay_or_difficulty
+    text_signals:
+    - 拖延
+    - 困难
+  - mechanism: internalization
+    text_signals:
+    - 内在
+  - mechanism: absence_or_non_upright
+    text_signals:
+    - 没有
+  - mechanism: excess_or_compensation
+    text_signals:
+    - 过度
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+    - 魔法
+  reversal_anchor: 钱币七逆位 几乎所有解释都对这张逆位牌有普遍共识，认为 代表焦虑感和损失的可能性会大增。 你现在可能有一 种莫名的不安、担忧和郁闷的感觉。
+    整个人觉得烦 躁、沉不住气，要不然就是变得喜欢拖延。 你可能认 为人们会偷走你的点子、你辛苦耕耘的作物或是商 品，让你时时刻刻处在一种戒备状态。
+  context_switches:
+  - 如果牌阵中有 其他牌作为呼应，那你的这种不信任和怀疑可能是有 道理的。
+  - "“ 那些收成的作物都不是我的， ” 她说， “ 虽然我很努力，但辛辛苦 苦付出劳力之后我并没有拿到钱，更没有得到肯定或有任何收获。"
+  - 另一个相反情况是，什么东西都长不出来、没有成长。
+  - 如果你是将这张牌投射到其他人身上，可能认为他们很懒散或投 资错误，要不然就是认为他们过分疑神疑鬼，担心可能会有损失。
+  alternatives:
+  - 如果牌阵中有 其他牌作为呼应，那你的这种不信任和怀疑可能是有 道理的。
+  - "“ 那些收成的作物都不是我的， ” 她说， “ 虽然我很努力，但辛辛苦 苦付出劳力之后我并没有拿到钱，更没有得到肯定或有任何收获。"
+  - 另一个相反情况是，什么东西都长不出来、没有成长。
+  - 如果你是将这张牌投射到其他人身上，可能认为他们很懒散或投 资错误，要不然就是认为他们过分疑神疑鬼，担心可能会有损失。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 290
+  - 292
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0290
+  - greer_reversals_zh.ex0291
+  - greer_reversals_zh.ex0292
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.pentacles_eight.reversal
+  teacher: greer
+  canonical_card_id: pentacles_eight
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 钱币八（ Eight of Pentacles ） 完成钱币七的收成进帐之后，你就可以专心填报订货单和管控品 质。 你可能即将完成生产目标、销售配额即将达标，或是正在完善产
+    品的制作技术。 也可能正在为经济不景气或退休做准备，深谋远虑、 谨慎面对一切是现在的重点。 你可能亲自参与房子的装修。
+  reversal_mechanism_candidates:
+  - mechanism: projection
+    text_signals:
+    - 投射
+  - mechanism: delay_or_difficulty
+    text_signals:
+    - 困难
+  - mechanism: internalization
+    text_signals:
+    - 内在
+  - mechanism: absence_or_non_upright
+    text_signals:
+    - 没有
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+    - 魔法
+  - mechanism: shadow_or_unreliability
+    text_signals:
+    - 不可靠
+  reversal_anchor: 钱币八逆位 出现钱币八逆位，你可能是对工作厌倦了、工作 太过辛劳，或是觉得这份工作毫无前途。 你可能想要 换工作或转职，或是创建新的工作习惯。
+    或许对于你 想要从事的工作，你尚未接受过培训。 正位牌代表谨 慎、深谋远虑，因此逆位牌也可能就是轻率和鲁莽、 不顾后果。 在传统牌义解释上，这张牌的意思是虚荣
+    浮华、对金钱的渴求，以及因为缺乏雄心壮志导致从 事毫无意义的工作。
+  context_switches:
+  - 正位牌代表谨 慎、深谋远虑，因此逆位牌也可能就是轻率和鲁莽、 不顾后果。
+  - 从另一个角度来解释，你也可能很空闲或是失业。
+  - 如果你手上有受委托的工作，则可能无法如期完成，或是会遇到 困难。
+  - 帐单可能把你压得喘不过气，你的信用卡额度也可能已经用完 了。
+  alternatives:
+  - 正位牌代表谨 慎、深谋远虑，因此逆位牌也可能就是轻率和鲁莽、 不顾后果。
+  - 从另一个角度来解释，你也可能很空闲或是失业。
+  - 如果你手上有受委托的工作，则可能无法如期完成，或是会遇到 困难。
+  - 帐单可能把你压得喘不过气，你的信用卡额度也可能已经用完 了。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 293
+  - 296
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0293
+  - greer_reversals_zh.ex0294
+  - greer_reversals_zh.ex0295
+  - greer_reversals_zh.ex0296
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.pentacles_nine.reversal
+  teacher: greer
+  canonical_card_id: pentacles_nine
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 钱币九（ Nine of Pentacles ） 钱币九代表了前面几张牌已经结出丰盛果实，呈现出繁荣富裕的 景象。 你现在可以安心。
+    除了获得物质上的回报，也可以好好享受悠 闲时光。 这张牌可以代表退休、度假，或是在自己的花园中度过一个 轻松愉快的午后。 伟特牌图案中的人物穿着优雅高尚，葡萄成熟，果
+    实累累，猎鹰也已经就位 ── 这些都是奢华生活、感官享乐以及兴趣嗜 好的象征。
+  reversal_mechanism_candidates:
+  - mechanism: blockage_or_resistance
+    text_signals:
+    - 拒绝
+  - mechanism: projection
+    text_signals:
+    - 投射
+  - mechanism: internalization
+    text_signals:
+    - 内在
+    - 内心
+  - mechanism: absence_or_non_upright
+    text_signals:
+    - 没有
+    - 不足
+  - mechanism: remedy_or_rectification
+    text_signals:
+    - 疗愈
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+    - 魔法
+  reversal_anchor: 钱币九逆位 钱币九逆位代表可能有一种愈来愈被困住的感 觉，渴望得到自由。 你可能正在拒绝财富的诱惑，抵 抗奢侈隐居生活的引诱。
+    繁荣景象依旧，但价值观念 似乎是错误的，或是掩盖了某种内心的惶惶不安。 或 许你的一切环境并没有那么好。 你可能感到很无聊， 或对别种生活方式感到好奇，很想要到处流浪闲晃。
+  context_switches:
+  - 繁荣景象依旧，但价值观念 似乎是错误的，或是掩盖了某种内心的惶惶不安。
+  - 可能会有财产 上的损失，可能是因为大自然灾害所导致，也可能是因为你做生意不 老实。
+  - 你可能是诈欺手法的受害 者，也可能你用了诡计骗术而获得某些东西。
+  - 如果你要购买房地产，可能需要再谨慎评估、观察一下 局势。
+  alternatives:
+  - 繁荣景象依旧，但价值观念 似乎是错误的，或是掩盖了某种内心的惶惶不安。
+  - 可能会有财产 上的损失，可能是因为大自然灾害所导致，也可能是因为你做生意不 老实。
+  - 你可能是诈欺手法的受害 者，也可能你用了诡计骗术而获得某些东西。
+  - 如果你要购买房地产，可能需要再谨慎评估、观察一下 局势。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 297
+  - 300
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0297
+  - greer_reversals_zh.ex0298
+  - greer_reversals_zh.ex0299
+  - greer_reversals_zh.ex0300
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.pentacles_ten.reversal
+  teacher: greer
+  canonical_card_id: pentacles_ten
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 钱币十（ Ten of Pentacles ） 在钱币九达成的兴旺繁荣，到了钱币十变成了 “ 家族财富 ” 和 “ 家族 的价值标准
+    ” 。 虽然这张牌有时也被认为是代表财富和繁荣，但更多时 候它跟广义的财产继承和遗产比较有关。 它指的是可以永久持续传承 下去的东西。 目前你可能在关心跟财务、遗传基因或文化遗产有关的
+    事情，或是智慧与知识的传承。
+  reversal_mechanism_candidates:
+  - mechanism: blockage_or_resistance
+    text_signals:
+    - 拒绝
+  - mechanism: projection
+    text_signals:
+    - 投射
+  - mechanism: delay_or_difficulty
+    text_signals:
+    - 困难
+  - mechanism: internalization
+    text_signals:
+    - 内在
+    - 内心
+  - mechanism: absence_or_non_upright
+    text_signals:
+    - 没有
+  - mechanism: excess_or_compensation
+    text_signals:
+    - 极端
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+    - 魔法
+  reversal_anchor: 钱币十逆位 钱币十逆位代表离家或拒绝家族传统。 你可能在 家族中不受欢迎，要不然就是跟家族信仰和传统很疏 离。 你跟家人、社区圈子或是组织机构经常有相处上
+    的问题。 包括争吵、意见不合，或是夫妻相处困难。 你可能会陷入忠诚度的冲突，你会觉得自己像个局外 人。 或是，你可能得不到家族的援助或财产。
+  context_switches:
+  - 从完全相反的角度来说，你或许会保留你的才干和技术，或是另 一种极端情况，将物质世界有形财产视为你的最终极依靠。
+  - 如果你是将这张牌投射到另一个人身上，可能会认为他们是需要 照顾的老人、是沉重负担，或是被家族包袱和家庭义务拖累的人。
+  - 如果牌阵中有其他牌作为呼应，有可能代表你会有重大损失，而 且跟家庭、家人或储蓄存款有关。
+  alternatives:
+  - 从完全相反的角度来说，你或许会保留你的才干和技术，或是另 一种极端情况，将物质世界有形财产视为你的最终极依靠。
+  - 如果你是将这张牌投射到另一个人身上，可能会认为他们是需要 照顾的老人、是沉重负担，或是被家族包袱和家庭义务拖累的人。
+  - 如果牌阵中有其他牌作为呼应，有可能代表你会有重大损失，而 且跟家庭、家人或储蓄存款有关。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 301
+  - 306
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0301
+  - greer_reversals_zh.ex0302
+  - greer_reversals_zh.ex0303
+  - greer_reversals_zh.ex0304
+  - greer_reversals_zh.ex0305
+  - greer_reversals_zh.ex0306
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.wands_page.reversal
+  teacher: greer
+  canonical_card_id: wands_page
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 权杖侍者／公主（ Page / or Princess of Wands ） 权杖侍者是一个自由的灵魂 ── 个性火热、炽烈，又充满热情，具
+    有火象星座（牡羊、狮子、射手）特有的年轻气盛与不成熟。 虽然所 有的侍者牌都是代表消息和信息，但这位权杖侍者尤其带有使者、媒 介或消息提供者的意涵。
+  reversal_mechanism_candidates: []
+  reversal_anchor: ''
+  context_switches: []
+  alternatives: []
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 307
+  - 310
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0307
+  - greer_reversals_zh.ex0308
+  - greer_reversals_zh.ex0309
+  - greer_reversals_zh.ex0310
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.wands_knight.reversal
+  teacher: greer
+  canonical_card_id: wands_knight
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 权杖骑士／王子（ Knight/or Prince of Wands ） 权杖骑士是一位大胆的冒险家 ── 冲动随兴、点子很多、鲁莽性急
+    ── 代表了火象星座（牡羊、狮子、射手）的活跃能量。 他也是一个充 满热情、行事冲动、又非常带劲的情人。 他善于制造火花，却不想许 下承诺。 你或是你认识的某个人，可能遇到一名非常热情的对象，或
+    是对这样一个人很感兴趣。
+  reversal_mechanism_candidates: []
+  reversal_anchor: ''
+  context_switches: []
+  alternatives: []
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 311
+  - 314
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0311
+  - greer_reversals_zh.ex0312
+  - greer_reversals_zh.ex0313
+  - greer_reversals_zh.ex0314
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.wands_queen.reversal
+  teacher: greer
+  canonical_card_id: wands_queen
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 权杖王后（ Queen of Wands ） 权杖王后喜欢用戏剧天分扮演浪漫爱情的主角，希望生活充满激 情和刺激。 这张牌代表的是热情如火的女性能量，具有火象星座（牡
+    羊、狮子、射手）的特质。 跟其他牌组的王后牌比起来，权杖王后拥 有更强大的领导力和更坚定的决心，能够自己做出决定，或按自己的 想法行事，同时保有和善与乐观的态度。
+  reversal_mechanism_candidates:
+  - mechanism: blockage_or_resistance
+    text_signals:
+    - 阻碍
+  - mechanism: projection
+    text_signals:
+    - 把自己
+  - mechanism: delay_or_difficulty
+    text_signals:
+    - 拖延
+    - 困难
+  - mechanism: absence_or_non_upright
+    text_signals:
+    - 缺少
+  - mechanism: excess_or_compensation
+    text_signals:
+    - 过度
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+    - 魔法
+  reversal_anchor: 权杖王后逆位 逆位的权杖王后是一名充满魅惑力又具有危险心 机的阴谋家，就像英格兰王后安妮．博林（ Anne Boleyn ）一样，跟她的女儿伊莉莎白一世代表的正位
+    牌刚好性格相反。 正位牌的活跃魄力与成就，颠倒成 逆位牌之后，变成了女巫、婊子、坏女人。 而且，跟 宙斯的妻子赫拉一样，多疑善妒、报复心很强，因为 她长期以来被丈夫背叛、饱受屈辱，而且又被强行赋
+    予造物者的力量。
+  context_switches:
+  - 权杖王后逆位 逆位的权杖王后是一名充满魅惑力又具有危险心 机的阴谋家，就像英格兰王后安妮．博林（ Anne Boleyn ）一样，跟她的女儿伊莉莎白一世代表的正位
+    牌刚好性格相反。
+  - 可能会变得更加自 私自利，要不然就是相反，你会放弃自己的决定权，变得虚弱无能。
+  - 也有可能 完全相反，你会把自己的需要暂时放在一边，而去服务他人。
+  - 如果这 张牌代表一位母亲或伴侣，你可能会过于霸道、易怒、自以为是、只 关心自己，或是不负责任。
+  alternatives:
+  - 权杖王后逆位 逆位的权杖王后是一名充满魅惑力又具有危险心 机的阴谋家，就像英格兰王后安妮．博林（ Anne Boleyn ）一样，跟她的女儿伊莉莎白一世代表的正位
+    牌刚好性格相反。
+  - 可能会变得更加自 私自利，要不然就是相反，你会放弃自己的决定权，变得虚弱无能。
+  - 也有可能 完全相反，你会把自己的需要暂时放在一边，而去服务他人。
+  - 如果这 张牌代表一位母亲或伴侣，你可能会过于霸道、易怒、自以为是、只 关心自己，或是不负责任。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 315
+  - 318
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0315
+  - greer_reversals_zh.ex0316
+  - greer_reversals_zh.ex0317
+  - greer_reversals_zh.ex0318
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.wands_king.reversal
+  teacher: greer
+  canonical_card_id: wands_king
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 权杖国王（ King of Wands ） 权杖国王展现的是火象星座（牡羊、狮子、射手）的稳定成熟， 也代表了传奇历史人物
+    “ 狮心理查 ” 的慷慨、勇敢以及宽宏大度的性 格。 他高贵、庄严、威风凛凛，是凛然的独裁者或暴君，带点专横跋 扈，会为他所信仰的理念赴汤蹈火在所不惜。 手上握有极大权力。
+  reversal_mechanism_candidates:
+  - mechanism: absence_or_non_upright
+    text_signals:
+    - 缺少
+    - 没有
+  - mechanism: misuse_or_misdirection
+    text_signals:
+    - 误用
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+    - 魔法
+  reversal_anchor: 权杖国王逆位 逆位的权杖国王因为帝王性格太过头，使他变成 傲慢、专制和独裁。 他不能容忍别人干涉他，而且自 以为有理、坚持自己的权威地位。
+    火象星座特有的自 负个性变成了盛气凌人的霸道。 在此表象之下，他其 实是 “ 没穿衣服的国王 ” ；他的权力、自负以及虚荣， 都是创建在咆哮、炫耀、别人的曲意奉承之上。
+  context_switches:
+  - 如果再多施点压 力，你可能整个人就抓狂了。
+  - 另一种情况是，你会想办 法推翻一个领导者或一种意见。
+  - 或是，跟其他逆位国王一样，权杖国王逆位也可能代表一位缺席 的父亲，或是缺少一位积极进取的男性榜样。
+  - 从另一个角度来说，你 也可能过于宽大仁慈，太好讲话。
+  alternatives:
+  - 如果再多施点压 力，你可能整个人就抓狂了。
+  - 另一种情况是，你会想办 法推翻一个领导者或一种意见。
+  - 或是，跟其他逆位国王一样，权杖国王逆位也可能代表一位缺席 的父亲，或是缺少一位积极进取的男性榜样。
+  - 从另一个角度来说，你 也可能过于宽大仁慈，太好讲话。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 319
+  - 322
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0319
+  - greer_reversals_zh.ex0320
+  - greer_reversals_zh.ex0321
+  - greer_reversals_zh.ex0322
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.cups_page.reversal
+  teacher: greer
+  canonical_card_id: cups_page
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 圣杯侍者／公主（ Page/or Princess of Cups ） 圣杯侍者是一个浪漫的梦想家，或是一个具有水象星座（巨蟹、
+    天蝎、双鱼）特质的小孩子或年轻人：富有同情心、敏感、很配合， 又可爱迷人。 你可能会注意到来自你的梦境、直觉或潜意识的声音。 或者对你的朋友来说，你可能是一名很好的倾听者。
+  reversal_mechanism_candidates: []
+  reversal_anchor: ''
+  context_switches: []
+  alternatives: []
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 323
+  - 326
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0323
+  - greer_reversals_zh.ex0324
+  - greer_reversals_zh.ex0325
+  - greer_reversals_zh.ex0326
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.cups_knight.reversal
+  teacher: greer
+  canonical_card_id: cups_knight
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 圣杯骑士／王子（ Knight/or Prince of Cups ） 以最好的情况来说，圣杯骑士是一名追求精神上的纯洁完美、致
+    力寻找圣杯的武士，也是将自己全部奉献给爱的吟游诗人。 他是一名 充满理想的梦想家，受内在价值观和情感的支配，在浪漫的感官享乐 世界中冒险前进。 你或你认识的某个人，目前可能处于爱心满满的状
+    态，表现出水象星座（巨蟹、天蝎、双鱼）特有的平静、温柔、诗意 和艺术天性。
+  reversal_mechanism_candidates: []
+  reversal_anchor: ''
+  context_switches: []
+  alternatives: []
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 327
+  - 330
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0327
+  - greer_reversals_zh.ex0328
+  - greer_reversals_zh.ex0329
+  - greer_reversals_zh.ex0330
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.cups_queen.reversal
+  teacher: greer
+  canonical_card_id: cups_queen
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 圣杯王后（ Queen of Cups ） 圣杯王后就像象牙塔里的少女：感性、浪漫、爱做梦、喜欢沉 思，带有很深沉的情感。
+    她可能很有爱心、亲切优雅、善良、充满关 怀、有美感，对诗歌、美学、艺术拥有精致的鉴赏力。 她也可能自我 耽溺、不切实际、无法专注、离尘脱俗。 你或你认识的某个人，可能
+    会用情绪反应和个人价值观来评判事情。
+  reversal_mechanism_candidates:
+  - mechanism: blockage_or_resistance
+    text_signals:
+    - 拒绝
+  - mechanism: projection
+    text_signals:
+    - 归咎
+    - 把自己
+  - mechanism: internalization
+    text_signals:
+    - 内在
+  - mechanism: absence_or_non_upright
+    text_signals:
+    - 没有
+  - mechanism: excess_or_compensation
+    text_signals:
+    - 极端
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+    - 魔法
+  reversal_anchor: 圣杯王后逆位 逆位的圣杯王后看起来就像天使般空灵飘逸，仿 佛不属于这个尘世。 讽刺的是，她也可能是堕落的女 人或是一个会勾引男人的女子。
+    在维多利亚时代的文 学作品中，她受到爱情诱惑，却遭男人背叛，最后她 选择跳海自杀，变成水鬼海妖，引诱男人步向毁灭。 一方面，她是个荡妇；另一面，她又欲语还休。
+  context_switches:
+  - 讽刺的是，她也可能是堕落的女 人或是一个会勾引男人的女子。
+  - 另一种极端是，你可能敏锐机警而且能干，不让任何人来占你便 宜，你克服自己的虚妄幻想，拒绝被感情所左右。
+  - 你可能轻浮、反复无常，也可能会为了维持自己 的生存而榨干别人的精神能量。
+  - 如果这张牌代表父母亲或伴侣角色，这位王后可能很孤僻、心中 充满怨恨、自私自利，而且可能会把自己的不快乐归咎于别人。
+  alternatives:
+  - 讽刺的是，她也可能是堕落的女 人或是一个会勾引男人的女子。
+  - 另一种极端是，你可能敏锐机警而且能干，不让任何人来占你便 宜，你克服自己的虚妄幻想，拒绝被感情所左右。
+  - 你可能轻浮、反复无常，也可能会为了维持自己 的生存而榨干别人的精神能量。
+  - 如果这张牌代表父母亲或伴侣角色，这位王后可能很孤僻、心中 充满怨恨、自私自利，而且可能会把自己的不快乐归咎于别人。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 331
+  - 334
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0331
+  - greer_reversals_zh.ex0332
+  - greer_reversals_zh.ex0333
+  - greer_reversals_zh.ex0334
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.cups_king.reversal
+  teacher: greer
+  canonical_card_id: cups_king
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 圣杯国王（ King of Cups ） 圣杯国王这张牌让人联想到狂野放纵的希腊酒神与诗神狄俄尼索 斯（ Dionysus
+    ），但其实他只喝醉过一次，而且跟其他希腊诸神完全 不一样，他对妻子始终保持忠贞。 他也像海神波赛冬（ Poseidon ）， 整个人充满潜藏的深度和深沉的暗流，拥有如水象星座（巨蟹、天
+    蝎、双鱼）一般的成熟权威形象。
+  reversal_mechanism_candidates:
+  - mechanism: projection
+    text_signals:
+    - 把自己
+  - mechanism: breakthrough_or_redirection
+    text_signals:
+    - 突破
+  - mechanism: absence_or_non_upright
+    text_signals:
+    - 没有
+  - mechanism: excess_or_compensation
+    text_signals:
+    - 沉溺
+  - mechanism: remedy_or_rectification
+    text_signals:
+    - 不适
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 非传统
+    - 萨满
+    - 魔法
+  reversal_anchor: 圣杯国王逆位 逆位的圣杯国王可能会把自己封闭起来不与人接 触，似乎冷酷无情，或是他会深入去探究自己的心 ── 但代价是牺牲了外部人际关系。
+    你也可能会多愁善 感、容易流泪。 另一种情况是，你会表现出男子气 概，以免让人觉得你很懦弱、软弱、无能。 由于受到 情绪波动的折腾，你有点害怕自己会情绪失控。
+  context_switches:
+  - 圣杯国王逆位 逆位的圣杯国王可能会把自己封闭起来不与人接 触，似乎冷酷无情，或是他会深入去探究自己的心 ── 但代价是牺牲了外部人际关系。
+  - 你也可能会多愁善 感、容易流泪。
+  - 另一种情况是，你会表现出男子气 概，以免让人觉得你很懦弱、软弱、无能。
+  - 你可能会在完全错误的地方寻找你的爱情，也可能会非常疼爱你 的爱人，就像约翰．蓝侬对小野洋子一样，对妻子献出全部的爱。
+  alternatives:
+  - 圣杯国王逆位 逆位的圣杯国王可能会把自己封闭起来不与人接 触，似乎冷酷无情，或是他会深入去探究自己的心 ── 但代价是牺牲了外部人际关系。
+  - 你也可能会多愁善 感、容易流泪。
+  - 另一种情况是，你会表现出男子气 概，以免让人觉得你很懦弱、软弱、无能。
+  - 你可能会在完全错误的地方寻找你的爱情，也可能会非常疼爱你 的爱人，就像约翰．蓝侬对小野洋子一样，对妻子献出全部的爱。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 335
+  - 338
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0335
+  - greer_reversals_zh.ex0336
+  - greer_reversals_zh.ex0337
+  - greer_reversals_zh.ex0338
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.swords_page.reversal
+  teacher: greer
+  canonical_card_id: swords_page
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 宝剑侍者／公主（ Page / or Princess of Swords ） 宝剑侍者看起来就像一个棒球打击手，他（或她）的眼睛紧紧盯
+    着球，等着投手把球投出。 你或是你认识的某个人，可能对接下来会 发生什么感到好奇，如果是跟人有冲突，那就是处于防守和戒备状 态。 或者你可能大胆鲁莽行事。
+  reversal_mechanism_candidates: []
+  reversal_anchor: ''
+  context_switches: []
+  alternatives: []
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 339
+  - 342
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0339
+  - greer_reversals_zh.ex0340
+  - greer_reversals_zh.ex0341
+  - greer_reversals_zh.ex0342
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.swords_knight.reversal
+  teacher: greer
+  canonical_card_id: swords_knight
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 宝剑骑士／王子（ Knight / or Prince of Swords ） 宝剑骑士“ 不顾一切 ” 骑马冲锋陷阵，就像誓言斩杀巨龙的英雄，
+    也可能是一个带着警告讯息急急前往某地的信差。 他展现了风象星座 （双子、天秤、水瓶）的革命精神，特别是专注于心理和言语的行 动。 这张牌也代表你自己或其他人的一个性格面向，能够对每一件事
+    情批判性思考、分析、区辨、衡量的那一面。
+  reversal_mechanism_candidates: []
+  reversal_anchor: ''
+  context_switches: []
+  alternatives: []
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 343
+  - 346
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0343
+  - greer_reversals_zh.ex0344
+  - greer_reversals_zh.ex0345
+  - greer_reversals_zh.ex0346
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.swords_queen.reversal
+  teacher: greer
+  canonical_card_id: swords_queen
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 宝剑王后（ Queen of Swords ） 宝剑王后在传统含义上是代表一个离婚或丧偶守寡的女人，或是 老处女。 虽然聪明而且能够明辨是非，却含蓄矜持且超然冷淡，是一
+    个冰雪女王。 她那严肃不苟言笑的自信模样，可能让人望而生畏，但 你绝对可以信赖她会坦诚相待、诚实以告，还会剪除那些无关紧要的 枝枝节节，因此不管任何事情都能精准直指核心，绝无废言。
+  reversal_mechanism_candidates:
+  - mechanism: blockage_or_resistance
+    text_signals:
+    - 抗拒
+    - 拒绝
+  - mechanism: delay_or_difficulty
+    text_signals:
+    - 延迟
+  - mechanism: internalization
+    text_signals:
+    - 内心
+  - mechanism: absence_or_non_upright
+    text_signals:
+    - 没有
+  - mechanism: excess_or_compensation
+    text_signals:
+    - 过度
+    - 极端
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+    - 魔法
+  reversal_anchor: 宝剑王后逆位 从传统牌义来看，逆位的宝剑王后就像莎士比亚 笔下的马克白夫人或白雪公主的后母。 她会用欺骗和 诡计来达到她的疯狂目的。
+    不过，若仅仅将她看做坏 人，那这出戏就太通俗无奇了，没办法看到一个性格 上有致命缺陷的人身后的更大悲剧。 个性残忍、心胸 狭隘通常不是这个人真的恶毒，而是因为内心深沉的
+    绝望和自我欺骗所导致。
+  context_switches:
+  - 另一种可能是，这位王后逆位之后反而变得更有爱心、更感 性，没那么不近人情，也比较能够依赖别人，而且会让她卸下防卫之 心。
+  - 如果有其他牌作为呼 应，这张牌也可能代表死亡、离婚或分居带给你的难题，因为它们可 能不会 “ 切得干干净净 ” 。
+  - 如果代表一位母亲，她可能因为内 心带着极大的悲伤，而表现在外是却是同情心或冷漠和距离。
+  - 她可能 不宽容、不讲道理，也可能优柔寡断和冷淡迟钝。
+  alternatives:
+  - 另一种可能是，这位王后逆位之后反而变得更有爱心、更感 性，没那么不近人情，也比较能够依赖别人，而且会让她卸下防卫之 心。
+  - 如果有其他牌作为呼 应，这张牌也可能代表死亡、离婚或分居带给你的难题，因为它们可 能不会 “ 切得干干净净 ” 。
+  - 如果代表一位母亲，她可能因为内 心带着极大的悲伤，而表现在外是却是同情心或冷漠和距离。
+  - 她可能 不宽容、不讲道理，也可能优柔寡断和冷淡迟钝。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 347
+  - 350
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0347
+  - greer_reversals_zh.ex0348
+  - greer_reversals_zh.ex0349
+  - greer_reversals_zh.ex0350
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.swords_king.reversal
+  teacher: greer
+  canonical_card_id: swords_king
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 宝剑国王（ King of Swords ） 宝剑国王正在 “ 执行其职责 ” 。 他是严厉的法官、坚定无畏的士 兵、书籍主编、外科医生、法官或是一位哲学家。
+    正所谓 “ 以刀剑治 国 ” ，意思是，他有一套如铁般严格的标准在衡量事情。 像其他牌组的 国王牌一样，他也是真理与正义的公平仲裁者；该他负的责任他绝不 推辞。
+  reversal_mechanism_candidates:
+  - mechanism: blockage_or_resistance
+    text_signals:
+    - 拒绝
+  - mechanism: excess_or_compensation
+    text_signals:
+    - 过度
+    - 极端
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+    - 魔法
+  reversal_anchor: 宝剑国王逆位 逆位的宝剑国王借着发怒或让自己变得不近人 情，将秩序和纪律发挥到一种非常极端的地步，他的 行为丝毫不带同情、非常冷酷，而且坚决不动摇。
+    他 的训练可说非常严厉冷酷，毫无怜悯之心。 但另一种 可能情况是，此人无法为任何事情挺身而出，他的意 志力非常薄弱、个性松散马虎、无法做决定。
+  context_switches:
+  - 但另一种 可能情况是，此人无法为任何事情挺身而出，他的意 志力非常薄弱、个性松散马虎、无法做决定。
+  - 这张逆 位牌也可能代表所谓的 “ 心不在焉大教授 ” ：在某些地 方非常敏锐，但在其他地方完全没神经，或者，也可能代表一个缺乏 才智能力的人。
+  - 它也可能是在告诉你，轻松点、开个玩笑亦无 妨。
+  - 你可能无法坚持自己的信念或实现你 的目标，除非使用诡计花招。
+  alternatives:
+  - 但另一种 可能情况是，此人无法为任何事情挺身而出，他的意 志力非常薄弱、个性松散马虎、无法做决定。
+  - 这张逆 位牌也可能代表所谓的 “ 心不在焉大教授 ” ：在某些地 方非常敏锐，但在其他地方完全没神经，或者，也可能代表一个缺乏 才智能力的人。
+  - 它也可能是在告诉你，轻松点、开个玩笑亦无 妨。
+  - 你可能无法坚持自己的信念或实现你 的目标，除非使用诡计花招。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 351
+  - 354
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0351
+  - greer_reversals_zh.ex0352
+  - greer_reversals_zh.ex0353
+  - greer_reversals_zh.ex0354
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.pentacles_page.reversal
+  teacher: greer
+  canonical_card_id: pentacles_page
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 钱币侍者／公主（ Page / or Princess of Pentacles ） 钱币侍者是一名学生或学徒，代表的是土象星座（金牛、处女、
+    摩羯）的不成熟特质。 他（或她）行事谨慎而务实、忠诚而坚定，只 有当他亲眼看到和亲手摸到他才会真正相信一件事情。 你或者你认识 的某个人，可能带着惊叹与好奇在检视某件事情，当然也会根据普通
+    常识来判断。
+  reversal_mechanism_candidates: []
+  reversal_anchor: ''
+  context_switches: []
+  alternatives: []
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 355
+  - 358
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0355
+  - greer_reversals_zh.ex0356
+  - greer_reversals_zh.ex0357
+  - greer_reversals_zh.ex0358
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.pentacles_knight.reversal
+  teacher: greer
+  canonical_card_id: pentacles_knight
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 钱币骑士／王子（ Knight/or Prince of Pentacles ） 钱币骑士很好用。 他绝对是你可以信靠的人，只要他说他会帮，
+    就一定做到，而且他一定会待到把所有工作都完成。 他要不是很会修 东西，就是一定会去弄清楚状况，而且有时可能还是一位具有强大审 美观的老练技术工匠。
+  reversal_mechanism_candidates: []
+  reversal_anchor: ''
+  context_switches: []
+  alternatives: []
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 359
+  - 362
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0359
+  - greer_reversals_zh.ex0360
+  - greer_reversals_zh.ex0361
+  - greer_reversals_zh.ex0362
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.pentacles_queen.reversal
+  teacher: greer
+  canonical_card_id: pentacles_queen
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 钱币王后（ Queen of Pentacles ） 钱币王后就像号称美国最会赚钱又最会生活的女人玛莎．史都华 （ Martha
+    Stewart ），这张牌讲的就是殷勤好客、高尚雅致的生活、 物质充裕无忧。 她关心非常实际的资源保护议题，而且对于做生意、 大自然、动物、家政、室内或景观设计都非常感兴趣。
+  reversal_mechanism_candidates:
+  - mechanism: blockage_or_resistance
+    text_signals:
+    - 拒绝
+  - mechanism: delay_or_difficulty
+    text_signals:
+    - 困难
+  - mechanism: absence_or_non_upright
+    text_signals:
+    - 没有
+  - mechanism: excess_or_compensation
+    text_signals:
+    - 过度
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+    - 魔法
+  reversal_anchor: 钱币王后逆位 逆位的钱币王后不是一个家庭至上的人，而且讨 厌乡下地方。 她不会做饭、不会种花，而且要每个人 自求多福。 你或你认识的某个人，可能很不会照顾自
+    己、不会照料周遭环境。 你可能看起来很邋遢，屋子 杂乱无章。 你可能会拒绝照料他人，也不想成为一位 母亲或别人的照顾者。 你可能有财务上的困难、浪费 资源，或是喜欢囤积垃圾。
+  context_switches:
+  - 相反的一面 是，你可能对家务事非常热衷，对食物和运动有强迫症，对于你爱的 人你会想要霸占，占有欲很强。
+  - 逆位的钱币皇后也表示占有欲愈来愈强，对安全感和地位的渴望 日渐加剧，如果有人威胁要把这一切夺走，你可能会想办法报复他， 或决定不惜一切代价把它夺回来。
+  - 但另一方面，你可能会表现出畏 缩、胆怯和自卑。
+  - 或是相反情况，你可 能会放弃追求安全感或抛弃家庭的价值观，去追求无忧无虑、冒险的 生活。
+  alternatives:
+  - 相反的一面 是，你可能对家务事非常热衷，对食物和运动有强迫症，对于你爱的 人你会想要霸占，占有欲很强。
+  - 逆位的钱币皇后也表示占有欲愈来愈强，对安全感和地位的渴望 日渐加剧，如果有人威胁要把这一切夺走，你可能会想办法报复他， 或决定不惜一切代价把它夺回来。
+  - 但另一方面，你可能会表现出畏 缩、胆怯和自卑。
+  - 或是相反情况，你可 能会放弃追求安全感或抛弃家庭的价值观，去追求无忧无虑、冒险的 生活。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 363
+  - 366
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0363
+  - greer_reversals_zh.ex0364
+  - greer_reversals_zh.ex0365
+  - greer_reversals_zh.ex0366
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.
+- unit_id: greer.pentacles_king.reversal
+  teacher: greer
+  canonical_card_id: pentacles_king
+  capability: greer_reversal_mechanism
+  orientation_scope: reversed_only
+  upright_baseline: 钱币国王（ King of Pentacles ） 钱币国王有一双仁慈、能够点石成金之手 ── 凡他所碰过的一切， 都会繁荣兴旺
+    ── 只要是在有形物质世界里面。 他为人爽快、保守稳 健、踏实、稳重。 这张牌也可以代表资金管理方面的能力。 事实 上， “ 行情看涨 ” 这句话也适用于这里，因为它不仅相当能够代表土象
+    星座的金牛，也代表了对股市上涨抱持乐观和信心。
+  reversal_mechanism_candidates:
+  - mechanism: blockage_or_resistance
+    text_signals:
+    - 拒绝
+  - mechanism: delay_or_difficulty
+    text_signals:
+    - 迟滞
+  - mechanism: absence_or_non_upright
+    text_signals:
+    - 没有
+    - 不足
+  - mechanism: return_or_reconsideration
+    text_signals:
+    - 重新
+    - 回到
+  - mechanism: nontraditional_or_shamanic
+    text_signals:
+    - 萨满
+    - 魔法
+  reversal_anchor: 钱币国王逆位 出现逆位的钱币国王，表示你可能有点吝啬、会 剥削别人，或是行为浮夸喜欢炫耀。 这张牌可能代表 一名运用权力和金钱来操纵政治的腐败老板或商界领
+    袖。 对他们来说，一切都是买卖，包括权势地位。 你 可能对人或事有很强的占有欲或嫉妒心，尤其当你觉 得自己没有受到应有的重视时。
+  context_switches:
+  - 另一种情况是，因为 不安全感，你可能整个人缩回到一种优越的心态后 面，没有人能靠近你。
+  - 这张牌也可能单纯意指你非常固执己见，拒绝 对一个议题妥协。
+  - 虽然你的生活从外在看起来可能 很贫穷，但那可能是最让你感到安心、满足，也最幸福的一段时间。
+  - 有人称之为简陋不堪，但也有人称之为朴实无华。
+  alternatives:
+  - 另一种情况是，因为 不安全感，你可能整个人缩回到一种优越的心态后 面，没有人能靠近你。
+  - 这张牌也可能单纯意指你非常固执己见，拒绝 对一个议题妥协。
+  - 虽然你的生活从外在看起来可能 很贫穷，但那可能是最让你感到安心、满足，也最幸福的一段时间。
+  - 有人称之为简陋不堪，但也有人称之为朴实无华。
+  counterevidence:
+  - The entry presents conditional alternatives; do not promote any candidate without
+    question, position, neighboring-card, or querent evidence.
+  limitations:
+  - 仅在用户明确提供 reversed 时查询；orientation unspecified 不得调用。
+  - Greer 是候选机制来源，不覆盖 RWS visual facts 或用户事实。
+  source_pages:
+  - 367
+  - 370
+  source_excerpt_ids:
+  - greer_reversals_zh.ex0367
+  - greer_reversals_zh.ex0368
+  - greer_reversals_zh.ex0369
+  - greer_reversals_zh.ex0370
+  review_status: normalized_from_substantive_reviewed_anchor
+  source_quality: indexed_text_source_reviewed_by_phase_anchor
+  visual_review_note: Normalized from the existing substantive Greer card-entry anchor;
+    no new OCR text added.

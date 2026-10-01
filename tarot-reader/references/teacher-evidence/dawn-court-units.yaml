@@ -1,0 +1,890 @@
+---
+teacher: dawn
+book_id: dawn_court_zh
+status: manually_reviewed
+court_unit_count: 16
+rank_unit_count: 4
+rank_units:
+- unit_id: dawn.rank.page
+  teacher: dawn
+  canonical_card_id: null
+  capability: dawn_rank_function
+  orientation_scope: court_context_baseline
+  rank: Page
+  rank_function: 溝通／學習／消息入口
+  functional_bridge: 先問信息是否正在進入、被學習或需要被說清楚；不是年齡證明。
+  limitations:
+  - rank 是功能轴，不是年龄、性别或道德等级；element、position、现实行为仍需共同筛选。
+  source_pages:
+  - 46
+  - 47
+  - 48
+  source_excerpt_ids:
+  - dawn_court_zh.ex0046
+  - dawn_court_zh.ex0047
+  - dawn_court_zh.ex0048
+  review_status: manually_reviewed_rendered_pages
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Dawn rank-function pages and checked the rank labels
+    against the source layout.
+- unit_id: dawn.rank.knight
+  teacher: dawn
+  canonical_card_id: null
+  capability: dawn_rank_function
+  orientation_scope: court_context_baseline
+  rank: Knight
+  rank_function: 行動／推進
+  functional_bridge: 先問什麼正在移動、被推進或需要承擔速度；不是道德等級。
+  limitations:
+  - rank 是功能轴，不是年龄、性别或道德等级；element、position、现实行为仍需共同筛选。
+  source_pages:
+  - 52
+  - 54
+  - 58
+  - 59
+  source_excerpt_ids:
+  - dawn_court_zh.ex0052
+  - dawn_court_zh.ex0054
+  - dawn_court_zh.ex0058
+  - dawn_court_zh.ex0059
+  review_status: manually_reviewed_rendered_pages
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Dawn rank-function pages and checked the rank labels
+    against the source layout.
+- unit_id: dawn.rank.queen
+  teacher: dawn
+  canonical_card_id: null
+  capability: dawn_rank_function
+  orientation_scope: court_context_baseline
+  rank: Queen
+  rank_function: 照顧／影響／關係維持
+  functional_bridge: 先問誰在維持、照顧、影響或調節關係；不是性別身份。
+  limitations:
+  - rank 是功能轴，不是年龄、性别或道德等级；element、position、现实行为仍需共同筛选。
+  source_pages:
+  - 63
+  - 64
+  source_excerpt_ids:
+  - dawn_court_zh.ex0063
+  - dawn_court_zh.ex0064
+  review_status: manually_reviewed_rendered_pages
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Dawn rank-function pages and checked the rank labels
+    against the source layout.
+- unit_id: dawn.rank.king
+  teacher: dawn
+  canonical_card_id: null
+  capability: dawn_rank_function
+  orientation_scope: court_context_baseline
+  rank: King
+  rank_function: 領導／責任／資源治理
+  functional_bridge: 先問誰在承擔決策、責任或資源配置；不是职位证明。
+  limitations:
+  - rank 是功能轴，不是年龄、性别或道德等级；element、position、现实行为仍需共同筛选。
+  source_pages:
+  - 65
+  - 66
+  - 67
+  - 68
+  source_excerpt_ids:
+  - dawn_court_zh.ex0065
+  - dawn_court_zh.ex0066
+  - dawn_court_zh.ex0067
+  - dawn_court_zh.ex0068
+  review_status: manually_reviewed_rendered_pages
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Dawn rank-function pages and checked the rank labels
+    against the source layout.
+units:
+- unit_id: dawn.cups_king.court
+  teacher: dawn
+  canonical_card_id: cups_king
+  capability: dawn_court_ontology
+  orientation_scope: court_context_baseline
+  rank_function: 領導／責任／資源治理
+  suit_expression: 聖杯：情緒、直覺與關係
+  archetype_name: 黑帝斯／冥界之王
+  strengths:
+  - 能在高度情緒中保持穩定
+  - 洞察與慈悲並存
+  - 以照顧與影響力領導
+  shadow_or_failure_modes:
+  - 操縱或情緒投射
+  - 沉浸而不說清楚
+  - 把家庭責任變成控制
+  observable_behaviors:
+  - 在壓力中調停
+  - 先理解再決策
+  - 對家人或團隊保持穩定承擔
+  relationship_manifestations:
+  - 照顧與深度連結
+  - 對情緒和轉化議題敏感
+  work_or_social_manifestations:
+  - 影響他人的領導、照護、心理或水域相關工作
+  action_bridge: 用可觀察的穩定、照顧和邊界檢查原型；不以性別或身份收斂
+  identity_limits:
+  - 原型是作者候選，不是现实身份、性别、年龄、星座或外貌证明。
+  - 由牌位、邻牌、用户提供的可观察行为和现实约束决定是他人、self-aspect、角色还是行为模式。
+  limitations:
+  - 不以一张 Court 直接确认某个人；多 Court 不等于同样数量的人。
+  - 不把流行文化角色、星座或职业列表当作事实。
+  source_pages:
+  - 71
+  - 72
+  - 73
+  - 74
+  - 75
+  - 76
+  source_excerpt_ids:
+  - dawn_court_zh.ex0071
+  - dawn_court_zh.ex0072
+  - dawn_court_zh.ex0073
+  - dawn_court_zh.ex0074
+  - dawn_court_zh.ex0075
+  - dawn_court_zh.ex0076
+  review_status: manually_reviewed_rendered_pages
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Dawn source PDF pages 71-76; keyword, archetype, relationship,
+    work, strength/shadow and action sections inspected.
+- unit_id: dawn.cups_queen.court
+  teacher: dawn
+  canonical_card_id: cups_queen
+  capability: dawn_court_ontology
+  orientation_scope: court_context_baseline
+  rank_function: 照顧／影響／關係維持
+  suit_expression: 聖杯：情緒、直覺與關係
+  archetype_name: 神祕主義者／女祭司和通靈人
+  strengths:
+  - 直覺與同理
+  - 療癒與人道關懷
+  - 不需多語言也能理解
+  shadow_or_failure_modes:
+  - 玻璃心、操縱、脫離現實
+  - 過度吸收他人情緒
+  - 冷酷利用弱點
+  observable_behaviors:
+  - 辨認自己的感受與他人感受
+  - 在關懷中維持界線
+  - 用傾聽協助而非代替他人決定
+  relationship_manifestations:
+  - 需要情緒安全與深層理解
+  - 可能把照顧和依賴混在一起
+  work_or_social_manifestations:
+  - 諮商、照護、助人、社群支持
+  action_bridge: 原型只在行為、位置和關係 evidence 支持時使用
+  identity_limits:
+  - 原型是作者候選，不是现实身份、性别、年龄、星座或外貌证明。
+  - 由牌位、邻牌、用户提供的可观察行为和现实约束决定是他人、self-aspect、角色还是行为模式。
+  limitations:
+  - 不以一张 Court 直接确认某个人；多 Court 不等于同样数量的人。
+  - 不把流行文化角色、星座或职业列表当作事实。
+  source_pages:
+  - 77
+  - 78
+  - 79
+  - 80
+  - 81
+  - 82
+  source_excerpt_ids:
+  - dawn_court_zh.ex0077
+  - dawn_court_zh.ex0078
+  - dawn_court_zh.ex0079
+  - dawn_court_zh.ex0080
+  - dawn_court_zh.ex0081
+  - dawn_court_zh.ex0082
+  review_status: manually_reviewed_rendered_pages
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Dawn source PDF pages 77-82; keyword, archetype, relationship,
+    work, strength/shadow and action sections inspected.
+- unit_id: dawn.cups_knight.court
+  teacher: dawn
+  canonical_card_id: cups_knight
+  capability: dawn_court_ontology
+  orientation_scope: court_context_baseline
+  rank_function: 行動／推進
+  suit_expression: 聖杯：情緒、直覺與關係
+  archetype_name: 浪漫情聖
+  strengths:
+  - 理想主義、表達和創意
+  - 主動靠近
+  - 用情感推動行動
+  shadow_or_failure_modes:
+  - 把幻想當事實
+  - 追逐新鮮感
+  - 逃避承諾或情緒誇張
+  observable_behaviors:
+  - 把感受說出來
+  - 把靈感轉成具體邀請或行動
+  - 檢查浪漫敘事的現實條件
+  relationship_manifestations:
+  - 吸引與投射並存
+  - 需要區分熱情和持續承諾
+  work_or_social_manifestations:
+  - 藝術、溝通、創意或需要情感表達的角色
+  action_bridge: 浪漫不是對方身份證，也不證明關係結果
+  identity_limits:
+  - 原型是作者候選，不是现实身份、性别、年龄、星座或外貌证明。
+  - 由牌位、邻牌、用户提供的可观察行为和现实约束决定是他人、self-aspect、角色还是行为模式。
+  limitations:
+  - 不以一张 Court 直接确认某个人；多 Court 不等于同样数量的人。
+  - 不把流行文化角色、星座或职业列表当作事实。
+  source_pages:
+  - 83
+  - 84
+  - 85
+  - 86
+  - 87
+  - 88
+  - 89
+  source_excerpt_ids:
+  - dawn_court_zh.ex0083
+  - dawn_court_zh.ex0084
+  - dawn_court_zh.ex0085
+  - dawn_court_zh.ex0086
+  - dawn_court_zh.ex0087
+  - dawn_court_zh.ex0088
+  - dawn_court_zh.ex0089
+  review_status: manually_reviewed_rendered_pages
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Dawn source PDF pages 83-89; keyword, archetype, relationship,
+    work, strength/shadow and action sections inspected.
+- unit_id: dawn.cups_page.court
+  teacher: dawn
+  canonical_card_id: cups_page
+  capability: dawn_court_ontology
+  orientation_scope: court_context_baseline
+  rank_function: 溝通／學習／消息入口
+  suit_expression: 聖杯：情緒、直覺與關係
+  archetype_name: 共感人
+  strengths:
+  - 敏感、想像力和情感開放
+  - 能接收細微訊息
+  - 以創作或照顧表達
+  shadow_or_failure_modes:
+  - 情緒過載、依賴、難以分辨自己的需要
+  - 把錯誤歸給別人
+  - 逃避直接表達
+  observable_behaviors:
+  - 先辨認情緒來源
+  - 用創作或明確語言表達需要
+  - 在關係中保持自己的空間
+  relationship_manifestations:
+  - 可能指學習情感溝通或相互依賴模式
+  - 不可直接推定年齡或性格
+  work_or_social_manifestations:
+  - 藝術、照護、創意、需要同理的工作
+  action_bridge: 以行為和邊界判斷，不以敏感標籤定人
+  identity_limits:
+  - 原型是作者候選，不是现实身份、性别、年龄、星座或外貌证明。
+  - 由牌位、邻牌、用户提供的可观察行为和现实约束决定是他人、self-aspect、角色还是行为模式。
+  limitations:
+  - 不以一张 Court 直接确认某个人；多 Court 不等于同样数量的人。
+  - 不把流行文化角色、星座或职业列表当作事实。
+  source_pages:
+  - 90
+  - 91
+  - 92
+  - 93
+  - 94
+  source_excerpt_ids:
+  - dawn_court_zh.ex0090
+  - dawn_court_zh.ex0091
+  - dawn_court_zh.ex0092
+  - dawn_court_zh.ex0093
+  - dawn_court_zh.ex0094
+  review_status: manually_reviewed_rendered_pages
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Dawn source PDF pages 90-94; keyword, archetype, relationship,
+    work, strength/shadow and action sections inspected.
+- unit_id: dawn.wands_king.court
+  teacher: dawn
+  canonical_card_id: wands_king
+  capability: dawn_court_ontology
+  orientation_scope: court_context_baseline
+  rank_function: 領導／責任／資源治理
+  suit_expression: 權杖：熱情、行動與可見影響
+  archetype_name: 企業家
+  strengths:
+  - 願景、勇氣和影響力
+  - 主動創造方向
+  - 鼓勵他人發揮潛力
+  shadow_or_failure_modes:
+  - 自我膨脹、利用他人
+  - 頻繁改變、殘酷或只看效用
+  - 把家人或團隊納入控制
+  observable_behaviors:
+  - 聚焦真正熱情
+  - 承擔領導的後果
+  - 把遠見轉成可執行的共同方向
+  relationship_manifestations:
+  - 關係需要容納其可見度與雄心
+  - 不能用職業或性別認定身份
+  work_or_social_manifestations:
+  - 創業、領導、公共影響或創意事業
+  action_bridge: 用影響力的實際行為測試企業家原型
+  identity_limits:
+  - 原型是作者候選，不是现实身份、性别、年龄、星座或外貌证明。
+  - 由牌位、邻牌、用户提供的可观察行为和现实约束决定是他人、self-aspect、角色还是行为模式。
+  limitations:
+  - 不以一张 Court 直接确认某个人；多 Court 不等于同样数量的人。
+  - 不把流行文化角色、星座或职业列表当作事实。
+  source_pages:
+  - 95
+  - 96
+  - 97
+  - 98
+  - 99
+  - 100
+  - 101
+  source_excerpt_ids:
+  - dawn_court_zh.ex0095
+  - dawn_court_zh.ex0096
+  - dawn_court_zh.ex0097
+  - dawn_court_zh.ex0098
+  - dawn_court_zh.ex0099
+  - dawn_court_zh.ex0100
+  - dawn_court_zh.ex0101
+  review_status: manually_reviewed_rendered_pages
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Dawn source PDF pages 95-101; keyword, archetype, relationship,
+    work, strength/shadow and action sections inspected.
+- unit_id: dawn.wands_queen.court
+  teacher: dawn
+  canonical_card_id: wands_queen
+  capability: dawn_court_ontology
+  orientation_scope: court_context_baseline
+  rank_function: 照顧／影響／關係維持
+  suit_expression: 權杖：熱情、行動與可見影響
+  archetype_name: 表演者
+  strengths:
+  - 魅力、創意和表達
+  - 鼓勵並聚集他人
+  - 對自己的影響力有意識
+  shadow_or_failure_modes:
+  - 過度自戀、情緒誇張
+  - 焦慮與防衛
+  - 以表面形象遮蓋真實需要
+  observable_behaviors:
+  - 找到自己的表達方式
+  - 在被看見與獨立間平衡
+  - 把魅力轉成共同工作
+  relationship_manifestations:
+  - 關係中既需要關注也需要自主空間
+  - 不等於明星或特定性別
+  work_or_social_manifestations:
+  - 藝術、社交、創業、需要說服或聚眾的角色
+  action_bridge: 原型需由可見表達和對他人的實際影響支持
+  identity_limits:
+  - 原型是作者候選，不是现实身份、性别、年龄、星座或外貌证明。
+  - 由牌位、邻牌、用户提供的可观察行为和现实约束决定是他人、self-aspect、角色还是行为模式。
+  limitations:
+  - 不以一张 Court 直接确认某个人；多 Court 不等于同样数量的人。
+  - 不把流行文化角色、星座或职业列表当作事实。
+  source_pages:
+  - 102
+  - 103
+  - 104
+  - 105
+  - 106
+  - 107
+  source_excerpt_ids:
+  - dawn_court_zh.ex0102
+  - dawn_court_zh.ex0103
+  - dawn_court_zh.ex0104
+  - dawn_court_zh.ex0105
+  - dawn_court_zh.ex0106
+  - dawn_court_zh.ex0107
+  review_status: manually_reviewed_rendered_pages
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Dawn source PDF pages 102-107; keyword, archetype,
+    relationship, work, strength/shadow and action sections inspected.
+- unit_id: dawn.wands_knight.court
+  teacher: dawn
+  canonical_card_id: wands_knight
+  capability: dawn_court_ontology
+  orientation_scope: court_context_baseline
+  rank_function: 行動／推進
+  suit_expression: 權杖：熱情、行動與可見影響
+  archetype_name: 冒險家
+  strengths:
+  - 移動、旅行、勇氣和主動
+  - 面對變化適應快
+  - 把人帶向新經驗
+  shadow_or_failure_modes:
+  - 自私、粗心、不成熟
+  - 不定下來、永遠不滿
+  - 把承諾當束縛
+  observable_behaviors:
+  - 選擇一個真正熱愛的方向後行動
+  - 把冒險拆成可承擔的步驟
+  - 為速度建立邊界
+  relationship_manifestations:
+  - 可能是短期熱情而非長期關係
+  - 不把旅行或自由直接讀成逃避
+  work_or_social_manifestations:
+  - 旅行、教育、創意、需要變化和問題解決的工作
+  action_bridge: 以持續行動和承諾能力區分冒險與逃離
+  identity_limits:
+  - 原型是作者候選，不是现实身份、性别、年龄、星座或外貌证明。
+  - 由牌位、邻牌、用户提供的可观察行为和现实约束决定是他人、self-aspect、角色还是行为模式。
+  limitations:
+  - 不以一张 Court 直接确认某个人；多 Court 不等于同样数量的人。
+  - 不把流行文化角色、星座或职业列表当作事实。
+  source_pages:
+  - 108
+  - 109
+  - 110
+  - 111
+  - 112
+  source_excerpt_ids:
+  - dawn_court_zh.ex0108
+  - dawn_court_zh.ex0109
+  - dawn_court_zh.ex0110
+  - dawn_court_zh.ex0111
+  - dawn_court_zh.ex0112
+  review_status: manually_reviewed_rendered_pages
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Dawn source PDF pages 108-112; keyword, archetype,
+    relationship, work, strength/shadow and action sections inspected.
+- unit_id: dawn.wands_page.court
+  teacher: dawn
+  canonical_card_id: wands_page
+  capability: dawn_court_ontology
+  orientation_scope: court_context_baseline
+  rank_function: 溝通／學習／消息入口
+  suit_expression: 權杖：熱情、行動與可見影響
+  archetype_name: 彼得潘
+  strengths:
+  - 好奇、快樂、能量和新嘗試
+  - 把氣氛活化
+  - 學習文化與科技變化
+  shadow_or_failure_modes:
+  - 不想長大、爭辯、八卦
+  - 遇到困難就退出
+  - 用戲劇化取代責任
+  observable_behaviors:
+  - 把好奇放在有創意的事情
+  - 承認錯誤並繼續學習
+  - 用明確訊息而非噪音推進
+  relationship_manifestations:
+  - 可以是自我面向或新訊息入口
+  - 不以年齡或外貌定義
+  work_or_social_manifestations:
+  - 學習、內容、創意、需要活力的入口角色
+  action_bridge: 先看行動與學習，不把 Peter Pan 當現實身份
+  identity_limits:
+  - 原型是作者候選，不是现实身份、性别、年龄、星座或外貌证明。
+  - 由牌位、邻牌、用户提供的可观察行为和现实约束决定是他人、self-aspect、角色还是行为模式。
+  limitations:
+  - 不以一张 Court 直接确认某个人；多 Court 不等于同样数量的人。
+  - 不把流行文化角色、星座或职业列表当作事实。
+  source_pages:
+  - 113
+  - 114
+  - 115
+  - 116
+  - 117
+  - 118
+  source_excerpt_ids:
+  - dawn_court_zh.ex0113
+  - dawn_court_zh.ex0114
+  - dawn_court_zh.ex0115
+  - dawn_court_zh.ex0116
+  - dawn_court_zh.ex0117
+  - dawn_court_zh.ex0118
+  review_status: manually_reviewed_rendered_pages
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Dawn source PDF pages 113-118; keyword, archetype,
+    relationship, work, strength/shadow and action sections inspected.
+- unit_id: dawn.pentacles_king.court
+  teacher: dawn
+  canonical_card_id: pentacles_king
+  capability: dawn_court_ontology
+  orientation_scope: court_context_baseline
+  rank_function: 領導／責任／資源治理
+  suit_expression: 錢幣：身體、工作與資源
+  archetype_name: 總經理
+  strengths:
+  - 治理資源、穩定和責任
+  - 有系統地作決策
+  - 提供物質保障
+  shadow_or_failure_modes:
+  - 貪婪、批判、壓抑感情
+  - 固守而不改變
+  - 以金錢取得尊重或控制
+  observable_behaviors:
+  - 列出風險與盲點
+  - 用可行的資源方案承擔責任
+  - 讓生活品質與效率並存
+  relationship_manifestations:
+  - 物質能力不是道德或身份證明
+  - 不可直接推定有錢或職位
+  work_or_social_manifestations:
+  - 治理、財務、企業管理、資源配置
+  action_bridge: 要求現實資源與可交付責任同時可見
+  identity_limits:
+  - 原型是作者候選，不是现实身份、性别、年龄、星座或外貌证明。
+  - 由牌位、邻牌、用户提供的可观察行为和现实约束决定是他人、self-aspect、角色还是行为模式。
+  limitations:
+  - 不以一张 Court 直接确认某个人；多 Court 不等于同样数量的人。
+  - 不把流行文化角色、星座或职业列表当作事实。
+  source_pages:
+  - 119
+  - 120
+  - 121
+  - 122
+  - 123
+  - 124
+  source_excerpt_ids:
+  - dawn_court_zh.ex0119
+  - dawn_court_zh.ex0120
+  - dawn_court_zh.ex0121
+  - dawn_court_zh.ex0122
+  - dawn_court_zh.ex0123
+  - dawn_court_zh.ex0124
+  review_status: manually_reviewed_rendered_pages
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Dawn source PDF pages 119-124; keyword, archetype,
+    relationship, work, strength/shadow and action sections inspected.
+- unit_id: dawn.pentacles_queen.court
+  teacher: dawn
+  canonical_card_id: pentacles_queen
+  capability: dawn_court_ontology
+  orientation_scope: court_context_baseline
+  rank_function: 照顧／影響／關係維持
+  suit_expression: 錢幣：身體、工作與資源
+  archetype_name: 療癒者
+  strengths:
+  - 照顧、耐心、資源實作
+  - 把社群與生活維持住
+  - 在危機中可靠
+  shadow_or_failure_modes:
+  - 上帝情結、操縱、傲慢
+  - 只在被需要時感到有價值
+  - 忽略自己的需要
+  observable_behaviors:
+  - 辨認需要被照顧的地方
+  - 向社群求助也接受支持
+  - 把照顧轉成可持續安排
+  relationship_manifestations:
+  - 關懷不是無限責任
+  - 不把醫療/照護原型當診斷
+  work_or_social_manifestations:
+  - 照護、健康服務、社群、資源改善
+  action_bridge: 以可觀察照顧與資源行動核對療癒者候選
+  identity_limits:
+  - 原型是作者候選，不是现实身份、性别、年龄、星座或外貌证明。
+  - 由牌位、邻牌、用户提供的可观察行为和现实约束决定是他人、self-aspect、角色还是行为模式。
+  limitations:
+  - 不以一张 Court 直接确认某个人；多 Court 不等于同样数量的人。
+  - 不把流行文化角色、星座或职业列表当作事实。
+  source_pages:
+  - 125
+  - 126
+  - 127
+  - 128
+  - 129
+  source_excerpt_ids:
+  - dawn_court_zh.ex0125
+  - dawn_court_zh.ex0126
+  - dawn_court_zh.ex0127
+  - dawn_court_zh.ex0128
+  - dawn_court_zh.ex0129
+  review_status: manually_reviewed_rendered_pages
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Dawn source PDF pages 125-129; keyword, archetype,
+    relationship, work, strength/shadow and action sections inspected.
+- unit_id: dawn.pentacles_knight.court
+  teacher: dawn
+  canonical_card_id: pentacles_knight
+  capability: dawn_court_ontology
+  orientation_scope: court_context_baseline
+  rank_function: 行動／推進
+  suit_expression: 錢幣：身體、工作與資源
+  archetype_name: 軍人
+  strengths:
+  - 忠誠、紀律、責任與耐力
+  - 完成長期任務
+  - 保護和服務團體
+  shadow_or_failure_modes:
+  - 僵硬、完美主義、要求他人服從
+  - 只看規則與效率
+  - 把工作身份當成全部自我
+  observable_behaviors:
+  - 拆分任務並逐件完成
+  - 確認結構和目標仍適用
+  - 以持續服務而非口號證明承諾
+  relationship_manifestations:
+  - 穩定可能變成停滯
+  - 不以制服、性別或職業認定人物
+  work_or_social_manifestations:
+  - 長期專案、服務、組織和流程工作
+  action_bridge: 用持續負責的行動區分可靠與僵化
+  identity_limits:
+  - 原型是作者候選，不是现实身份、性别、年龄、星座或外貌证明。
+  - 由牌位、邻牌、用户提供的可观察行为和现实约束决定是他人、self-aspect、角色还是行为模式。
+  limitations:
+  - 不以一张 Court 直接确认某个人；多 Court 不等于同样数量的人。
+  - 不把流行文化角色、星座或职业列表当作事实。
+  source_pages:
+  - 130
+  - 131
+  - 132
+  - 133
+  - 134
+  - 135
+  source_excerpt_ids:
+  - dawn_court_zh.ex0130
+  - dawn_court_zh.ex0131
+  - dawn_court_zh.ex0132
+  - dawn_court_zh.ex0133
+  - dawn_court_zh.ex0134
+  - dawn_court_zh.ex0135
+  review_status: manually_reviewed_rendered_pages
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Dawn source PDF pages 130-135; keyword, archetype,
+    relationship, work, strength/shadow and action sections inspected.
+- unit_id: dawn.pentacles_page.court
+  teacher: dawn
+  canonical_card_id: pentacles_page
+  capability: dawn_court_ontology
+  orientation_scope: court_context_baseline
+  rank_function: 溝通／學習／消息入口
+  suit_expression: 錢幣：身體、工作與資源
+  archetype_name: 自然主義者
+  strengths:
+  - 觀察、耐心、實作和自然連結
+  - 讓事情按合理速度成熟
+  - 非語言的照顧
+  shadow_or_failure_modes:
+  - 界線不清、孤立、沉浸自己的世界
+  - 拖延或拒絕溝通
+  - 把不合群誤當成免責
+  observable_behaviors:
+  - 先看簡單可做的下一步
+  - 允許學習和成熟需要時間
+  - 用清楚的生活安排保護空間
+  relationship_manifestations:
+  - 自然連結是作者候選，不證明物種或性格
+  - 不以年齡或衣著認定
+  work_or_social_manifestations:
+  - 環境、動物、手作、需要耐心的工作
+  action_bridge: 以實際節奏和邊界判斷是否適用
+  identity_limits:
+  - 原型是作者候選，不是现实身份、性别、年龄、星座或外貌证明。
+  - 由牌位、邻牌、用户提供的可观察行为和现实约束决定是他人、self-aspect、角色还是行为模式。
+  limitations:
+  - 不以一张 Court 直接确认某个人；多 Court 不等于同样数量的人。
+  - 不把流行文化角色、星座或职业列表当作事实。
+  source_pages:
+  - 136
+  - 137
+  - 138
+  - 139
+  - 140
+  source_excerpt_ids:
+  - dawn_court_zh.ex0136
+  - dawn_court_zh.ex0137
+  - dawn_court_zh.ex0138
+  - dawn_court_zh.ex0139
+  - dawn_court_zh.ex0140
+  review_status: manually_reviewed_rendered_pages
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Dawn source PDF pages 136-140; keyword, archetype,
+    relationship, work, strength/shadow and action sections inspected.
+- unit_id: dawn.swords_king.court
+  teacher: dawn
+  canonical_card_id: swords_king
+  capability: dawn_court_ontology
+  orientation_scope: court_context_baseline
+  rank_function: 領導／責任／資源治理
+  suit_expression: 寶劍：語言、思考與界線
+  archetype_name: 科學家／專家
+  strengths:
+  - 宏觀、理性、精準和專業
+  - 把複雜問題組織成模型
+  - 以知識推動改變
+  shadow_or_failure_modes:
+  - 冷漠、自大、過度理性
+  - 逃離生活細節
+  - 把理想當作凌駕他人的權力
+  observable_behaviors:
+  - 重新檢查細節與盲點
+  - 向專業求教也保持可理解
+  - 把遠見變成可共享的決策
+  relationship_manifestations:
+  - 專業不是身份證明，也不是醫療/法律結論
+  - 理性需與人和現實接觸
+  work_or_social_manifestations:
+  - 研究、工程、教育、政策和專業治理
+  action_bridge: 需有問題解決或專業行為 evidence，不能因聰明標籤套用
+  identity_limits:
+  - 原型是作者候選，不是现实身份、性别、年龄、星座或外貌证明。
+  - 由牌位、邻牌、用户提供的可观察行为和现实约束决定是他人、self-aspect、角色还是行为模式。
+  limitations:
+  - 不以一张 Court 直接确认某个人；多 Court 不等于同样数量的人。
+  - 不把流行文化角色、星座或职业列表当作事实。
+  source_pages:
+  - 141
+  - 142
+  - 143
+  - 144
+  - 145
+  source_excerpt_ids:
+  - dawn_court_zh.ex0141
+  - dawn_court_zh.ex0142
+  - dawn_court_zh.ex0143
+  - dawn_court_zh.ex0144
+  - dawn_court_zh.ex0145
+  review_status: manually_reviewed_rendered_pages
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Dawn source PDF pages 141-145; keyword, archetype,
+    relationship, work, strength/shadow and action sections inspected.
+- unit_id: dawn.swords_queen.court
+  teacher: dawn
+  canonical_card_id: swords_queen
+  capability: dawn_court_ontology
+  orientation_scope: court_context_baseline
+  rank_function: 照顧／影響／關係維持
+  suit_expression: 寶劍：語言、思考與界線
+  archetype_name: 裁判者
+  strengths:
+  - 公平、直率、清晰和談判
+  - 看穿動機並守口如瓶
+  - 把混亂說成可處理的問題
+  shadow_or_failure_modes:
+  - 殘酷、批判、操縱
+  - 切斷感受
+  - 用聰明逃避脆弱
+  observable_behaviors:
+  - 問何種結果公平
+  - 清楚溝通並保留開放觀點
+  - 把邊界和同理一起使用
+  relationship_manifestations:
+  - 不等於冷酷或單身身份
+  - 只有行為支持時才讀成裁判角色
+  work_or_social_manifestations:
+  - 談判、管理、公共溝通、需要判斷的角色
+  action_bridge: 以語言、界線與公正行動核對原型
+  identity_limits:
+  - 原型是作者候選，不是现实身份、性别、年龄、星座或外貌证明。
+  - 由牌位、邻牌、用户提供的可观察行为和现实约束决定是他人、self-aspect、角色还是行为模式。
+  limitations:
+  - 不以一张 Court 直接确认某个人；多 Court 不等于同样数量的人。
+  - 不把流行文化角色、星座或职业列表当作事实。
+  source_pages:
+  - 146
+  - 147
+  - 148
+  - 149
+  - 150
+  - 151
+  source_excerpt_ids:
+  - dawn_court_zh.ex0146
+  - dawn_court_zh.ex0147
+  - dawn_court_zh.ex0148
+  - dawn_court_zh.ex0149
+  - dawn_court_zh.ex0150
+  - dawn_court_zh.ex0151
+  review_status: manually_reviewed_rendered_pages
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Dawn source PDF pages 146-151; keyword, archetype,
+    relationship, work, strength/shadow and action sections inspected.
+- unit_id: dawn.swords_knight.court
+  teacher: dawn
+  canonical_card_id: swords_knight
+  capability: dawn_court_ontology
+  orientation_scope: court_context_baseline
+  rank_function: 行動／推進
+  suit_expression: 寶劍：語言、思考與界線
+  archetype_name: 戰士
+  strengths:
+  - 迅速、強力、勇於行動
+  - 守護弱者
+  - 按自己的準則面對挑戰
+  shadow_or_failure_modes:
+  - 不理性、易怒、倉促處罰
+  - 被別人利用
+  - 復仇和不計後果
+  observable_behaviors:
+  - 把恐懼轉為具體行動
+  - 先確認任務和出口
+  - 用行動而不是旁觀推進
+  relationship_manifestations:
+  - 守護者不自動等於暴力
+  - 要有現實危險或衝突 evidence 才能收斂
+  work_or_social_manifestations:
+  - 危機處理、倡議、行動導向的工作
+  action_bridge: 只在實際保護/推進行為支持時使用戰士
+  identity_limits:
+  - 原型是作者候選，不是现实身份、性别、年龄、星座或外貌证明。
+  - 由牌位、邻牌、用户提供的可观察行为和现实约束决定是他人、self-aspect、角色还是行为模式。
+  limitations:
+  - 不以一张 Court 直接确认某个人；多 Court 不等于同样数量的人。
+  - 不把流行文化角色、星座或职业列表当作事实。
+  source_pages:
+  - 152
+  - 153
+  - 154
+  - 155
+  - 156
+  - 157
+  source_excerpt_ids:
+  - dawn_court_zh.ex0152
+  - dawn_court_zh.ex0153
+  - dawn_court_zh.ex0154
+  - dawn_court_zh.ex0155
+  - dawn_court_zh.ex0156
+  - dawn_court_zh.ex0157
+  review_status: manually_reviewed_rendered_pages
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Dawn source PDF pages 152-157; keyword, archetype,
+    relationship, work, strength/shadow and action sections inspected.
+- unit_id: dawn.swords_page.court
+  teacher: dawn
+  canonical_card_id: swords_page
+  capability: dawn_court_ontology
+  orientation_scope: court_context_baseline
+  rank_function: 溝通／學習／消息入口
+  suit_expression: 寶劍：語言、思考與界線
+  archetype_name: 偵探
+  strengths:
+  - 觀察、提問、探索和溝通
+  - 從細節找出模式
+  - 願意質疑複雜說法
+  shadow_or_failure_modes:
+  - 幼稚、算計、背刺、不被信任
+  - 困在自己的思考
+  - 把懷疑變成監控
+  observable_behaviors:
+  - 做好功課並提出可核對的問題
+  - 把信息整理成簡單線索
+  - 用批判性思考而非盲信
+  relationship_manifestations:
+  - 偵探是作者原型，不證明犯罪或欺騙
+  - 需要行為和位置支持
+  work_or_social_manifestations:
+  - 研究、調查、分析、解題和溝通
+  action_bridge: 以問題和證據行動判斷，不以好奇等同不信任
+  identity_limits:
+  - 原型是作者候選，不是现实身份、性别、年龄、星座或外貌证明。
+  - 由牌位、邻牌、用户提供的可观察行为和现实约束决定是他人、self-aspect、角色还是行为模式。
+  limitations:
+  - 不以一张 Court 直接确认某个人；多 Court 不等于同样数量的人。
+  - 不把流行文化角色、星座或职业列表当作事实。
+  source_pages:
+  - 158
+  - 159
+  - 160
+  - 161
+  - 162
+  source_excerpt_ids:
+  - dawn_court_zh.ex0158
+  - dawn_court_zh.ex0159
+  - dawn_court_zh.ex0160
+  - dawn_court_zh.ex0161
+  - dawn_court_zh.ex0162
+  review_status: manually_reviewed_rendered_pages
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Dawn source PDF pages 158-162; keyword, archetype,
+    relationship, work, strength/shadow and action sections inspected.

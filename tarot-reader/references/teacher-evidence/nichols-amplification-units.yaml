@@ -1,0 +1,615 @@
+---
+teacher: nichols
+book_id: nichols_jung_tarot_en
+status: authored_chapter_model_backed
+unit_count: 22
+units:
+- unit_id: nichols.fool.major_amplification
+  teacher: nichols
+  canonical_card_id: fool
+  capability: nichols_major_amplification
+  orientation_scope: major_contextual
+  transferable_method: 把无固定编号、带着包袱走向边缘的旅人作为不确定性与选择的 motif，先检查现实中的自由是否也包含可见风险。
+  author_specific_amplification: Nichols 将愚人写成穿行于秩序之间的 Joker/Trickster：他的含混同时容纳创造与破坏，不能被一个固定性格标签钉死。
+  deck_specific_material: Nichols 比较 Marseille 愚人的行走姿态、狗与悬崖等图像；这些比较只作为作者材料，不改变当前 RWS
+    packet 的可见事实。
+  polarity: 自由旅行／打破既有秩序 与 无知、危险和破坏并存。
+  alternative: 若问题中的行为已有清楚计划与护栏，愚人 amplification 可能只提示开放尝试，而不支持鲁莽行动。
+  projection_warning: 不要把自己对冒险者、年轻人或 Joker 的联想投射成当事人的身份或动机。
+  evidence_bridge: visible edge-and-travel motif → hold creation/destruction polarity
+    → test whether the real choice has safeguards
+  limitations:
+  - 只在具体 Major motif、progression、projection 或 polarity 实际改变判断时调用；单独出现大牌不构成调用理由。
+  - 不提供固定权重、编号分数或事件预测。
+  source_pages:
+  - 49
+  - 60
+  - 78
+  source_excerpt_ids:
+  - nichols_jung_tarot_en.p0049.e01
+  - nichols_jung_tarot_en.p0060.e01
+  - nichols_jung_tarot_en.p0078.e01
+  review_status: manually_reviewed_authored_chapter_model
+  source_quality: authored_chapter_model_backed
+  visual_review_note: Rendered Nichols chapter opening and selected detail pages 49,
+    60, 78; chapter title, card-specific motif, amplification and limitation were
+    checked. Comparative deck material remains explicitly non-RWS.
+- unit_id: nichols.magician.major_amplification
+  teacher: nichols
+  canonical_card_id: magician
+  capability: nichols_major_amplification
+  orientation_scope: major_contextual
+  transferable_method: 把桌面前被集中使用的工具与人物的停驻联系起来，检验意图是否已经转成可控制的操作。
+  author_specific_amplification: Nichols 将魔术师区别于四处游走的愚人：他暂时停驻，把能量集中到面前的对象，成为 Creator
+    与 Trickster 的双重角色。
+  deck_specific_material: 章节以魔杖、桌面和 Hermes/Mercurius 的比较扩展图像；比较性牌组材料不能覆写 RWS 视觉事实。
+  polarity: 创造、集中与自我实现的能力／表演、操弄或把控制误当成创造。
+  alternative: 若现实材料只显示准备而没有可观察的执行，较弱的读法是资源已到位但尚未转成行动。
+  projection_warning: 不要因为牌面工具或表达力，就把当事人认定为有魔法、专业资格或操纵他人的人。
+  evidence_bridge: visible focused operator motif → distinguish directed agency from
+    performance → test against actual execution
+  limitations:
+  - 只在具体 Major motif、progression、projection 或 polarity 实际改变判断时调用；单独出现大牌不构成调用理由。
+  - 不提供固定权重、编号分数或事件预测。
+  source_pages:
+  - 79
+  - 90
+  source_excerpt_ids:
+  - nichols_jung_tarot_en.p0079.e01
+  - nichols_jung_tarot_en.p0090.e01
+  review_status: manually_reviewed_authored_chapter_model
+  source_quality: authored_chapter_model_backed
+  visual_review_note: Rendered Nichols chapter opening and selected detail pages 79,
+    90; chapter title, card-specific motif, amplification and limitation were checked.
+    Comparative deck material remains explicitly non-RWS.
+- unit_id: nichols.high_priestess.major_amplification
+  teacher: nichols
+  canonical_card_id: high_priestess
+  capability: nichols_major_amplification
+  orientation_scope: major_contextual
+  transferable_method: 把被帷幕后方、柱间或门槛隔开的信息当作暂时不可公开的层面，检查问题是否需要等待与辨识，而非立即行动。
+  author_specific_amplification: Nichols 以 Popess 的神秘来源和 Pope Joan 传说放大‘隐藏但有创造力的知识’；随后用
+    Astarte 作为原始女性原则与月亮节律、繁衍及生长／衰败的作者性放大；这不是 RWS 人物身份。
+  deck_specific_material: 第119页正文以 Astarte 说明原始女性原则、月亮节律、繁衍及生长／衰败，第120页图注标识作者选用的 Astarte
+    雕像；这些不是 RWS 人物身份或视觉事实的证明。
+  polarity: 内在知觉、等待与潜藏知识／秘密、隔绝和把未知浪漫化。
+  alternative: 若牌位要求公开沟通且现实已有明确资料，这一 amplification 可退为先整理信息，而不是继续隐藏。
+  projection_warning: 不要把安静、女性化或神秘的视觉直接投射成当事人的性别、灵性能力或秘密。
+  evidence_bridge: visible threshold-and-withheld-information motif → preserve ambiguity
+    → test what can actually be known now
+  limitations:
+  - 只在具体 Major motif、progression、projection 或 polarity 实际改变判断时调用；单独出现大牌不构成调用理由。
+  - 不提供固定权重、编号分数或事件预测。
+  source_pages:
+  - 112
+  - 119
+  - 120
+  source_excerpt_ids:
+  - nichols_jung_tarot_en.p0112.e01
+  - nichols_jung_tarot_en.p0119.e01
+  - nichols_jung_tarot_en.p0120.e01
+  review_status: manually_reviewed_authored_chapter_model
+  source_quality: authored_chapter_model_backed
+  visual_review_note: Rendered Nichols chapter opening and selected detail pages 112,
+    119, 120; chapter title, card-specific motif, amplification and limitation were
+    checked. Comparative deck material remains explicitly non-RWS.
+  source_page_support:
+    '112': 章节开头建立 Popess／High Priestess 的门槛与暂时保留知识 motif。
+    '119': 正文明确以 Astarte 放大原始女性原则、月亮节律、繁衍及生长／衰败，并将其与 Popess 的血脉和创造性知识联系起来。
+    '120': 图注明确标识第119页正文所引用的 Astarte 雕像；本页仅作为作者选定的插图证据，不被当作 RWS 女祭司身份或视觉事实。
+- unit_id: nichols.empress.major_amplification
+  teacher: nichols
+  canonical_card_id: empress
+  capability: nichols_major_amplification
+  orientation_scope: major_contextual
+  transferable_method: 从丰饶、身体性和可见照料的 motif 出发，检查现实中是否有让事物生长的资源与容纳空间。
+  author_specific_amplification: Nichols 把皇后写成 Madonna/Great Mother 与天地相接的力量：她不只是柔和照顾，也把精神与物质联结起来。
+  deck_specific_material: 作者比较皇后、金色权杖、鹰和其他牌组的母性图像；这些扩展不可当作 RWS 额外物件。
+  polarity: 滋养、生成与容纳／过度保护、沉溺或让增长失去边界。
+  alternative: 若现实没有可持续资源，较窄的读法是需要照料的需求被看见，而不是已经拥有丰盛成果。
+  projection_warning: 不要把皇后当作母亲身份、女性身份或怀孕事实的证明。
+  evidence_bridge: visible growth-and-nurture motif → ask what sustains growth → test
+    resources and boundaries
+  limitations:
+  - 只在具体 Major motif、progression、projection 或 polarity 实际改变判断时调用；单独出现大牌不构成调用理由。
+  - 不提供固定权重、编号分数或事件预测。
+  source_pages:
+  - 131
+  - 140
+  source_excerpt_ids:
+  - nichols_jung_tarot_en.p0131.e01
+  - nichols_jung_tarot_en.p0140.e01
+  review_status: manually_reviewed_authored_chapter_model
+  source_quality: authored_chapter_model_backed
+  visual_review_note: Rendered Nichols chapter opening and selected detail pages 131,
+    140; chapter title, card-specific motif, amplification and limitation were checked.
+    Comparative deck material remains explicitly non-RWS.
+- unit_id: nichols.emperor.major_amplification
+  teacher: nichols
+  canonical_card_id: emperor
+  capability: nichols_major_amplification
+  orientation_scope: major_contextual
+  transferable_method: 从边界、结构与可通行路径的 motif 出发，检查现实是否需要明确规则、责任和能执行的基础设施。
+  author_specific_amplification: Nichols 将皇帝写成文明之父：他为皇后的花园划出路径、房屋与城市，把自然能量组织成共同生活的秩序。
+  deck_specific_material: 章节的父权、文明和历史图像是作者扩展材料，不证明现实中的父亲、男性或统治者身份。
+  polarity: 结构、保护与公共责任／僵硬、外在权威和以秩序压过个体需要。
+  alternative: 若问题已有过度规则，皇帝 amplification 可能改变为重建可用边界，而不是增加控制。
+  projection_warning: 不要把坐在王座、胡须或男性化图像直接当作职位、父亲身份或支配动机。
+  evidence_bridge: visible boundary-and-structure motif → distinguish infrastructure
+    from control → test responsibility in behavior
+  limitations:
+  - 只在具体 Major motif、progression、projection 或 polarity 实际改变判断时调用；单独出现大牌不构成调用理由。
+  - 不提供固定权重、编号分数或事件预测。
+  source_pages:
+  - 152
+  - 160
+  source_excerpt_ids:
+  - nichols_jung_tarot_en.p0152.e01
+  - nichols_jung_tarot_en.p0160.e01
+  review_status: manually_reviewed_authored_chapter_model
+  source_quality: authored_chapter_model_backed
+  visual_review_note: Rendered Nichols chapter opening and selected detail pages 152,
+    160; chapter title, card-specific motif, amplification and limitation were checked.
+    Comparative deck material remains explicitly non-RWS.
+- unit_id: nichols.hierophant.major_amplification
+  teacher: nichols
+  canonical_card_id: hierophant
+  capability: nichols_major_amplification
+  orientation_scope: major_contextual
+  transferable_method: 当牌面出现中心教导者与受教者结构时，检查知识是被传递、被制度化，还是被动接受。
+  author_specific_amplification: Nichols 强调教皇首次把多个普通人带进牌面：他成为可见的神圣中介，问题转向共同仪式、信念与权威如何影响人。
+  deck_specific_material: 作者的宗教图像、教会历史和其他牌组比较只保留为解释素材，不成为现实宗教身份证据。
+  polarity: 共同学习、传统与意义中介／服从、教条和把权威交出。
+  alternative: 若现实没有稳定机构，可能只是在寻找可用的老师或共同语言，而非加入某个体系。
+  projection_warning: 不要从教皇牌推断真实宗教、牧师身份或道德优越。
+  evidence_bridge: visible teacher-and-students motif → inspect authority and learning
+    relation → test whether guidance is reciprocal
+  limitations:
+  - 只在具体 Major motif、progression、projection 或 polarity 实际改变判断时调用；单独出现大牌不构成调用理由。
+  - 不提供固定权重、编号分数或事件预测。
+  source_pages:
+  - 173
+  - 180
+  source_excerpt_ids:
+  - nichols_jung_tarot_en.p0173.e01
+  - nichols_jung_tarot_en.p0180.e01
+  review_status: manually_reviewed_authored_chapter_model
+  source_quality: authored_chapter_model_backed
+  visual_review_note: Rendered Nichols chapter opening and selected detail pages 173,
+    180; chapter title, card-specific motif, amplification and limitation were checked.
+    Comparative deck material remains explicitly non-RWS.
+- unit_id: nichols.lovers.major_amplification
+  teacher: nichols
+  canonical_card_id: lovers
+  capability: nichols_major_amplification
+  orientation_scope: major_contextual
+  transferable_method: 从两人、第三方力量与选择张力的 motif 出发，检查欲望是否已经变成需要承担后果的决定。
+  author_specific_amplification: Nichols 把恋人写成 Cupid 的金色错误：吸引力与三角关系能把选择理想化，使人忽略社会压力和现实承诺。
+  deck_specific_material: 章节使用 Cupid、伊甸园和其他牌组的三角图像作比较；这些不是 RWS 关系事件的直接证据。
+  polarity: 亲密、真实选择与联结／诱惑、投射和让欲望替代判断。
+  alternative: 若现实已有清楚承诺，较弱的替代解释是价值排序，而不是第三者或秘密关系。
+  projection_warning: 不要把天使、裸体或两人图像当成恋爱对象、出轨或婚姻事实的证明。
+  evidence_bridge: visible choice-and-relation motif → separate desire from commitment
+    → test actual choices and consequences
+  limitations:
+  - 只在具体 Major motif、progression、projection 或 polarity 实际改变判断时调用；单独出现大牌不构成调用理由。
+  - 不提供固定权重、编号分数或事件预测。
+  source_pages:
+  - 185
+  - 190
+  source_excerpt_ids:
+  - nichols_jung_tarot_en.p0185.e01
+  - nichols_jung_tarot_en.p0190.e01
+  review_status: manually_reviewed_authored_chapter_model
+  source_quality: authored_chapter_model_backed
+  visual_review_note: Rendered Nichols chapter opening and selected detail pages 185,
+    190; chapter title, card-specific motif, amplification and limitation were checked.
+    Comparative deck material remains explicitly non-RWS.
+- unit_id: nichols.chariot.major_amplification
+  teacher: nichols
+  canonical_card_id: chariot
+  capability: nichols_major_amplification
+  orientation_scope: major_contextual
+  transferable_method: 从车辆、冠冕和前行姿态的 motif 出发，检验主体是在被运送、主动驾驶，还是把自我控制夸大成全能。
+  author_specific_amplification: Nichols 把战车写成‘把我们带回家’的载具，并以恋人之后的自我加冕提醒：方向感可能同时是自我膨胀。
+  deck_specific_material: 作者会比较不同牌组的战车、权力与旅程图像；不把其他牌组的缰绳、乘客或车辆细节加入 RWS packet。
+  polarity: 自我推动、方向与承载／自我膨胀、孤立驾驶和超越限制的幻觉。
+  alternative: 若现实中路线由环境决定，战车 amplification 可只表示正在被一套过程带着走，而非个人完全掌控。
+  projection_warning: 不要从战车直接推断胜利、旅行、驾车或确定的行动结果。
+  evidence_bridge: visible vehicle-and-directed-motion motif → distinguish agency
+    from transport → test control against constraints
+  limitations:
+  - 只在具体 Major motif、progression、projection 或 polarity 实际改变判断时调用；单独出现大牌不构成调用理由。
+  - 不提供固定权重、编号分数或事件预测。
+  source_pages:
+  - 198
+  - 205
+  source_excerpt_ids:
+  - nichols_jung_tarot_en.p0198.e01
+  - nichols_jung_tarot_en.p0205.e01
+  review_status: manually_reviewed_authored_chapter_model
+  source_quality: authored_chapter_model_backed
+  visual_review_note: Rendered Nichols chapter opening and selected detail pages 198,
+    205; chapter title, card-specific motif, amplification and limitation were checked.
+    Comparative deck material remains explicitly non-RWS.
+- unit_id: nichols.justice.major_amplification
+  teacher: nichols
+  canonical_card_id: justice
+  capability: nichols_major_amplification
+  orientation_scope: major_contextual
+  transferable_method: 从秤、直立姿态与两侧对照的 motif 出发，检查问题需要什么平衡、程序和可承担的责任。
+  author_specific_amplification: Nichols 将正义置于‘平衡领域’，作为连接天与地的人类中介；平衡是主动综合，不是简单判定谁对谁错。
+  deck_specific_material: 作者的炼金术、阴阳和中排结构是方法材料，不替代现实法律程序或法律意见。
+  polarity: 公平、综合与责任／冷酷裁决、把自我偏见误当成客观。
+  alternative: 若外部程序并不公平，正义 amplification 可能首先要求校正信息与程序，而不是接受现成判决。
+  projection_warning: 不要把正义牌当作法院结论、法律胜负或道德定罪。
+  evidence_bridge: visible balance-and-decision motif → identify competing claims
+    and process → test accountable evidence
+  limitations:
+  - 只在具体 Major motif、progression、projection 或 polarity 实际改变判断时调用；单独出现大牌不构成调用理由。
+  - 不提供固定权重、编号分数或事件预测。
+  source_pages:
+  - 215
+  - 220
+  source_excerpt_ids:
+  - nichols_jung_tarot_en.p0215.e01
+  - nichols_jung_tarot_en.p0220.e01
+  review_status: manually_reviewed_authored_chapter_model
+  source_quality: authored_chapter_model_backed
+  visual_review_note: Rendered Nichols chapter opening and selected detail pages 215,
+    220; chapter title, card-specific motif, amplification and limitation were checked.
+    Comparative deck material remains explicitly non-RWS.
+- unit_id: nichols.hermit.major_amplification
+  teacher: nichols
+  canonical_card_id: hermit
+  capability: nichols_major_amplification
+  orientation_scope: major_contextual
+  transferable_method: 从孤独旅人、灯与缓慢步伐的 motif 出发，检查答案是否需要安静观察而不是外部认可。
+  author_specific_amplification: Nichols 把隐者写成 Old Wise Man：他的智慧不是书本上的讲义，而是在沉默与孤独中以自身存在照亮路径。
+  deck_specific_material: 作者将隐者与老子、精神原型及旅人图像相连；这些不是现实人物年龄、身份或隐居事实。
+  polarity: 内在辨识、节制与独立／退缩、孤立和把沉默当成优越。
+  alternative: 若问题要求协作，隐者可以表示先形成自己的判断再回来沟通，而非永久退出。
+  projection_warning: 不要把斗篷、灯或独处直接推断成老人、导师或抑郁状态。
+  evidence_bridge: visible solitary-lamp motif → create reflective distance → test
+    whether withdrawal improves discernment
+  limitations:
+  - 只在具体 Major motif、progression、projection 或 polarity 实际改变判断时调用；单独出现大牌不构成调用理由。
+  - 不提供固定权重、编号分数或事件预测。
+  source_pages:
+  - 230
+  - 240
+  source_excerpt_ids:
+  - nichols_jung_tarot_en.p0230.e01
+  - nichols_jung_tarot_en.p0240.e01
+  review_status: manually_reviewed_authored_chapter_model
+  source_quality: authored_chapter_model_backed
+  visual_review_note: Rendered Nichols chapter opening and selected detail pages 230,
+    240; chapter title, card-specific motif, amplification and limitation were checked.
+    Comparative deck material remains explicitly non-RWS.
+- unit_id: nichols.wheel_of_fortune.major_amplification
+  teacher: nichols
+  canonical_card_id: wheel_of_fortune
+  capability: nichols_major_amplification
+  orientation_scope: major_contextual
+  transferable_method: 从轮转、上升与下降的 motif 出发，检验当下改变是循环、环境转折，还是可调整的态度。
+  author_specific_amplification: Nichols 将命运之轮放在个人洞察之后，把焦点转向命运与自由意志的张力，以及人在周期中的姿态变化。
+  deck_specific_material: 作者比较轮上的动物、埃及神祇与 Jung 类型材料；这不证明现实中的命定事件或动物身份。
+  polarity: 周期、回归与机会／无力感、宿命论和把变化全部归给外力。
+  alternative: 若现实变化有明确人为原因，轮的 amplification 可退为识别周期与选择下一步姿态。
+  projection_warning: 不要把轮牌当作好运、厄运或精确时间点的保证。
+  evidence_bridge: visible turning-and-cycle motif → separate circumstance from response
+    → test what can still be chosen
+  limitations:
+  - 只在具体 Major motif、progression、projection 或 polarity 实际改变判断时调用；单独出现大牌不构成调用理由。
+  - 不提供固定权重、编号分数或事件预测。
+  source_pages:
+  - 248
+  - 260
+  source_excerpt_ids:
+  - nichols_jung_tarot_en.p0248.e01
+  - nichols_jung_tarot_en.p0260.e01
+  review_status: manually_reviewed_authored_chapter_model
+  source_quality: authored_chapter_model_backed
+  visual_review_note: Rendered Nichols chapter opening and selected detail pages 248,
+    260; chapter title, card-specific motif, amplification and limitation were checked.
+    Comparative deck material remains explicitly non-RWS.
+- unit_id: nichols.strength.major_amplification
+  teacher: nichols
+  canonical_card_id: strength
+  capability: nichols_major_amplification
+  orientation_scope: major_contextual
+  transferable_method: 从人和狮子的近距离关系 motif 出发，检查力量是在压制、驯服，还是在有意识地整合本能。
+  author_specific_amplification: Nichols 把力量写成‘谁的力量’：外在皇帝的命令与狮子的内在本能必须由中介关系整合，力量既可滋养也可吞噬。
+  deck_specific_material: 作者比较狮子、女性人物、道德与救赎等原型材料；这些不是当事人性别、动物或超能力的事实。
+  polarity: 温柔而有意识的整合／压抑、骄傲、欲望或被本能吞没。
+  alternative: 若现实只显示外部强制，较弱的读法是需要边界与安全，而不是已经完成内在整合。
+  projection_warning: 不要把力量牌直接读成勇敢、性格坚强、女性身份或对他人有控制力。
+  evidence_bridge: visible human-lion relation motif → distinguish coercion from integration
+    → test how power is enacted
+  limitations:
+  - 只在具体 Major motif、progression、projection 或 polarity 实际改变判断时调用；单独出现大牌不构成调用理由。
+  - 不提供固定权重、编号分数或事件预测。
+  source_pages:
+  - 276
+  - 285
+  source_excerpt_ids:
+  - nichols_jung_tarot_en.p0276.e01
+  - nichols_jung_tarot_en.p0285.e01
+  review_status: manually_reviewed_authored_chapter_model
+  source_quality: authored_chapter_model_backed
+  visual_review_note: Rendered Nichols chapter opening and selected detail pages 276,
+    285; chapter title, card-specific motif, amplification and limitation were checked.
+    Comparative deck material remains explicitly non-RWS.
+- unit_id: nichols.hanged_man.major_amplification
+  teacher: nichols
+  canonical_card_id: hanged_man
+  capability: nichols_major_amplification
+  orientation_scope: major_contextual
+  transferable_method: 从倒悬、单脚悬挂与暂停的 motif 出发，检验停滞是否提供了真实的视角转换，还是只是被动困住。
+  author_specific_amplification: Nichols 将吊人写成悬置与 consent 的阶段：前一张牌的能量被反转，新的理解来自暂时不能按原方式行动。
+  deck_specific_material: 作者的树、深渊与蔬菜根部比较是作者图像材料，不是 RWS 视觉 packet 的替代。
+  polarity: 暂停、换位与让新理解形成／无助、牺牲叙事和把拖延合理化。
+  alternative: 若现实已有可行动的出口，吊人可提示先改变观察角度，而不要求无限等待。
+  projection_warning: 不要把倒挂直接推断成受害者身份、失败或必然牺牲。
+  evidence_bridge: visible suspension-and-reversal motif → test whether perspective
+    changes → separate deliberate pause from helpless delay
+  limitations:
+  - 只在具体 Major motif、progression、projection 或 polarity 实际改变判断时调用；单独出现大牌不构成调用理由。
+  - 不提供固定权重、编号分数或事件预测。
+  source_pages:
+  - 295
+  - 300
+  source_excerpt_ids:
+  - nichols_jung_tarot_en.p0295.e01
+  - nichols_jung_tarot_en.p0300.e01
+  review_status: manually_reviewed_authored_chapter_model
+  source_quality: authored_chapter_model_backed
+  visual_review_note: Rendered Nichols chapter opening and selected detail pages 295,
+    300; chapter title, card-specific motif, amplification and limitation were checked.
+    Comparative deck material remains explicitly non-RWS.
+- unit_id: nichols.death.major_amplification
+  teacher: nichols
+  canonical_card_id: death
+  capability: nichols_major_amplification
+  orientation_scope: major_contextual
+  transferable_method: 从骷髅、镰刀与散落身体部位的 motif 出发，检查旧结构哪些部分真的结束、哪些仍可被带入新安排。
+  author_specific_amplification: Nichols 把死神接在吊人的精神死亡之后：被拆散的旧生活与旧人格不必整体消失，仍有活的部分会被纳入新的秩序。
+  deck_specific_material: 作者的收获、骨骼和仪式性死亡比较是象征扩展，不是现实死亡事件的预言。
+  polarity: 结束、重组与更新／执着旧秩序、把变化等同于毁灭。
+  alternative: 若现实只是阶段调整，死神可表示停止旧做法而非关系、工作或生命的字面终结。
+  projection_warning: 不要用死神断言死亡、疾病、失业或确定的灾难。
+  evidence_bridge: visible dismemberment-and-transition motif → identify what is obsolete
+    → test what remains viable
+  limitations:
+  - 只在具体 Major motif、progression、projection 或 polarity 实际改变判断时调用；单独出现大牌不构成调用理由。
+  - 不提供固定权重、编号分数或事件预测。
+  source_pages:
+  - 309
+  - 320
+  source_excerpt_ids:
+  - nichols_jung_tarot_en.p0309.e01
+  - nichols_jung_tarot_en.p0320.e01
+  review_status: manually_reviewed_authored_chapter_model
+  source_quality: authored_chapter_model_backed
+  visual_review_note: Rendered Nichols chapter opening and selected detail pages 309,
+    320; chapter title, card-specific motif, amplification and limitation were checked.
+    Comparative deck material remains explicitly non-RWS.
+- unit_id: nichols.temperance.major_amplification
+  teacher: nichols
+  canonical_card_id: temperance
+  capability: nichols_major_amplification
+  orientation_scope: major_contextual
+  transferable_method: 从天使、两只容器和液体流动的 motif 出发，检查相反资源如何被调和、循环和重新配比。
+  author_specific_amplification: Nichols 将节制写成 Heavenly Alchemist：蓝、红容器之间的倾倒连接水瓶与流通，重点是混合与调节而非静态折中。
+  deck_specific_material: 作者的炼金术、水瓶和颜色联想属于作者材料；颜色不能回写 Phase 4C 视觉事实。
+  polarity: 调和、循环与转化／过度混合、稀释差异和以平静掩盖冲突。
+  alternative: 若现实双方并不具备可交换资源，节制可能只要求先建立节奏与边界。
+  projection_warning: 不要从天使或水流断言灵性身份、治疗效果或必然和解。
+  evidence_bridge: visible pouring-and-balance motif → identify what can circulate
+    → test proportion and boundaries
+  limitations:
+  - 只在具体 Major motif、progression、projection 或 polarity 实际改变判断时调用；单独出现大牌不构成调用理由。
+  - 不提供固定权重、编号分数或事件预测。
+  source_pages:
+  - 337
+  - 345
+  source_excerpt_ids:
+  - nichols_jung_tarot_en.p0337.e01
+  - nichols_jung_tarot_en.p0345.e01
+  review_status: manually_reviewed_authored_chapter_model
+  source_quality: authored_chapter_model_backed
+  visual_review_note: Rendered Nichols chapter opening and selected detail pages 337,
+    345; chapter title, card-specific motif, amplification and limitation were checked.
+    Comparative deck material remains explicitly non-RWS.
+- unit_id: nichols.devil.major_amplification
+  teacher: nichols
+  canonical_card_id: devil
+  capability: nichols_major_amplification
+  orientation_scope: major_contextual
+  transferable_method: 从有翼人物、锁链和受约束的人形 motif 出发，检查欲望、权力或习惯是否在无意识中取得控制。
+  author_specific_amplification: Nichols 将恶魔写成堕落的 Dark Angel：驱力本身未必有道德色彩，真正危险在于它以无意识、强迫和不受检验的方式运行。
+  deck_specific_material: 作者比较撒旦、影子、罪与其他宗教图像；这些不是犯罪、邪恶身份或超自然事实。
+  polarity: 承认驱力并有意识使用／无意识强迫、骄傲与被欲望吞没。
+  alternative: 若现实已有清楚边界，恶魔 amplification 可提示一项强吸引力的议题，而不是关系或行为已失控。
+  projection_warning: 不要把恶魔牌当作出轨、犯罪、成瘾或邪恶人格的证据。
+  evidence_bridge: visible chain-and-attachment motif → separate drive from unconscious
+    compulsion → test observable control
+  limitations:
+  - 只在具体 Major motif、progression、projection 或 polarity 实际改变判断时调用；单独出现大牌不构成调用理由。
+  - 不提供固定权重、编号分数或事件预测。
+  source_pages:
+  - 352
+  - 365
+  source_excerpt_ids:
+  - nichols_jung_tarot_en.p0352.e01
+  - nichols_jung_tarot_en.p0365.e01
+  review_status: manually_reviewed_authored_chapter_model
+  source_quality: authored_chapter_model_backed
+  visual_review_note: Rendered Nichols chapter opening and selected detail pages 352,
+    365; chapter title, card-specific motif, amplification and limitation were checked.
+    Comparative deck material remains explicitly non-RWS.
+- unit_id: nichols.tower.major_amplification
+  teacher: nichols
+  canonical_card_id: tower
+  capability: nichols_major_amplification
+  orientation_scope: major_contextual
+  transferable_method: 从高塔、闪电和两人被抛出的 motif 出发，检查外在结构的破裂是否也打开了被保护结构之外的现实。
+  author_specific_amplification: Nichols 把高塔写成 Destruction 与 Stroke of Liberation
+    的双面经验：被冠冕保护的结构被闪电击开，但释放不等于结果自动变好。
+  deck_specific_material: 作者以巴别塔、闪电和后续星月日的进程作扩展；不能把其他牌组人物动作加入 RWS packet。
+  polarity: 突然暴露、解放与真实更新／失序、受伤和失去原有防护。
+  alternative: 若现实已有主动拆除计划，高塔可表示加速清除旧结构，而非完全突发的灾难。
+  projection_warning: 不要把高塔直接预言死亡、事故、失业或确定的崩溃。
+  evidence_bridge: visible lightning-and-ejection motif → test collapse versus liberation
+    → preserve immediate instability as counterevidence
+  limitations:
+  - 只在具体 Major motif、progression、projection 或 polarity 实际改变判断时调用；单独出现大牌不构成调用理由。
+  - 不提供固定权重、编号分数或事件预测。
+  source_pages:
+  - 381
+  - 390
+  source_excerpt_ids:
+  - nichols_jung_tarot_en.p0381.e01
+  - nichols_jung_tarot_en.p0390.e01
+  review_status: manually_reviewed_authored_chapter_model
+  source_quality: authored_chapter_model_backed
+  visual_review_note: Rendered Nichols chapter opening and selected detail pages 381,
+    390; chapter title, card-specific motif, amplification and limitation were checked.
+    Comparative deck material remains explicitly non-RWS.
+- unit_id: nichols.star.major_amplification
+  teacher: nichols
+  canonical_card_id: star
+  capability: nichols_major_amplification
+  orientation_scope: major_contextual
+  transferable_method: 从裸露人物、双容器与星光的 motif 出发，检查去除旧身份后还有什么可以重新分配和滋养生活。
+  author_specific_amplification: Nichols 将星星写成高塔之后的希望：人物失去墙和伪装却仍保有彼此，水被分别流回溪流与土地，形成更新而非简单乐观。
+  deck_specific_material: 作者的裸露、星体与炼金术联想是作者材料，不是用户现实的纯洁、裸体或希望证明。
+  polarity: 更新、诚实与可流动的资源／理想化、暴露过度和把希望当成结果。
+  alternative: 若现实仍处于失序，星星只可支持恢复方向，不证明已经恢复。
+  projection_warning: 不要把星星当作愿望实现、疗愈完成或关系必然修复。
+  evidence_bridge: visible water-and-starlight renewal motif → identify what can be
+    replenished → test hope against present resources
+  limitations:
+  - 只在具体 Major motif、progression、projection 或 polarity 实际改变判断时调用；单独出现大牌不构成调用理由。
+  - 不提供固定权重、编号分数或事件预测。
+  source_pages:
+  - 397
+  - 410
+  source_excerpt_ids:
+  - nichols_jung_tarot_en.p0397.e01
+  - nichols_jung_tarot_en.p0410.e01
+  review_status: manually_reviewed_authored_chapter_model
+  source_quality: authored_chapter_model_backed
+  visual_review_note: Rendered Nichols chapter opening and selected detail pages 397,
+    410; chapter title, card-specific motif, amplification and limitation were checked.
+    Comparative deck material remains explicitly non-RWS.
+- unit_id: nichols.moon.major_amplification
+  teacher: nichols
+  canonical_card_id: moon
+  capability: nichols_major_amplification
+  orientation_scope: major_contextual
+  transferable_method: 从月光、两塔、犬与水中生物的 motif 出发，检查信息是否处于模糊、恐惧和未整合的边界。
+  author_specific_amplification: Nichols 将月亮写成 Maiden or Menace：旅人不在画面中，龙虾阻路、犬守门，意味着人必须面对没有清晰引导的黑暗阶段。
+  deck_specific_material: 作者比较荒漠、龙虾、犬与古典月亮意象；这些不证明现实存在危险动物或欺骗者。
+  polarity: 直觉、过渡与潜意识材料／恐惧、幻觉和把未知误认成事实。
+  alternative: 若已有可核验资料，月亮可只提示情绪噪音与不完整信息，而不支持阴谋或欺骗。
+  projection_warning: 不要把月亮牌当作出轨、谎言、精神疾病或隐藏事件的证明。
+  evidence_bridge: visible night-and-threshold motif → separate felt threat from verified
+    fact → test uncertainty explicitly
+  limitations:
+  - 只在具体 Major motif、progression、projection 或 polarity 实际改变判断时调用；单独出现大牌不构成调用理由。
+  - 不提供固定权重、编号分数或事件预测。
+  source_pages:
+  - 420
+  - 430
+  source_excerpt_ids:
+  - nichols_jung_tarot_en.p0420.e01
+  - nichols_jung_tarot_en.p0430.e01
+  review_status: manually_reviewed_authored_chapter_model
+  source_quality: authored_chapter_model_backed
+  visual_review_note: Rendered Nichols chapter opening and selected detail pages 420,
+    430; chapter title, card-specific motif, amplification and limitation were checked.
+    Comparative deck material remains explicitly non-RWS.
+- unit_id: nichols.sun.major_amplification
+  teacher: nichols
+  canonical_card_id: sun
+  capability: nichols_major_amplification
+  orientation_scope: major_contextual
+  transferable_method: 从太阳、人脸和两个孩子的 motif 出发，检查清晰、玩耍与关系是否让现实更可见，同时保留光线过强的风险。
+  author_specific_amplification: Nichols 将太阳写成 Moon 之后的 Shining Center：龙虾与犬消失，两个孩子把人的关系带回日光，但照明仍可能诱发投射。
+  deck_specific_material: 作者比较太阳的人脸、彩色光线与炼金术的统一意象；这不替代 RWS packet 的颜色或人物事实。
+  polarity: 清晰、共同玩耍与生命能量／过度曝光、理想化和把光明当成无条件安全。
+  alternative: 若问题材料仍混乱，太阳可只是提供可检验的明确信息，而非保证快乐结局。
+  projection_warning: 不要把太阳直接当作成功、孩子、怀孕或未来必然顺利的证明。
+  evidence_bridge: visible human-faced-light motif → identify what becomes clear →
+    test warmth against concrete behavior
+  limitations:
+  - 只在具体 Major motif、progression、projection 或 polarity 实际改变判断时调用；单独出现大牌不构成调用理由。
+  - 不提供固定权重、编号分数或事件预测。
+  source_pages:
+  - 437
+  - 445
+  source_excerpt_ids:
+  - nichols_jung_tarot_en.p0437.e01
+  - nichols_jung_tarot_en.p0445.e01
+  review_status: manually_reviewed_authored_chapter_model
+  source_quality: authored_chapter_model_backed
+  visual_review_note: Rendered Nichols chapter opening and selected detail pages 437,
+    445; chapter title, card-specific motif, amplification and limitation were checked.
+    Comparative deck material remains explicitly non-RWS.
+- unit_id: nichols.judgement.major_amplification
+  teacher: nichols
+  canonical_card_id: judgement
+  capability: nichols_major_amplification
+  orientation_scope: major_contextual
+  transferable_method: 从天使号角、坟墓与起身人物的 motif 出发，检查一个呼唤是否需要被听见、评估并落实为新的参与。
+  author_specific_amplification: Nichols 将审判写成 A Vocation：号角不是命定职业，而是一个让旧经验重新醒来、要求回应的召唤。
+  deck_specific_material: 作者的复活、圣经与天使材料只提供原型扩展，不证明死亡后事件或神谕。
+  polarity: 觉醒、回应与重新参与／羞耻、审判他人和把召唤误当成确定命运。
+  alternative: 若现实没有新机会，审判可表示对旧事实作出清楚总结，而不是立刻开始新人生。
+  projection_warning: 不要用审判预言复活、死亡、天命或必须接受的职业选择。
+  evidence_bridge: visible trumpet-and-rising motif → distinguish call from verdict
+    → test whether a concrete response is possible
+  limitations:
+  - 只在具体 Major motif、progression、projection 或 polarity 实际改变判断时调用；单独出现大牌不构成调用理由。
+  - 不提供固定权重、编号分数或事件预测。
+  source_pages:
+  - 450
+  - 455
+  source_excerpt_ids:
+  - nichols_jung_tarot_en.p0450.e01
+  - nichols_jung_tarot_en.p0455.e01
+  review_status: manually_reviewed_authored_chapter_model
+  source_quality: authored_chapter_model_backed
+  visual_review_note: Rendered Nichols chapter opening and selected detail pages 450,
+    455; chapter title, card-specific motif, amplification and limitation were checked.
+    Comparative deck material remains explicitly non-RWS.
+- unit_id: nichols.world.major_amplification
+  teacher: nichols
+  canonical_card_id: world
+  capability: nichols_major_amplification
+  orientation_scope: major_contextual
+  transferable_method: 从花环、舞者与四角守望者的 motif 出发，检查分散的经验是否被整合，同时保留循环尚未真正结束的可能。
+  author_specific_amplification: Nichols 把世界写成 A Window on Eternity：舞者在花环中完成整合，却仍是通向下一轮旅程的窗口，不是把所有变化冻结成终点。
+  deck_specific_material: 作者明确比较角落的狮、牛、鹰和人形/天使以及舞者的两根权杖；其他传统的对应关系不可当作 RWS 新视觉事实。
+  polarity: 整合、完成与开放视野／停滞、封闭和把完成误当成永不改变。
+  alternative: 若现实仍有未协调部分，世界只支持看见整体结构，不证明项目或关系已经结束。
+  projection_warning: 不要把世界当作最终结局、永恒稳定或必然成功的保证。
+  evidence_bridge: visible wreath-and-integration motif → map what has come together
+    → test whether the next cycle remains open
+  limitations:
+  - 只在具体 Major motif、progression、projection 或 polarity 实际改变判断时调用；单独出现大牌不构成调用理由。
+  - 不提供固定权重、编号分数或事件预测。
+  source_pages:
+  - 464
+  - 475
+  - 488
+  source_excerpt_ids:
+  - nichols_jung_tarot_en.p0464.e01
+  - nichols_jung_tarot_en.p0475.e01
+  - nichols_jung_tarot_en.p0488.e01
+  review_status: manually_reviewed_authored_chapter_model
+  source_quality: authored_chapter_model_backed
+  visual_review_note: Rendered Nichols chapter opening and selected detail pages 464,
+    475, 488; chapter title, card-specific motif, amplification and limitation were
+    checked. Comparative deck material remains explicitly non-RWS.

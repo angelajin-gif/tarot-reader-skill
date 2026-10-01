@@ -1,4 +1,4 @@
 interface:
   display_name: "Tarot Reader"
-  short_description: "以故事线、行内证据与后续牌阵建议解读 RWS 抽牌"
+  short_description: "以完整 RWS 场景、故事线与行内证据解读抽牌"
   default_prompt: "使用 $tarot-reader 解读我提供的问题、背景、牌阵与抽牌。"

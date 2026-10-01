@@ -1,0 +1,242 @@
+release_id: tarot-reader.stage10.v1.3
+status: frozen
+policy:
+  units_are_condensed_author_evidence: true
+  raw_ocr_is_not_runtime_content: true
+  rws_visual_facts_remain_phase4c_only: true
+  unreviewed_or_drifted_content_fails_closed: true
+  author_interpretation_is_not_user_fact: true
+sources:
+  - source_id: daniel
+    book_id: daniel_16_lessons_zh
+    original_repo_paths:
+      book_model: reading/daniel_16_lessons_zh/book-model.md
+      card_entry_anchors: reading/daniel_16_lessons_zh/card-entry-anchors.jsonl
+      source_chunks_locator_only: reading/daniel_16_lessons_zh/source-chunks.jsonl
+      source_pdf: 学会塔罗的16堂课中文版.pdf
+    sha256:
+      book_model: 8a30f73fb288887d8ab9753de703fe9e83492cc6c8325bd058c004e4f3b60a1a
+      card_entry_anchors: 8c6c8994d6d0779785d4686153bb4e50e210f6e63bb2a581fdc98e2159b55ae4
+      source_chunks_locator_only: 0f6d0a557fd8c4d1ea30c51acb4b10ba1dc8ec954a2cf1c6e7754b0e7f1fb82b
+      source_pdf: c2db26c31908c71f0d0bb3526fcfc89ebc0ae9390281c1db29ed3e36bf13ddaf
+    review_scope:
+      reviewed_pdf_pages: 100
+      reviewed_card_entry_opening_pages: 78
+      reviewed_continuation_pages: 22
+      reviewed_card_units: 78
+      page_routes: "Opening card-entry pages from the 78 Daniel anchors, plus Major continuation pages 122, 124, 126, 128, 130, 132, 134, 138, 140, 142, 144, 146, 148, 150, 154, 156, 158, 160, 162, 164, 166, 168"
+      field_coverage: "Opening pages cover author visual narrative; Major continuation pages cover labelled meaning candidates and example manifestations."
+      method: rendered_local_pdf_page_review
+  - source_id: dawn
+    book_id: dawn_court_zh
+    original_repo_paths:
+      book_model: reading/dawn_court_zh/book-model.md
+      retrieval_anchors: reading/dawn_court_zh/retrieval-anchors.yaml
+      source_chunks_locator_only: reading/dawn_court_zh/source-chunks.jsonl
+      source_pdf: "塔羅宮廷牌_原型人物解牌祕笈 -- 伊索妮_朵恩(Ethony Dawn);黄春华 译; -- null, null, 101 -- 楓樹林出版事業有限公司 -- a54ca4a53f8a9d838fbfff62572819f4 -- Anna’s Archive.pdf"
+    sha256:
+      book_model: 1a1055bc5264b101859e426b76a6084dfbde99071ef50feb47d88d55fe2acb42
+      retrieval_anchors: ae7b8db73c8affeafd1164ecd1d453e631850cb1c3828d9defd7ec2f51bdaa75
+      source_chunks_locator_only: 6c2f7375588b23c186142b24c06d8fa83337140a2e128b5facd168c1e0ae54a5
+      source_pdf: c8a8a8b1aae45999974b2dadba8af94821f1cbd5d46c63c2f40c6c115573de40
+    review_scope:
+      reviewed_pdf_pages: 92
+      reviewed_court_units: 16
+      reviewed_rank_units: 4
+      page_routes: "Rendered Court sections PDF pages 71-162; rank-function pages 46-68"
+      method: rendered_local_pdf_page_review
+  - source_id: greer
+    book_id: greer_reversals_zh
+    original_repo_paths:
+      book_model: reading/greer_reversals_zh/book-model.md
+      retrieval_anchors: reading/greer_reversals_zh/retrieval-anchors.yaml
+      card_entry_anchors: reading/greer_reversals_zh/card-entry-anchors.jsonl
+      source_chunks_locator_only: reading/greer_reversals_zh/source-chunks.jsonl
+      source_pdf: "跟着大师学塔罗逆位牌 -- 玛莉_K_格瑞尔 -- 初版, 新北市板橋區, 2022[民111 -- 楓樹林出版事業有限公司 -- isbn13 9786267108758 -- 1a52c4d2c6d498376ad3d0bfe08f51fb -- Anna’s Archive.pdf"
+    sha256:
+      book_model: a03ff533dd92260896dc2a12793b3af65cd45038f73f4f67dff4e37b55d78d95
+      retrieval_anchors: 7b868913dc5175f9a0094effcd7f7e27234489c17cd1ca9760ab627e50a138c6
+      card_entry_anchors: fdfbbcb187985898001782aea523fa7d2877c3041e576f2b6f7cf547f4fb4513
+      source_chunks_locator_only: 886868bc42fc4d2c0134835cb043f0514826425febda8e400fe2fd5669dbeda3
+      source_pdf: 040fb7f27148df32777f82257a33536ae06f5264d09cb876a1f3d4c527e6c6a7
+    review_scope:
+      normalized_units: 78
+      method: existing_substantive_card_entry_anchor_normalization
+  - source_id: nichols
+    book_id: nichols_jung_tarot_en
+    original_repo_paths:
+      book_model: reading/nichols_archetypal_journey_en/book-model.md
+      retrieval_anchors: reading/nichols_archetypal_journey_en/retrieval-anchors.yaml
+      reasoning_chains: reading/nichols_archetypal_journey_en/reasoning-chains.yaml
+      chapter_models: reading/nichols_archetypal_journey_en/chapter-models/*.md
+      source_chunks_locator_only: reading/nichols_archetypal_journey_en/source-chunks.jsonl
+      source_pdf: 荣格与塔罗原型之旅英文版.pdf
+    sha256:
+      book_model: a4f9f52f96d675be339b7b112b8933d44ccf6cd16aeb7f9cbcbb6a6b98d82e72
+      retrieval_anchors: d5c790aa7c4787e14886d3ebb208d1aedbcc7fda3bd8385e9abd306fbcaa1244
+      reasoning_chains: f0ad8466a0da0885b5799a377818a7d2108613be66d33cdcce6c67dae3c3ca70
+      source_chunks_locator_only: 80e0a83d279dfbf863faa9a75bc08fcc4f6738cef77b9d8234b65dc98997e609
+      source_pdf: b3ac1983d4a506e40af4315673ca75ed41fb6598669a89438b08b6e6c0d883b2
+    review_scope:
+      normalized_major_units: 22
+      reviewed_chapter_opening_and_detail_pages: 47
+      page_routes: "Per-card chapter opening/detail routes are explicitly reviewed and recorded in each unit source_pages: [49,60,78], [79,90], [112,119,120], [131,140], [152,160], [173,180], [185,190], [198,205], [215,220], [230,240], [248,260], [276,285], [295,300], [309,320], [337,345], [352,365], [381,390], [397,410], [420,430], [437,445], [450,455], [464,475,488]. Next-chapter comparative image pages are excluded; High Priestess page 120 is retained only as the Astarte figure caption tied to the page-119 substantive discussion."
+      method: rendered_local_pdf_page_review_plus_authored_chapter_model_crosscheck
+      visual_boundary: comparative_deck_material_is_not_rws_visual_evidence
+excerpt_locator_index:
+  greer_reversals_zh:
+    greer_reversals_zh.ex0058: {pdf_page: 58, scope: general_reversal_framework}
+    greer_reversals_zh.ex0059: {pdf_page: 59, scope: general_reversal_framework}
+    greer_reversals_zh.ex0060: {pdf_page: 60, scope: general_reversal_framework}
+    greer_reversals_zh.ex0061: {pdf_page: 61, scope: general_reversal_framework}
+    greer_reversals_zh.ex0062: {pdf_page: 62, scope: general_reversal_framework}
+    greer_reversals_zh.ex0063: {pdf_page: 63, scope: general_reversal_framework}
+  daniel_16_lessons_zh:
+    daniel_16_lessons_zh.p0054.e01: {pdf_page: 54, canonical_card_id: wands_ace}
+    daniel_16_lessons_zh.p0055.e01: {pdf_page: 55, canonical_card_id: wands_two}
+    daniel_16_lessons_zh.p0056.e01: {pdf_page: 56, canonical_card_id: wands_three}
+    daniel_16_lessons_zh.p0057.e01: {pdf_page: 57, canonical_card_id: wands_four}
+    daniel_16_lessons_zh.p0058.e01: {pdf_page: 58, canonical_card_id: wands_five}
+    daniel_16_lessons_zh.p0059.e01: {pdf_page: 59, canonical_card_id: wands_six}
+    daniel_16_lessons_zh.p0060.e01: {pdf_page: 60, canonical_card_id: wands_seven}
+    daniel_16_lessons_zh.p0061.e01: {pdf_page: 61, canonical_card_id: wands_eight}
+    daniel_16_lessons_zh.p0062.e01: {pdf_page: 62, canonical_card_id: wands_nine}
+    daniel_16_lessons_zh.p0063.e01: {pdf_page: 63, canonical_card_id: wands_ten}
+    daniel_16_lessons_zh.p0066.e01: {pdf_page: 66, canonical_card_id: cups_ace}
+    daniel_16_lessons_zh.p0067.e01: {pdf_page: 67, canonical_card_id: cups_two}
+    daniel_16_lessons_zh.p0068.e01: {pdf_page: 68, canonical_card_id: cups_three}
+    daniel_16_lessons_zh.p0069.e01: {pdf_page: 69, canonical_card_id: cups_four}
+    daniel_16_lessons_zh.p0070.e01: {pdf_page: 70, canonical_card_id: cups_five}
+    daniel_16_lessons_zh.p0071.e01: {pdf_page: 71, canonical_card_id: cups_six}
+    daniel_16_lessons_zh.p0072.e01: {pdf_page: 72, canonical_card_id: cups_seven}
+    daniel_16_lessons_zh.p0073.e01: {pdf_page: 73, canonical_card_id: cups_eight}
+    daniel_16_lessons_zh.p0074.e01: {pdf_page: 74, canonical_card_id: cups_nine}
+    daniel_16_lessons_zh.p0075.e01: {pdf_page: 75, canonical_card_id: cups_ten}
+    daniel_16_lessons_zh.p0078.e01: {pdf_page: 78, canonical_card_id: swords_ace}
+    daniel_16_lessons_zh.p0079.e01: {pdf_page: 79, canonical_card_id: swords_two}
+    daniel_16_lessons_zh.p0080.e01: {pdf_page: 80, canonical_card_id: swords_three}
+    daniel_16_lessons_zh.p0081.e01: {pdf_page: 81, canonical_card_id: swords_four}
+    daniel_16_lessons_zh.p0082.e01: {pdf_page: 82, canonical_card_id: swords_five}
+    daniel_16_lessons_zh.p0083.e01: {pdf_page: 83, canonical_card_id: swords_six}
+    daniel_16_lessons_zh.p0084.e01: {pdf_page: 84, canonical_card_id: swords_seven}
+    daniel_16_lessons_zh.p0085.e01: {pdf_page: 85, canonical_card_id: swords_eight}
+    daniel_16_lessons_zh.p0086.e01: {pdf_page: 86, canonical_card_id: swords_nine}
+    daniel_16_lessons_zh.p0087.e01: {pdf_page: 87, canonical_card_id: swords_ten}
+    daniel_16_lessons_zh.p0090.e01: {pdf_page: 90, canonical_card_id: pentacles_ace}
+    daniel_16_lessons_zh.p0091.e01: {pdf_page: 91, canonical_card_id: pentacles_two}
+    daniel_16_lessons_zh.p0092.e01: {pdf_page: 92, canonical_card_id: pentacles_three}
+    daniel_16_lessons_zh.p0093.e01: {pdf_page: 93, canonical_card_id: pentacles_four}
+    daniel_16_lessons_zh.p0094.e01: {pdf_page: 94, canonical_card_id: pentacles_five}
+    daniel_16_lessons_zh.p0095.e01: {pdf_page: 95, canonical_card_id: pentacles_six}
+    daniel_16_lessons_zh.p0096.e01: {pdf_page: 96, canonical_card_id: pentacles_seven}
+    daniel_16_lessons_zh.p0097.e01: {pdf_page: 97, canonical_card_id: pentacles_eight}
+    daniel_16_lessons_zh.p0098.e01: {pdf_page: 98, canonical_card_id: pentacles_nine}
+    daniel_16_lessons_zh.p0099.e01: {pdf_page: 99, canonical_card_id: pentacles_ten}
+    daniel_16_lessons_zh.p0103.e01: {pdf_page: 103, canonical_card_id: wands_page}
+    daniel_16_lessons_zh.p0104.e01: {pdf_page: 104, canonical_card_id: wands_knight}
+    daniel_16_lessons_zh.p0105.e01: {pdf_page: 105, canonical_card_id: wands_queen}
+    daniel_16_lessons_zh.p0106.e01: {pdf_page: 106, canonical_card_id: wands_king}
+    daniel_16_lessons_zh.p0107.e01: {pdf_page: 107, canonical_card_id: cups_page}
+    daniel_16_lessons_zh.p0108.e01: {pdf_page: 108, canonical_card_id: cups_knight}
+    daniel_16_lessons_zh.p0109.e01: {pdf_page: 109, canonical_card_id: cups_queen}
+    daniel_16_lessons_zh.p0110.e01: {pdf_page: 110, canonical_card_id: cups_king}
+    daniel_16_lessons_zh.p0111.e01: {pdf_page: 111, canonical_card_id: swords_page}
+    daniel_16_lessons_zh.p0112.e01: {pdf_page: 112, canonical_card_id: swords_knight}
+    daniel_16_lessons_zh.p0113.e01: {pdf_page: 113, canonical_card_id: swords_queen}
+    daniel_16_lessons_zh.p0114.e01: {pdf_page: 114, canonical_card_id: swords_king}
+    daniel_16_lessons_zh.p0115.e01: {pdf_page: 115, canonical_card_id: pentacles_page}
+    daniel_16_lessons_zh.p0116.e01: {pdf_page: 116, canonical_card_id: pentacles_knight}
+    daniel_16_lessons_zh.p0117.e01: {pdf_page: 117, canonical_card_id: pentacles_queen}
+    daniel_16_lessons_zh.p0118.e01: {pdf_page: 118, canonical_card_id: pentacles_king}
+    daniel_16_lessons_zh.p0121.e01: {pdf_page: 121, canonical_card_id: magician}
+    daniel_16_lessons_zh.p0122.e01: {pdf_page: 122, canonical_card_id: magician}
+    daniel_16_lessons_zh.p0123.e01: {pdf_page: 123, canonical_card_id: high_priestess}
+    daniel_16_lessons_zh.p0124.e01: {pdf_page: 124, canonical_card_id: high_priestess}
+    daniel_16_lessons_zh.p0125.e01: {pdf_page: 125, canonical_card_id: empress}
+    daniel_16_lessons_zh.p0126.e01: {pdf_page: 126, canonical_card_id: empress}
+    daniel_16_lessons_zh.p0127.e01: {pdf_page: 127, canonical_card_id: emperor}
+    daniel_16_lessons_zh.p0128.e01: {pdf_page: 128, canonical_card_id: emperor}
+    daniel_16_lessons_zh.p0129.e01: {pdf_page: 129, canonical_card_id: hierophant}
+    daniel_16_lessons_zh.p0130.e01: {pdf_page: 130, canonical_card_id: hierophant}
+    daniel_16_lessons_zh.p0131.e01: {pdf_page: 131, canonical_card_id: lovers}
+    daniel_16_lessons_zh.p0132.e01: {pdf_page: 132, canonical_card_id: lovers}
+    daniel_16_lessons_zh.p0133.e01: {pdf_page: 133, canonical_card_id: chariot}
+    daniel_16_lessons_zh.p0134.e01: {pdf_page: 134, canonical_card_id: chariot}
+    daniel_16_lessons_zh.p0137.e01: {pdf_page: 137, canonical_card_id: strength}
+    daniel_16_lessons_zh.p0138.e01: {pdf_page: 138, canonical_card_id: strength}
+    daniel_16_lessons_zh.p0139.e01: {pdf_page: 139, canonical_card_id: hermit}
+    daniel_16_lessons_zh.p0140.e01: {pdf_page: 140, canonical_card_id: hermit}
+    daniel_16_lessons_zh.p0141.e01: {pdf_page: 141, canonical_card_id: wheel_of_fortune}
+    daniel_16_lessons_zh.p0142.e01: {pdf_page: 142, canonical_card_id: wheel_of_fortune}
+    daniel_16_lessons_zh.p0143.e01: {pdf_page: 143, canonical_card_id: justice}
+    daniel_16_lessons_zh.p0144.e01: {pdf_page: 144, canonical_card_id: justice}
+    daniel_16_lessons_zh.p0145.e01: {pdf_page: 145, canonical_card_id: hanged_man}
+    daniel_16_lessons_zh.p0146.e01: {pdf_page: 146, canonical_card_id: hanged_man}
+    daniel_16_lessons_zh.p0147.e01: {pdf_page: 147, canonical_card_id: death}
+    daniel_16_lessons_zh.p0148.e01: {pdf_page: 148, canonical_card_id: death}
+    daniel_16_lessons_zh.p0149.e01: {pdf_page: 149, canonical_card_id: temperance}
+    daniel_16_lessons_zh.p0150.e01: {pdf_page: 150, canonical_card_id: temperance}
+    daniel_16_lessons_zh.p0153.e01: {pdf_page: 153, canonical_card_id: devil}
+    daniel_16_lessons_zh.p0154.e01: {pdf_page: 154, canonical_card_id: devil}
+    daniel_16_lessons_zh.p0155.e01: {pdf_page: 155, canonical_card_id: tower}
+    daniel_16_lessons_zh.p0156.e01: {pdf_page: 156, canonical_card_id: tower}
+    daniel_16_lessons_zh.p0157.e01: {pdf_page: 157, canonical_card_id: star}
+    daniel_16_lessons_zh.p0158.e01: {pdf_page: 158, canonical_card_id: star}
+    daniel_16_lessons_zh.p0159.e01: {pdf_page: 159, canonical_card_id: moon}
+    daniel_16_lessons_zh.p0160.e01: {pdf_page: 160, canonical_card_id: moon}
+    daniel_16_lessons_zh.p0161.e01: {pdf_page: 161, canonical_card_id: sun}
+    daniel_16_lessons_zh.p0162.e01: {pdf_page: 162, canonical_card_id: sun}
+    daniel_16_lessons_zh.p0163.e01: {pdf_page: 163, canonical_card_id: judgement}
+    daniel_16_lessons_zh.p0164.e01: {pdf_page: 164, canonical_card_id: judgement}
+    daniel_16_lessons_zh.p0165.e01: {pdf_page: 165, canonical_card_id: fool}
+    daniel_16_lessons_zh.p0166.e01: {pdf_page: 166, canonical_card_id: fool}
+    daniel_16_lessons_zh.p0167.e01: {pdf_page: 167, canonical_card_id: world}
+    daniel_16_lessons_zh.p0168.e01: {pdf_page: 168, canonical_card_id: world}
+  nichols_jung_tarot_en:
+    nichols_jung_tarot_en.p0049.e01: {pdf_page: 49, canonical_card_id: fool, chapter_id: ch03_the_fool}
+    nichols_jung_tarot_en.p0060.e01: {pdf_page: 60, canonical_card_id: fool, chapter_id: ch03_the_fool}
+    nichols_jung_tarot_en.p0078.e01: {pdf_page: 78, canonical_card_id: fool, chapter_id: ch03_the_fool}
+    nichols_jung_tarot_en.p0079.e01: {pdf_page: 79, canonical_card_id: magician, chapter_id: ch04_the_magician}
+    nichols_jung_tarot_en.p0090.e01: {pdf_page: 90, canonical_card_id: magician, chapter_id: ch04_the_magician}
+    nichols_jung_tarot_en.p0112.e01: {pdf_page: 112, canonical_card_id: high_priestess, chapter_id: ch05_the_popess}
+    nichols_jung_tarot_en.p0119.e01: {pdf_page: 119, canonical_card_id: high_priestess, chapter_id: ch05_the_popess}
+    nichols_jung_tarot_en.p0120.e01: {pdf_page: 120, canonical_card_id: high_priestess, chapter_id: ch05_the_popess}
+    nichols_jung_tarot_en.p0131.e01: {pdf_page: 131, canonical_card_id: empress, chapter_id: ch06_the_empress}
+    nichols_jung_tarot_en.p0140.e01: {pdf_page: 140, canonical_card_id: empress, chapter_id: ch06_the_empress}
+    nichols_jung_tarot_en.p0152.e01: {pdf_page: 152, canonical_card_id: emperor, chapter_id: ch07_the_emperor}
+    nichols_jung_tarot_en.p0160.e01: {pdf_page: 160, canonical_card_id: emperor, chapter_id: ch07_the_emperor}
+    nichols_jung_tarot_en.p0173.e01: {pdf_page: 173, canonical_card_id: hierophant, chapter_id: ch08_the_pope}
+    nichols_jung_tarot_en.p0180.e01: {pdf_page: 180, canonical_card_id: hierophant, chapter_id: ch08_the_pope}
+    nichols_jung_tarot_en.p0185.e01: {pdf_page: 185, canonical_card_id: lovers, chapter_id: ch09_the_lover}
+    nichols_jung_tarot_en.p0190.e01: {pdf_page: 190, canonical_card_id: lovers, chapter_id: ch09_the_lover}
+    nichols_jung_tarot_en.p0198.e01: {pdf_page: 198, canonical_card_id: chariot, chapter_id: ch10_the_chariot}
+    nichols_jung_tarot_en.p0205.e01: {pdf_page: 205, canonical_card_id: chariot, chapter_id: ch10_the_chariot}
+    nichols_jung_tarot_en.p0215.e01: {pdf_page: 215, canonical_card_id: justice, chapter_id: ch11_justice}
+    nichols_jung_tarot_en.p0220.e01: {pdf_page: 220, canonical_card_id: justice, chapter_id: ch11_justice}
+    nichols_jung_tarot_en.p0230.e01: {pdf_page: 230, canonical_card_id: hermit, chapter_id: ch12_the_hermit}
+    nichols_jung_tarot_en.p0240.e01: {pdf_page: 240, canonical_card_id: hermit, chapter_id: ch12_the_hermit}
+    nichols_jung_tarot_en.p0248.e01: {pdf_page: 248, canonical_card_id: wheel_of_fortune, chapter_id: ch13_wheel_of_fortune}
+    nichols_jung_tarot_en.p0260.e01: {pdf_page: 260, canonical_card_id: wheel_of_fortune, chapter_id: ch13_wheel_of_fortune}
+    nichols_jung_tarot_en.p0276.e01: {pdf_page: 276, canonical_card_id: strength, chapter_id: ch14_strength}
+    nichols_jung_tarot_en.p0285.e01: {pdf_page: 285, canonical_card_id: strength, chapter_id: ch14_strength}
+    nichols_jung_tarot_en.p0295.e01: {pdf_page: 295, canonical_card_id: hanged_man, chapter_id: ch15_the_hanged_man}
+    nichols_jung_tarot_en.p0300.e01: {pdf_page: 300, canonical_card_id: hanged_man, chapter_id: ch15_the_hanged_man}
+    nichols_jung_tarot_en.p0309.e01: {pdf_page: 309, canonical_card_id: death, chapter_id: ch16_death}
+    nichols_jung_tarot_en.p0320.e01: {pdf_page: 320, canonical_card_id: death, chapter_id: ch16_death}
+    nichols_jung_tarot_en.p0337.e01: {pdf_page: 337, canonical_card_id: temperance, chapter_id: ch17_temperance}
+    nichols_jung_tarot_en.p0345.e01: {pdf_page: 345, canonical_card_id: temperance, chapter_id: ch17_temperance}
+    nichols_jung_tarot_en.p0352.e01: {pdf_page: 352, canonical_card_id: devil, chapter_id: ch18_the_devil}
+    nichols_jung_tarot_en.p0365.e01: {pdf_page: 365, canonical_card_id: devil, chapter_id: ch18_the_devil}
+    nichols_jung_tarot_en.p0381.e01: {pdf_page: 381, canonical_card_id: tower, chapter_id: ch19_the_tower}
+    nichols_jung_tarot_en.p0390.e01: {pdf_page: 390, canonical_card_id: tower, chapter_id: ch19_the_tower}
+    nichols_jung_tarot_en.p0397.e01: {pdf_page: 397, canonical_card_id: star, chapter_id: ch20_the_star}
+    nichols_jung_tarot_en.p0410.e01: {pdf_page: 410, canonical_card_id: star, chapter_id: ch20_the_star}
+    nichols_jung_tarot_en.p0420.e01: {pdf_page: 420, canonical_card_id: moon, chapter_id: ch21_the_moon}
+    nichols_jung_tarot_en.p0430.e01: {pdf_page: 430, canonical_card_id: moon, chapter_id: ch21_the_moon}
+    nichols_jung_tarot_en.p0437.e01: {pdf_page: 437, canonical_card_id: sun, chapter_id: ch22_the_sun}
+    nichols_jung_tarot_en.p0445.e01: {pdf_page: 445, canonical_card_id: sun, chapter_id: ch22_the_sun}
+    nichols_jung_tarot_en.p0450.e01: {pdf_page: 450, canonical_card_id: judgement, chapter_id: ch23_judgement}
+    nichols_jung_tarot_en.p0455.e01: {pdf_page: 455, canonical_card_id: judgement, chapter_id: ch23_judgement}
+    nichols_jung_tarot_en.p0464.e01: {pdf_page: 464, canonical_card_id: world, chapter_id: ch24_the_world}
+    nichols_jung_tarot_en.p0475.e01: {pdf_page: 475, canonical_card_id: world, chapter_id: ch24_the_world}
+    nichols_jung_tarot_en.p0488.e01: {pdf_page: 488, canonical_card_id: world, chapter_id: ch24_the_world}

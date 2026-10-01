@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 
 require "digest"
+require "find"
 require "yaml"
 
 ROOT = File.expand_path("..", __dir__)
@@ -12,15 +13,32 @@ def assert(condition, message)
 end
 
 manifest = YAML.load_file(MANIFEST_PATH)
-assert(manifest.fetch("release_id") == "tarot-reader.stage10.v1.1", "release identity mismatch")
+assert(manifest.fetch("release_id") == "tarot-reader.stage10.v1.3", "release identity mismatch")
 assert(manifest.fetch("status") == "frozen", "release is not frozen")
 
 groups = {
   "canonical snapshots" => manifest.fetch("entries").map { |entry| [entry.fetch("snapshot_path"), entry.fetch("sha256")] },
   "authored runtime artifacts" => manifest.fetch("authored_runtime_artifacts").map { |entry| [entry.fetch("artifact_path"), entry.fetch("sha256")] },
   "release evidence artifacts" => manifest.fetch("release_evidence_artifacts").map { |entry| [entry.fetch("artifact_path"), entry.fetch("sha256")] },
+  "teacher evidence artifacts" => manifest.fetch("teacher_evidence_artifacts").map { |entry| [entry.fetch("artifact_path"), entry.fetch("sha256")] },
+  "release control artifacts" => manifest.fetch("release_control_artifacts").map { |entry| [entry.fetch("artifact_path"), entry.fetch("sha256")] },
+  "release test artifacts" => manifest.fetch("release_test_artifacts").map { |entry| [entry.fetch("artifact_path"), entry.fetch("sha256")] },
   "derived reference artifacts" => manifest.fetch("derived_reference_artifacts").map { |entry| [entry.fetch("artifact_path"), entry.fetch("sha256")] }
 }
+
+assert(groups.fetch("canonical snapshots").length == 30, "snapshot count")
+assert(groups.fetch("release evidence artifacts").map(&:first) == ["acceptance.md"], "acceptance inventory")
+declared = groups.values.flatten(1).map(&:first) + ["references/release-snapshot-manifest.yaml"]
+assert(declared.uniq.length == declared.length, "duplicate package path")
+actual = []
+Find.find(SKILL_ROOT) do |path|
+  next if path == SKILL_ROOT
+
+  stat = File.lstat(path)
+  assert(!stat.symlink?, "symlink in package: #{path}")
+  actual << path.delete_prefix("#{SKILL_ROOT}/") if stat.file?
+end
+assert(actual.sort == declared.sort, "package inventory mismatch")
 
 groups.each do |label, entries|
   entries.each do |relative_path, expected_sha256|
@@ -32,6 +50,7 @@ end
 
 require File.join(SKILL_ROOT, "scripts", "query_visual_facts.rb")
 require File.join(SKILL_ROOT, "scripts", "query_dictionary_reference.rb")
+require File.join(SKILL_ROOT, "scripts", "query_teacher_evidence.rb")
 
 visual = TarotReaderRelease::VisualFacts.new(root: SKILL_ROOT)
 packets = visual.load_all
@@ -52,4 +71,8 @@ result = dictionary.query(
 )
 assert(result.length == 1, "Dictionary smoke query")
 
-puts "Public package verified: 30 snapshots, 12 runtime artifacts, 1 acceptance artifact, 2 derived references, 78 visual packets (8/70), Dictionary smoke query pass."
+teacher = TarotReaderRelease::TeacherEvidence.new(root: SKILL_ROOT)
+daniel = teacher.query(selector: "strength", teacher: "daniel", orientation: "upright")
+assert(daniel.length == 1 && daniel.first.fetch("canonical_card_id") == "strength", "Daniel smoke query")
+
+puts "Public package verified: 30 snapshots, 1 acceptance artifact, all manifest groups and exact inventory, 78 visual packets (8/70), Dictionary and Daniel smoke queries pass."

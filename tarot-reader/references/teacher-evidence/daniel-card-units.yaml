@@ -1,0 +1,2080 @@
+---
+teacher: daniel
+book_id: daniel_16_lessons_zh
+status: manually_reviewed
+unit_count: 78
+units:
+- unit_id: daniel.wands_ace.upright_baseline
+  teacher: daniel
+  canonical_card_id: wands_ace
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 雲中伸出的手握住發芽的權杖；作者把芽、葉與雲中出現的手連成新生與行動可能。
+  meaning_candidates:
+  - 新行動
+  - 主動性
+  - 信心
+  - 無限的潛能
+  process_or_tension: 把新局面先當成可嘗試的起點；信心與主動投入會比躁進更有用。
+  example_manifestations: 工作可指新的工作方式或尚未確定的機會；關係可指新的互動或投入。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 54
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0054.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel source PDF page 54; card image and labelled
+    visual/meaning/example sections inspected. OCR text was used only as a locator
+    and was not promoted.
+- unit_id: daniel.wands_two.upright_baseline
+  teacher: daniel
+  canonical_card_id: wands_two
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 人物站在城牆上看向城外，右手托地球儀，左手握一支權杖，另一支固定在城牆上。
+  meaning_candidates:
+  - 思考與計劃
+  - 猶豫不決
+  - 受限制的行動
+  - 延遲
+  process_or_tension: 向外發展的視野與被固定的位置同時存在；計畫尚未轉成自由行動。
+  example_manifestations: 工作可表現為想換工作卻未選定時機；物流或流程可比預定時間慢，需要備援。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 55
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0055.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel source PDF page 55; card image and labelled
+    visual/meaning/example sections inspected. OCR text was used only as a locator
+    and was not promoted.
+- unit_id: daniel.wands_three.upright_baseline
+  teacher: daniel
+  canonical_card_id: wands_three
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 人物站在高地看著海灣與出港的船，手扶一支權杖，另外兩支立在身後。
+  meaning_candidates:
+  - 初步的成果
+  - 合作及領導
+  - 積極進取
+  - 未知的旅程
+  process_or_tension: 已有基礎與初步成果，下一步需要合作、領導和面對尚未知道的風險。
+  example_manifestations: 工作可指共同完成與擴展；關係可指已有基礎但仍需勇氣前進。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 56
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0056.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel source PDF page 56; card image and labelled
+    visual/meaning/example sections inspected. OCR text was used only as a locator
+    and was not promoted.
+- unit_id: daniel.wands_four.upright_baseline
+  teacher: daniel
+  canonical_card_id: wands_four
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 四支權杖搭成花門，人物在城堡前相聚，背景有城牆與穩定的空間。
+  meaning_candidates:
+  - 成功及維持現狀
+  - 慶祝及享受
+  - 和平相處
+  - 穩固及安全
+  process_or_tension: 成果需要被維持和共同慶祝；安定本身也是當前行動的一部分。
+  example_manifestations: 工作可指穩定成果後的延續；關係可指和平相處與共同活動。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 57
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0057.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel source PDF page 57; card image and labelled
+    visual/meaning/example sections inspected. OCR text was used only as a locator
+    and was not promoted.
+- unit_id: daniel.wands_five.upright_baseline
+  teacher: daniel
+  canonical_card_id: wands_five
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 五個人物各持權杖，權杖方向交錯，彼此行動互相干擾。
+  meaning_candidates:
+  - 努力進取
+  - 立場觀點不同
+  - 磨擦或衝突
+  - 模仿
+  process_or_tension: 多個行動方向尚未協調；衝突也可能是看見不同方法與投射的場域。
+  example_manifestations: 工作可指團隊競爭或方法不合；關係可指爭執與彼此模仿。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 58
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0058.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel source PDF page 58; card image and labelled
+    visual/meaning/example sections inspected. OCR text was used only as a locator
+    and was not promoted.
+- unit_id: daniel.wands_six.upright_baseline
+  teacher: daniel
+  canonical_card_id: wands_six
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 騎士騎馬，權杖上有花環；背景人物各持權杖，形成迎接與陪襯。
+  meaning_candidates:
+  - 勝利者凱旋
+  - 自信心
+  - 榮譽
+  - 讚美與支持
+  process_or_tension: 一段努力接近收尾，成果需要自信也需要承認支持者與團隊位置。
+  example_manifestations: 工作可指完成階段性任務並獲肯定；關係可指得到鼓勵或公開支持。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 59
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0059.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel source PDF page 59; card image and labelled
+    visual/meaning/example sections inspected. OCR text was used only as a locator
+    and was not promoted.
+- unit_id: daniel.wands_seven.upright_baseline
+  teacher: daniel
+  canonical_card_id: wands_seven
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 人物站在高地持一支權杖，下面六支權杖從不同方向向上。
+  meaning_candidates:
+  - 優勢地位
+  - 不同的挑戰
+  - 堅持下去
+  - 積極抵抗
+  process_or_tension: 已有位置但要持續應對不同壓力；主動守住立場比被動挨打更符合作者敘事。
+  example_manifestations: 工作可指守住成果、處理競爭；關係可指面對外來壓力並清楚表態。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 60
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0060.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel source PDF page 60; card image and labelled
+    visual/meaning/example sections inspected. OCR text was used only as a locator
+    and was not promoted.
+- unit_id: daniel.wands_eight.upright_baseline
+  teacher: daniel
+  canonical_card_id: wands_eight
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 八支權杖在空中朝同一方向飛行，畫面沒有停留的人物。
+  meaning_candidates:
+  - 快速的行動
+  - 共同的目標
+  - 自由與空間
+  - 忙碌
+  process_or_tension: 方向已較一致，速度增加；仍要留出空間處理同時到來的事項。
+  example_manifestations: 工作可指快速推進或高工作量；關係可指互動變快，也可能需要空間。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 61
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0061.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel source PDF page 61; card image and labelled
+    visual/meaning/example sections inspected. OCR text was used only as a locator
+    and was not promoted.
+- unit_id: daniel.wands_nine.upright_baseline
+  teacher: daniel
+  canonical_card_id: wands_nine
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 人物頭部包著繃布，手持權杖；身後八支權杖排列成防衛的圍籬。
+  meaning_candidates:
+  - 受傷
+  - 準備反擊
+  - 防守策略
+  - 延遲與等待
+  process_or_tension: 曾受影響使人提高警戒；下一步是準備和耐性，而非把防衛誤當成已發生的攻擊。
+  example_manifestations: 工作可指保留原策略並準備意外；關係可指受傷後保持界線。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 62
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0062.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel source PDF page 62; card image and labelled
+    visual/meaning/example sections inspected. OCR text was used only as a locator
+    and was not promoted.
+- unit_id: daniel.wands_ten.upright_baseline
+  teacher: daniel
+  canonical_card_id: wands_ten
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 人物彎身抱住十支權杖，身體被負荷遮住，前方只有一小段路。
+  meaning_candidates:
+  - 壓力與勞累
+  - 責任感
+  - 得到
+  - 緊抓不放
+  process_or_tension: 承擔已超過可舒適分配的量；成果與責任並存，但需要重新分工或放手。
+  example_manifestations: 工作可指任務過多；關係可指把所有責任抓在自己身上。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 63
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0063.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel source PDF page 63; card image and labelled
+    visual/meaning/example sections inspected. OCR text was used only as a locator
+    and was not promoted.
+- unit_id: daniel.cups_ace.upright_baseline
+  teacher: daniel
+  canonical_card_id: cups_ace
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 雲中手托出一只聖杯，水從杯中流出，杯上有十字圖形，水面有睡蓮。
+  meaning_candidates:
+  - 感情的新開始
+  - 豐富和滿足
+  - 上天的祝福
+  - 純潔無瑕
+  process_or_tension: 情感或關係有新的入口；作者把流動的情感、祝福感與可分享的滿足並置。
+  example_manifestations: 單身可指新關係可能性；工作可指受祝福的開始或順利投入。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 66
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0066.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel source PDF page 66; card image and labelled
+    visual/meaning/example sections inspected. OCR text was used only as a locator
+    and was not promoted.
+- unit_id: daniel.cups_two.upright_baseline
+  teacher: daniel
+  canonical_card_id: cups_two
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 兩人各持聖杯，杯子高度相同，中央有雙蛇杖與翼形圖案。
+  meaning_candidates:
+  - 平等的關係
+  - 主動的付出
+  - 強烈的吸引力
+  - 良好的溝通
+  process_or_tension: 雙方位置平等且需要互相投入；吸引力不能取代溝通與承諾。
+  example_manifestations: 可指伴侶、朋友或同事間的互惠，也可指衝突中主動說清楚。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 67
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0067.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel source PDF page 67; card image and labelled
+    visual/meaning/example sections inspected. OCR text was used only as a locator
+    and was not promoted.
+- unit_id: daniel.cups_three.upright_baseline
+  teacher: daniel
+  canonical_card_id: cups_three
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 三人各舉聖杯，人物靠近並跳舞，地面有果實與花朵。
+  meaning_candidates:
+  - 慶祝
+  - 歡樂的氣氛
+  - 平等的合作
+  - 應得的回報
+  process_or_tension: 共同分享與回報形成支持；但關係也可能只停留在娛樂或酒肉朋友。
+  example_manifestations: 工作可指團隊完成；關係可指聚會、朋友支持或共同歡慶。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 68
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0068.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel source PDF page 68; card image and labelled
+    visual/meaning/example sections inspected. OCR text was used only as a locator
+    and was not promoted.
+- unit_id: daniel.cups_four.upright_baseline
+  teacher: daniel
+  canonical_card_id: cups_four
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 人物坐在樹下交叉雙手，面前有三只聖杯，雲中手再遞來一杯。
+  meaning_candidates:
+  - 暫時休息
+  - 沉思
+  - 不滿意
+  - 自己的想像
+  process_or_tension: 注意力停在既有不滿，新的選項已出現但尚未被接住；作者不把它直接定成必須行動。
+  example_manifestations: 工作可指停滯與重新思考；關係可指標準過高或未看見現實條件。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 69
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0069.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel source PDF page 69; card image and labelled
+    visual/meaning/example sections inspected. OCR text was used only as a locator
+    and was not promoted.
+- unit_id: daniel.cups_five.upright_baseline
+  teacher: daniel
+  canonical_card_id: cups_five
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 披黑斗篷的人面向倒下的三杯，身後仍有兩杯，遠方可見橋與建築。
+  meaning_candidates:
+  - 傷心難過
+  - 失去
+  - 只看到事情的一面
+  - 仍保有部分
+  process_or_tension: 失去與尚存同時可見；先承認失落，再檢查未倒下的資源。
+  example_manifestations: 關係可指分手或離開帶來的痛苦；工作可指只看缺點而忽略仍有的優勢。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 70
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0070.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel source PDF page 70; card image and labelled
+    visual/meaning/example sections inspected. OCR text was used only as a locator
+    and was not promoted.
+- unit_id: daniel.cups_six.upright_baseline
+  teacher: daniel
+  canonical_card_id: cups_six
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 較高大的人把盛花聖杯交給較小的人，背景有村落與孩童般的姿態。
+  meaning_candidates:
+  - 不平等的關係
+  - 深度的承諾
+  - 回憶
+  - 真誠的愛
+  process_or_tension: 照顧者與被照顧者的角色不對稱，回憶也可能成為現在的資源或依賴。
+  example_manifestations: 關係可指過去連結或照顧模式；工作可指由經驗與舊方法處理問題。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 71
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0071.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel source PDF page 71; card image and labelled
+    visual/meaning/example sections inspected. OCR text was used only as a locator
+    and was not promoted.
+- unit_id: daniel.cups_seven.upright_baseline
+  teacher: daniel
+  canonical_card_id: cups_seven
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 人物面對雲中浮現的七只杯子，杯中物各異，中間有被布遮住的發光人物。
+  meaning_candidates:
+  - 夢境
+  - 自己的想像
+  - 各種的慾望
+  - 不了解自己
+  process_or_tension: 候選很多但不等於都真實；需要把想像、慾望和可驗證的選項分開。
+  example_manifestations: 工作可指標準未定、選擇太多；關係可指投射或對對方想像過多。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 72
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0072.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel source PDF page 72; card image and labelled
+    visual/meaning/example sections inspected. OCR text was used only as a locator
+    and was not promoted.
+- unit_id: daniel.cups_eight.upright_baseline
+  teacher: daniel
+  canonical_card_id: cups_eight
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 人物背對地面排列的八只杯子，向山路與月亮方向離開。
+  meaning_candidates:
+  - 缺乏
+  - 離開去尋找
+  - 實質的行動力
+  - 改變現狀
+  process_or_tension: 既有局面已不能滿足，離開是有意識的選擇；新方向仍有未知。
+  example_manifestations: 工作可指離開不滿意的工作；關係可指離開舊模式或尋找新關係。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 73
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0073.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel source PDF page 73; card image and labelled
+    visual/meaning/example sections inspected. OCR text was used only as a locator
+    and was not promoted.
+- unit_id: daniel.cups_nine.upright_baseline
+  teacher: daniel
+  canonical_card_id: cups_nine
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 人物坐在高台前，九只杯子排列展示，姿態面向前方。
+  meaning_candidates:
+  - 豐富的成就
+  - 滿意
+  - 炫耀
+  - 不肯分享
+  process_or_tension: 成就與滿足可被享受，但分享與否會改變關係中的意義。
+  example_manifestations: 工作可指享受成果；關係可指滿意但可能自我中心。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 74
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0074.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel source PDF page 74; card image and labelled
+    visual/meaning/example sections inspected. OCR text was used only as a locator
+    and was not promoted.
+- unit_id: daniel.cups_ten.upright_baseline
+  teacher: daniel
+  canonical_card_id: cups_ten
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 十只聖杯形成彩虹，兩人張開雙臂，孩子在旁跳舞，背景有房屋與景色。
+  meaning_candidates:
+  - 感情的完滿
+  - 希望
+  - 和樂的氣氛
+  - 如家人的相處模式
+  process_or_tension: 完滿被表現為共同生活與穩定互動，不只是一時激情；希望仍需現實維持。
+  example_manifestations: 關係可指家庭式穩定；工作可指團隊和諧或想要的未來圖像。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 75
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0075.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel source PDF page 75; card image and labelled
+    visual/meaning/example sections inspected. OCR text was used only as a locator
+    and was not promoted.
+- unit_id: daniel.swords_ace.upright_baseline
+  teacher: daniel
+  canonical_card_id: swords_ace
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 雲中手握劍，劍尖有王冠與植物；兩側有棕櫚與橄欖枝。
+  meaning_candidates:
+  - 挑戰
+  - 主動出擊
+  - 榮耀與勝利
+  - 過度
+  process_or_tension: 新的挑戰要求清楚思考與正面迎戰；勝利與過度使用力量是同一把劍的兩面。
+  example_manifestations: 工作可指正面處理問題；關係可指直接溝通，但需避免過度。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 78
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0078.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel source PDF page 78; card image and labelled
+    visual/meaning/example sections inspected. OCR text was used only as a locator
+    and was not promoted.
+- unit_id: daniel.swords_two.upright_baseline
+  teacher: daniel
+  canonical_card_id: swords_two
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 蒙眼人物坐在海岸，兩手交叉各持一劍，月亮在上方。
+  meaning_candidates:
+  - 逃避
+  - 沒有行動
+  - 自我防禦
+  - 僵持
+  process_or_tension: 信息或選擇被封在胸前；等待本身不會改變局面，兩股力量仍在拉扯。
+  example_manifestations: 工作可指協商前的僵持；關係可指防衛與冷戰。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 79
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0079.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel source PDF page 79; card image and labelled
+    visual/meaning/example sections inspected. OCR text was used only as a locator
+    and was not promoted.
+- unit_id: daniel.swords_three.upright_baseline
+  teacher: daniel
+  canonical_card_id: swords_three
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 三把劍穿過心形，背景有雨與烏雲。
+  meaning_candidates:
+  - 心碎和憂鬱
+  - 淨化和成長的眼淚
+  - 缺乏及不完善
+  - 延遲
+  process_or_tension: 痛苦被明確看見，也可能迫使情緒與問題被說清楚；不要用成長掩蓋傷害。
+  example_manifestations: 工作可指關鍵因素缺失造成延誤；關係可指受傷或分離。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 80
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0080.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel source PDF page 80; card image and labelled
+    visual/meaning/example sections inspected. OCR text was used only as a locator
+    and was not promoted.
+- unit_id: daniel.swords_four.upright_baseline
+  teacher: daniel
+  canonical_card_id: swords_four
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 人物躺在教堂中休息，牆上有三把劍，身旁一把，窗外有彩色玻璃。
+  meaning_candidates:
+  - 避難與休息
+  - 沉思
+  - 外來的威脅
+  - 未來的戰爭
+  process_or_tension: 退離衝突提供恢復與思考，但安全位置不等於外部風險永遠消失。
+  example_manifestations: 工作可指暫停或換環境；關係可指需要空間後再處理問題。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 81
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0081.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel source PDF page 81; card image and labelled
+    visual/meaning/example sections inspected. OCR text was used only as a locator
+    and was not promoted.
+- unit_id: daniel.swords_five.upright_baseline
+  teacher: daniel
+  canonical_card_id: swords_five
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 人物手持兩把劍，地面有三把劍，離去的兩人低頭，天空有雲。
+  meaning_candidates:
+  - 得意
+  - 爭執
+  - 只有一方勝利
+  - 一時爭勝並無收穫
+  process_or_tension: 局部勝利伴隨關係代價；把對抗當成唯一方法會削弱後續合作。
+  example_manifestations: 工作可指權力衝突；關係可指爭吵中有人暫時佔上風但沒有建設性。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 82
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0082.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel source PDF page 82; card image and labelled
+    visual/meaning/example sections inspected. OCR text was used only as a locator
+    and was not promoted.
+- unit_id: daniel.swords_six.upright_baseline
+  teacher: daniel
+  canonical_card_id: swords_six
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 小船載著一人與兩名乘客，船夫持長竿，六把劍插在船中，船朝向遠方。
+  meaning_candidates:
+  - 療傷的行動
+  - 低調
+  - 內心的傷痛
+  - 行動上的幫助
+  process_or_tension: 離開受傷處需要實際過渡與外部協助；低調不代表問題已消失。
+  example_manifestations: 工作可指調職或低調處理；關係可指帶著傷痛離開並尋求支持。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 83
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0083.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel source PDF page 83; card image and labelled
+    visual/meaning/example sections inspected. OCR text was used only as a locator
+    and was not promoted.
+- unit_id: daniel.swords_seven.upright_baseline
+  teacher: daniel
+  canonical_card_id: swords_seven
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 人物從營地帶走五把劍，兩把留在身後，動作避開正面衝突。
+  meaning_candidates:
+  - 趁虛而入
+  - 信心
+  - 欺騙或偷竊
+  - 不可能的任務
+  process_or_tension: 行動依賴隱蔽或非正面手段；需檢查信息是否足夠、任務是否超出能力。
+  example_manifestations: 工作可指繞過防備或信息不透明；關係可指隱瞞與不直接面對。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 84
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0084.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel source PDF page 84; card image and labelled
+    visual/meaning/example sections inspected. OCR text was used only as a locator
+    and was not promoted.
+- unit_id: daniel.swords_eight.upright_baseline
+  teacher: daniel
+  canonical_card_id: swords_eight
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 蒙眼人物被布帶與八把劍圍住，地面泥濘，遠處有建築。
+  meaning_candidates:
+  - 綑綁
+  - 看不見真相
+  - 被敵意包圍
+  - 壞消息
+  process_or_tension: 限制感與盲點讓行動變窄；需要區分外部約束和自己的視野限制。
+  example_manifestations: 工作可指被流程或多方意見牽制；關係可指防衛與溝通受阻。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 85
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0085.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel source PDF page 85; card image and labelled
+    visual/meaning/example sections inspected. OCR text was used only as a locator
+    and was not promoted.
+- unit_id: daniel.swords_nine.upright_baseline
+  teacher: daniel
+  canonical_card_id: swords_nine
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 人物坐在床上掩面，背後九把劍水平排列，床面有圖案。
+  meaning_candidates:
+  - 焦慮及害怕
+  - 惡夢一場
+  - 逃避現實
+  - 無能為力
+  process_or_tension: 夜間反覆的擔憂放大無力感；必須把想像的災難和現實證據分開。
+  example_manifestations: 工作可指把改變視為無法承受；關係可指反覆恐懼與逃避對話。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 86
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0086.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel source PDF page 86; card image and labelled
+    visual/meaning/example sections inspected. OCR text was used only as a locator
+    and was not promoted.
+- unit_id: daniel.swords_ten.upright_baseline
+  teacher: daniel
+  canonical_card_id: swords_ten
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 人物伏倒在海岸，十把劍插在背上，遠方海面有一道日光。
+  meaning_candidates:
+  - 孤獨寂寞
+  - 極大的痛苦
+  - 死亡與結束
+  - 即將有重大轉變
+  process_or_tension: 一個方式或階段已到盡頭，痛苦需被承認；遠方的光只表示可見的轉向，不保證結果。
+  example_manifestations: 工作可指不可持續的局面結束；關係可指孤立或關係方向的終止。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 87
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0087.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel source PDF page 87; card image and labelled
+    visual/meaning/example sections inspected. OCR text was used only as a locator
+    and was not promoted.
+- unit_id: daniel.pentacles_ace.upright_baseline
+  teacher: daniel
+  canonical_card_id: pentacles_ace
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 雲中手托出一枚錢幣，前方有花園小徑、拱門與遠山。
+  meaning_candidates:
+  - 具體的成果
+  - 物質的享受
+  - 目前的方向
+  - 未來的可能性
+  process_or_tension: 可掌握的資源或成果已出現；清楚方向仍要透過實際工作落地。
+  example_manifestations: 財務可指新資源或物質機會；工作可指具體而可執行的開始。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 90
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0090.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel source PDF page 90; card image and labelled
+    visual/meaning/example sections inspected. OCR text was used only as a locator
+    and was not promoted.
+- unit_id: daniel.pentacles_two.upright_baseline
+  teacher: daniel
+  canonical_card_id: pentacles_two
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 人物手持兩枚錢幣，錢幣由環形帶相連；後方海面有船。
+  meaning_candidates:
+  - 進與出的流動
+  - 不同選擇的衡量
+  - 波動起伏
+  - 有賺有賠
+  process_or_tension: 資源與選擇在動態平衡中；需要觀察週期，不把短期波動當成確定結果。
+  example_manifestations: 工作可指重新分配或輪調；關係可指在兩個需要之間搖擺。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 91
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0091.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel source PDF page 91; card image and labelled
+    visual/meaning/example sections inspected. OCR text was used only as a locator
+    and was not promoted.
+- unit_id: daniel.pentacles_three.upright_baseline
+  teacher: daniel
+  canonical_card_id: pentacles_three
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 教堂中有僧侶、設計師與工匠，三枚錢幣嵌在拱門上，人物分工合作。
+  meaning_candidates:
+  - 專業上共同協力
+  - 兼顧各種需要
+  - 長久保值
+  - 穩固的基礎
+  process_or_tension: 成果依賴不同專業與標準協作；長期價值比單人短期控制更重要。
+  example_manifestations: 工作可指專業團隊與分工；關係可指共同建立穩定基礎。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 92
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0092.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel source PDF page 92; card image and labelled
+    visual/meaning/example sections inspected. OCR text was used only as a locator
+    and was not promoted.
+- unit_id: daniel.pentacles_four.upright_baseline
+  teacher: daniel
+  canonical_card_id: pentacles_four
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 人物坐著抱住錢幣，頭頂一枚、腳下兩枚，身體把資源包住，背景有城市。
+  meaning_candidates:
+  - 不安全感
+  - 極度重視金錢
+  - 控制的慾望
+  - 累積及增值
+  process_or_tension: 資源帶來安全感也可能變成守住與控制；需要分辨保護和封閉。
+  example_manifestations: 工作可指守住收入或預算；關係可指因不安全而控制對方。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 93
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0093.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel source PDF page 93; card image and labelled
+    visual/meaning/example sections inspected. OCR text was used only as a locator
+    and was not promoted.
+- unit_id: daniel.pentacles_five.upright_baseline
+  teacher: daniel
+  canonical_card_id: pentacles_five
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 兩人走過有五枚錢幣圖案的彩窗，人物衣著單薄並扶杖前行。
+  meaning_candidates:
+  - 表面的華麗
+  - 財務上的窘困
+  - 受傷
+  - 失去能力
+  process_or_tension: 外在資源與身體處境都顯得不足；不要只從表面判斷誰有支援。
+  example_manifestations: 財務可指資源不足；工作可指被忽略或受傷後仍要找實際援助。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 94
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0094.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel source PDF page 94; card image and labelled
+    visual/meaning/example sections inspected. OCR text was used only as a locator
+    and was not promoted.
+- unit_id: daniel.pentacles_six.upright_baseline
+  teacher: daniel
+  canonical_card_id: pentacles_six
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 六枚錢幣懸在富商頭上；他手持秤，向兩名跪著的人分配錢幣。
+  meaning_candidates:
+  - 地位上的不平等
+  - 計算與衡量
+  - 慈悲心
+  - 以金錢控制對方
+  process_or_tension: 給予與接受受權力、秤和條件限制；援助可能同時含有控制。
+  example_manifestations: 工作可指資源分配與權力差；關係可指一方提供但要求回報。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 95
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0095.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel source PDF page 95; card image and labelled
+    visual/meaning/example sections inspected. OCR text was used only as a locator
+    and was not promoted.
+- unit_id: daniel.pentacles_seven.upright_baseline
+  teacher: daniel
+  canonical_card_id: pentacles_seven
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 農夫靠著杖看向結滿七枚錢幣的樹，人物停在收成前。
+  meaning_candidates:
+  - 努力的初步成果
+  - 收成及交易
+  - 思考下一步
+  - 新的創意
+  process_or_tension: 已有可見成果但尚未完成；需要評估是否收割、交換或改變方法。
+  example_manifestations: 工作可指計畫累積與評估；關係可指已有投入但要重新思考方向。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 96
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0096.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel source PDF page 96; card image and labelled
+    visual/meaning/example sections inspected. OCR text was used only as a locator
+    and was not promoted.
+- unit_id: daniel.pentacles_eight.upright_baseline
+  teacher: daniel
+  canonical_card_id: pentacles_eight
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 工匠坐在板凳上雕刻錢幣，後方的竪直木面上排列錢幣，地上還有未完成的工作。
+  meaning_candidates:
+  - 專注
+  - 成熟的技術
+  - 工作才有成果
+  - 持續努力
+  process_or_tension: 能力由重複、專注和持續工作形成；未完成部分要求耐心而非捷徑。
+  example_manifestations: 工作可指技能提升或穩定產出；關係可指用持續行動維護品質。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 97
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0097.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel source PDF page 97; card image and labelled
+    visual/meaning/example sections inspected. OCR text was used only as a locator
+    and was not promoted.
+- unit_id: daniel.pentacles_nine.upright_baseline
+  teacher: daniel
+  canonical_card_id: pentacles_nine
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 人物穿華麗衣服走在葡萄園，周圍有九枚錢幣，一隻鳥停在手上。
+  meaning_candidates:
+  - 悠閒
+  - 富裕
+  - 謹慎
+  - 小心保護理想
+  process_or_tension: 成果帶來自主與享受，但仍要謹慎維護已有資源，不必把獨立等同於孤立。
+  example_manifestations: 工作可指獨立成果與成熟收穫；關係可指享受自己的生活後再選擇互動。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 98
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0098.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel source PDF page 98; card image and labelled
+    visual/meaning/example sections inspected. OCR text was used only as a locator
+    and was not promoted.
+- unit_id: daniel.pentacles_ten.upright_baseline
+  teacher: daniel
+  canonical_card_id: pentacles_ten
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 拱門下有四名人物與兩隻狗，十枚錢幣排成生命之樹般的結構，背景是居所與家族場景。
+  meaning_candidates:
+  - 各種角色
+  - 集體的富裕
+  - 用錢得當
+  - 實踐與完成
+  process_or_tension: 資源在家庭、傳統與多個角色間流動；完整性要靠實際安排而非只靠擁有。
+  example_manifestations: 工作可指家族或團隊資源；關係可指多代或多角色共同生活與責任。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 99
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0099.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel source PDF page 99; card image and labelled
+    visual/meaning/example sections inspected. OCR text was used only as a locator
+    and was not promoted.
+- unit_id: daniel.wands_page.upright_baseline
+  teacher: daniel
+  canonical_card_id: wands_page
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 年輕人物側身持杖，遠方是山地，人物停下看向杖。
+  meaning_candidates:
+  - 天真純潔
+  - 惡作劇
+  - 行動的訊息
+  - 嘗試錯誤
+  process_or_tension: 新消息或新嘗試帶來熱情，也可能因不成熟而需要直接修正。
+  example_manifestations: 工作可指新任務或學習；關係可指以簡單直接方式傳遞新訊息。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 103
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0103.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel source PDF page 103; card image and labelled
+    visual/meaning/example sections inspected. OCR text was used only as a locator
+    and was not promoted.
+- unit_id: daniel.wands_knight.upright_baseline
+  teacher: daniel
+  canonical_card_id: wands_knight
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 騎士騎馬持杖，馬匹向前，人物與杖都呈現動勢。
+  meaning_candidates:
+  - 勇於面對挑戰
+  - 行動力
+  - 樂觀
+  - 質樸率真
+  process_or_tension: 速度與勇氣推動局面，但過度行動會忽略條件；要把目標說清楚。
+  example_manifestations: 工作可指主動出擊與旅行；關係可指需要新鮮行動。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 104
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0104.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel source PDF page 104; card image and labelled
+    visual/meaning/example sections inspected. OCR text was used only as a locator
+    and was not promoted.
+- unit_id: daniel.wands_queen.upright_baseline
+  teacher: daniel
+  canonical_card_id: wands_queen
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 王后坐在王座上持杖，旁有向日葵與黑貓，畫面集中在她的可見 presence。
+  meaning_candidates:
+  - 光明而愉快
+  - 親切
+  - 善用直覺
+  - 財運的提升
+  process_or_tension: 溫暖、可見的影響力與直覺可以帶動他人；也要防止以魅力取代真實互動。
+  example_manifestations: 工作可指帶動團隊或創意；關係可指以正面而互相尊重的方式互動。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 105
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0105.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel source PDF page 105; card image and labelled
+    visual/meaning/example sections inspected. OCR text was used only as a locator
+    and was not promoted.
+- unit_id: daniel.wands_king.upright_baseline
+  teacher: daniel
+  canonical_card_id: wands_king
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 國王坐在王座上持杖，背景有沙漠與蜥蜴，姿態穩定而直視前方。
+  meaning_candidates:
+  - 經驗豐富
+  - 謀定而後動
+  - 創造力
+  - 固執己見
+  process_or_tension: 經驗與遠見能把問題轉成新方法；等待資訊與適時決定比即時反應更穩。
+  example_manifestations: 工作可指成熟領導與創新；關係可指穩定但可能固執的主導。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 106
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0106.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel source PDF page 106; card image and labelled
+    visual/meaning/example sections inspected. OCR text was used only as a locator
+    and was not promoted.
+- unit_id: daniel.cups_page.upright_baseline
+  teacher: daniel
+  canonical_card_id: cups_page
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 年輕人物持杯站在水邊，杯中有魚，人物注視杯中訊息。
+  meaning_candidates:
+  - 好奇心
+  - 好學不倦
+  - 想像力
+  - 人際關係的新訊息
+  process_or_tension: 情緒或關係的新訊息需要好奇與學習；想像力仍須回到實際互動。
+  example_manifestations: 工作可指學習新方法；關係可指出現新訊息或新的友誼入口。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 107
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0107.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel source PDF page 107; card image and labelled
+    visual/meaning/example sections inspected. OCR text was used only as a locator
+    and was not promoted.
+- unit_id: daniel.cups_knight.upright_baseline
+  teacher: daniel
+  canonical_card_id: cups_knight
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 騎士持杯騎馬，馬匹朝前，背景有水面與山地。
+  meaning_candidates:
+  - 溫柔浪漫
+  - 傳播理念
+  - 朋友來訪
+  - 提出建議
+  process_or_tension: 理想與表達帶來靠近，但需要用現實角度檢查浪漫敘事。
+  example_manifestations: 工作可指提出意見或創意；關係可指溫柔靠近與朋友消息。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 108
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0108.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel source PDF page 108; card image and labelled
+    visual/meaning/example sections inspected. OCR text was used only as a locator
+    and was not promoted.
+- unit_id: daniel.cups_queen.upright_baseline
+  teacher: daniel
+  canonical_card_id: cups_queen
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 王后坐在水邊王座，雙手捧著華麗聖杯，周圍有水與植物。
+  meaning_candidates:
+  - 慈愛關懷
+  - 同理心
+  - 靈性上的成長
+  - 保持專注
+  process_or_tension: 感受與同理能協助理解他人，但仍需保持邊界與對現實的專注。
+  example_manifestations: 工作可指用同理處理關係；感情可指照顧與情緒理解。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 109
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0109.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel source PDF page 109; card image and labelled
+    visual/meaning/example sections inspected. OCR text was used only as a locator
+    and was not promoted.
+- unit_id: daniel.cups_king.upright_baseline
+  teacher: daniel
+  canonical_card_id: cups_king
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 國王坐在水面上的王座，手持杯與權杖，周圍有水流與船。
+  meaning_candidates:
+  - 處變不驚
+  - 慈悲寬容
+  - 學識豐富
+  - 重視婚姻及家庭
+  process_or_tension: 情緒穩定和寬容支持領導與家庭責任；穩定不等於壓抑或不表達。
+  example_manifestations: 工作可指成熟的協調與領導；關係可指包容、家庭和穩定承擔。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 110
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0110.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel source PDF page 110; card image and labelled
+    visual/meaning/example sections inspected. OCR text was used only as a locator
+    and was not promoted.
+- unit_id: daniel.swords_page.upright_baseline
+  teacher: daniel
+  canonical_card_id: swords_page
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 年輕人物持劍站在風中，身體警覺，周圍雲與高地開闊。
+  meaning_candidates:
+  - 輕率
+  - 裝模作樣
+  - 刺探別人隱私
+  - 挑戰的新訊息
+  process_or_tension: 好奇與警覺帶來信息，也可能變成八卦或未經證實的判斷。
+  example_manifestations: 工作可指新問題與調查；關係可指需要小心分享與核對。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 111
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0111.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel source PDF page 111; card image and labelled
+    visual/meaning/example sections inspected. OCR text was used only as a locator
+    and was not promoted.
+- unit_id: daniel.swords_knight.upright_baseline
+  teacher: daniel
+  canonical_card_id: swords_knight
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 騎士持劍騎馬急速前進，背景有風與雲，方向明確。
+  meaning_candidates:
+  - 豪爽
+  - 急躁易怒
+  - 強制手段
+  - 戰利品
+  process_or_tension: 直奔問題能推進局面，也可能在沒有溝通時變成強制；速度需要目標與邊界。
+  example_manifestations: 工作可指果斷處理；關係可指衝突升高或直接對話。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 112
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0112.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel source PDF page 112; card image and labelled
+    visual/meaning/example sections inspected. OCR text was used only as a locator
+    and was not promoted.
+- unit_id: daniel.swords_queen.upright_baseline
+  teacher: daniel
+  canonical_card_id: swords_queen
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 王后坐在王座上持劍，另一手伸出，姿態清楚而有距離。
+  meaning_candidates:
+  - 沉著冷靜
+  - 一擊必殺
+  - 異性緣不佳
+  - 思考感情問題
+  process_or_tension: 清晰界線與理性判斷可避免重複傷害；過度切斷感受會失去真正連結。
+  example_manifestations: 工作可指公事公辦；關係可指保持界線、不用混亂關係免責。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 113
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0113.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel source PDF page 113; card image and labelled
+    visual/meaning/example sections inspected. OCR text was used only as a locator
+    and was not promoted.
+- unit_id: daniel.swords_king.upright_baseline
+  teacher: daniel
+  canonical_card_id: swords_king
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 國王持劍坐在王座上，姿態端正，背景有雲與樹。
+  meaning_candidates:
+  - 清晰的判斷力
+  - 公平客觀
+  - 領導統御
+  - 向專家求教
+  process_or_tension: 把情緒與事實分開，用公正標準治理；需要時承認專業限制並尋求意見。
+  example_manifestations: 工作可指決策與治理；關係可指公平分工和清楚表達。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 114
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0114.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel source PDF page 114; card image and labelled
+    visual/meaning/example sections inspected. OCR text was used only as a locator
+    and was not promoted.
+- unit_id: daniel.pentacles_page.upright_baseline
+  teacher: daniel
+  canonical_card_id: pentacles_page
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 年輕人物站在草地持錢幣，注視手中的錢幣；身後可見地景。
+  meaning_candidates:
+  - 務實的觀察
+  - 學以致用
+  - 財務上的新訊息
+  - 少年老成
+  process_or_tension: 小心觀察與學習可把新資源變成能力；不要只停在收集信息。
+  example_manifestations: 工作可指學習財務或技能；關係可指以實際行動回應。
+  author_interpretation:
+  - Daniel 把錢幣侍者比作正在學做生意的學徒；這是作者對角色功能的解釋，不是 RWS 圖像中可見的職業身份。
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 115
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0115.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel source PDF page 115; card image and labelled
+    visual/meaning/example sections inspected. OCR text was used only as a locator
+    and was not promoted.
+- unit_id: daniel.pentacles_knight.upright_baseline
+  teacher: daniel
+  canonical_card_id: pentacles_knight
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 騎士停在馬上持錢幣，馬匹與人物都較穩定，背景是耕地。
+  meaning_candidates:
+  - 努力工作賺錢
+  - 負責任
+  - 實用主義
+  - 不解風情而且沒有情調
+  process_or_tension: 可靠的持續投入能完成任務；但若只看效率，會忽略關係和彈性。
+  example_manifestations: 工作可指穩定執行；關係可指責任感強但互動缺少情感。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 116
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0116.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel source PDF page 116; card image and labelled
+    visual/meaning/example sections inspected. OCR text was used only as a locator
+    and was not promoted.
+- unit_id: daniel.pentacles_queen.upright_baseline
+  teacher: daniel
+  canonical_card_id: pentacles_queen
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 王后坐在樹下的花園中抱著錢幣，周圍有植物與小動物。
+  meaning_candidates:
+  - 精打細算
+  - 照顧
+  - 服務他人
+  - 長期利益
+  process_or_tension: 照顧資源與他人需要長期投入；慷慨不能取代界線與自我照顧。
+  example_manifestations: 工作可指管理資源和照顧團隊；關係可指實際照顧與長期承諾。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 117
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0117.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel source PDF page 117; card image and labelled
+    visual/meaning/example sections inspected. OCR text was used only as a locator
+    and was not promoted.
+- unit_id: daniel.pentacles_king.upright_baseline
+  teacher: daniel
+  canonical_card_id: pentacles_king
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 國王坐在充滿植物與錢幣的王座，手持錢幣，周圍有葡萄與建築。
+  meaning_candidates:
+  - 有效率地用錢
+  - 良好的財務基礎
+  - 常識豐富
+  - 重視生活享受
+  process_or_tension: 資源治理、常識與生活品質需要一起被管理；穩定不是停止改進。
+  example_manifestations: 工作可指有效治理與成果；關係可指物質保障與生活品質。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 118
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0118.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel source PDF page 118; card image and labelled
+    visual/meaning/example sections inspected. OCR text was used only as a locator
+    and was not promoted.
+- unit_id: daniel.magician.upright_baseline
+  teacher: daniel
+  canonical_card_id: magician
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 人物一手指天一手指地，桌上放著四種花色物件，頭頂有無限符號。
+  meaning_candidates:
+  - 新開始
+  - 自信
+  - 主動性
+  - 條件完備
+  process_or_tension: 集中注意力、工具與手勢把意念轉成可操作的現實；技巧也可能被誤用。
+  example_manifestations: 工作可指把資源組合成方案；關係可指主動溝通，但需核對是否操弄。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 121
+  - 122
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0121.e01
+  - daniel_16_lessons_zh.p0122.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel opening page 121 and continuation page 122;
+    card image, labelled visual/meaning/example sections and the continuation meaning/example
+    page were inspected. OCR text was used only as a locator and was not promoted.
+- unit_id: daniel.high_priestess.upright_baseline
+  teacher: daniel
+  canonical_card_id: high_priestess
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 女性坐在黑白柱間，身後有帷幕，手上有卷軸，畫面強調等待與內在知識。
+  meaning_candidates:
+  - 靜默
+  - 尚未完全顯現
+  - 平衡二元對立
+  - 智慧
+  process_or_tension: 答案尚未完全外顯；靜待與觀察比立即揭露更符合頁面敘事。
+  example_manifestations: 工作可指尚未公開的信息；關係可指保留與需要時間建立信任。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 123
+  - 124
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0123.e01
+  - daniel_16_lessons_zh.p0124.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel opening page 123 and continuation page 124;
+    card image, labelled visual/meaning/example sections and the continuation meaning/example
+    page were inspected. OCR text was used only as a locator and was not promoted.
+- unit_id: daniel.empress.upright_baseline
+  teacher: daniel
+  canonical_card_id: empress
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 女性坐在自然與麥田中，旁有盾牌與水流，畫面有豐饒與生長。
+  meaning_candidates:
+  - 未開發的
+  - 肥沃多產
+  - 享樂
+  - 愛與美
+  process_or_tension: 照顧、培育與實際資源支持生長；不要把滋養直接等同於無限付出。
+  example_manifestations: 工作可指培養產品或團隊；關係可指照顧與穩定的創造。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 125
+  - 126
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0125.e01
+  - daniel_16_lessons_zh.p0126.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel opening page 125 and continuation page 126;
+    card image, labelled visual/meaning/example sections and the continuation meaning/example
+    page were inspected. OCR text was used only as a locator and was not promoted.
+- unit_id: daniel.emperor.upright_baseline
+  teacher: daniel
+  canonical_card_id: emperor
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 人物坐在有公羊頭王座上，手持權杖，背景有石山與城堡。
+  meaning_candidates:
+  - 權力
+  - 慈愛保護
+  - 執行力
+  - 意志力
+  process_or_tension: 規則與結構提供保護也可能壓縮彈性；權力要以可執行責任證明。
+  example_manifestations: 工作可指制度與領導；關係可指責任和穩定但可能過度控制。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 127
+  - 128
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0127.e01
+  - daniel_16_lessons_zh.p0128.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel opening page 127 and continuation page 128;
+    card image, labelled visual/meaning/example sections and the continuation meaning/example
+    page were inspected. OCR text was used only as a locator and was not promoted.
+- unit_id: daniel.hierophant.upright_baseline
+  teacher: daniel
+  canonical_card_id: hierophant
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 宗教人物坐在兩柱間，面前有兩名跪者，腳下有交叉鑰匙與階梯。
+  meaning_candidates:
+  - 靈性成長
+  - 慈悲
+  - 組織的秩序
+  - 貴人相助
+  process_or_tension: 知識、傳統和制度提供共同語言，也要求檢查規範是否仍適用。
+  example_manifestations: 工作可指師徒或制度流程；關係可指共同價值也可指規範壓力。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 129
+  - 130
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0129.e01
+  - daniel_16_lessons_zh.p0130.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel opening page 129 and continuation page 130;
+    card image, labelled visual/meaning/example sections and the continuation meaning/example
+    page were inspected. OCR text was used only as a locator and was not promoted.
+- unit_id: daniel.lovers.upright_baseline
+  teacher: daniel
+  canonical_card_id: lovers
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 天使在山上看著裸體男女，兩側有樹與蛇，人物位於同一景觀中。
+  meaning_candidates:
+  - 純真
+  - 兩情相悅
+  - 引誘
+  - 選擇
+  process_or_tension: 選擇同時涉及吸引、價值與後果；不能只把牌面收斂為浪漫關係。
+  example_manifestations: 工作可指價值一致與合作選擇；關係可指承諾與成熟的取捨。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 131
+  - 132
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0131.e01
+  - daniel_16_lessons_zh.p0132.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel opening page 131 and continuation page 132;
+    card image, labelled visual/meaning/example sections and the continuation meaning/example
+    page were inspected. OCR text was used only as a locator and was not promoted.
+- unit_id: daniel.chariot.upright_baseline
+  teacher: daniel
+  canonical_card_id: chariot
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 人物位於戰車內，前方有兩隻不同顏色的人面獅身像；人物雙臂位於身前。
+  meaning_candidates:
+  - 戰爭行為
+  - 不斷努力
+  - 征服
+  - 以智取勝
+  process_or_tension: 不同力量需被一個方向統整；外在勝利不能取代對內在牽引的控制。
+  example_manifestations: 工作可指目標導向推進；關係可指共同方向或控制衝突。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 133
+  - 134
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0133.e01
+  - daniel_16_lessons_zh.p0134.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel opening page 133 and continuation page 134;
+    card image, labelled visual/meaning/example sections and the continuation meaning/example
+    page were inspected. OCR text was used only as a locator and was not promoted.
+- unit_id: daniel.strength.upright_baseline
+  teacher: daniel
+  canonical_card_id: strength
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 女子以親昵、柔和而堅定的動作控制獅子口部；頭上有無限符號，身旁有花環。
+  meaning_candidates:
+  - 權力
+  - 勇氣
+  - 相互配合
+  - 以柔克剛
+  process_or_tension: 力量以耐性和接觸被引導，而不只靠壓制；柔和不代表沒有邊界。
+  example_manifestations: 工作可指處理強烈情勢；關係可指以耐心而非強迫互動。
+  author_interpretation:
+  - Daniel 把女子控制獅子口部的親昵動作解釋為勇氣、智慧與以柔克剛；這是作者解釋，不是新增 visual fact。
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 137
+  - 138
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0137.e01
+  - daniel_16_lessons_zh.p0138.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel opening page 137 and continuation page 138;
+    card image, labelled visual/meaning/example sections and the continuation meaning/example
+    page were inspected. OCR text was used only as a locator and was not promoted.
+- unit_id: daniel.hermit.upright_baseline
+  teacher: daniel
+  canonical_card_id: hermit
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 披斗篷的人站在山頂持燈與手杖，向下看著遠方。
+  meaning_candidates:
+  - 離群索居
+  - 老朽
+  - 謹慎
+  - 引導與教育
+  process_or_tension: 退離人群提供檢查與引導；孤獨需服務於理解而不是逃避。
+  example_manifestations: 工作可指專注研究或尋求導師；關係可指需要空間與清楚內在方向。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 139
+  - 140
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0139.e01
+  - daniel_16_lessons_zh.p0140.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel opening page 139 and continuation page 140;
+    card image, labelled visual/meaning/example sections and the continuation meaning/example
+    page were inspected. OCR text was used only as a locator and was not promoted.
+- unit_id: daniel.wheel_of_fortune.upright_baseline
+  teacher: daniel
+  canonical_card_id: wheel_of_fortune
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 中央有四臂輪盤，周圍有蛇、獅身人面像與人物，輪子處於運動。
+  meaning_candidates:
+  - 命中註定
+  - 幸運
+  - 無可選擇的改變
+  - 處變不驚
+  process_or_tension: 變化帶來新條件，能做的是辨識可控範圍與適時調整。
+  example_manifestations: 工作可指外部周期改變；關係可指情勢轉換而非必然結果。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 141
+  - 142
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0141.e01
+  - daniel_16_lessons_zh.p0142.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel opening page 141 and continuation page 142;
+    card image, labelled visual/meaning/example sections and the continuation meaning/example
+    page were inspected. OCR text was used only as a locator and was not promoted.
+- unit_id: daniel.justice.upright_baseline
+  teacher: daniel
+  canonical_card_id: justice
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 人物坐在王座，右手持劍、左手持秤，兩側有帷幕。
+  meaning_candidates:
+  - 公平正義
+  - 平衡
+  - 重要決定
+  - 以法律解決
+  process_or_tension: 事實、標準與後果需要被同時衡量；清楚判斷仍需可執行責任。
+  example_manifestations: 工作可指制度與評估；關係可指分工、公平與承認結果。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 143
+  - 144
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0143.e01
+  - daniel_16_lessons_zh.p0144.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel opening page 143 and continuation page 144;
+    card image, labelled visual/meaning/example sections and the continuation meaning/example
+    page were inspected. OCR text was used only as a locator and was not promoted.
+- unit_id: daniel.hanged_man.upright_baseline
+  teacher: daniel
+  canonical_card_id: hanged_man
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 人物倒掛在樹上，一腳被綁，頭部周圍有光，姿勢固定而安靜。
+  meaning_candidates:
+  - 懸而未決
+  - 考驗
+  - 洞悉的能力
+  - 犧牲
+  process_or_tension: 被迫或選擇暫停使視角改變；不要把停滯自動解釋成靈性進步。
+  example_manifestations: 工作可指暫停計畫以重新看問題；關係可指放下控制或等待。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 145
+  - 146
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0145.e01
+  - daniel_16_lessons_zh.p0146.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel opening page 145 and continuation page 146;
+    card image, labelled visual/meaning/example sections and the continuation meaning/example
+    page were inspected. OCR text was used only as a locator and was not promoted.
+- unit_id: daniel.death.upright_baseline
+  teacher: daniel
+  canonical_card_id: death
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 骷髏騎士騎白馬，前方有倒下人物，遠方有雙塔與升起的太陽。
+  meaning_candidates:
+  - 必死的命運
+  - 重大的轉變
+  - 結束與開始
+  - 解脫
+  process_or_tension: 結束與新的開端同時存在，但需先承認不可逆的舊局面已終止。
+  example_manifestations: 工作可指階段轉換；關係可指舊模式結束，不等於預告死亡。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 147
+  - 148
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0147.e01
+  - daniel_16_lessons_zh.p0148.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel opening page 147 and continuation page 148;
+    card image, labelled visual/meaning/example sections and the continuation meaning/example
+    page were inspected. OCR text was used only as a locator and was not promoted.
+- unit_id: daniel.temperance.upright_baseline
+  teacher: daniel
+  canonical_card_id: temperance
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 有翼人物一腳在水一腳在地，將水在兩杯間調和，遠處有道路與山。
+  meaning_candidates:
+  - 相互融合
+  - 轉化與淨化
+  - 中庸之道
+  - 管理與調控
+  process_or_tension: 不同意見與資源可被調和，但需要持續調節而非一次完成。
+  example_manifestations: 工作可指跨方協作；關係可指協調需求與節奏。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 149
+  - 150
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0149.e01
+  - daniel_16_lessons_zh.p0150.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel opening page 149 and continuation page 150;
+    card image, labelled visual/meaning/example sections and the continuation meaning/example
+    page were inspected. OCR text was used only as a locator and was not promoted.
+- unit_id: daniel.devil.upright_baseline
+  teacher: daniel
+  canonical_card_id: devil
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 有角人物坐在黑色座台，男女被鏈子連住，火焰在背景。
+  meaning_candidates:
+  - 毀壞
+  - 暴力相向
+  - 被慾望蒙蔽
+  - 短暫的享樂
+  process_or_tension: 吸引與束縛同時可見；需要檢查實際權力與選擇，而不是把人定罪。
+  example_manifestations: 工作可指依賴或控制結構；關係可指欲望與界線問題。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 153
+  - 154
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0153.e01
+  - daniel_16_lessons_zh.p0154.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel opening page 153 and continuation page 154;
+    card image, labelled visual/meaning/example sections and the continuation meaning/example
+    page were inspected. OCR text was used only as a locator and was not promoted.
+- unit_id: daniel.tower.upright_baseline
+  teacher: daniel
+  canonical_card_id: tower
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 閃電擊中高塔，王冠落下，兩個人物從塔上墜落，背景是黑雲。
+  meaning_candidates:
+  - 被毀滅
+  - 突來的意外
+  - 自作自受
+  - 執迷不悟
+  process_or_tension: 被擊中的結構不能再維持原樣；是否形成可用的重建，要由其他牌與現實檢查。
+  example_manifestations: 工作可指制度被打斷；關係可指突然揭露或舊模式崩解。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 155
+  - 156
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0155.e01
+  - daniel_16_lessons_zh.p0156.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel opening page 155 and continuation page 156;
+    card image, labelled visual/meaning/example sections and the continuation meaning/example
+    page were inspected. OCR text was used only as a locator and was not promoted.
+- unit_id: daniel.star.upright_baseline
+  teacher: daniel
+  canonical_card_id: star
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 裸身人物在水邊倒水，天空有一大星與七小星，樹上停著鳥。
+  meaning_candidates:
+  - 目標和希望
+  - 想得美
+  - 分享與回饋
+  - 渴望自由
+  process_or_tension: 穩定的方向感和持續回饋支持恢復；希望仍要通過實際投入。
+  example_manifestations: 工作可指長期願景；關係可指開放交流與逐步恢復信任。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 157
+  - 158
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0157.e01
+  - daniel_16_lessons_zh.p0158.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel opening page 157 and continuation page 158;
+    card image, labelled visual/meaning/example sections and the continuation meaning/example
+    page were inspected. OCR text was used only as a locator and was not promoted.
+- unit_id: daniel.moon.upright_baseline
+  teacher: daniel
+  canonical_card_id: moon
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 月亮在兩座塔上方，兩隻站立動物分別位於塔前，甲殼類動物從水中伸出，遠處有小路。
+  meaning_candidates:
+  - 不安與恐懼
+  - 欺騙和幻覺
+  - 隱藏的危險
+  - 難以捉摸的變化
+  process_or_tension: 信息不全與直覺反應同時存在；需要等待更多可核對的線索。
+  example_manifestations: 工作可指不確定與誤解；關係可指投射、恐懼或未說出的內容。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 159
+  - 160
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0159.e01
+  - daniel_16_lessons_zh.p0160.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel opening page 159 and continuation page 160;
+    card image, labelled visual/meaning/example sections and the continuation meaning/example
+    page were inspected. OCR text was used only as a locator and was not promoted.
+- unit_id: daniel.sun.upright_baseline
+  teacher: daniel
+  canonical_card_id: sun
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 太陽上方照耀，孩子騎白馬並手持旗幟，背景有圍牆與花朵。
+  meaning_candidates:
+  - 圓滿成功
+  - 快樂與滿足
+  - 一視同仁
+  - 朝向光明面
+  process_or_tension: 可見度、活力與清楚表達支持共同成果；公開也帶來責任。
+  example_manifestations: 工作可指成果被看見；關係可指坦白、歡樂與可共享的生活。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 161
+  - 162
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0161.e01
+  - daniel_16_lessons_zh.p0162.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel opening page 161 and continuation page 162;
+    card image, labelled visual/meaning/example sections and the continuation meaning/example
+    page were inspected. OCR text was used only as a locator and was not promoted.
+- unit_id: daniel.judgement.upright_baseline
+  teacher: daniel
+  canonical_card_id: judgement
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 天使吹響號角，棺木中的人物起身，遠方有山與水。
+  meaning_candidates:
+  - 復活與重生
+  - 作判斷
+  - 覺醒
+  - 結算成果
+  process_or_tension: 新的召喚要求回看過去並作出回應；不是自动赦免，也不是命定事件。
+  example_manifestations: 工作可指重新評估與回到使命；關係可指重新對話或接受歷史。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 163
+  - 164
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0163.e01
+  - daniel_16_lessons_zh.p0164.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel opening page 163 and continuation page 164;
+    card image, labelled visual/meaning/example sections and the continuation meaning/example
+    page were inspected. OCR text was used only as a locator and was not promoted.
+- unit_id: daniel.fool.upright_baseline
+  teacher: daniel
+  canonical_card_id: fool
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 人物站在懸崖邊向前，肩上小包，手持白花，身旁有狗與高山。
+  meaning_candidates:
+  - 明顯的危險
+  - 無知
+  - 放縱的愚行
+  - 無限的可能性
+  process_or_tension: 輕裝出發保留多種可能，但前進仍需要看見腳下的風險與現實。
+  example_manifestations: 工作可指新旅程；關係可指開放嘗試但不保證穩定。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 165
+  - 166
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0165.e01
+  - daniel_16_lessons_zh.p0166.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel opening page 165 and continuation page 166;
+    card image, labelled visual/meaning/example sections and the continuation meaning/example
+    page were inspected. OCR text was used only as a locator and was not promoted.
+- unit_id: daniel.world.upright_baseline
+  teacher: daniel
+  canonical_card_id: world
+  capability: daniel_card_narrative
+  orientation_scope: upright_baseline
+  author_visual_narrative: 人物在花環中舞動，四角有一個人形頭像、鷹頭、牛頭、獅頭，手持兩根杖。
+  meaning_candidates:
+  - 自然的規律
+  - 到此為止
+  - 完美的結局
+  - 統合
+  process_or_tension: 作者把完成寫成到此為止：各種元素已統合並維持穩定，不把它推演成必然轉變。
+  example_manifestations: 工作可指完成、整合與維持現狀；關係可指共享的完成感與穩定，不必虛構新的轉折。
+  author_interpretation: []
+  limitations:
+  - Daniel 的作者叙事不能覆盖 RWS visual facts；逆位机制不由本单元提供。
+  - 候选必须由牌位、用户事实和邻牌筛选，不能当作固定牌义。
+  source_pages:
+  - 167
+  - 168
+  source_excerpt_ids:
+  - daniel_16_lessons_zh.p0167.e01
+  - daniel_16_lessons_zh.p0168.e01
+  review_status: manually_reviewed_rendered_page
+  source_quality: manual_page_reviewed_author_condensation
+  visual_review_note: Rendered Daniel opening page 167 and continuation page 168;
+    card image, labelled visual/meaning/example sections and the continuation meaning/example
+    page were inspected. OCR text was used only as a locator and was not promoted.

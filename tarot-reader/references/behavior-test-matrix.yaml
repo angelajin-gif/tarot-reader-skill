@@ -82,11 +82,19 @@ cases:
       spread: {name: "单张牌", positions: []}
       cards: [{canonical_card_id: wheel_of_fortune, orientation: upright, position: null, user_note: null}]
   - case_id: dictionary_late
-    audit_focus: [hypothesis_before_dictionary, typed_effect, return_to_spread]
+    audit_focus: [no_observed_arrangement, evidence_gap_stop, no_invented_resource_transfer]
     raw_input:
       question: "这份具体工作安排的现实表现是什么？"
       background: "已有一个关于资源分配的整体假设。"
       time_scope: "本季度"
+      spread: {name: "两张牌", positions: []}
+      cards: [{canonical_card_id: wands_ace, orientation: upright, position: null, user_note: null}, {canonical_card_id: swords_seven, orientation: upright, position: null, user_note: null}]
+  - case_id: dictionary_late_with_observation
+    audit_focus: [hypothesis_before_dictionary, typed_effect, return_to_observed_circumstance, no_visual_to_resource_mapping, no_unobserved_hidden_actor]
+    raw_input:
+      question: "这份试运行安排里，我该先核对哪些实际条件？"
+      background: "项目负责人邮件说下周开始试运行，并附了岗位列表；预算、权限和责任边界尚未列明。"
+      time_scope: "下周至本季度"
       spread: {name: "两张牌", positions: []}
       cards: [{canonical_card_id: wands_ace, orientation: upright, position: null, user_note: null}, {canonical_card_id: swords_seven, orientation: upright, position: null, user_note: null}]
   - case_id: narrative_inline_evidence_continuation

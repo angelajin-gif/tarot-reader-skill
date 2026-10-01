@@ -2,6 +2,7 @@
 
 require "json"
 require "digest"
+require "find"
 require "pathname"
 require "yaml"
 
@@ -21,6 +22,8 @@ module TarotReaderRelease
       references/narrative-evidence-continuation.md
       references/reader-contract.md
       references/retrieval-routing.md
+      references/rws-scene-bridge-v1-2.md
+      references/scene-identity-amendment-v1-2.yaml
       references/source-governance.md
       references/teacher-jurisdictions.md
       references/visual-canon.md
@@ -28,6 +31,28 @@ module TarotReaderRelease
       scripts/query_visual_facts.rb
     ].freeze
     RELEASE_EVIDENCE_PATHS = %w[acceptance.md].freeze
+    OTHER_RELEASE_GROUP_PATHS = {
+      "teacher_evidence_artifacts" => %w[
+        references/teacher-evidence/daniel-card-units.yaml
+        references/teacher-evidence/dawn-court-units.yaml
+        references/teacher-evidence/greer-reversal-units.yaml
+        references/teacher-evidence/nichols-amplification-units.yaml
+        references/teacher-evidence/provenance.yaml
+        scripts/build_teacher_evidence.rb
+        scripts/query_teacher_evidence.rb
+      ],
+      "release_control_artifacts" => %w[references/frozen-input-sha256.yaml],
+      "release_test_artifacts" => %w[
+        references/behavior-test-matrix.yaml
+        references/teacher-evidence-behavior-fixtures.yaml
+        scripts/test_release_candidate.rb
+        scripts/test_teacher_evidence.rb
+      ],
+      "derived_reference_artifacts" => %w[
+        references/dictionary-reference-units.yaml
+        references/dictionary-source-provenance.yaml
+      ]
+    }.freeze
 
     OBSERVATION_FIELDS = %w[
       scene
@@ -200,7 +225,7 @@ module TarotReaderRelease
     end
 
     def validate_release_snapshot_manifest!
-      unless @release_snapshot_manifest.fetch("release_id") == "tarot-reader.stage10.v1.1" &&
+      unless @release_snapshot_manifest.fetch("release_id") == "tarot-reader.stage10.v1.3" &&
              @release_snapshot_manifest.fetch("status") == "frozen" &&
              @release_snapshot_manifest.fetch("snapshot_root") == "references/snapshot"
         raise ResolutionError, "release snapshot manifest identity/status mismatch"
@@ -286,6 +311,42 @@ module TarotReaderRelease
         unless Digest::SHA256.file(evidence_path).hexdigest == entry.fetch("sha256")
           raise ResolutionError, "release evidence artifact hash mismatch: #{relative_path}"
         end
+      end
+
+      declared_paths = listed_paths + authored_paths + evidence_paths
+      OTHER_RELEASE_GROUP_PATHS.each do |group, expected_paths|
+        artifacts = Array(@release_snapshot_manifest.fetch(group))
+        paths = artifacts.map { |entry| entry.fetch("artifact_path") }
+        unless paths.sort == expected_paths.sort && paths.uniq.length == expected_paths.length
+          raise ResolutionError, "#{group} manifest is incomplete"
+        end
+        artifacts.each do |entry|
+          relative_path = entry.fetch("artifact_path")
+          if relative_path.start_with?("/") || relative_path.split("/").include?("..")
+            raise ResolutionError, "invalid release artifact path: #{relative_path}"
+          end
+          artifact_path = File.join(@root, relative_path)
+          unless File.file?(artifact_path) && Digest::SHA256.file(artifact_path).hexdigest == entry.fetch("sha256")
+            raise ResolutionError, "#{group} artifact hash mismatch: #{relative_path}"
+          end
+        end
+        declared_paths.concat(paths)
+      end
+      declared_paths << "references/release-snapshot-manifest.yaml"
+      unless declared_paths.uniq.length == declared_paths.length
+        raise ResolutionError, "release package has duplicate artifact paths"
+      end
+      actual_paths = []
+      Find.find(@root) do |path|
+        next if path == @root
+
+        relative_path = Pathname.new(path).relative_path_from(Pathname.new(@root)).to_s
+        stat = File.lstat(path)
+        raise ResolutionError, "symlink in release package: #{relative_path}" if stat.symlink?
+        actual_paths << relative_path if stat.file?
+      end
+      unless actual_paths.sort == declared_paths.sort
+        raise ResolutionError, "release package file inventory mismatch"
       end
     rescue KeyError => error
       raise ResolutionError, "malformed release snapshot manifest: #{error.message}"

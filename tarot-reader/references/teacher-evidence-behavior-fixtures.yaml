@@ -1,0 +1,71 @@
+release_id: tarot-reader.stage10.v1.3
+status: release_candidate
+scenarios:
+  - id: ordinary_upright_number
+    input:
+      selector: wands_two
+      teacher: daniel
+      orientation: upright
+    required_capability: daniel_card_narrative
+  - id: ordinary_unspecified_baseline
+    input:
+      selector: wands_two
+      teacher: daniel
+      orientation: unspecified
+    required_capability: daniel_card_narrative
+    expected_orientation_scope: upright_baseline_for_unspecified_orientation
+  - id: court_single
+    input:
+      selector: wands_queen
+      teacher: dawn
+      orientation: unspecified
+    required_capability: dawn_court_ontology
+  - id: court_rank
+    input:
+      teacher: dawn
+      capability: dawn_rank_function
+      rank: Page
+      orientation: unspecified
+    required_capability: dawn_rank_function
+  - id: explicit_reversal
+    input:
+      selector: swords_two
+      orientation: reversed
+    required_capabilities:
+      - daniel_card_narrative
+      - greer_reversal_mechanism
+  - id: major_specialist
+    input:
+      selector: tower
+      teacher: nichols
+      orientation: upright
+      hypothesis: spread presently shows an external structure becoming unstable
+      reason: the struck tower and falling figures create a concrete collapse-versus-liberation tension that may alter the main judgment
+      focus: lightning-struck tower, ejected figures, and the polarity between destabilization and liberation
+      nichols_trigger: motif
+      reason_anchor: unit:evidence_bridge
+      focus_anchor: visual:action
+    required_capability: nichols_major_amplification
+  - id: dictionary_late
+    input:
+      selector: wands_ace
+      teacher: dictionary
+      orientation: upright
+      domain: work
+      hypothesis: existing holistic hypothesis
+      reason: check a concrete manifestation after the spread synthesis
+    required_capability: dictionary_late_manifestation
+  - id: mixed_spread
+    input:
+      selectors:
+        - wands_two
+        - wands_queen
+        - swords_two
+      orientations:
+        - upright
+        - upright
+        - reversed
+    required_capabilities:
+      - daniel_card_narrative
+      - dawn_court_ontology
+      - greer_reversal_mechanism

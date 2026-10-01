@@ -1,6 +1,6 @@
 # Tarot Reader Skill
 
-An evidence-traceable Rider–Waite–Smith tarot reading skill for Codex. The current public release is `tarot-reader.stage10.v1.1` (`frozen`).
+An evidence-traceable Rider–Waite–Smith tarot reading skill for Codex. The current public release is `tarot-reader.stage10.v1.3` (`frozen`).
 
 ## What it does
 
@@ -15,7 +15,7 @@ An evidence-traceable Rider–Waite–Smith tarot reading skill for Codex. The c
 
 This is a reflective reading tool, not medical, legal, financial, or other professional advice. It does not claim access to another person's private thoughts or guarantee future events.
 
-The package contains no source PDFs, review-copy images, raw OCR chunks, user images, or expected model answers. Its Dictionary route is intentionally limited to 22 manually reviewed condensed units and provides no guessed fallback.
+The package contains no source PDFs, review-copy images, raw OCR chunks, or user images. Its Dictionary route is intentionally limited to 22 manually reviewed condensed units and provides no guessed fallback. The packaged test fixtures are evaluator data, not runtime answers.
 
 ## Install
 
@@ -35,7 +35,7 @@ The repository includes a portable integrity check that does not require the pri
 ruby scripts/verify_public_package.rb
 ```
 
-If Codex's `skill-creator` utilities are available, you can additionally run `quick_validate.py tarot-reader`. The frozen v1.1 release records 23 runs, 1,264 assertions, and zero failures in its complete build workspace. See [`tarot-reader/acceptance.md`](tarot-reader/acceptance.md) for the release evidence and scope.
+If Codex's `skill-creator` utilities are available, you can additionally run `quick_validate.py tarot-reader`. See [`tarot-reader/acceptance.md`](tarot-reader/acceptance.md) for the release evidence, blind-audit scope, and limits.
 
 ## Repository layout
 
