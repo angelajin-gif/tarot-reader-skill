@@ -225,7 +225,7 @@ module TarotReaderRelease
     end
 
     def validate_release_snapshot_manifest!
-      unless @release_snapshot_manifest.fetch("release_id") == "tarot-reader.stage10.v1.3" &&
+      unless @release_snapshot_manifest.fetch("release_id") == "tarot-reader.stage10.v1.4" &&
              @release_snapshot_manifest.fetch("status") == "frozen" &&
              @release_snapshot_manifest.fetch("snapshot_root") == "references/snapshot"
         raise ResolutionError, "release snapshot manifest identity/status mismatch"

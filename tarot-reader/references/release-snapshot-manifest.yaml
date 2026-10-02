@@ -1,5 +1,5 @@
 ---
-release_id: tarot-reader.stage10.v1.3
+release_id: tarot-reader.stage10.v1.4
 status: frozen
 canonical_snapshot_policy: exact_byte_copy_of_frozen_source_at_build_start
 snapshot_root: references/snapshot
@@ -156,7 +156,7 @@ entries:
   canonical_snapshot: true
 authored_runtime_artifacts:
 - artifact_path: SKILL.md
-  sha256: bbd9d4f20bb2ef79854f5f99f8aab93e43bc758e8348e81f416201f96747902c
+  sha256: 303e84da10e180485f0a8b2246d763a03a77ccc3d6aaaab6b511fc4ffd741599
   runtime_role: primary_skill_instructions
 - artifact_path: agents/openai.yaml
   sha256: 6cb15049bbb304fae89f9d0f342a9711df02e2d673345a6037bcc7bc1bbe20df
@@ -168,7 +168,7 @@ authored_runtime_artifacts:
   sha256: 70572c984b8fd42bd57c9f319c494f668e01e6fca9927349d145f1004cbad9d3
   runtime_role: input_output_boundary
 - artifact_path: references/narrative-evidence-continuation.md
-  sha256: 94c3411dc0579ea5f9270c52e31529d7b5c0f3eb73368a713215df6d661c8db0
+  sha256: 0be26ea7249659b64a783baeb51c967a6f18b456aae7e9f1cfb03be1c3b2434b
   runtime_role: answer_composition_contract
 - artifact_path: references/reader-contract.md
   sha256: 086015552522fc511d9ccba3ecba5e5157bdd7d443ee4b28f5034e6622f638a6
@@ -195,11 +195,11 @@ authored_runtime_artifacts:
   sha256: 87c4be9973ae1b1c5fc7139939779a39e8c9797c494d85898f475614d364bf55
   runtime_role: dictionary_query_boundary
 - artifact_path: scripts/query_visual_facts.rb
-  sha256: 2c4b2b0288bfcb1c1b11609d46b0a4a61ba64ca871f51a0454a2035ef589b39d
+  sha256: da7f33574854a657363cf7a02751fb6df533648f4f05c214feba0cbf502bb2a7
   runtime_role: visual_query_and_release_integrity_boundary
 release_evidence_artifacts:
 - artifact_path: acceptance.md
-  sha256: cc3e8a64710021be6ad897efaaf3a7e69d87a6b40fb642201ccd0a2c49e492e4
+  sha256: ba915226c0e2f97bb93ae1cfbc7411826a992d2cc5bdefe26ffc698a500d6b09
   runtime_role: release_acceptance_and_freeze_record
 teacher_evidence_artifacts:
 - artifact_path: references/teacher-evidence/daniel-card-units.yaml
@@ -223,12 +223,12 @@ teacher_evidence_artifacts:
   stage_or_contract_id: tarot-reader.teacher-evidence.nichols.v1.3
   canonical_snapshot: false
 - artifact_path: references/teacher-evidence/provenance.yaml
-  sha256: 9a5d30ddeac6fc77545d2fc7f7879c6c93ed5302807861b633d857cfb0959410
+  sha256: 5286f0627c8e8850924ff73066123658395c14d57f2b37f5141c0663064d13be
   runtime_role: teacher_evidence_source_provenance
   stage_or_contract_id: tarot-reader.teacher-evidence.provenance.v1.3
   canonical_snapshot: false
 - artifact_path: scripts/query_teacher_evidence.rb
-  sha256: 54fc19b41bb067073607758e73d9bd27daa231004f1aa9bc6a9eb93d6ec75495
+  sha256: 2bae1ba2689ff27e4c42f1fb43cd493b7d2e8f5c843c354074aad8d6dccfb402
   runtime_role: unified_teacher_evidence_query_boundary
   stage_or_contract_id: tarot-reader.teacher-evidence.query.v1.3
   canonical_snapshot: false
@@ -245,7 +245,7 @@ release_control_artifacts:
   canonical_snapshot: false
 release_test_artifacts:
 - artifact_path: references/behavior-test-matrix.yaml
-  sha256: 79fd9518aa46ec0471e4fe0b551abfa96345bcad2cfdddbad135a3efd3198f31
+  sha256: 0a6b9361a2bdd271de22cf1388a2bda24f5c476911dbd026d8095e3227a95783
   runtime_role: evaluator_only_raw_behavior_inputs
   canonical_snapshot: false
 - artifact_path: references/teacher-evidence-behavior-fixtures.yaml
@@ -253,12 +253,12 @@ release_test_artifacts:
   runtime_role: evaluator_raw_teacher_inputs
   canonical_snapshot: false
 - artifact_path: scripts/test_teacher_evidence.rb
-  sha256: 254afa236157a165fafd97db187f043dbb2a1bd2704c0a83a0c055caf148f210
+  sha256: b9456ed1b94a5966f5c2983bc071d911fe7d5403c4448f82aaebaae714ee3d2c
   runtime_role: teacher_evidence_release_tests
   canonical_snapshot: false
 - artifact_path: scripts/test_release_candidate.rb
-  sha256: 0ecb1aa55ec64bc90c91aafb60233cdae9a62d5499b9cef6f179c71b02d5aaf9
-  runtime_role: stage10_v1_3_release_tests
+  sha256: 3149f3b84001a428d3c1d9702d87940c5184f2d3e2bfad29a21594ea811b436e
+  runtime_role: stage10_v1_4_release_tests
   canonical_snapshot: false
 derived_reference_artifacts:
 - artifact_path: references/dictionary-reference-units.yaml

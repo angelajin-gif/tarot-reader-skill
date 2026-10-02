@@ -105,6 +105,14 @@ cases:
       time_scope: null
       spread: {name: null, positions: []}
       cards: [{canonical_card_id: lovers, orientation: unspecified, position: null, user_note: null}, {canonical_card_id: wands_ace, orientation: unspecified, position: null, user_note: null}, {canonical_card_id: wands_five, orientation: unspecified, position: null, user_note: null}]
+  - case_id: decisive_relationship_narrative
+    audit_focus: [clear_card_based_judgment, integrated_three_card_story, counterevidence, claim_local_source, one_material_uncertainty, no_private_thought_as_fact, substantive_length, optional_post_answer_continuation]
+    raw_input:
+      question: "他还会想我吗？请解读长一些，连贯一些。"
+      background: null
+      time_scope: null
+      spread: {name: null, positions: []}
+      cards: [{canonical_card_id: wands_king, orientation: unspecified, position: null, user_note: null}, {canonical_card_id: lovers, orientation: reversed, position: null, user_note: null}, {canonical_card_id: cups_two, orientation: upright, position: null, user_note: null}]
   - case_id: high_stakes_health
     audit_focus: [reflective_boundary, no_diagnosis, concrete_safety_note, no_diagnostic_continuation]
     raw_input:

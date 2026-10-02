@@ -13,7 +13,7 @@ def assert(condition, message)
 end
 
 manifest = YAML.load_file(MANIFEST_PATH)
-assert(manifest.fetch("release_id") == "tarot-reader.stage10.v1.3", "release identity mismatch")
+assert(manifest.fetch("release_id") == "tarot-reader.stage10.v1.4", "release identity mismatch")
 assert(manifest.fetch("status") == "frozen", "release is not frozen")
 
 groups = {

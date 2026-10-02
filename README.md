@@ -1,11 +1,11 @@
 # Tarot Reader Skill
 
-An evidence-traceable Rider–Waite–Smith tarot reading skill for Codex. The current public release is `tarot-reader.stage10.v1.3` (`frozen`).
+An evidence-traceable Rider–Waite–Smith tarot reading skill for Codex. The current public release is `tarot-reader.stage10.v1.4` (`frozen`).
 
 ## What it does
 
 - Reads cards supplied by the user; it never draws or identifies cards from uploaded images.
-- Builds one relational narrative instead of concatenating isolated card meanings.
+- Starts ordinary readings with a clear card-based judgment, then builds one longer, relational narrative instead of concatenating isolated card meanings or repeating generic caveats.
 - Keeps visible RWS facts, Teacher Model operations, user context, and original inference distinct.
 - Places specific visual or Teacher Model evidence beside the claim it affects.
 - Ends ordinary completed readings with optional user-drawn follow-up spreads.

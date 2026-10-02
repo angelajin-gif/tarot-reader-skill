@@ -10,7 +10,7 @@ require_relative "query_dictionary_reference"
 
 module TarotReaderRelease
   class TeacherEvidence
-    RELEASE_ID = "tarot-reader.stage10.v1.3".freeze
+    RELEASE_ID = "tarot-reader.stage10.v1.4".freeze
     RELEASE_STATUS = "frozen".freeze
     EVIDENCE_ROOT = "references/teacher-evidence".freeze
     UNIT_FILES = {

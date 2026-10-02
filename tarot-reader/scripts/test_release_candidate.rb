@@ -51,7 +51,7 @@ class TarotReaderReleaseCandidateTest < Minitest::Test
 
   def test_snapshot_manifest_is_complete_and_byte_exact
     manifest = YAML.load_file(SNAPSHOT_MANIFEST)
-    assert_equal "tarot-reader.stage10.v1.3", manifest.fetch("release_id")
+    assert_equal "tarot-reader.stage10.v1.4", manifest.fetch("release_id")
     assert_equal "frozen", manifest.fetch("status")
     entries = manifest.fetch("entries")
     assert_equal 30, entries.length
@@ -205,10 +205,10 @@ class TarotReaderReleaseCandidateTest < Minitest::Test
     assert_includes amendment.fetch("boundaries"), "Never rewrite or enrich the frozen visual packet itself."
   end
 
-  def test_v1_3_frozen_release_identity_is_consistent
+  def test_v1_4_frozen_release_identity_is_consistent
     manifest = YAML.load_file(SNAPSHOT_MANIFEST)
     frozen_inputs = YAML.load_file(FROZEN_HASHES)
-    assert_equal "tarot-reader.stage10.v1.3", manifest.fetch("release_id")
+    assert_equal "tarot-reader.stage10.v1.4", manifest.fetch("release_id")
     assert_equal "tarot-reader.stage10.v1.3", frozen_inputs.fetch("release_id")
     assert_equal "frozen", manifest.fetch("status")
     units = YAML.load_file(File.join(SKILL_ROOT, "references/dictionary-reference-units.yaml"))
@@ -494,6 +494,7 @@ class TarotReaderReleaseCandidateTest < Minitest::Test
       dictionary_late
       dictionary_late_with_observation
       narrative_inline_evidence_continuation
+      decisive_relationship_narrative
       high_stakes_health
       high_stakes_legal_finance
     ]
@@ -501,6 +502,10 @@ class TarotReaderReleaseCandidateTest < Minitest::Test
     gaps = matrix.fetch("cases").to_h { |item| [item.fetch("case_id"), item.fetch("raw_input")] }
     assert_includes gaps.fetch("dictionary_late").fetch("background"), "整体假设"
     assert_includes gaps.fetch("dictionary_late_with_observation").fetch("background"), "邮件"
+    narrative_case = matrix.fetch("cases").find { |item| item.fetch("case_id") == "decisive_relationship_narrative" }
+    assert_equal %w[wands_king lovers cups_two], narrative_case.fetch("raw_input").fetch("cards").map { |card| card.fetch("canonical_card_id") }
+    assert_includes narrative_case.fetch("audit_focus"), "no_private_thought_as_fact"
+    assert_includes narrative_case.fetch("audit_focus"), "substantive_length"
     matrix.fetch("cases").each do |item|
       raw_input = item.fetch("raw_input")
       refute raw_input.key?("expected_answer")

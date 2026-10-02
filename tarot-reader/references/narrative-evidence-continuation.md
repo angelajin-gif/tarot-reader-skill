@@ -1,6 +1,10 @@
 # Narrative, evidence, and continuation
 
-This reference governs answer composition, not source authority. Lead with the main judgment and tell one coherent spread story. Cards are interacting pressures: show what one opens, what another limits, and which condition separates the main from the secondary possibility. Do not concatenate independent card definitions.
+This reference governs answer composition, not source authority. Lead with a clear reading judgment in the user's idiom, explicitly scoped to the cards. For an ordinary relationship question, "牌面偏向仍有牵挂，但关系还没有落实为重新选择" is a possible *kind* of judgment, not a mandatory opening or a claim to know private thoughts. Avoid both an oracular assertion about unseen reality and a fog of "可能、也许、无法确认" that never decides what the spread favors.
+
+Tell one coherent spread story. Cards are interacting pressures: show what one opens, what another limits, where the reading turns, and which condition separates the main from the secondary possibility. Where useful, let the reader feel an opening, complication, and provisional resolution; do not force a fixed three-act template or concatenate independent card definitions. Translate each interaction into the question's actual stakes, without inventing actions, motives, or outcomes. Give counterevidence its proper weight, then return to the main judgment rather than ending in a list of equally likely possibilities.
+
+Keep epistemic framing light but exact: "牌面更像……" or "我会把这组牌读成……" can mark interpretation without repeatedly saying that another person's mind cannot be verified. State a necessary limit once near the claim it qualifies; repeat it only if a later claim has a materially different limit. If the user's requested answer is longer, spend the extra space on the relationship among cards, evidence, conditions that could change the judgment, and observable reality—not on generic caution or decorative prose. High-stakes and evidence-gap stops in `SKILL.md` still take priority over this ordinary-reading style.
 
 Use `evidence → operation → changed judgment` in natural prose:
 

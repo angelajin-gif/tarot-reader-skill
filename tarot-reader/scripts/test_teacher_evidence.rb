@@ -30,7 +30,7 @@ class TeacherEvidenceLayerTest < Minitest::Test
   end
 
   def test_release_identity_manifest_and_unit_counts
-    assert_equal "tarot-reader.stage10.v1.3", @manifest.fetch("release_id")
+    assert_equal "tarot-reader.stage10.v1.4", @manifest.fetch("release_id")
     assert_equal "frozen", @manifest.fetch("status")
     assert_equal 30, @manifest.fetch("entries").length
     assert_equal 7, @manifest.fetch("teacher_evidence_artifacts").length
